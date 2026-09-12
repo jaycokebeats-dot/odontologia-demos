@@ -1,0 +1,137 @@
+[
+  {
+    "slug": "dra-maria-ornetti",
+    "nombre": "Dra. María Ornetti",
+    "subtitulo": "Consultorio Odontológico & Estética Dental",
+    "telefono": "011 15-3624-1700",
+    "whatsapp": "5491136241700",
+    "instagram": "dra_ornetti_odontologia",
+    "direccion": "Cuenca 3210, Villa Devoto",
+    "ciudad": "Buenos Aires",
+    "rating": 4.9,
+    "reviews_count": 48,
+    "horarios": "Lun a Vie: 09:00 - 19:30 hs | Sáb: 09:00 - 13:00 hs",
+    "especialidades": [
+      {
+        "titulo": "Alineadores Invisibles",
+        "descripcion": "Ortodoncia estética y sin brackets con la última tecnología 3D.",
+        "icono": "Sparkles"
+      },
+      {
+        "titulo": "Implantes Dentales",
+        "descripcion": "Rehabilitación oral fija de alta precisión y máxima durabilidad.",
+        "icono": "ShieldCheck"
+      },
+      {
+        "titulo": "Blanqueamiento LED",
+        "descripcion": "Aclaramiento dental profesional en 1 sola sesión sin sensibilidad.",
+        "icono": "Zap"
+      },
+      {
+        "titulo": "Diseño de Sonrisa",
+        "descripcion": "Carillas de porcelana y resina guiadas por estética facial.",
+        "icono": "Smile"
+      },
+      {
+        "titulo": "Odontología Preventiva",
+        "descripcion": "Limpieza profunda con ultrasónico y diagnóstico digital.",
+        "icono": "Activity"
+      },
+      {
+        "titulo": "Atención de Urgencias",
+        "descripcion": "Prioridad en turnos en el día para alivio inmediato de dolor.",
+        "icono": "Clock"
+      }
+    ],
+    "fotos": [
+      "https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=1600&q=80",
+      "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=1600&q=80",
+      "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=1600&q=80"
+    ],
+    "antes_despues": [
+      {
+        "titulo": "Blanqueamiento Dental LED",
+        "tratamiento": "Tratamiento en 1 sesión de 60 minutos",
+        "antes_url": "/images/blanqueamiento-antes.jpg",
+        "despues_url": "/images/blanqueamiento-despues.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "nombre": "Carolina Mendoza",
+        "estrellas": 5,
+        "comentario": "Excelente atención de la Dra. María. Me hice el blanqueamiento y los resultados superaron mis expectativas. El consultorio es implacable y muy moderno.",
+        "fecha": "Hace 2 semanas"
+      },
+      {
+        "nombre": "Esteban Rossi",
+        "estrellas": 5,
+        "comentario": "Iba con mucho miedo por un implante y la verdad ni me dolió. La calidez del equipo y la paciencia para explicar todo es insuperable. 100% recomendable.",
+        "fecha": "Hace 1 mes"
+      },
+      {
+        "nombre": "Valeria Peralta",
+        "estrellas": 5,
+        "comentario": "Súper profesionales, atención puntual y turnos organizados. Muy conforme con el tratamiento de alineadores.",
+        "fecha": "Hace 3 meses"
+      }
+    ],
+    "maps_url": "https://maps.google.com/?q=Dra+Maria+Ornetti+Cuenca+3210+Villa+Devoto"
+  },
+  {
+    "slug": "clinica-dental-devoto",
+    "nombre": "Clínica Odontológica Devoto",
+    "subtitulo": "Centro Especializado en Implantes & Ortodoncia",
+    "telefono": "011 4501-8899",
+    "whatsapp": "5491145018899",
+    "instagram": "clinicadentaldevoto",
+    "direccion": "Av. Beiró 4120, Villa Devoto",
+    "ciudad": "Buenos Aires",
+    "rating": 4.8,
+    "reviews_count": 92,
+    "horarios": "Lun a Vie: 08:30 - 20:00 hs | Sáb: 09:00 - 14:00 hs",
+    "especialidades": [
+      {
+        "titulo": "Ortodoncia & Alineadores",
+        "descripcion": "Diagnóstico computarizado y planificación digital 3D.",
+        "icono": "Sparkles"
+      },
+      {
+        "titulo": "Cirugía e Implantes",
+        "descripcion": "Especialistas acreditados en implantología guiada.",
+        "icono": "ShieldCheck"
+      },
+      {
+        "titulo": "Estética Dental",
+        "descripcion": "Carillas ultra-finas y diseño de sonrisa personalizado.",
+        "icono": "Smile"
+      },
+      {
+        "titulo": "Limpieza & Salud Gingival",
+        "descripcion": "Tratamiento de encías y profilaxis profunda.",
+        "icono": "Activity"
+      }
+    ],
+    "fotos": [
+      "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=1600&q=80",
+      "https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=1600&q=80"
+    ],
+    "antes_despues": [
+      {
+        "titulo": "Blanqueamiento Dental LED",
+        "tratamiento": "Tratamiento en 1 sesión de 60 minutos",
+        "antes_url": "/images/blanqueamiento-antes.jpg",
+        "despues_url": "/images/blanqueamiento-despues.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "nombre": "Gonzalo Fernández",
+        "estrellas": 5,
+        "comentario": "Instalaciones de primer nivel y profesionales impecables. Me atienden hace 3 años y no los cambio por nada.",
+        "fecha": "Hace 1 mes"
+      }
+    ],
+    "maps_url": "https://maps.google.com/?q=Clinica+Odontologica+Devoto+Av+Beiro+4120"
+  }
+]
