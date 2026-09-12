@@ -33,9 +33,48 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     };
   }
 
+  const title = `${dentist.nombre} | Odontología en ${dentist.ciudad} • ${dentist.rating}★`;
+  const description = `${dentist.subtitulo}. Ubicación: ${dentist.direccion}, ${dentist.ciudad}. Calificación: ${dentist.rating}⭐ en Google Maps (${dentist.reviews_count} opiniones). Reserva tu turno fácil por WhatsApp.`;
+  const heroImage = dentist.fotos && dentist.fotos.length > 0 ? dentist.fotos[0] : 'https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=1200&q=80';
+
   return {
-    title: `${dentist.nombre} | Odontología en ${dentist.ciudad} • ${dentist.rating}★`,
-    description: `${dentist.subtitulo}. Ubicación: ${dentist.direccion}, ${dentist.ciudad}. Calificación: ${dentist.rating} en Google Maps (${dentist.reviews_count} opiniones). Turnos por WhatsApp.`,
+    title,
+    description,
+    keywords: [
+      `odontología ${dentist.ciudad}`,
+      `dentista ${dentist.ciudad}`,
+      `consultorio odontológico ${dentist.ciudad}`,
+      `ortodoncia ${dentist.ciudad}`,
+      `implantes dentales ${dentist.ciudad}`,
+      `blanqueamiento dental`,
+      `turnos odontólogo ${dentist.ciudad}`,
+      dentist.nombre,
+    ],
+    openGraph: {
+      title,
+      description,
+      type: 'website',
+      locale: 'es_AR',
+      siteName: dentist.nombre,
+      images: [
+        {
+          url: heroImage,
+          width: 1200,
+          height: 630,
+          alt: `${dentist.nombre} - Consultorio Odontológico en ${dentist.ciudad}`,
+        },
+      ],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+      images: [heroImage],
+    },
+    robots: {
+      index: true,
+      follow: true,
+    },
   };
 }
 
@@ -47,8 +86,44 @@ export default async function DentistPage({ params }: PageProps) {
     notFound();
   }
 
+  const heroPhoto =
+    dentist.fotos && dentist.fotos.length > 0
+      ? dentist.fotos[0]
+      : 'https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=1600&q=80';
+
+  // Schema.org JSON-LD structured data for Google Local SEO (Dentist / MedicalBusiness)
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Dentist',
+    name: dentist.nombre,
+    description: dentist.subtitulo,
+    telephone: dentist.telefono,
+    image: heroPhoto,
+    address: {
+      '@type': 'PostalAddress',
+      streetAddress: dentist.direccion,
+      addressLocality: dentist.ciudad,
+      addressRegion: 'Buenos Aires',
+      addressCountry: 'AR',
+    },
+    aggregateRating: {
+      '@type': 'AggregateRating',
+      ratingValue: dentist.rating,
+      reviewCount: dentist.reviews_count,
+      bestRating: '5',
+      worstRating: '1',
+    },
+    openingHours: dentist.horarios,
+    priceRange: '$$',
+  };
+
   return (
     <main className="min-h-screen flex flex-col bg-white">
+      {/* Inject JSON-LD Schema.org for Google Local SEO */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <TopBar dentist={dentist} />
       <Navbar dentist={dentist} />
       <Hero dentist={dentist} />

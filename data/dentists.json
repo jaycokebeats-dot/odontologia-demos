@@ -133,5 +133,1246 @@
       }
     ],
     "maps_url": "https://maps.google.com/?q=Clinica+Odontologica+Devoto+Av+Beiro+4120"
+  },
+  {
+    "slug": "myos-consultorios-la-plata",
+    "nombre": "Myos Consultorios Odontológicos",
+    "subtitulo": "Consultorios Odontológicos Integrales & Estética 3D",
+    "telefono": "0221 606-2451",
+    "whatsapp": "5492216062451",
+    "instagram": "myos_odontologia_laplata",
+    "direccion": "Calle 12 y 54, La Plata",
+    "ciudad": "La Plata",
+    "rating": 4.8,
+    "reviews_count": 301,
+    "horarios": "Lun a Vie: 08:30 - 20:00 hs | Sáb: 09:00 - 13:00 hs",
+    "especialidades": [
+      {
+        "titulo": "Alineadores Invisibles",
+        "descripcion": "Ortodoncia estética y sin brackets con planificación digital 3D.",
+        "icono": "Sparkles"
+      },
+      {
+        "titulo": "Implantes Dentales",
+        "descripcion": "Rehabilitación oral fija de alta precisión y máxima durabilidad.",
+        "icono": "ShieldCheck"
+      },
+      {
+        "titulo": "Blanqueamiento LED",
+        "descripcion": "Aclaramiento dental profesional en 1 sola sesión sin sensibilidad.",
+        "icono": "Zap"
+      },
+      {
+        "titulo": "Diseño de Sonrisa",
+        "descripcion": "Carillas estéticas de porcelana y resina de alta gama.",
+        "icono": "Smile"
+      },
+      {
+        "titulo": "Odontología Preventiva",
+        "descripcion": "Limpieza profunda ultrasónica y diagnóstico integral digital.",
+        "icono": "Activity"
+      },
+      {
+        "titulo": "Atención de Urgencias",
+        "descripcion": "Prioridad en turnos en el día para alivio inmediato del dolor.",
+        "icono": "Clock"
+      }
+    ],
+    "fotos": [
+      "https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=1600&q=80",
+      "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=1600&q=80",
+      "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=1600&q=80"
+    ],
+    "antes_despues": [
+      {
+        "titulo": "Blanqueamiento Dental LED",
+        "tratamiento": "Tratamiento en 1 sesión de 60 minutos",
+        "antes_url": "/images/blanqueamiento-antes.jpg",
+        "despues_url": "/images/blanqueamiento-despues.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "nombre": "Mariana Gómez",
+        "estrellas": 5,
+        "comentario": "Excelente atención en Myos Consultorios Odontológicos. La paciencia y profesionalismo del equipo es insuperable. Consultorio impecable.",
+        "fecha": "Hace 2 semanas"
+      },
+      {
+        "nombre": "Lucas Peralta",
+        "estrellas": 5,
+        "comentario": "Fui por una consulta de ortodoncia y me explicaron todo al detalle. Muy buena atención y puntualidad con los turnos.",
+        "fecha": "Hace 1 mes"
+      }
+    ],
+    "maps_url": "https://www.google.com/maps/place/Myos+Consultorios+Odontol%C3%B3gicos+-+Central+La+Plata/data=!4m7!3m6!1s0x95a2e787dbfda0a9:0x8f91fa8d0a11474e!8m2!3d-34.913036!4d-57.9655079!16s%2Fg%2F11fjvzvz_w!19sChIJqaD924fnopURTkcRCo36kY8?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkwOS4wIJJjKgBIAVAD&rclk=1"
+  },
+  {
+    "slug": "llompart-gomez-odontologia",
+    "nombre": "Llompart & Gómez Odontología",
+    "subtitulo": "Atención Odontológica Especializada & Ortodoncia",
+    "telefono": "0221 359-9658",
+    "whatsapp": "5492213599658",
+    "instagram": "llompart_gomez_odontologia",
+    "direccion": "Calle 7 y 46, La Plata",
+    "ciudad": "La Plata",
+    "rating": 5.0,
+    "reviews_count": 257,
+    "horarios": "Lun a Vie: 09:00 - 19:30 hs",
+    "especialidades": [
+      {
+        "titulo": "Alineadores Invisibles",
+        "descripcion": "Ortodoncia estética y sin brackets con planificación digital 3D.",
+        "icono": "Sparkles"
+      },
+      {
+        "titulo": "Implantes Dentales",
+        "descripcion": "Rehabilitación oral fija de alta precisión y máxima durabilidad.",
+        "icono": "ShieldCheck"
+      },
+      {
+        "titulo": "Blanqueamiento LED",
+        "descripcion": "Aclaramiento dental profesional en 1 sola sesión sin sensibilidad.",
+        "icono": "Zap"
+      },
+      {
+        "titulo": "Diseño de Sonrisa",
+        "descripcion": "Carillas estéticas de porcelana y resina de alta gama.",
+        "icono": "Smile"
+      },
+      {
+        "titulo": "Odontología Preventiva",
+        "descripcion": "Limpieza profunda ultrasónica y diagnóstico integral digital.",
+        "icono": "Activity"
+      },
+      {
+        "titulo": "Atención de Urgencias",
+        "descripcion": "Prioridad en turnos en el día para alivio inmediato del dolor.",
+        "icono": "Clock"
+      }
+    ],
+    "fotos": [
+      "https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=1600&q=80",
+      "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=1600&q=80",
+      "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=1600&q=80"
+    ],
+    "antes_despues": [
+      {
+        "titulo": "Blanqueamiento Dental LED",
+        "tratamiento": "Tratamiento en 1 sesión de 60 minutos",
+        "antes_url": "/images/blanqueamiento-antes.jpg",
+        "despues_url": "/images/blanqueamiento-despues.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "nombre": "Mariana Gómez",
+        "estrellas": 5,
+        "comentario": "Excelente atención en Llompart & Gómez Odontología. La paciencia y profesionalismo del equipo es insuperable. Consultorio impecable.",
+        "fecha": "Hace 2 semanas"
+      },
+      {
+        "nombre": "Lucas Peralta",
+        "estrellas": 5,
+        "comentario": "Fui por una consulta de ortodoncia y me explicaron todo al detalle. Muy buena atención y puntualidad con los turnos.",
+        "fecha": "Hace 1 mes"
+      }
+    ],
+    "maps_url": "https://www.google.com/maps/place/Llompart+Federico.+Gomez+Carolina.+Llompart+Jorge+-+Odontologia/data=!4m7!3m6!1s0x95a2e65032c303d7:0xaad5a893b5a3feda!8m2!3d-34.8994305!4d-57.9529606!16s%2Fg%2F1tc_gfgr!19sChIJ1wPDMlDmopUR2v6jtZOo1ao?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkwOS4wIJJjKgBIAVAD&rclk=1"
+  },
+  {
+    "slug": "odontologia-omar-galvez-llanos",
+    "nombre": "Odontología Dr. Omar Gálvez Llanos",
+    "subtitulo": "Especialista en Implantes Dentales & Rehabilitación Oral",
+    "telefono": "0221 675-7407",
+    "whatsapp": "5492216757407",
+    "instagram": "dromargalvezllanos",
+    "direccion": "Calle 9 y 50, La Plata",
+    "ciudad": "La Plata",
+    "rating": 4.9,
+    "reviews_count": 230,
+    "horarios": "Lun a Vie: 09:00 - 19:00 hs | Sáb: 09:00 - 13:00 hs",
+    "especialidades": [
+      {
+        "titulo": "Alineadores Invisibles",
+        "descripcion": "Ortodoncia estética y sin brackets con planificación digital 3D.",
+        "icono": "Sparkles"
+      },
+      {
+        "titulo": "Implantes Dentales",
+        "descripcion": "Rehabilitación oral fija de alta precisión y máxima durabilidad.",
+        "icono": "ShieldCheck"
+      },
+      {
+        "titulo": "Blanqueamiento LED",
+        "descripcion": "Aclaramiento dental profesional en 1 sola sesión sin sensibilidad.",
+        "icono": "Zap"
+      },
+      {
+        "titulo": "Diseño de Sonrisa",
+        "descripcion": "Carillas estéticas de porcelana y resina de alta gama.",
+        "icono": "Smile"
+      },
+      {
+        "titulo": "Odontología Preventiva",
+        "descripcion": "Limpieza profunda ultrasónica y diagnóstico integral digital.",
+        "icono": "Activity"
+      },
+      {
+        "titulo": "Atención de Urgencias",
+        "descripcion": "Prioridad en turnos en el día para alivio inmediato del dolor.",
+        "icono": "Clock"
+      }
+    ],
+    "fotos": [
+      "https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=1600&q=80",
+      "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=1600&q=80",
+      "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=1600&q=80"
+    ],
+    "antes_despues": [
+      {
+        "titulo": "Blanqueamiento Dental LED",
+        "tratamiento": "Tratamiento en 1 sesión de 60 minutos",
+        "antes_url": "/images/blanqueamiento-antes.jpg",
+        "despues_url": "/images/blanqueamiento-despues.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "nombre": "Mariana Gómez",
+        "estrellas": 5,
+        "comentario": "Excelente atención en Odontología Dr. Omar Gálvez Llanos. La paciencia y profesionalismo del equipo es insuperable. Consultorio impecable.",
+        "fecha": "Hace 2 semanas"
+      },
+      {
+        "nombre": "Lucas Peralta",
+        "estrellas": 5,
+        "comentario": "Fui por una consulta de ortodoncia y me explicaron todo al detalle. Muy buena atención y puntualidad con los turnos.",
+        "fecha": "Hace 1 mes"
+      }
+    ],
+    "maps_url": "https://www.google.com/maps/place/Odontolog%C3%ADa+Omar+Galvez+Llanos.+Implantes./data=!4m7!3m6!1s0x95a2e7ad66e0a8bf:0x752e7d2b13770028!8m2!3d-34.9151777!4d-57.9517989!16s%2Fg%2F11fhn13wh3!19sChIJv6jgZq3nopURKAB3Eyt9LnU?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkwOS4wIJJjKgBIAVAD&rclk=1"
+  },
+  {
+    "slug": "centro-odontologico-mrz",
+    "nombre": "Centro Odontológico MRZ",
+    "subtitulo": "Odontología Estética, Ortodoncia & Implantes",
+    "telefono": "0221 454-0222",
+    "whatsapp": "5492214540222",
+    "instagram": "mrz_odontologia_laplata",
+    "direccion": "Diagonal 73 y 14, La Plata",
+    "ciudad": "La Plata",
+    "rating": 4.9,
+    "reviews_count": 167,
+    "horarios": "Lun a Vie: 08:00 - 20:00 hs",
+    "especialidades": [
+      {
+        "titulo": "Alineadores Invisibles",
+        "descripcion": "Ortodoncia estética y sin brackets con planificación digital 3D.",
+        "icono": "Sparkles"
+      },
+      {
+        "titulo": "Implantes Dentales",
+        "descripcion": "Rehabilitación oral fija de alta precisión y máxima durabilidad.",
+        "icono": "ShieldCheck"
+      },
+      {
+        "titulo": "Blanqueamiento LED",
+        "descripcion": "Aclaramiento dental profesional en 1 sola sesión sin sensibilidad.",
+        "icono": "Zap"
+      },
+      {
+        "titulo": "Diseño de Sonrisa",
+        "descripcion": "Carillas estéticas de porcelana y resina de alta gama.",
+        "icono": "Smile"
+      },
+      {
+        "titulo": "Odontología Preventiva",
+        "descripcion": "Limpieza profunda ultrasónica y diagnóstico integral digital.",
+        "icono": "Activity"
+      },
+      {
+        "titulo": "Atención de Urgencias",
+        "descripcion": "Prioridad en turnos en el día para alivio inmediato del dolor.",
+        "icono": "Clock"
+      }
+    ],
+    "fotos": [
+      "https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=1600&q=80",
+      "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=1600&q=80",
+      "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=1600&q=80"
+    ],
+    "antes_despues": [
+      {
+        "titulo": "Blanqueamiento Dental LED",
+        "tratamiento": "Tratamiento en 1 sesión de 60 minutos",
+        "antes_url": "/images/blanqueamiento-antes.jpg",
+        "despues_url": "/images/blanqueamiento-despues.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "nombre": "Mariana Gómez",
+        "estrellas": 5,
+        "comentario": "Excelente atención en Centro Odontológico MRZ. La paciencia y profesionalismo del equipo es insuperable. Consultorio impecable.",
+        "fecha": "Hace 2 semanas"
+      },
+      {
+        "nombre": "Lucas Peralta",
+        "estrellas": 5,
+        "comentario": "Fui por una consulta de ortodoncia y me explicaron todo al detalle. Muy buena atención y puntualidad con los turnos.",
+        "fecha": "Hace 1 mes"
+      }
+    ],
+    "maps_url": "https://www.google.com/maps/place/Centro+Odontol%C3%B3gico+MRZ/data=!4m7!3m6!1s0x95a2e7adc3e4ef01:0x488a23f3b8d8b955!8m2!3d-34.9026226!4d-57.9664641!16s%2Fg%2F1ts3mcrr!19sChIJAe_kw63nopURVbnYuPMjikg?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkwOS4wIJJjKgBIAVAD&rclk=1"
+  },
+  {
+    "slug": "odontologia-lp",
+    "nombre": "Odontología LP",
+    "subtitulo": "Salud Bucal, Blanqueamiento & Estética Sonrisa",
+    "telefono": "0221 683-0377",
+    "whatsapp": "5492216830377",
+    "instagram": "odontologia_lp",
+    "direccion": "Calle 6 y 48, La Plata",
+    "ciudad": "La Plata",
+    "rating": 4.8,
+    "reviews_count": 126,
+    "horarios": "Lun a Vie: 09:00 - 19:00 hs",
+    "especialidades": [
+      {
+        "titulo": "Alineadores Invisibles",
+        "descripcion": "Ortodoncia estética y sin brackets con planificación digital 3D.",
+        "icono": "Sparkles"
+      },
+      {
+        "titulo": "Implantes Dentales",
+        "descripcion": "Rehabilitación oral fija de alta precisión y máxima durabilidad.",
+        "icono": "ShieldCheck"
+      },
+      {
+        "titulo": "Blanqueamiento LED",
+        "descripcion": "Aclaramiento dental profesional en 1 sola sesión sin sensibilidad.",
+        "icono": "Zap"
+      },
+      {
+        "titulo": "Diseño de Sonrisa",
+        "descripcion": "Carillas estéticas de porcelana y resina de alta gama.",
+        "icono": "Smile"
+      },
+      {
+        "titulo": "Odontología Preventiva",
+        "descripcion": "Limpieza profunda ultrasónica y diagnóstico integral digital.",
+        "icono": "Activity"
+      },
+      {
+        "titulo": "Atención de Urgencias",
+        "descripcion": "Prioridad en turnos en el día para alivio inmediato del dolor.",
+        "icono": "Clock"
+      }
+    ],
+    "fotos": [
+      "https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=1600&q=80",
+      "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=1600&q=80",
+      "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=1600&q=80"
+    ],
+    "antes_despues": [
+      {
+        "titulo": "Blanqueamiento Dental LED",
+        "tratamiento": "Tratamiento en 1 sesión de 60 minutos",
+        "antes_url": "/images/blanqueamiento-antes.jpg",
+        "despues_url": "/images/blanqueamiento-despues.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "nombre": "Mariana Gómez",
+        "estrellas": 5,
+        "comentario": "Excelente atención en Odontología LP. La paciencia y profesionalismo del equipo es insuperable. Consultorio impecable.",
+        "fecha": "Hace 2 semanas"
+      },
+      {
+        "nombre": "Lucas Peralta",
+        "estrellas": 5,
+        "comentario": "Fui por una consulta de ortodoncia y me explicaron todo al detalle. Muy buena atención y puntualidad con los turnos.",
+        "fecha": "Hace 1 mes"
+      }
+    ],
+    "maps_url": "https://www.google.com/maps/place/odontologiaLP/data=!4m7!3m6!1s0x95a2e63c2c59a38d:0x9fa856253eff7a8b!8m2!3d-34.9118468!4d-57.9420857!16s%2Fg%2F11hbn0cr4t!19sChIJjaNZLDzmopURi3r_PiVWqJ8?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkwOS4wIJJjKgBIAVAD&rclk=1"
+  },
+  {
+    "slug": "odontex-consultorio-odontologico",
+    "nombre": "ODONTEX",
+    "subtitulo": "Consultorio Odontológico Integral & Alineadores",
+    "telefono": "0221 600-7243",
+    "whatsapp": "5492216007243",
+    "instagram": "odontex_laplata",
+    "direccion": "Calle 8 y 51, La Plata",
+    "ciudad": "La Plata",
+    "rating": 4.8,
+    "reviews_count": 115,
+    "horarios": "Lun a Vie: 08:30 - 19:30 hs",
+    "especialidades": [
+      {
+        "titulo": "Alineadores Invisibles",
+        "descripcion": "Ortodoncia estética y sin brackets con planificación digital 3D.",
+        "icono": "Sparkles"
+      },
+      {
+        "titulo": "Implantes Dentales",
+        "descripcion": "Rehabilitación oral fija de alta precisión y máxima durabilidad.",
+        "icono": "ShieldCheck"
+      },
+      {
+        "titulo": "Blanqueamiento LED",
+        "descripcion": "Aclaramiento dental profesional en 1 sola sesión sin sensibilidad.",
+        "icono": "Zap"
+      },
+      {
+        "titulo": "Diseño de Sonrisa",
+        "descripcion": "Carillas estéticas de porcelana y resina de alta gama.",
+        "icono": "Smile"
+      },
+      {
+        "titulo": "Odontología Preventiva",
+        "descripcion": "Limpieza profunda ultrasónica y diagnóstico integral digital.",
+        "icono": "Activity"
+      },
+      {
+        "titulo": "Atención de Urgencias",
+        "descripcion": "Prioridad en turnos en el día para alivio inmediato del dolor.",
+        "icono": "Clock"
+      }
+    ],
+    "fotos": [
+      "https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=1600&q=80",
+      "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=1600&q=80",
+      "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=1600&q=80"
+    ],
+    "antes_despues": [
+      {
+        "titulo": "Blanqueamiento Dental LED",
+        "tratamiento": "Tratamiento en 1 sesión de 60 minutos",
+        "antes_url": "/images/blanqueamiento-antes.jpg",
+        "despues_url": "/images/blanqueamiento-despues.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "nombre": "Mariana Gómez",
+        "estrellas": 5,
+        "comentario": "Excelente atención en ODONTEX. La paciencia y profesionalismo del equipo es insuperable. Consultorio impecable.",
+        "fecha": "Hace 2 semanas"
+      },
+      {
+        "nombre": "Lucas Peralta",
+        "estrellas": 5,
+        "comentario": "Fui por una consulta de ortodoncia y me explicaron todo al detalle. Muy buena atención y puntualidad con los turnos.",
+        "fecha": "Hace 1 mes"
+      }
+    ],
+    "maps_url": "https://www.google.com/maps/place/ODONTEX+%7C+Consultorio+Odontol%C3%B3gico/data=!4m7!3m6!1s0x95a2e7589bce132f:0x9d01e2e2773715c4!8m2!3d-34.9127972!4d-57.9597914!16s%2Fg%2F11sbvyfs0j!19sChIJLxPOm1jnopURxBU3d-LiAZ0?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkwOS4wIJJjKgBIAVAD&rclk=1"
+  },
+  {
+    "slug": "lz-odontologia-la-plata",
+    "nombre": "LZ Odontología",
+    "subtitulo": "Especialistas en Ortodoncia & Alineadores Invisibles",
+    "telefono": "0221 309-4775",
+    "whatsapp": "5492213094775",
+    "instagram": "lz_odontologia",
+    "direccion": "Calle 10 y 49, La Plata",
+    "ciudad": "La Plata",
+    "rating": 5.0,
+    "reviews_count": 104,
+    "horarios": "Lun a Vie: 09:00 - 19:30 hs",
+    "especialidades": [
+      {
+        "titulo": "Alineadores Invisibles",
+        "descripcion": "Ortodoncia estética y sin brackets con planificación digital 3D.",
+        "icono": "Sparkles"
+      },
+      {
+        "titulo": "Implantes Dentales",
+        "descripcion": "Rehabilitación oral fija de alta precisión y máxima durabilidad.",
+        "icono": "ShieldCheck"
+      },
+      {
+        "titulo": "Blanqueamiento LED",
+        "descripcion": "Aclaramiento dental profesional en 1 sola sesión sin sensibilidad.",
+        "icono": "Zap"
+      },
+      {
+        "titulo": "Diseño de Sonrisa",
+        "descripcion": "Carillas estéticas de porcelana y resina de alta gama.",
+        "icono": "Smile"
+      },
+      {
+        "titulo": "Odontología Preventiva",
+        "descripcion": "Limpieza profunda ultrasónica y diagnóstico integral digital.",
+        "icono": "Activity"
+      },
+      {
+        "titulo": "Atención de Urgencias",
+        "descripcion": "Prioridad en turnos en el día para alivio inmediato del dolor.",
+        "icono": "Clock"
+      }
+    ],
+    "fotos": [
+      "https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=1600&q=80",
+      "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=1600&q=80",
+      "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=1600&q=80"
+    ],
+    "antes_despues": [
+      {
+        "titulo": "Blanqueamiento Dental LED",
+        "tratamiento": "Tratamiento en 1 sesión de 60 minutos",
+        "antes_url": "/images/blanqueamiento-antes.jpg",
+        "despues_url": "/images/blanqueamiento-despues.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "nombre": "Mariana Gómez",
+        "estrellas": 5,
+        "comentario": "Excelente atención en LZ Odontología. La paciencia y profesionalismo del equipo es insuperable. Consultorio impecable.",
+        "fecha": "Hace 2 semanas"
+      },
+      {
+        "nombre": "Lucas Peralta",
+        "estrellas": 5,
+        "comentario": "Fui por una consulta de ortodoncia y me explicaron todo al detalle. Muy buena atención y puntualidad con los turnos.",
+        "fecha": "Hace 1 mes"
+      }
+    ],
+    "maps_url": "https://www.google.com/maps/place/Lz+Odontologia+-+Ortodoncia+en+La+Plata/data=!4m7!3m6!1s0x95a2e9c2cc3a70b9:0x9d608305ac8c0868!8m2!3d-34.9149853!4d-57.958454!16s%2Fg%2F11vkf97hx0!19sChIJuXA6zMLpopURaAiMrAWDYJ0?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkwOS4wIJJjKgBIAVAD&rclk=1"
+  },
+  {
+    "slug": "nicolas-rafaelli-odontologia",
+    "nombre": "Dr. Nicolás Rafaelli",
+    "subtitulo": "Odontología General & Cirugía Oral",
+    "telefono": "0221 683-0377",
+    "whatsapp": "5492216830377",
+    "instagram": "dr_nicolas_rafaelli",
+    "direccion": "Calle 5 y 47, La Plata",
+    "ciudad": "La Plata",
+    "rating": 4.4,
+    "reviews_count": 83,
+    "horarios": "Lun a Vie: 09:00 - 18:30 hs",
+    "especialidades": [
+      {
+        "titulo": "Alineadores Invisibles",
+        "descripcion": "Ortodoncia estética y sin brackets con planificación digital 3D.",
+        "icono": "Sparkles"
+      },
+      {
+        "titulo": "Implantes Dentales",
+        "descripcion": "Rehabilitación oral fija de alta precisión y máxima durabilidad.",
+        "icono": "ShieldCheck"
+      },
+      {
+        "titulo": "Blanqueamiento LED",
+        "descripcion": "Aclaramiento dental profesional en 1 sola sesión sin sensibilidad.",
+        "icono": "Zap"
+      },
+      {
+        "titulo": "Diseño de Sonrisa",
+        "descripcion": "Carillas estéticas de porcelana y resina de alta gama.",
+        "icono": "Smile"
+      },
+      {
+        "titulo": "Odontología Preventiva",
+        "descripcion": "Limpieza profunda ultrasónica y diagnóstico integral digital.",
+        "icono": "Activity"
+      },
+      {
+        "titulo": "Atención de Urgencias",
+        "descripcion": "Prioridad en turnos en el día para alivio inmediato del dolor.",
+        "icono": "Clock"
+      }
+    ],
+    "fotos": [
+      "https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=1600&q=80",
+      "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=1600&q=80",
+      "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=1600&q=80"
+    ],
+    "antes_despues": [
+      {
+        "titulo": "Blanqueamiento Dental LED",
+        "tratamiento": "Tratamiento en 1 sesión de 60 minutos",
+        "antes_url": "/images/blanqueamiento-antes.jpg",
+        "despues_url": "/images/blanqueamiento-despues.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "nombre": "Mariana Gómez",
+        "estrellas": 5,
+        "comentario": "Excelente atención en Dr. Nicolás Rafaelli. La paciencia y profesionalismo del equipo es insuperable. Consultorio impecable.",
+        "fecha": "Hace 2 semanas"
+      },
+      {
+        "nombre": "Lucas Peralta",
+        "estrellas": 5,
+        "comentario": "Fui por una consulta de ortodoncia y me explicaron todo al detalle. Muy buena atención y puntualidad con los turnos.",
+        "fecha": "Hace 1 mes"
+      }
+    ],
+    "maps_url": "https://www.google.com/maps/place/Nicolas+Rafaelli/data=!4m7!3m6!1s0x95a2e69fd7049ec3:0x665da6843aed4181!8m2!3d-34.9119965!4d-57.9420837!16s%2Fg%2F1hc55s370!19sChIJw54E15_mopURgUHtOoSmXWY?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkwOS4wIJJjKgBIAVAD&rclk=1"
+  },
+  {
+    "slug": "estudio-dental-la-plata",
+    "nombre": "Estudio Dental La Plata",
+    "subtitulo": "Diseño de Sonrisa & Carillas Estéticas",
+    "telefono": "0221 364-1982",
+    "whatsapp": "5492213641982",
+    "instagram": "estudiodental_laplata",
+    "direccion": "Calle 11 y 53, La Plata",
+    "ciudad": "La Plata",
+    "rating": 4.7,
+    "reviews_count": 55,
+    "horarios": "Lun a Vie: 09:00 - 19:00 hs",
+    "especialidades": [
+      {
+        "titulo": "Alineadores Invisibles",
+        "descripcion": "Ortodoncia estética y sin brackets con planificación digital 3D.",
+        "icono": "Sparkles"
+      },
+      {
+        "titulo": "Implantes Dentales",
+        "descripcion": "Rehabilitación oral fija de alta precisión y máxima durabilidad.",
+        "icono": "ShieldCheck"
+      },
+      {
+        "titulo": "Blanqueamiento LED",
+        "descripcion": "Aclaramiento dental profesional en 1 sola sesión sin sensibilidad.",
+        "icono": "Zap"
+      },
+      {
+        "titulo": "Diseño de Sonrisa",
+        "descripcion": "Carillas estéticas de porcelana y resina de alta gama.",
+        "icono": "Smile"
+      },
+      {
+        "titulo": "Odontología Preventiva",
+        "descripcion": "Limpieza profunda ultrasónica y diagnóstico integral digital.",
+        "icono": "Activity"
+      },
+      {
+        "titulo": "Atención de Urgencias",
+        "descripcion": "Prioridad en turnos en el día para alivio inmediato del dolor.",
+        "icono": "Clock"
+      }
+    ],
+    "fotos": [
+      "https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=1600&q=80",
+      "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=1600&q=80",
+      "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=1600&q=80"
+    ],
+    "antes_despues": [
+      {
+        "titulo": "Blanqueamiento Dental LED",
+        "tratamiento": "Tratamiento en 1 sesión de 60 minutos",
+        "antes_url": "/images/blanqueamiento-antes.jpg",
+        "despues_url": "/images/blanqueamiento-despues.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "nombre": "Mariana Gómez",
+        "estrellas": 5,
+        "comentario": "Excelente atención en Estudio Dental La Plata. La paciencia y profesionalismo del equipo es insuperable. Consultorio impecable.",
+        "fecha": "Hace 2 semanas"
+      },
+      {
+        "nombre": "Lucas Peralta",
+        "estrellas": 5,
+        "comentario": "Fui por una consulta de ortodoncia y me explicaron todo al detalle. Muy buena atención y puntualidad con los turnos.",
+        "fecha": "Hace 1 mes"
+      }
+    ],
+    "maps_url": "https://www.google.com/maps/place/ESTUDIO+DENTAL/data=!4m7!3m6!1s0x95a2e7613e98a7c3:0xfe137aca701f1595!8m2!3d-34.919865!4d-57.9614024!16s%2Fg%2F11qpml8d4m!19sChIJw6eYPmHnopURlRUfcMp6E_4?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkwOS4wIJJjKgBIAVAD&rclk=1"
+  },
+  {
+    "slug": "sonrisa-latina-la-plata",
+    "nombre": "Consultorio Sonrisa Latina",
+    "subtitulo": "Odontología Preventiva, Ortodoncia & Prótesis",
+    "telefono": "0221 637-9147",
+    "whatsapp": "5492216379147",
+    "instagram": "sonrisa_latina_odontologia",
+    "direccion": "Calle 14 y 56, La Plata",
+    "ciudad": "La Plata",
+    "rating": 4.9,
+    "reviews_count": 44,
+    "horarios": "Lun a Vie: 09:00 - 19:30 hs",
+    "especialidades": [
+      {
+        "titulo": "Alineadores Invisibles",
+        "descripcion": "Ortodoncia estética y sin brackets con planificación digital 3D.",
+        "icono": "Sparkles"
+      },
+      {
+        "titulo": "Implantes Dentales",
+        "descripcion": "Rehabilitación oral fija de alta precisión y máxima durabilidad.",
+        "icono": "ShieldCheck"
+      },
+      {
+        "titulo": "Blanqueamiento LED",
+        "descripcion": "Aclaramiento dental profesional en 1 sola sesión sin sensibilidad.",
+        "icono": "Zap"
+      },
+      {
+        "titulo": "Diseño de Sonrisa",
+        "descripcion": "Carillas estéticas de porcelana y resina de alta gama.",
+        "icono": "Smile"
+      },
+      {
+        "titulo": "Odontología Preventiva",
+        "descripcion": "Limpieza profunda ultrasónica y diagnóstico integral digital.",
+        "icono": "Activity"
+      },
+      {
+        "titulo": "Atención de Urgencias",
+        "descripcion": "Prioridad en turnos en el día para alivio inmediato del dolor.",
+        "icono": "Clock"
+      }
+    ],
+    "fotos": [
+      "https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=1600&q=80",
+      "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=1600&q=80",
+      "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=1600&q=80"
+    ],
+    "antes_despues": [
+      {
+        "titulo": "Blanqueamiento Dental LED",
+        "tratamiento": "Tratamiento en 1 sesión de 60 minutos",
+        "antes_url": "/images/blanqueamiento-antes.jpg",
+        "despues_url": "/images/blanqueamiento-despues.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "nombre": "Mariana Gómez",
+        "estrellas": 5,
+        "comentario": "Excelente atención en Consultorio Sonrisa Latina. La paciencia y profesionalismo del equipo es insuperable. Consultorio impecable.",
+        "fecha": "Hace 2 semanas"
+      },
+      {
+        "nombre": "Lucas Peralta",
+        "estrellas": 5,
+        "comentario": "Fui por una consulta de ortodoncia y me explicaron todo al detalle. Muy buena atención y puntualidad con los turnos.",
+        "fecha": "Hace 1 mes"
+      }
+    ],
+    "maps_url": "https://www.google.com/maps/place/Consultorio+odontologico+SONRISA+LATINA/data=!4m7!3m6!1s0x95a2e7cddb55d05f:0x1248ce80a1c627c9!8m2!3d-34.9187704!4d-57.9570744!16s%2Fg%2F11jgt45yc3!19sChIJX9BV283nopURySfGoYDOSBI?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkwOS4wIJJjKgBIAVAD&rclk=1"
+  },
+  {
+    "slug": "dra-iara-schiller",
+    "nombre": "Dra. Iara Schiller",
+    "subtitulo": "Consultorio Odontológico & Estética Facial",
+    "telefono": "0221 568-8499",
+    "whatsapp": "5492215688499",
+    "instagram": "dra_iara_schiller",
+    "direccion": "Calle 15 y 58, La Plata",
+    "ciudad": "La Plata",
+    "rating": 5.0,
+    "reviews_count": 31,
+    "horarios": "Lun a Vie: 09:00 - 19:00 hs",
+    "especialidades": [
+      {
+        "titulo": "Alineadores Invisibles",
+        "descripcion": "Ortodoncia estética y sin brackets con planificación digital 3D.",
+        "icono": "Sparkles"
+      },
+      {
+        "titulo": "Implantes Dentales",
+        "descripcion": "Rehabilitación oral fija de alta precisión y máxima durabilidad.",
+        "icono": "ShieldCheck"
+      },
+      {
+        "titulo": "Blanqueamiento LED",
+        "descripcion": "Aclaramiento dental profesional en 1 sola sesión sin sensibilidad.",
+        "icono": "Zap"
+      },
+      {
+        "titulo": "Diseño de Sonrisa",
+        "descripcion": "Carillas estéticas de porcelana y resina de alta gama.",
+        "icono": "Smile"
+      },
+      {
+        "titulo": "Odontología Preventiva",
+        "descripcion": "Limpieza profunda ultrasónica y diagnóstico integral digital.",
+        "icono": "Activity"
+      },
+      {
+        "titulo": "Atención de Urgencias",
+        "descripcion": "Prioridad en turnos en el día para alivio inmediato del dolor.",
+        "icono": "Clock"
+      }
+    ],
+    "fotos": [
+      "https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=1600&q=80",
+      "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=1600&q=80",
+      "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=1600&q=80"
+    ],
+    "antes_despues": [
+      {
+        "titulo": "Blanqueamiento Dental LED",
+        "tratamiento": "Tratamiento en 1 sesión de 60 minutos",
+        "antes_url": "/images/blanqueamiento-antes.jpg",
+        "despues_url": "/images/blanqueamiento-despues.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "nombre": "Mariana Gómez",
+        "estrellas": 5,
+        "comentario": "Excelente atención en Dra. Iara Schiller. La paciencia y profesionalismo del equipo es insuperable. Consultorio impecable.",
+        "fecha": "Hace 2 semanas"
+      },
+      {
+        "nombre": "Lucas Peralta",
+        "estrellas": 5,
+        "comentario": "Fui por una consulta de ortodoncia y me explicaron todo al detalle. Muy buena atención y puntualidad con los turnos.",
+        "fecha": "Hace 1 mes"
+      }
+    ],
+    "maps_url": "https://www.google.com/maps/place/Consultorio+Odont%C3%B3loga+Iara+Schiller/data=!4m7!3m6!1s0x95a2e7ea4e321f9f:0x2f291b6c70e85c85!8m2!3d-34.9266592!4d-57.9660426!16s%2Fg%2F11nqm8q4z6!19sChIJnx8yTurnopURhVzocGwbKS8?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkwOS4wIJJjKgBIAVAD&rclk=1"
+  },
+  {
+    "slug": "bianchelli-odontologia",
+    "nombre": "Bianchelli Odontología",
+    "subtitulo": "Odontología Familiar & Urgencias",
+    "telefono": "011 3211-7162",
+    "whatsapp": "5491132117162",
+    "instagram": "bianchelli_odontologia",
+    "direccion": "Calle 19 y 60, La Plata",
+    "ciudad": "La Plata",
+    "rating": 4.9,
+    "reviews_count": 31,
+    "horarios": "Lun a Vie: 09:00 - 19:30 hs",
+    "especialidades": [
+      {
+        "titulo": "Alineadores Invisibles",
+        "descripcion": "Ortodoncia estética y sin brackets con planificación digital 3D.",
+        "icono": "Sparkles"
+      },
+      {
+        "titulo": "Implantes Dentales",
+        "descripcion": "Rehabilitación oral fija de alta precisión y máxima durabilidad.",
+        "icono": "ShieldCheck"
+      },
+      {
+        "titulo": "Blanqueamiento LED",
+        "descripcion": "Aclaramiento dental profesional en 1 sola sesión sin sensibilidad.",
+        "icono": "Zap"
+      },
+      {
+        "titulo": "Diseño de Sonrisa",
+        "descripcion": "Carillas estéticas de porcelana y resina de alta gama.",
+        "icono": "Smile"
+      },
+      {
+        "titulo": "Odontología Preventiva",
+        "descripcion": "Limpieza profunda ultrasónica y diagnóstico integral digital.",
+        "icono": "Activity"
+      },
+      {
+        "titulo": "Atención de Urgencias",
+        "descripcion": "Prioridad en turnos en el día para alivio inmediato del dolor.",
+        "icono": "Clock"
+      }
+    ],
+    "fotos": [
+      "https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=1600&q=80",
+      "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=1600&q=80",
+      "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=1600&q=80"
+    ],
+    "antes_despues": [
+      {
+        "titulo": "Blanqueamiento Dental LED",
+        "tratamiento": "Tratamiento en 1 sesión de 60 minutos",
+        "antes_url": "/images/blanqueamiento-antes.jpg",
+        "despues_url": "/images/blanqueamiento-despues.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "nombre": "Mariana Gómez",
+        "estrellas": 5,
+        "comentario": "Excelente atención en Bianchelli Odontología. La paciencia y profesionalismo del equipo es insuperable. Consultorio impecable.",
+        "fecha": "Hace 2 semanas"
+      },
+      {
+        "nombre": "Lucas Peralta",
+        "estrellas": 5,
+        "comentario": "Fui por una consulta de ortodoncia y me explicaron todo al detalle. Muy buena atención y puntualidad con los turnos.",
+        "fecha": "Hace 1 mes"
+      }
+    ],
+    "maps_url": "https://www.google.com/maps/place/Bianchelli+Odontolog%C3%ADa/data=!4m7!3m6!1s0x95a2e88310bc8b69:0x259051e3c116bfef!8m2!3d-34.9326501!4d-57.952214!16s%2Fg%2F1q629df5g!19sChIJaYu8EIPoopUR778WweNRkCU?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkwOS4wIJJjKgBIAVAD&rclk=1"
+  },
+  {
+    "slug": "dr-juan-pablo-liberatore",
+    "nombre": "Dr. Juan Pablo Liberatore",
+    "subtitulo": "Odontología Integral & Rehabilitación",
+    "telefono": "0221 482-5078",
+    "whatsapp": "5492214825078",
+    "instagram": "dr_juanpablo_liberatore",
+    "direccion": "Calle 4 y 45, La Plata",
+    "ciudad": "La Plata",
+    "rating": 4.9,
+    "reviews_count": 27,
+    "horarios": "Lun a Vie: 09:00 - 18:30 hs",
+    "especialidades": [
+      {
+        "titulo": "Alineadores Invisibles",
+        "descripcion": "Ortodoncia estética y sin brackets con planificación digital 3D.",
+        "icono": "Sparkles"
+      },
+      {
+        "titulo": "Implantes Dentales",
+        "descripcion": "Rehabilitación oral fija de alta precisión y máxima durabilidad.",
+        "icono": "ShieldCheck"
+      },
+      {
+        "titulo": "Blanqueamiento LED",
+        "descripcion": "Aclaramiento dental profesional en 1 sola sesión sin sensibilidad.",
+        "icono": "Zap"
+      },
+      {
+        "titulo": "Diseño de Sonrisa",
+        "descripcion": "Carillas estéticas de porcelana y resina de alta gama.",
+        "icono": "Smile"
+      },
+      {
+        "titulo": "Odontología Preventiva",
+        "descripcion": "Limpieza profunda ultrasónica y diagnóstico integral digital.",
+        "icono": "Activity"
+      },
+      {
+        "titulo": "Atención de Urgencias",
+        "descripcion": "Prioridad en turnos en el día para alivio inmediato del dolor.",
+        "icono": "Clock"
+      }
+    ],
+    "fotos": [
+      "https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=1600&q=80",
+      "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=1600&q=80",
+      "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=1600&q=80"
+    ],
+    "antes_despues": [
+      {
+        "titulo": "Blanqueamiento Dental LED",
+        "tratamiento": "Tratamiento en 1 sesión de 60 minutos",
+        "antes_url": "/images/blanqueamiento-antes.jpg",
+        "despues_url": "/images/blanqueamiento-despues.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "nombre": "Mariana Gómez",
+        "estrellas": 5,
+        "comentario": "Excelente atención en Dr. Juan Pablo Liberatore. La paciencia y profesionalismo del equipo es insuperable. Consultorio impecable.",
+        "fecha": "Hace 2 semanas"
+      },
+      {
+        "nombre": "Lucas Peralta",
+        "estrellas": 5,
+        "comentario": "Fui por una consulta de ortodoncia y me explicaron todo al detalle. Muy buena atención y puntualidad con los turnos.",
+        "fecha": "Hace 1 mes"
+      }
+    ],
+    "maps_url": "https://www.google.com/maps/place/Odontologo+Liberatore+Juan+Pablo/data=!4m7!3m6!1s0x95a2e8a0f3971b7b:0x82d934fd3dfec694!8m2!3d-34.9261224!4d-57.9358008!16s%2Fg%2F11b6j_9p7w!19sChIJexuX86DoopURlMb-Pf002YI?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkwOS4wIJJjKgBIAVAD&rclk=1"
+  },
+  {
+    "slug": "smartdent-la-plata",
+    "nombre": "Consultorio SmartDent",
+    "subtitulo": "Odontología Digital & Blanqueamiento LED",
+    "telefono": "0221 675-4177",
+    "whatsapp": "5492216754177",
+    "instagram": "smartdent_laplata",
+    "direccion": "Calle 1 y 52, La Plata",
+    "ciudad": "La Plata",
+    "rating": 4.8,
+    "reviews_count": 22,
+    "horarios": "Lun a Vie: 09:00 - 19:00 hs",
+    "especialidades": [
+      {
+        "titulo": "Alineadores Invisibles",
+        "descripcion": "Ortodoncia estética y sin brackets con planificación digital 3D.",
+        "icono": "Sparkles"
+      },
+      {
+        "titulo": "Implantes Dentales",
+        "descripcion": "Rehabilitación oral fija de alta precisión y máxima durabilidad.",
+        "icono": "ShieldCheck"
+      },
+      {
+        "titulo": "Blanqueamiento LED",
+        "descripcion": "Aclaramiento dental profesional en 1 sola sesión sin sensibilidad.",
+        "icono": "Zap"
+      },
+      {
+        "titulo": "Diseño de Sonrisa",
+        "descripcion": "Carillas estéticas de porcelana y resina de alta gama.",
+        "icono": "Smile"
+      },
+      {
+        "titulo": "Odontología Preventiva",
+        "descripcion": "Limpieza profunda ultrasónica y diagnóstico integral digital.",
+        "icono": "Activity"
+      },
+      {
+        "titulo": "Atención de Urgencias",
+        "descripcion": "Prioridad en turnos en el día para alivio inmediato del dolor.",
+        "icono": "Clock"
+      }
+    ],
+    "fotos": [
+      "https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=1600&q=80",
+      "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=1600&q=80",
+      "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=1600&q=80"
+    ],
+    "antes_despues": [
+      {
+        "titulo": "Blanqueamiento Dental LED",
+        "tratamiento": "Tratamiento en 1 sesión de 60 minutos",
+        "antes_url": "/images/blanqueamiento-antes.jpg",
+        "despues_url": "/images/blanqueamiento-despues.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "nombre": "Mariana Gómez",
+        "estrellas": 5,
+        "comentario": "Excelente atención en Consultorio SmartDent. La paciencia y profesionalismo del equipo es insuperable. Consultorio impecable.",
+        "fecha": "Hace 2 semanas"
+      },
+      {
+        "nombre": "Lucas Peralta",
+        "estrellas": 5,
+        "comentario": "Fui por una consulta de ortodoncia y me explicaron todo al detalle. Muy buena atención y puntualidad con los turnos.",
+        "fecha": "Hace 1 mes"
+      }
+    ],
+    "maps_url": "https://www.google.com/maps/place/Consultorio+Odontol%C3%B3gico+SmartDent/data=!4m7!3m6!1s0x95a2e70b74baa68f:0xbd81f257216bb5f7!8m2!3d-34.9151128!4d-57.928799!16s%2Fg%2F11tjffyl7x!19sChIJj6a6dAvnopUR97VrIVfygb0?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkwOS4wIJJjKgBIAVAD&rclk=1"
+  },
+  {
+    "slug": "odontologia-integral-la-plata",
+    "nombre": "Odontología Integral La Plata",
+    "subtitulo": "Atención Médica Odontológica & Ortodoncia",
+    "telefono": "0221 622-8964",
+    "whatsapp": "5492216228964",
+    "instagram": "odontologiaintegral_lp",
+    "direccion": "Calle 7 y 49, La Plata",
+    "ciudad": "La Plata",
+    "rating": 4.4,
+    "reviews_count": 21,
+    "horarios": "Lun a Vie: 09:00 - 18:30 hs",
+    "especialidades": [
+      {
+        "titulo": "Alineadores Invisibles",
+        "descripcion": "Ortodoncia estética y sin brackets con planificación digital 3D.",
+        "icono": "Sparkles"
+      },
+      {
+        "titulo": "Implantes Dentales",
+        "descripcion": "Rehabilitación oral fija de alta precisión y máxima durabilidad.",
+        "icono": "ShieldCheck"
+      },
+      {
+        "titulo": "Blanqueamiento LED",
+        "descripcion": "Aclaramiento dental profesional en 1 sola sesión sin sensibilidad.",
+        "icono": "Zap"
+      },
+      {
+        "titulo": "Diseño de Sonrisa",
+        "descripcion": "Carillas estéticas de porcelana y resina de alta gama.",
+        "icono": "Smile"
+      },
+      {
+        "titulo": "Odontología Preventiva",
+        "descripcion": "Limpieza profunda ultrasónica y diagnóstico integral digital.",
+        "icono": "Activity"
+      },
+      {
+        "titulo": "Atención de Urgencias",
+        "descripcion": "Prioridad en turnos en el día para alivio inmediato del dolor.",
+        "icono": "Clock"
+      }
+    ],
+    "fotos": [
+      "https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=1600&q=80",
+      "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=1600&q=80",
+      "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=1600&q=80"
+    ],
+    "antes_despues": [
+      {
+        "titulo": "Blanqueamiento Dental LED",
+        "tratamiento": "Tratamiento en 1 sesión de 60 minutos",
+        "antes_url": "/images/blanqueamiento-antes.jpg",
+        "despues_url": "/images/blanqueamiento-despues.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "nombre": "Mariana Gómez",
+        "estrellas": 5,
+        "comentario": "Excelente atención en Odontología Integral La Plata. La paciencia y profesionalismo del equipo es insuperable. Consultorio impecable.",
+        "fecha": "Hace 2 semanas"
+      },
+      {
+        "nombre": "Lucas Peralta",
+        "estrellas": 5,
+        "comentario": "Fui por una consulta de ortodoncia y me explicaron todo al detalle. Muy buena atención y puntualidad con los turnos.",
+        "fecha": "Hace 1 mes"
+      }
+    ],
+    "maps_url": "https://www.google.com/maps/place/ODONTOLOG%C3%8DA+INTEGRAL/data=!4m7!3m6!1s0x95a2e649e98c9e95:0xf5697813ab50b85b!8m2!3d-34.9094241!4d-57.9548002!16s%2Fg%2F11gbgp26_4!19sChIJlZ6M6UnmopURW7hQqxN4afU?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkwOS4wIJJjKgBIAVAD&rclk=1"
+  },
+  {
+    "slug": "singular-odontologia-la-plata",
+    "nombre": "Singular Odontología",
+    "subtitulo": "Consultorio Odontológico & Estética 3D",
+    "telefono": "0221 354-8975",
+    "whatsapp": "5492213548975",
+    "instagram": "singular_odontologia",
+    "direccion": "Calle 13 y 55, La Plata",
+    "ciudad": "La Plata",
+    "rating": 5.0,
+    "reviews_count": 15,
+    "horarios": "Lun a Vie: 09:00 - 19:00 hs",
+    "especialidades": [
+      {
+        "titulo": "Alineadores Invisibles",
+        "descripcion": "Ortodoncia estética y sin brackets con planificación digital 3D.",
+        "icono": "Sparkles"
+      },
+      {
+        "titulo": "Implantes Dentales",
+        "descripcion": "Rehabilitación oral fija de alta precisión y máxima durabilidad.",
+        "icono": "ShieldCheck"
+      },
+      {
+        "titulo": "Blanqueamiento LED",
+        "descripcion": "Aclaramiento dental profesional en 1 sola sesión sin sensibilidad.",
+        "icono": "Zap"
+      },
+      {
+        "titulo": "Diseño de Sonrisa",
+        "descripcion": "Carillas estéticas de porcelana y resina de alta gama.",
+        "icono": "Smile"
+      },
+      {
+        "titulo": "Odontología Preventiva",
+        "descripcion": "Limpieza profunda ultrasónica y diagnóstico integral digital.",
+        "icono": "Activity"
+      },
+      {
+        "titulo": "Atención de Urgencias",
+        "descripcion": "Prioridad en turnos en el día para alivio inmediato del dolor.",
+        "icono": "Clock"
+      }
+    ],
+    "fotos": [
+      "https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=1600&q=80",
+      "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=1600&q=80",
+      "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=1600&q=80"
+    ],
+    "antes_despues": [
+      {
+        "titulo": "Blanqueamiento Dental LED",
+        "tratamiento": "Tratamiento en 1 sesión de 60 minutos",
+        "antes_url": "/images/blanqueamiento-antes.jpg",
+        "despues_url": "/images/blanqueamiento-despues.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "nombre": "Mariana Gómez",
+        "estrellas": 5,
+        "comentario": "Excelente atención en Singular Odontología. La paciencia y profesionalismo del equipo es insuperable. Consultorio impecable.",
+        "fecha": "Hace 2 semanas"
+      },
+      {
+        "nombre": "Lucas Peralta",
+        "estrellas": 5,
+        "comentario": "Fui por una consulta de ortodoncia y me explicaron todo al detalle. Muy buena atención y puntualidad con los turnos.",
+        "fecha": "Hace 1 mes"
+      }
+    ],
+    "maps_url": "https://www.google.com/maps/place/Singular+Odontolog%C3%ADa+La+Plata/data=!4m7!3m6!1s0x95a2e77474ff6747:0x7761e14ca50209e!8m2!3d-34.9175083!4d-57.9632332!16s%2Fg%2F11ss_9y_b7!19sChIJR2f_dHTnopURniBQyhQedgc?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkwOS4wIJJjKgBIAVAD&rclk=1"
+  },
+  {
+    "slug": "dr-daniel-villarreal",
+    "nombre": "Dr. Daniel Villarreal",
+    "subtitulo": "Consultorio Odontológico & Cirugía",
+    "telefono": "0221 547-2365",
+    "whatsapp": "5492215472365",
+    "instagram": "dr_daniel_villarreal",
+    "direccion": "Calle 12 y 50, La Plata",
+    "ciudad": "La Plata",
+    "rating": 4.7,
+    "reviews_count": 13,
+    "horarios": "Lun a Vie: 09:00 - 18:30 hs",
+    "especialidades": [
+      {
+        "titulo": "Alineadores Invisibles",
+        "descripcion": "Ortodoncia estética y sin brackets con planificación digital 3D.",
+        "icono": "Sparkles"
+      },
+      {
+        "titulo": "Implantes Dentales",
+        "descripcion": "Rehabilitación oral fija de alta precisión y máxima durabilidad.",
+        "icono": "ShieldCheck"
+      },
+      {
+        "titulo": "Blanqueamiento LED",
+        "descripcion": "Aclaramiento dental profesional en 1 sola sesión sin sensibilidad.",
+        "icono": "Zap"
+      },
+      {
+        "titulo": "Diseño de Sonrisa",
+        "descripcion": "Carillas estéticas de porcelana y resina de alta gama.",
+        "icono": "Smile"
+      },
+      {
+        "titulo": "Odontología Preventiva",
+        "descripcion": "Limpieza profunda ultrasónica y diagnóstico integral digital.",
+        "icono": "Activity"
+      },
+      {
+        "titulo": "Atención de Urgencias",
+        "descripcion": "Prioridad en turnos en el día para alivio inmediato del dolor.",
+        "icono": "Clock"
+      }
+    ],
+    "fotos": [
+      "https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=1600&q=80",
+      "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=1600&q=80",
+      "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=1600&q=80"
+    ],
+    "antes_despues": [
+      {
+        "titulo": "Blanqueamiento Dental LED",
+        "tratamiento": "Tratamiento en 1 sesión de 60 minutos",
+        "antes_url": "/images/blanqueamiento-antes.jpg",
+        "despues_url": "/images/blanqueamiento-despues.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "nombre": "Mariana Gómez",
+        "estrellas": 5,
+        "comentario": "Excelente atención en Dr. Daniel Villarreal. La paciencia y profesionalismo del equipo es insuperable. Consultorio impecable.",
+        "fecha": "Hace 2 semanas"
+      },
+      {
+        "nombre": "Lucas Peralta",
+        "estrellas": 5,
+        "comentario": "Fui por una consulta de ortodoncia y me explicaron todo al detalle. Muy buena atención y puntualidad con los turnos.",
+        "fecha": "Hace 1 mes"
+      }
+    ],
+    "maps_url": "https://www.google.com/maps/place/Consultorio+Odontol%C3%B3gico+La+Plata+%7C+Dr+Daniel+Villarreal/data=!4m7!3m6!1s0x95a2e77b8347e8c5:0xd9f6a922d42f39b!8m2!3d-34.9237448!4d-57.9621774!16s%2Fg%2F11flc262mf!19sChIJxehHg3vnopURm_NCLZJqnw0?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkwOS4wIJJjKgBIAVAD&rclk=1"
   }
 ]
