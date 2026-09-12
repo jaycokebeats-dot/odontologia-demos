@@ -7,13 +7,17 @@ interface TopBarProps {
 }
 
 export const TopBar: React.FC<TopBarProps> = ({ dentist }) => {
+  const displayLocation = dentist.direccion.toLowerCase().includes(dentist.ciudad.toLowerCase())
+    ? dentist.direccion
+    : `${dentist.direccion}, ${dentist.ciudad}`;
+
   return (
     <div className="bg-slate-900 text-slate-200 text-xs sm:text-sm py-2.5 px-4 border-b border-slate-800">
       <div className="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2">
         <div className="flex items-center gap-2 text-center sm:text-left">
           <MapPin className="w-3.5 h-3.5 text-cyan-400 shrink-0" />
           <span>
-            <strong>{dentist.direccion}</strong>, {dentist.ciudad}
+            <strong>{displayLocation}</strong>
           </span>
           <span className="hidden md:inline-block text-slate-500">•</span>
           <span className="hidden md:inline-flex items-center gap-1 text-cyan-300 font-medium">
