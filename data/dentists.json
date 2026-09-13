@@ -1373,5 +1373,77 @@
       }
     ],
     "maps_url": "https://www.google.com/maps/place/Consultorio+Odontol%C3%B3gico+La+Plata+%7C+Dr+Daniel+Villarreal/data=!4m7!3m6!1s0x95a2e77b8347e8c5:0xd9f6a922d42f39b!8m2!3d-34.9237448!4d-57.9621774!16s%2Fg%2F11flc262mf!19sChIJxehHg3vnopURm_NCLZJqnw0?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkwOS4wIJJjKgBIAVAD&rclk=1"
+  },
+  {
+    "slug": "ml-odontologia-longchamps",
+    "nombre": "ML Odontología",
+    "subtitulo": "Consultorio Odontológico & Estética Dental",
+    "telefono": "011 3624-1700",
+    "whatsapp": "5491136241700",
+    "instagram": "ml_odontologia_longchamps",
+    "direccion": "Av. Hipólito Yrigoyen 17926, Longchamps",
+    "ciudad": "Longchamps",
+    "rating": 5.0,
+    "reviews_count": 107,
+    "horarios": "Lun a Vie: 09:00 - 19:30 hs | Sáb: 09:00 - 13:00 hs",
+    "especialidades": [
+      {
+        "titulo": "Alineadores Invisibles",
+        "descripcion": "Ortodoncia estética y sin brackets con planificación digital 3D.",
+        "icono": "Sparkles"
+      },
+      {
+        "titulo": "Implantes Dentales",
+        "descripcion": "Rehabilitación oral fija de alta precisión y máxima durabilidad.",
+        "icono": "ShieldCheck"
+      },
+      {
+        "titulo": "Blanqueamiento LED",
+        "descripcion": "Aclaramiento dental profesional en 1 sola sesión sin sensibilidad.",
+        "icono": "Zap"
+      },
+      {
+        "titulo": "Diseño de Sonrisa",
+        "descripcion": "Carillas estéticas de porcelana y resina de alta gama.",
+        "icono": "Smile"
+      },
+      {
+        "titulo": "Odontología Preventiva",
+        "descripcion": "Limpieza profunda ultrasónica y diagnóstico integral digital.",
+        "icono": "Activity"
+      },
+      {
+        "titulo": "Atención de Urgencias",
+        "descripcion": "Prioridad en turnos en el día para alivio inmediato del dolor.",
+        "icono": "Clock"
+      }
+    ],
+    "fotos": [
+      "https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=1600&q=80",
+      "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=1600&q=80"
+    ],
+    "antes_despues": [
+      {
+        "titulo": "Blanqueamiento Dental LED",
+        "tratamiento": "Tratamiento en 1 sesión de 60 minutos",
+        "antes_url": "/images/blanqueamiento-antes.jpg",
+        "despues_url": "/images/blanqueamiento-despues.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "nombre": "Florencia Benítez",
+        "estrellas": 5,
+        "comentario": "Excelente atención en ML Odontología. Súper profesionales, el consultorio es impecable y la atención de diez.",
+        "fecha": "Hace 2 semanas"
+      },
+      {
+        "nombre": "Gonzalo Ramírez",
+        "estrellas": 5,
+        "comentario": "Fui por una limpieza y me explicaron todo al detalle. Muy conforme con los resultados.",
+        "fecha": "Hace 1 mes"
+      }
+    ],
+    "maps_url": "https://www.google.com/maps/search/ML%20Odontolog%C3%ADa%20Hip%C3%B3lito%20Yrigoyen%2017926%20Longchamps"
   }
 ]
