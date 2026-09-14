@@ -79,7 +79,7 @@
     "maps_url": "https://maps.google.com/?q=Dra+Maria+Ornetti+Cuenca+3210+Villa+Devoto"
   },
   {
-    "slug": "clinica-dental-devoto",
+    "slug": "clinica-odontologica-devoto",
     "nombre": "Clínica Odontológica Devoto",
     "subtitulo": "Centro Especializado en Implantes & Ortodoncia",
     "telefono": "011 4501-8899",
@@ -135,7 +135,7 @@
     "maps_url": "https://maps.google.com/?q=Clinica+Odontologica+Devoto+Av+Beiro+4120"
   },
   {
-    "slug": "myos-consultorios-la-plata",
+    "slug": "myos-consultorios-odontologicos",
     "nombre": "Myos Consultorios Odontológicos",
     "subtitulo": "Consultorios Odontológicos Integrales & Estética 3D",
     "telefono": "0221 606-2451",
@@ -281,7 +281,7 @@
     "maps_url": "https://www.google.com/maps/place/Llompart+Federico.+Gomez+Carolina.+Llompart+Jorge+-+Odontologia/data=!4m7!3m6!1s0x95a2e65032c303d7:0xaad5a893b5a3feda!8m2!3d-34.8994305!4d-57.9529606!16s%2Fg%2F1tc_gfgr!19sChIJ1wPDMlDmopUR2v6jtZOo1ao?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkwOS4wIJJjKgBIAVAD&rclk=1"
   },
   {
-    "slug": "odontologia-omar-galvez-llanos",
+    "slug": "odontologia-dr-omar-galvez-llanos",
     "nombre": "Odontología Dr. Omar Gálvez Llanos",
     "subtitulo": "Especialista en Implantes Dentales & Rehabilitación Oral",
     "telefono": "0221 675-7407",
@@ -500,7 +500,7 @@
     "maps_url": "https://www.google.com/maps/place/odontologiaLP/data=!4m7!3m6!1s0x95a2e63c2c59a38d:0x9fa856253eff7a8b!8m2!3d-34.9118468!4d-57.9420857!16s%2Fg%2F11hbn0cr4t!19sChIJjaNZLDzmopURi3r_PiVWqJ8?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkwOS4wIJJjKgBIAVAD&rclk=1"
   },
   {
-    "slug": "odontex-consultorio-odontologico",
+    "slug": "odontex",
     "nombre": "ODONTEX",
     "subtitulo": "Consultorio Odontológico Integral & Alineadores",
     "telefono": "0221 600-7243",
@@ -573,7 +573,7 @@
     "maps_url": "https://www.google.com/maps/place/ODONTEX+%7C+Consultorio+Odontol%C3%B3gico/data=!4m7!3m6!1s0x95a2e7589bce132f:0x9d01e2e2773715c4!8m2!3d-34.9127972!4d-57.9597914!16s%2Fg%2F11sbvyfs0j!19sChIJLxPOm1jnopURxBU3d-LiAZ0?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkwOS4wIJJjKgBIAVAD&rclk=1"
   },
   {
-    "slug": "lz-odontologia-la-plata",
+    "slug": "lz-odontologia",
     "nombre": "LZ Odontología",
     "subtitulo": "Especialistas en Ortodoncia & Alineadores Invisibles",
     "telefono": "0221 309-4775",
@@ -646,7 +646,7 @@
     "maps_url": "https://www.google.com/maps/place/Lz+Odontologia+-+Ortodoncia+en+La+Plata/data=!4m7!3m6!1s0x95a2e9c2cc3a70b9:0x9d608305ac8c0868!8m2!3d-34.9149853!4d-57.958454!16s%2Fg%2F11vkf97hx0!19sChIJuXA6zMLpopURaAiMrAWDYJ0?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkwOS4wIJJjKgBIAVAD&rclk=1"
   },
   {
-    "slug": "nicolas-rafaelli-odontologia",
+    "slug": "dr-nicolas-rafaelli",
     "nombre": "Dr. Nicolás Rafaelli",
     "subtitulo": "Odontología General & Cirugía Oral",
     "telefono": "0221 683-0377",
@@ -792,7 +792,7 @@
     "maps_url": "https://www.google.com/maps/place/ESTUDIO+DENTAL/data=!4m7!3m6!1s0x95a2e7613e98a7c3:0xfe137aca701f1595!8m2!3d-34.919865!4d-57.9614024!16s%2Fg%2F11qpml8d4m!19sChIJw6eYPmHnopURlRUfcMp6E_4?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkwOS4wIJJjKgBIAVAD&rclk=1"
   },
   {
-    "slug": "sonrisa-latina-la-plata",
+    "slug": "consultorio-sonrisa-latina",
     "nombre": "Consultorio Sonrisa Latina",
     "subtitulo": "Odontología Preventiva, Ortodoncia & Prótesis",
     "telefono": "0221 637-9147",
@@ -1083,7 +1083,7 @@
     "maps_url": "https://www.google.com/maps/place/Odontologo+Liberatore+Juan+Pablo/data=!4m7!3m6!1s0x95a2e8a0f3971b7b:0x82d934fd3dfec694!8m2!3d-34.9261224!4d-57.9358008!16s%2Fg%2F11b6j_9p7w!19sChIJexuX86DoopURlMb-Pf002YI?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkwOS4wIJJjKgBIAVAD&rclk=1"
   },
   {
-    "slug": "smartdent-la-plata",
+    "slug": "consultorio-smartdent",
     "nombre": "Consultorio SmartDent",
     "subtitulo": "Odontología Digital & Blanqueamiento LED",
     "telefono": "0221 675-4177",
@@ -1229,7 +1229,7 @@
     "maps_url": "https://www.google.com/maps/place/ODONTOLOG%C3%8DA+INTEGRAL/data=!4m7!3m6!1s0x95a2e649e98c9e95:0xf5697813ab50b85b!8m2!3d-34.9094241!4d-57.9548002!16s%2Fg%2F11gbgp26_4!19sChIJlZ6M6UnmopURW7hQqxN4afU?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkwOS4wIJJjKgBIAVAD&rclk=1"
   },
   {
-    "slug": "singular-odontologia-la-plata",
+    "slug": "singular-odontologia",
     "nombre": "Singular Odontología",
     "subtitulo": "Consultorio Odontológico & Estética 3D",
     "telefono": "0221 354-8975",
@@ -1375,7 +1375,7 @@
     "maps_url": "https://www.google.com/maps/place/Consultorio+Odontol%C3%B3gico+La+Plata+%7C+Dr+Daniel+Villarreal/data=!4m7!3m6!1s0x95a2e77b8347e8c5:0xd9f6a922d42f39b!8m2!3d-34.9237448!4d-57.9621774!16s%2Fg%2F11flc262mf!19sChIJxehHg3vnopURm_NCLZJqnw0?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkwOS4wIJJjKgBIAVAD&rclk=1"
   },
   {
-    "slug": "ml-odontologia-longchamps",
+    "slug": "ml-odontologia",
     "nombre": "ML Odontología",
     "subtitulo": "Consultorio Odontológico & Estética Dental",
     "telefono": "011 3624-1700",
@@ -1447,7 +1447,7 @@
     "maps_url": "https://www.google.com/maps/search/ML%20Odontolog%C3%ADa%20Hip%C3%B3lito%20Yrigoyen%2017926%20Longchamps"
   },
   {
-    "slug": "odontolog-a-integral-dr-nu-ez-2602-2a",
+    "slug": "odontologia-integral-dr-nunez-2602-2a",
     "nombre": "Odontología Integral DR Nuñez 2602 2A",
     "subtitulo": "Consultorio Odontológico en Núñez & Estética 3D",
     "telefono": "011 3619-6279",
@@ -1513,7 +1513,7 @@
     "maps_url": "https://www.google.com/maps/place/Odontolog%C3%ADa+Integral+DR+Nu%C3%B1ez+2602+2A/data=!4m7!3m6!1s0x95bcb788fb77b729:0x6d49399b7f4595a7!8m2!3d-34.5512938!4d-58.4693623!16s%2Fg%2F11fn2px9c7!19sChIJKbd3-4i3vJURp5VFf5s5SW0?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkwOS4wIJJjKgBIAVAD&rclk=1"
   },
   {
-    "slug": "consultorio-odontol-gico-dra-marilian-gonzalez",
+    "slug": "consultorio-odontologico-dra-marilian-gonzalez",
     "nombre": "Consultorio Odontológico Dra. Marilian Gonzalez",
     "subtitulo": "Consultorio Odontológico en Belgrano & Estética 3D",
     "telefono": "011 3426-3038",
@@ -1579,7 +1579,7 @@
     "maps_url": "https://www.google.com/maps/place/Consultorio+Odontol%C3%B3gico+Dra.+Marilian+Gonzalez/data=!4m7!3m6!1s0x95bcb55687d7e611:0xddbec9cdcae1e429!8m2!3d-34.5578218!4d-58.4594585!16s%2Fg%2F11z2gd22r0!19sChIJEebXh1a1vJURKeThys3Jvt0?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkwOS4wIJJjKgBIAVAD&rclk=1"
   },
   {
-    "slug": "odontolog-a-a-domicilio-caba-gba",
+    "slug": "odontologia-a-domicilio-caba-gba",
     "nombre": "🧑‍⚕️Odontología a Domicilio 🦷CaBa Gba",
     "subtitulo": "Consultorio Odontológico en Villa Urquiza & Estética 3D",
     "telefono": "011 5724-7504",
@@ -1645,7 +1645,7 @@
     "maps_url": "https://www.google.com/maps/place/%F0%9F%A7%91%E2%80%8D%E2%9A%95%EF%B8%8FOdontolog%C3%ADa+a+Domicilio+%F0%9F%A6%B7CaBa+Gba/data=!4m7!3m6!1s0x95bcb7a5e276f415:0x50b1c329be36a29e!8m2!3d-34.5755005!4d-58.497682!16s%2Fg%2F11y0_kxq85!19sChIJFfR24qW3vJURnqI2vinDsVA?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkwOS4wIJJjKgBIAVAD&rclk=1"
   },
   {
-    "slug": "oclu-odontologia-nu-ez",
+    "slug": "oclu-odontologia-nunez",
     "nombre": "OCLU Odontologia | Nuñez",
     "subtitulo": "Consultorio Odontológico en Núñez & Estética 3D",
     "telefono": "011 15-3643-7674",
@@ -1711,7 +1711,7 @@
     "maps_url": "https://www.google.com/maps/place/OCLU+Odontologia+%7C+Nu%C3%B1ez/data=!4m7!3m6!1s0x95bccb0056fd597f:0x6ec681fee3b7461!8m2!3d-34.5551828!4d-58.4700094!16s%2Fg%2F11w485zz4n!19sChIJf1n9VgDLvJURYXQ77h9o7AY?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkwOS4wIJJjKgBIAVAD&rclk=1"
   },
   {
-    "slug": "espacio-odontol-gico-integral",
+    "slug": "espacio-odontologico-integral",
     "nombre": "Espacio Odontológico Integral",
     "subtitulo": "Consultorio Odontológico en Núñez & Estética 3D",
     "telefono": "011 2672-0834",
@@ -1843,7 +1843,7 @@
     "maps_url": "https://www.google.com/maps/place/Odontologia+ROMA/data=!4m7!3m6!1s0x95bcb7e7e471d0ff:0xbf8b9e10a7797c92!8m2!3d-34.5536343!4d-58.4639601!16s%2Fg%2F11txmwyxwt!19sChIJ_9Bx5Oe3vJURknx5pxCei78?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkwOS4wIJJjKgBIAVAD&rclk=1"
   },
   {
-    "slug": "odontologia-bellesi-rodr-guez-orsero",
+    "slug": "odontologia-bellesi-rodriguez-orsero",
     "nombre": "Odontologia Bellesi & Rodríguez Orsero",
     "subtitulo": "Consultorio Odontológico en Núñez & Estética 3D",
     "telefono": "011 3603-4879",
@@ -1909,7 +1909,7 @@
     "maps_url": "https://www.google.com/maps/place/Odontologia+Bellesi+%26+Rodr%C3%ADguez+Orsero/data=!4m7!3m6!1s0x95bcb72c9f7a3a01:0xb085f83560d6955!8m2!3d-34.5521157!4d-58.4668709!16s%2Fg%2F11rcmx6tk4!19sChIJATp6nyy3vJURVWkNVoNfCAs?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkwOS4wIJJjKgBIAVAD&rclk=1"
   },
   {
-    "slug": "consultorio-odontol-gico-naturista",
+    "slug": "consultorio-odontologico-naturista",
     "nombre": "Consultorio Odontológico Naturista",
     "subtitulo": "Consultorio Odontológico en Núñez & Estética 3D",
     "telefono": "011 4076-7976",
@@ -1975,7 +1975,7 @@
     "maps_url": "https://www.google.com/maps/place/Consultorio+Odontol%C3%B3gico+Naturista/data=!4m7!3m6!1s0x95bcb5bd973f6a77:0xe500ff645e811ef7!8m2!3d-34.5496986!4d-58.4673277!16s%2Fg%2F11f5d3kngp!19sChIJd2o_l721vJUR9x6BXmT_AOU?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkwOS4wIJJjKgBIAVAD&rclk=1"
   },
   {
-    "slug": "odontolog-a-arcos",
+    "slug": "odontologia-arcos",
     "nombre": "Odontología Arcos",
     "subtitulo": "Consultorio Odontológico en Núñez & Estética 3D",
     "telefono": "011 15-7820-1941",
@@ -2041,7 +2041,7 @@
     "maps_url": "https://www.google.com/maps/place/Odontolog%C3%ADa+Arcos/data=!4m7!3m6!1s0x95bcb5a0573ea8f3:0x4caf824b01dd4e06!8m2!3d-34.5536573!4d-58.4595652!16s%2Fg%2F11ntznbbw4!19sChIJ86g-V6C1vJURBk7dAUuCr0w?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkwOS4wIJJjKgBIAVAD&rclk=1"
   },
   {
-    "slug": "angelucci-vazquez-odontologia-estetica-odontologo-implantes-carillas-ortodoncista-en-nu-ez-capital-federal",
+    "slug": "angelucci-vazquez-odontologia-estetica-odontologo-implantes-carillas-ortodoncista-en-nunez-capital-federal",
     "nombre": "Angelucci Vazquez Odontologia Estetica Odontologo Implantes Carillas Ortodoncista en Nuñez Capital Federal",
     "subtitulo": "Consultorio Odontológico en Núñez & Estética 3D",
     "telefono": "011 15-3409-7083",
@@ -2173,7 +2173,7 @@
     "maps_url": "https://www.google.com/maps/place/HyM+Odontologia+Digital/data=!4m7!3m6!1s0x95bcb7eb5541b395:0xd533945de91e132!8m2!3d-34.5393979!4d-58.4693162!16s%2Fg%2F11twv4pg0v!19sChIJlbNBVeu3vJURMuGR3kU5Uw0?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkwOS4wIJJjKgBIAVAD&rclk=1"
   },
   {
-    "slug": "celeste-iturre-odontolog-a",
+    "slug": "celeste-iturre-odontologia",
     "nombre": "Celeste Iturre Odontología",
     "subtitulo": "Consultorio Odontológico en Núñez & Estética 3D",
     "telefono": "011 2451-6196",
@@ -2437,7 +2437,7 @@
     "maps_url": "https://www.google.com/maps/place/Clinic+OnePlus/data=!4m7!3m6!1s0x95bcb5096f56a807:0xf8703b72be21ee9b!8m2!3d-34.554021!4d-58.4602342!16s%2Fg%2F11vz2y7w49!19sChIJB6hWbwm1vJURm-4hvnI7cPg?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkwOS4wIJJjKgBIAVAD&rclk=1"
   },
   {
-    "slug": "oc-odontolog-a",
+    "slug": "oc-odontologia",
     "nombre": "OC Odontología",
     "subtitulo": "Consultorio Odontológico en Núñez & Estética 3D",
     "telefono": "011 6049-5220",
@@ -2569,7 +2569,7 @@
     "maps_url": "https://www.google.com/maps/place/Atelier+Odontologia+Camila+Tissera/data=!4m7!3m6!1s0x95bcb5e4122ab21b:0x66f786bef24f0a4c!8m2!3d-34.5539217!4d-58.4601675!16s%2Fg%2F11yjlclkyx!19sChIJG7IqEuS1vJURTApP8r6G92Y?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkwOS4wIJJjKgBIAVAD&rclk=1"
   },
   {
-    "slug": "paula-eugenia-labat-odontologa",
+    "slug": "dra-paula-eugenia-labat",
     "nombre": "Dra. Paula Eugenia Labat",
     "subtitulo": "Consultorio Odontológico en Núñez & Estética 3D",
     "telefono": "011 2741-1899",
@@ -2635,7 +2635,7 @@
     "maps_url": "https://www.google.com/maps/place/Paula+Eugenia+Labat+Odontologa/data=!4m7!3m6!1s0x95bcb7cadb9c7ed1:0xd8d9e1c361bf6395!8m2!3d-34.5503929!4d-58.4677054!16s%2Fg%2F11vyxpgk0p!19sChIJ0X6c28q3vJURlWO_YcPh2dg?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkwOS4wIJJjKgBIAVAD&rclk=1"
   },
   {
-    "slug": "dr-fabi-n-bardelli-odontologo",
+    "slug": "dr-fabian-bardelli-odontologo",
     "nombre": "Dr. Fabián Bardelli, Odontologo",
     "subtitulo": "Consultorio Odontológico en Núñez & Estética 3D",
     "telefono": "011 4855-7521",
@@ -2833,7 +2833,7 @@
     "maps_url": "https://www.google.com/maps/place/Periale+Liliana/data=!4m7!3m6!1s0x95bcb420ccf3ae45:0xe9e71c8867d90077!8m2!3d-34.5452795!4d-58.4611012!16s%2Fg%2F1tf9zlvg!19sChIJRa7zzCC0vJURdwDZZ4gc5-k?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkwOS4wIJJjKgBIAVAD&rclk=1"
   },
   {
-    "slug": "lc-odontolog-a",
+    "slug": "lc-odontologia",
     "nombre": "LC Odontología",
     "subtitulo": "Consultorio Odontológico en Núñez & Estética 3D",
     "telefono": "011 4546-3370",
