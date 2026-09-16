@@ -2963,5 +2963,1323 @@
       }
     ],
     "maps_url": "https://www.google.com/maps/place/Codent+Saavedra/data=!4m7!3m6!1s0x95bcb6949a39d393:0xaeffb749542b672f!8m2!3d-34.5515679!4d-58.4839745!16s%2Fg%2F11dfpk45dc!19sChIJk9M5mpS2vJURL2crVEm3_64?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkwOS4wIJJjKgBIAVAD&rclk=1"
+  },
+  {
+    "slug": "ballester-odontologia",
+    "nombre": "Ballester Odontología",
+    "subtitulo": "Consultorio Odontológico en Villa Ballester & Estética 3D",
+    "telefono": "011 4764-5110",
+    "whatsapp": "5491147645110",
+    "instagram": "ballester_odontologia_odontologia",
+    "direccion": "Alvear, Villa Ballester",
+    "ciudad": "Buenos Aires",
+    "rating": 4.4,
+    "reviews_count": 43,
+    "horarios": "Lun a Vie: 09:00 - 19:30 hs",
+    "especialidades": [
+      {
+        "titulo": "Alineadores Invisibles",
+        "descripcion": "Ortodoncia estética 3D sin brackets.",
+        "icono": "Sparkles"
+      },
+      {
+        "titulo": "Implantes Dentales",
+        "descripcion": "Rehabilitación oral fija de alta precisión.",
+        "icono": "ShieldCheck"
+      },
+      {
+        "titulo": "Blanqueamiento LED",
+        "descripcion": "Aclaramiento profesional en 1 sesión.",
+        "icono": "Zap"
+      },
+      {
+        "titulo": "Diseño de Sonrisa",
+        "descripcion": "Carillas estéticas de alta gama.",
+        "icono": "Smile"
+      },
+      {
+        "titulo": "Odontología Preventiva",
+        "descripcion": "Limpieza profunda ultrasónica y diagnóstico digital.",
+        "icono": "Activity"
+      },
+      {
+        "titulo": "Atención de Urgencias",
+        "descripcion": "Prioridad en turnos en el día para alivio de dolor.",
+        "icono": "Clock"
+      }
+    ],
+    "fotos": [
+      "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmabG5t-6ojY-OKK7qZ0LB_bDbP0ntoPeksfa4MC_CZf_Rl2bzCh89sixygv1BWOpcay104bv8WY3HIV5jkmeqyO7gXDAWbgK_7EMx2Ow8f39H9OACtH50hiRw0YiA3rs__Uy1J=w1600-h1000-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmCDchf88jnlmf8v_QsR5928nlutr6qnuCScnQCiT0DLKrsCvOrjKF39WBqFU9FB6K7QEZIQ7HA5JWMAWaYHQYAWtlJovJ_4WneiI6GRghnvyNHNPvRcBfrgQB1jIvWENkpvEc=w1600-h1000-k-no"
+    ],
+    "antes_despues": [
+      {
+        "titulo": "Blanqueamiento Dental LED",
+        "tratamiento": "Tratamiento en 1 sesión de 60 min",
+        "antes_url": "/images/blanqueamiento-antes.jpg",
+        "despues_url": "/images/blanqueamiento-despues.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "nombre": "Carolina Rossi",
+        "estrellas": 5,
+        "comentario": "Excelente atención en Ballester Odontología. Muy profesionales y atención puntual.",
+        "fecha": "Hace 2 semanas"
+      }
+    ],
+    "maps_url": "https://www.google.com/maps/place/Ballester+Odontolog%C3%ADa/data=!4m7!3m6!1s0x95bcb755784ee35d:0x5254dff352914218!8m2!3d-34.5492578!4d-58.5538082!16s%2Fg%2F11b697dh52!19sChIJXeNOeFW3vJURGEKRUvPfVFI?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkxNC4wIJJjKgBIAVAD&rclk=1"
+  },
+  {
+    "slug": "consultorios-odontologicos-independencia-en-ballester",
+    "nombre": "Consultorios Odontológicos Independencia en Ballester",
+    "subtitulo": "Consultorio Odontológico en Villa Ballester & Estética 3D",
+    "telefono": "011 5950-1585",
+    "whatsapp": "5491159501585",
+    "instagram": "consultorios_odontologicos_independencia_en_ballester_odontologia",
+    "direccion": "Independencia, Villa Ballester",
+    "ciudad": "Buenos Aires",
+    "rating": 4.7,
+    "reviews_count": 129,
+    "horarios": "Lun a Vie: 09:00 - 19:30 hs",
+    "especialidades": [
+      {
+        "titulo": "Alineadores Invisibles",
+        "descripcion": "Ortodoncia estética 3D sin brackets.",
+        "icono": "Sparkles"
+      },
+      {
+        "titulo": "Implantes Dentales",
+        "descripcion": "Rehabilitación oral fija de alta precisión.",
+        "icono": "ShieldCheck"
+      },
+      {
+        "titulo": "Blanqueamiento LED",
+        "descripcion": "Aclaramiento profesional en 1 sesión.",
+        "icono": "Zap"
+      },
+      {
+        "titulo": "Diseño de Sonrisa",
+        "descripcion": "Carillas estéticas de alta gama.",
+        "icono": "Smile"
+      },
+      {
+        "titulo": "Odontología Preventiva",
+        "descripcion": "Limpieza profunda ultrasónica y diagnóstico digital.",
+        "icono": "Activity"
+      },
+      {
+        "titulo": "Atención de Urgencias",
+        "descripcion": "Prioridad en turnos en el día para alivio de dolor.",
+        "icono": "Clock"
+      }
+    ],
+    "fotos": [
+      "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWk0tfufqDqjoAPN7z8MbeWto51pirxj77bcMjLgMKerUDUF7K0-C6mREjd0T2qf_stJ_4YZ5uN3aphkHeCUzgCsoqgSOBgBc0L1QALTPtD2cfo5vpMjMg3Mnq5GONjAKyRvCqzB3Q=w1600-h1000-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnMtafJFIA6RtL8MiHGtWhE79zwyYp5EiIKTnhw100hzDpuWEp-atesf12pWsa_O06i5ejI4qWs2ylhw9AjRxhISG4QY9nb-SaqrzO9uVmPkrkg8NnvUiJtkwnPG1hUbqx-v6WY=w1600-h1000-k-no"
+    ],
+    "antes_despues": [
+      {
+        "titulo": "Blanqueamiento Dental LED",
+        "tratamiento": "Tratamiento en 1 sesión de 60 min",
+        "antes_url": "/images/blanqueamiento-antes.jpg",
+        "despues_url": "/images/blanqueamiento-despues.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "nombre": "Carolina Rossi",
+        "estrellas": 5,
+        "comentario": "Excelente atención en Consultorios Odontológicos Independencia en Ballester. Muy profesionales y atención puntual.",
+        "fecha": "Hace 2 semanas"
+      }
+    ],
+    "maps_url": "https://www.google.com/maps/place/Consultorios+Odontol%C3%B3gicos+Independencia+en+Ballester/data=!4m7!3m6!1s0x95bcb955652f12fd:0xb902454dca28d2e4!8m2!3d-34.5492304!4d-58.5564769!16s%2Fg%2F11hdjc2d8w!19sChIJ_RIvZVW5vJUR5NIoyk1FArk?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkxNC4wIJJjKgBIAVAD&rclk=1"
+  },
+  {
+    "slug": "clinica-odontologica-dentalart",
+    "nombre": "Clínica odontólogica DentalArt",
+    "subtitulo": "Consultorio Odontológico en Villa Ballester & Estética 3D",
+    "telefono": "011 6041-7475",
+    "whatsapp": "5491160417475",
+    "instagram": "clinica_odontologica_dentalart_odontologia",
+    "direccion": "85, 11 de Septiembre, Villa Ballester",
+    "ciudad": "Buenos Aires",
+    "rating": 4.9,
+    "reviews_count": 184,
+    "horarios": "Lun a Vie: 09:00 - 19:30 hs",
+    "especialidades": [
+      {
+        "titulo": "Alineadores Invisibles",
+        "descripcion": "Ortodoncia estética 3D sin brackets.",
+        "icono": "Sparkles"
+      },
+      {
+        "titulo": "Implantes Dentales",
+        "descripcion": "Rehabilitación oral fija de alta precisión.",
+        "icono": "ShieldCheck"
+      },
+      {
+        "titulo": "Blanqueamiento LED",
+        "descripcion": "Aclaramiento profesional en 1 sesión.",
+        "icono": "Zap"
+      },
+      {
+        "titulo": "Diseño de Sonrisa",
+        "descripcion": "Carillas estéticas de alta gama.",
+        "icono": "Smile"
+      },
+      {
+        "titulo": "Odontología Preventiva",
+        "descripcion": "Limpieza profunda ultrasónica y diagnóstico digital.",
+        "icono": "Activity"
+      },
+      {
+        "titulo": "Atención de Urgencias",
+        "descripcion": "Prioridad en turnos en el día para alivio de dolor.",
+        "icono": "Clock"
+      }
+    ],
+    "fotos": [
+      "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmNXuIS5w_anMT6aBNzcHLEE3y1sakFxYnd__ejsocmv_qPVWVQ8R2N3EazARcaEIWICyPxlWBCriMx3W7plZ3ocMp8OATTfGlBpAqR8ygpiroM923Jhp19VvDUunJKRvzQZ23A4vrFwRXB=w1600-h1000-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlriuRu2iY2UfKBXGjrNLLOPk-Pg7D_oKpDDUwOQKMEMuo6CIfm1xSMlhE46oL0he3kg185kCBw1SKYxQK5yD0khlTRIjua__p1At0mgeT1opky6sYzFkKZv5rXmEheYAdFe2-FgmGoF3G0=w1600-h1000-k-no"
+    ],
+    "antes_despues": [
+      {
+        "titulo": "Blanqueamiento Dental LED",
+        "tratamiento": "Tratamiento en 1 sesión de 60 min",
+        "antes_url": "/images/blanqueamiento-antes.jpg",
+        "despues_url": "/images/blanqueamiento-despues.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "nombre": "Carolina Rossi",
+        "estrellas": 5,
+        "comentario": "Excelente atención en Clínica odontólogica DentalArt. Muy profesionales y atención puntual.",
+        "fecha": "Hace 2 semanas"
+      }
+    ],
+    "maps_url": "https://www.google.com/maps/place/Cl%C3%ADnica+odont%C3%B3logica+DentalArt/data=!4m7!3m6!1s0x95bcb992103884f5:0x6b4b7fb9d14100bb!8m2!3d-34.5572169!4d-58.5613844!16s%2Fg%2F11f5rs73fp!19sChIJ9YQ4EJK5vJURuwBB0bl_S2s?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkxNC4wIJJjKgBIAVAD&rclk=1"
+  },
+  {
+    "slug": "ad-odontologia-integral-dres-aguerrido-d-carolis",
+    "nombre": "AD Odontología Integral Dres. Aguerrido/D ‘Carolis",
+    "subtitulo": "Consultorio Odontológico en Villa Ballester & Estética 3D",
+    "telefono": "011 3155-6279",
+    "whatsapp": "5491131556279",
+    "instagram": "ad_odontologia_integral_dres_aguerrido_d_carolis_odontologia",
+    "direccion": "Balcarce, Villa Ballester",
+    "ciudad": "Buenos Aires",
+    "rating": 4.9,
+    "reviews_count": 96,
+    "horarios": "Lun a Vie: 09:00 - 19:30 hs",
+    "especialidades": [
+      {
+        "titulo": "Alineadores Invisibles",
+        "descripcion": "Ortodoncia estética 3D sin brackets.",
+        "icono": "Sparkles"
+      },
+      {
+        "titulo": "Implantes Dentales",
+        "descripcion": "Rehabilitación oral fija de alta precisión.",
+        "icono": "ShieldCheck"
+      },
+      {
+        "titulo": "Blanqueamiento LED",
+        "descripcion": "Aclaramiento profesional en 1 sesión.",
+        "icono": "Zap"
+      },
+      {
+        "titulo": "Diseño de Sonrisa",
+        "descripcion": "Carillas estéticas de alta gama.",
+        "icono": "Smile"
+      },
+      {
+        "titulo": "Odontología Preventiva",
+        "descripcion": "Limpieza profunda ultrasónica y diagnóstico digital.",
+        "icono": "Activity"
+      },
+      {
+        "titulo": "Atención de Urgencias",
+        "descripcion": "Prioridad en turnos en el día para alivio de dolor.",
+        "icono": "Clock"
+      }
+    ],
+    "fotos": [
+      "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlEdKUBtRKBGkJh3aQViV9McYAmWXE5tg-ENOeE54PE6jkq2YbQWcTdCcr0X-X9qSNmMw1lPoMY2SfuXUZSTCzvq30a9Qk1RYEWqYUIXKnS8Cq2M3ajROV3aFO3g4N6tsnFav6DMw=w1600-h1000-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWm9Rdl0ZQZu3T5dkPvAl5j2MNV-EXTYD1TPtZ3Jp1eSTvHDuEtjFQ567Qd2m3cFZBx2E1nQn0EGZcoM1BJtsimjxJGjfdxjsSkt19X2k3D9NvLgqtXUHd9rtbzT_CFcG39y2FKQ=w1600-h1000-k-no"
+    ],
+    "antes_despues": [
+      {
+        "titulo": "Blanqueamiento Dental LED",
+        "tratamiento": "Tratamiento en 1 sesión de 60 min",
+        "antes_url": "/images/blanqueamiento-antes.jpg",
+        "despues_url": "/images/blanqueamiento-despues.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "nombre": "Carolina Rossi",
+        "estrellas": 5,
+        "comentario": "Excelente atención en AD Odontología Integral Dres. Aguerrido/D ‘Carolis. Muy profesionales y atención puntual.",
+        "fecha": "Hace 2 semanas"
+      }
+    ],
+    "maps_url": "https://www.google.com/maps/place/AD+Odontolog%C3%ADa+Integral+Dres.+Aguerrido%2FD+%E2%80%98Carolis/data=!4m7!3m6!1s0x95bcb94ae75a94e3:0xc0ee0cd63e4bfbe8!8m2!3d-34.5511332!4d-58.5585471!16s%2Fg%2F11h3c5brqf!19sChIJ45Ra50q5vJUR6PtLPtYM7sA?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkxNC4wIJJjKgBIAVAD&rclk=1"
+  },
+  {
+    "slug": "consultorio-odontologico-dra-benet",
+    "nombre": "Consultorio Odontológico - Dra. Benet",
+    "subtitulo": "Consultorio Odontológico en Villa Ballester & Estética 3D",
+    "telefono": "011 3845-0893",
+    "whatsapp": "5491138450893",
+    "instagram": "consultorio_odontologico_dra_benet_odontologia",
+    "direccion": "Int. Witcomb, Villa Ballester",
+    "ciudad": "Buenos Aires",
+    "rating": 5.0,
+    "reviews_count": 21,
+    "horarios": "Lun a Vie: 09:00 - 19:30 hs",
+    "especialidades": [
+      {
+        "titulo": "Alineadores Invisibles",
+        "descripcion": "Ortodoncia estética 3D sin brackets.",
+        "icono": "Sparkles"
+      },
+      {
+        "titulo": "Implantes Dentales",
+        "descripcion": "Rehabilitación oral fija de alta precisión.",
+        "icono": "ShieldCheck"
+      },
+      {
+        "titulo": "Blanqueamiento LED",
+        "descripcion": "Aclaramiento profesional en 1 sesión.",
+        "icono": "Zap"
+      },
+      {
+        "titulo": "Diseño de Sonrisa",
+        "descripcion": "Carillas estéticas de alta gama.",
+        "icono": "Smile"
+      },
+      {
+        "titulo": "Odontología Preventiva",
+        "descripcion": "Limpieza profunda ultrasónica y diagnóstico digital.",
+        "icono": "Activity"
+      },
+      {
+        "titulo": "Atención de Urgencias",
+        "descripcion": "Prioridad en turnos en el día para alivio de dolor.",
+        "icono": "Clock"
+      }
+    ],
+    "fotos": [
+      "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnWo4XCWlXKSnFNuYdzjuUxhj4BFP-fBLDDLe-zYbsrwG-Zt3nkOXr91D_4rPq69Ypzu-PcdBQLNJrxQnCajlv-SFc4mMiO5OnLQBZWvFGsT1LjMxbXRY9MwrDVP2KWFEksTOQ6=w1600-h1000-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWk4J7aw_MlCOGfm4ssPP54aXFDObrZ4xt3pZHRbxPeqcBJMYGvzB7wM0JeXQ0xMk561cnGkbsjSdiwHa-e9cnrCEQmNBuVYqFS-tDDrQOaj1N1397Q3ZtXxRmoHtv0ex09RYg9z6Q=w1600-h1000-k-no"
+    ],
+    "antes_despues": [
+      {
+        "titulo": "Blanqueamiento Dental LED",
+        "tratamiento": "Tratamiento en 1 sesión de 60 min",
+        "antes_url": "/images/blanqueamiento-antes.jpg",
+        "despues_url": "/images/blanqueamiento-despues.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "nombre": "Carolina Rossi",
+        "estrellas": 5,
+        "comentario": "Excelente atención en Consultorio Odontológico - Dra. Benet. Muy profesionales y atención puntual.",
+        "fecha": "Hace 2 semanas"
+      }
+    ],
+    "maps_url": "https://www.google.com/maps/place/Consultorio+Odontol%C3%B3gico+-+Dra.+Benet/data=!4m7!3m6!1s0x95bcb7c85353842f:0x926e1c5da9406826!8m2!3d-34.5499136!4d-58.5493094!16s%2Fg%2F11tg4832jz!19sChIJL4RTU8i3vJURJmhAqV0cbpI?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkxNC4wIJJjKgBIAVAD&rclk=1"
+  },
+  {
+    "slug": "odontologia-norte",
+    "nombre": "ODONTOLOGIA NORTE",
+    "subtitulo": "Consultorio Odontológico en Villa Ballester & Estética 3D",
+    "telefono": "011 4892-3868",
+    "whatsapp": "5491148923868",
+    "instagram": "odontologia_norte_odontologia",
+    "direccion": "ASA, Pacífico Rodríguez, Villa Ballester",
+    "ciudad": "Buenos Aires",
+    "rating": 4.9,
+    "reviews_count": 190,
+    "horarios": "Lun a Vie: 09:00 - 19:30 hs",
+    "especialidades": [
+      {
+        "titulo": "Alineadores Invisibles",
+        "descripcion": "Ortodoncia estética 3D sin brackets.",
+        "icono": "Sparkles"
+      },
+      {
+        "titulo": "Implantes Dentales",
+        "descripcion": "Rehabilitación oral fija de alta precisión.",
+        "icono": "ShieldCheck"
+      },
+      {
+        "titulo": "Blanqueamiento LED",
+        "descripcion": "Aclaramiento profesional en 1 sesión.",
+        "icono": "Zap"
+      },
+      {
+        "titulo": "Diseño de Sonrisa",
+        "descripcion": "Carillas estéticas de alta gama.",
+        "icono": "Smile"
+      },
+      {
+        "titulo": "Odontología Preventiva",
+        "descripcion": "Limpieza profunda ultrasónica y diagnóstico digital.",
+        "icono": "Activity"
+      },
+      {
+        "titulo": "Atención de Urgencias",
+        "descripcion": "Prioridad en turnos en el día para alivio de dolor.",
+        "icono": "Clock"
+      }
+    ],
+    "fotos": [
+      "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkVMsroh9l3-5UFejOJ9lvFbryDrYZkIZf8NSOARiHGaf0OU5J2K6YSu3KFDcHLDdm4_yX2znc-hL28O3bYpkmgWSH_Xs0xmOSFEWMXusQmq4cwjmUWVqR_fRpPwECqiBrduEo=w1600-h1000-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWk0bc4BJWbixO5PZka_3MBZzl7exEwXIuawlzUOBeqE0r_O2Nd_vauA4BJJV0GitbrR_PUPsdH_b8XE9VJqcPd3e0-1BHITxYvMK9_3Dy_ZiC3F81pPyJNFzBWy8aMC4sBQQO7eLg=w1600-h1000-k-no"
+    ],
+    "antes_despues": [
+      {
+        "titulo": "Blanqueamiento Dental LED",
+        "tratamiento": "Tratamiento en 1 sesión de 60 min",
+        "antes_url": "/images/blanqueamiento-antes.jpg",
+        "despues_url": "/images/blanqueamiento-despues.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "nombre": "Carolina Rossi",
+        "estrellas": 5,
+        "comentario": "Excelente atención en ODONTOLOGIA NORTE. Muy profesionales y atención puntual.",
+        "fecha": "Hace 2 semanas"
+      }
+    ],
+    "maps_url": "https://www.google.com/maps/place/ODONTOLOGIA+NORTE/data=!4m7!3m6!1s0x95bcb7549093eb3f:0xa5e843097e20132d!8m2!3d-34.5473629!4d-58.5568073!16s%2Fg%2F11c3k6bzqt!19sChIJP-uTkFS3vJURLRMgfglD6KU?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkxNC4wIJJjKgBIAVAD&rclk=1"
+  },
+  {
+    "slug": "el-consultorio",
+    "nombre": "El Consultorio",
+    "subtitulo": "Consultorio Odontológico en Villa Ballester & Estética 3D",
+    "telefono": "011 3652-7607",
+    "whatsapp": "5491136527607",
+    "instagram": "el_consultorio_odontologia",
+    "direccion": "Pacífico Rodríguez, Villa Ballester",
+    "ciudad": "Buenos Aires",
+    "rating": 5.0,
+    "reviews_count": 35,
+    "horarios": "Lun a Vie: 09:00 - 19:30 hs",
+    "especialidades": [
+      {
+        "titulo": "Alineadores Invisibles",
+        "descripcion": "Ortodoncia estética 3D sin brackets.",
+        "icono": "Sparkles"
+      },
+      {
+        "titulo": "Implantes Dentales",
+        "descripcion": "Rehabilitación oral fija de alta precisión.",
+        "icono": "ShieldCheck"
+      },
+      {
+        "titulo": "Blanqueamiento LED",
+        "descripcion": "Aclaramiento profesional en 1 sesión.",
+        "icono": "Zap"
+      },
+      {
+        "titulo": "Diseño de Sonrisa",
+        "descripcion": "Carillas estéticas de alta gama.",
+        "icono": "Smile"
+      },
+      {
+        "titulo": "Odontología Preventiva",
+        "descripcion": "Limpieza profunda ultrasónica y diagnóstico digital.",
+        "icono": "Activity"
+      },
+      {
+        "titulo": "Atención de Urgencias",
+        "descripcion": "Prioridad en turnos en el día para alivio de dolor.",
+        "icono": "Clock"
+      }
+    ],
+    "fotos": [
+      "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnj97LGJexURTCJbX8tbb0MYhFI2dgEUoQ_7cmg_kQPbyurBAr1uqlMleJVHxu0rRZntneDD7e2RovC0U7TrE6n1jxdUNuENiDcHzbxPLEcxwC9OYnguHlUYLiQLqDE5V380BU=w1600-h1000-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlq3Rp1CXeS3ViQnpn6pWvqM53yxRWOg3RXivqM20dwAKOLGHgsHXn3aYaMj6HsehXh3MIqYFYpeyFJDLong6arl43VdZ5AHxWDlRdcwQLNkYEhCYt-8Z2vmFJmZmWdyq1vtN6y=w1600-h1000-k-no"
+    ],
+    "antes_despues": [
+      {
+        "titulo": "Blanqueamiento Dental LED",
+        "tratamiento": "Tratamiento en 1 sesión de 60 min",
+        "antes_url": "/images/blanqueamiento-antes.jpg",
+        "despues_url": "/images/blanqueamiento-despues.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "nombre": "Carolina Rossi",
+        "estrellas": 5,
+        "comentario": "Excelente atención en El Consultorio. Muy profesionales y atención puntual.",
+        "fecha": "Hace 2 semanas"
+      }
+    ],
+    "maps_url": "https://www.google.com/maps/place/El+Consultorio/data=!4m7!3m6!1s0x95bcbbe2dcc63a35:0x8e9a853b3c07349b!8m2!3d-34.5467493!4d-58.5578666!16s%2Fg%2F11r_bz3wmm!19sChIJNTrG3OK7vJURmzQHPDuFmo4?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkxNC4wIJJjKgBIAVAD&rclk=1"
+  },
+  {
+    "slug": "consultorio-odontologico-patricia-b-surdo",
+    "nombre": "Consultorio Odontológico Patricia B Surdo",
+    "subtitulo": "Consultorio Odontológico en Villa Ballester & Estética 3D",
+    "telefono": "011 3336-8284",
+    "whatsapp": "5491133368284",
+    "instagram": "consultorio_odontologico_patricia_b_surdo_odontologia",
+    "direccion": "Pacífico Rodríguez, Villa Ballester",
+    "ciudad": "Buenos Aires",
+    "rating": 4.6,
+    "reviews_count": 74,
+    "horarios": "Lun a Vie: 09:00 - 19:30 hs",
+    "especialidades": [
+      {
+        "titulo": "Alineadores Invisibles",
+        "descripcion": "Ortodoncia estética 3D sin brackets.",
+        "icono": "Sparkles"
+      },
+      {
+        "titulo": "Implantes Dentales",
+        "descripcion": "Rehabilitación oral fija de alta precisión.",
+        "icono": "ShieldCheck"
+      },
+      {
+        "titulo": "Blanqueamiento LED",
+        "descripcion": "Aclaramiento profesional en 1 sesión.",
+        "icono": "Zap"
+      },
+      {
+        "titulo": "Diseño de Sonrisa",
+        "descripcion": "Carillas estéticas de alta gama.",
+        "icono": "Smile"
+      },
+      {
+        "titulo": "Odontología Preventiva",
+        "descripcion": "Limpieza profunda ultrasónica y diagnóstico digital.",
+        "icono": "Activity"
+      },
+      {
+        "titulo": "Atención de Urgencias",
+        "descripcion": "Prioridad en turnos en el día para alivio de dolor.",
+        "icono": "Clock"
+      }
+    ],
+    "fotos": [
+      "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlaAgRD83CNWOkywNgyIiYSI7lJMsfGfUKEU_uO3apx9O4lTXO6-bSaLj3E-MMJSQFPgqkn1gVJYiRg5l9DLAIbTLUWiwxflz0J950nPMTnagRFqHAj1-FpkInP9jJS_urMXJdL8Q=w1600-h1000-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWn3GYy3IaGvNVzWlD61P9pm0Opy08yOKc30kVaQfTy8uRPE7Z2VpUBbH5JgohKys4-Zq6DpwTeeOskPMHC4UYAqJnTSeBUt47vKyY0281lDgCP_1UT4m3BdS1JxD0wX_q2R9rWF=w1600-h1000-k-no"
+    ],
+    "antes_despues": [
+      {
+        "titulo": "Blanqueamiento Dental LED",
+        "tratamiento": "Tratamiento en 1 sesión de 60 min",
+        "antes_url": "/images/blanqueamiento-antes.jpg",
+        "despues_url": "/images/blanqueamiento-despues.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "nombre": "Carolina Rossi",
+        "estrellas": 5,
+        "comentario": "Excelente atención en Consultorio Odontológico Patricia B Surdo. Muy profesionales y atención puntual.",
+        "fecha": "Hace 2 semanas"
+      }
+    ],
+    "maps_url": "https://www.google.com/maps/place/Consultorio+Odontol%C3%B3gico+Patricia+B+Surdo/data=!4m7!3m6!1s0x95bcb755945b4cf3:0x388c9362a39a750c!8m2!3d-34.550482!4d-58.5533191!16s%2Fg%2F11cjkmn90b!19sChIJ80xblFW3vJURDHWao2KTjDg?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkxNC4wIJJjKgBIAVAD&rclk=1"
+  },
+  {
+    "slug": "guardia-urgencia-odontologica-24-hs-villa-ballester",
+    "nombre": "Guardia/ urgencia odontologica 24 hs villa ballester",
+    "subtitulo": "Consultorio Odontológico en Villa Ballester & Estética 3D",
+    "telefono": "011 7852-0476",
+    "whatsapp": "5491178520476",
+    "instagram": "guardia_urgencia_odontologica_24_hs_villa_ballester_odontologia",
+    "direccion": "Alvear, Villa Ballester",
+    "ciudad": "Buenos Aires",
+    "rating": 4.7,
+    "reviews_count": 12,
+    "horarios": "Lun a Vie: 09:00 - 19:30 hs",
+    "especialidades": [
+      {
+        "titulo": "Alineadores Invisibles",
+        "descripcion": "Ortodoncia estética 3D sin brackets.",
+        "icono": "Sparkles"
+      },
+      {
+        "titulo": "Implantes Dentales",
+        "descripcion": "Rehabilitación oral fija de alta precisión.",
+        "icono": "ShieldCheck"
+      },
+      {
+        "titulo": "Blanqueamiento LED",
+        "descripcion": "Aclaramiento profesional en 1 sesión.",
+        "icono": "Zap"
+      },
+      {
+        "titulo": "Diseño de Sonrisa",
+        "descripcion": "Carillas estéticas de alta gama.",
+        "icono": "Smile"
+      },
+      {
+        "titulo": "Odontología Preventiva",
+        "descripcion": "Limpieza profunda ultrasónica y diagnóstico digital.",
+        "icono": "Activity"
+      },
+      {
+        "titulo": "Atención de Urgencias",
+        "descripcion": "Prioridad en turnos en el día para alivio de dolor.",
+        "icono": "Clock"
+      }
+    ],
+    "fotos": [
+      "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnlJ8Ten89Nrl6IxWOyqf09pwQ4GZhGpGWfmcr1Y6p2-P2gLf6wG4vtI3_XvV8M57zmPXZJ2SCalS4-2uLkxQglj6DarWsUi4r0xpYUspUIyXKzr4Muq3LgQqqmkeJqDAocKMqdmB3QaEKD=w1600-h1000-k-no"
+    ],
+    "antes_despues": [
+      {
+        "titulo": "Blanqueamiento Dental LED",
+        "tratamiento": "Tratamiento en 1 sesión de 60 min",
+        "antes_url": "/images/blanqueamiento-antes.jpg",
+        "despues_url": "/images/blanqueamiento-despues.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "nombre": "Carolina Rossi",
+        "estrellas": 5,
+        "comentario": "Excelente atención en Guardia/ urgencia odontologica 24 hs villa ballester. Muy profesionales y atención puntual.",
+        "fecha": "Hace 2 semanas"
+      }
+    ],
+    "maps_url": "https://www.google.com/maps/place/Guardia%2F+urgencia+odontologica+24+hs+villa+ballester/data=!4m7!3m6!1s0x95bcc785d5c1c9d1:0x76f1be348565b499!8m2!3d-34.5470502!4d-58.5512573!16s%2Fg%2F11n9p7lzpj!19sChIJ0cnB1YXHvJURmbRlhTS-8XY?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkxNC4wIJJjKgBIAVAD&rclk=1"
+  },
+  {
+    "slug": "odontologia-maria-laura-lopez-carbonel",
+    "nombre": "Odontología María Laura López Carbonel",
+    "subtitulo": "Consultorio Odontológico en Villa Ballester & Estética 3D",
+    "telefono": "011 15-6163-9842",
+    "whatsapp": "5491161639842",
+    "instagram": "odontologia_maria_laura_lopez_carbonel_odontologia",
+    "direccion": "San Lorenzo, Villa Ballester",
+    "ciudad": "Buenos Aires",
+    "rating": 4.9,
+    "reviews_count": 19,
+    "horarios": "Lun a Vie: 09:00 - 19:30 hs",
+    "especialidades": [
+      {
+        "titulo": "Alineadores Invisibles",
+        "descripcion": "Ortodoncia estética 3D sin brackets.",
+        "icono": "Sparkles"
+      },
+      {
+        "titulo": "Implantes Dentales",
+        "descripcion": "Rehabilitación oral fija de alta precisión.",
+        "icono": "ShieldCheck"
+      },
+      {
+        "titulo": "Blanqueamiento LED",
+        "descripcion": "Aclaramiento profesional en 1 sesión.",
+        "icono": "Zap"
+      },
+      {
+        "titulo": "Diseño de Sonrisa",
+        "descripcion": "Carillas estéticas de alta gama.",
+        "icono": "Smile"
+      },
+      {
+        "titulo": "Odontología Preventiva",
+        "descripcion": "Limpieza profunda ultrasónica y diagnóstico digital.",
+        "icono": "Activity"
+      },
+      {
+        "titulo": "Atención de Urgencias",
+        "descripcion": "Prioridad en turnos en el día para alivio de dolor.",
+        "icono": "Clock"
+      }
+    ],
+    "fotos": [
+      "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkFlvSAJy2_EuqJR5LqpHUXoiGUgUQfNJxRoIqaapFiNAt2nq_xnfIeMuw3Ev9eheA1SAPlPY8BtfseGhAcWGs6y0WghuSQvA1b0k7nzsgQ3S_23VGlIwHEbuLn5RQskoe7rcV45S3Tsf96=w1600-h1000-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnpNQ2OprHEFXBjDOsgd8-suXTzecJwATekBIjgrmiTAjSKGhtJWYzHv7-D4zv-H7KD5GYVnztvLsSqirbsMum0GSMpT3HjqJWdKkt7_hRsIO5shFpLoLiwjHnIVsAJ_y8VRZv9GBmDcMpN=w1600-h1000-k-no"
+    ],
+    "antes_despues": [
+      {
+        "titulo": "Blanqueamiento Dental LED",
+        "tratamiento": "Tratamiento en 1 sesión de 60 min",
+        "antes_url": "/images/blanqueamiento-antes.jpg",
+        "despues_url": "/images/blanqueamiento-despues.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "nombre": "Carolina Rossi",
+        "estrellas": 5,
+        "comentario": "Excelente atención en Odontología María Laura López Carbonel. Muy profesionales y atención puntual.",
+        "fecha": "Hace 2 semanas"
+      }
+    ],
+    "maps_url": "https://www.google.com/maps/place/Odontolog%C3%ADa+Mar%C3%ADa+Laura+L%C3%B3pez+Carbonel/data=!4m7!3m6!1s0x95bcbb3ac09098cd:0xce5329057e4d707b!8m2!3d-34.5461076!4d-58.5598792!16s%2Fg%2F11pdf96ky1!19sChIJzZiQwDq7vJURe3BNfgUpU84?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkxNC4wIJJjKgBIAVAD&rclk=1"
+  },
+  {
+    "slug": "dr-nicolas-lederer-equipo-especialista-en-implantologia-oral-uba-odontologia-digital",
+    "nombre": "Dr. Nicolas Lederer & equipo.Especialista en implantologia oral UBA. Odontologia digital.",
+    "subtitulo": "Consultorio Odontológico en Villa Ballester & Estética 3D",
+    "telefono": "011 5839-7846",
+    "whatsapp": "5491158397846",
+    "instagram": "dr_nicolas_lederer_equipo_especialista_en_implantologia_oral_uba_odontologia_digital_odontologia",
+    "direccion": "Bv. Ballester, Villa Ballester",
+    "ciudad": "Buenos Aires",
+    "rating": 4.9,
+    "reviews_count": 60,
+    "horarios": "Lun a Vie: 09:00 - 19:30 hs",
+    "especialidades": [
+      {
+        "titulo": "Alineadores Invisibles",
+        "descripcion": "Ortodoncia estética 3D sin brackets.",
+        "icono": "Sparkles"
+      },
+      {
+        "titulo": "Implantes Dentales",
+        "descripcion": "Rehabilitación oral fija de alta precisión.",
+        "icono": "ShieldCheck"
+      },
+      {
+        "titulo": "Blanqueamiento LED",
+        "descripcion": "Aclaramiento profesional en 1 sesión.",
+        "icono": "Zap"
+      },
+      {
+        "titulo": "Diseño de Sonrisa",
+        "descripcion": "Carillas estéticas de alta gama.",
+        "icono": "Smile"
+      },
+      {
+        "titulo": "Odontología Preventiva",
+        "descripcion": "Limpieza profunda ultrasónica y diagnóstico digital.",
+        "icono": "Activity"
+      },
+      {
+        "titulo": "Atención de Urgencias",
+        "descripcion": "Prioridad en turnos en el día para alivio de dolor.",
+        "icono": "Clock"
+      }
+    ],
+    "fotos": [
+      "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkgiL-VSz7tMrVU1XaEIYWlDTsRO77IoWrGgGB-S3-lzjmdPoDSVUxfZ6rr39Myr38Xnolze9vjYFAn2-DD15uPbvoCC3W_GuUW_xhjb_lo2j9e4xmjQpQikyXUPE2OoekytSawSg=w1600-h1000-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkIkpuBpNwWntu5v7ZAlpWyHN1qiRzTA6hpsGjN9uFiTXFwqnVq9pFbV6eA8NNwacHpTadq2Ky54jIqrSgw5YeljKpGBMY_lGeTlaqL9HDluVNHSdVqityPeZ3CWDnglpYvWSU=w1600-h1000-k-no"
+    ],
+    "antes_despues": [
+      {
+        "titulo": "Blanqueamiento Dental LED",
+        "tratamiento": "Tratamiento en 1 sesión de 60 min",
+        "antes_url": "/images/blanqueamiento-antes.jpg",
+        "despues_url": "/images/blanqueamiento-despues.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "nombre": "Carolina Rossi",
+        "estrellas": 5,
+        "comentario": "Excelente atención en Dr. Nicolas Lederer & equipo.Especialista en implantologia oral UBA. Odontologia digital.. Muy profesionales y atención puntual.",
+        "fecha": "Hace 2 semanas"
+      }
+    ],
+    "maps_url": "https://www.google.com/maps/place/Dr.+Nicolas+Lederer+%26+equipo.Especialista+en+implantologia+oral+UBA.+Odontologia+digital./data=!4m7!3m6!1s0x95bcba05cd8d10c5:0xd593cf900c8ab791!8m2!3d-34.5414094!4d-58.560825!16s%2Fg%2F11f5k1ttp1!19sChIJxRCNzQW6vJURkbeKDJDPk9U?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkxNC4wIJJjKgBIAVAD&rclk=1"
+  },
+  {
+    "slug": "consultorio-odontologico-dra-liliana-bartoli-de-godnic",
+    "nombre": "CONSULTORIO ODONTOLOGICO Dra. Liliana Bartoli de Godnic",
+    "subtitulo": "Consultorio Odontológico en Villa Ballester & Estética 3D",
+    "telefono": "011 4847-9102",
+    "whatsapp": "5491148479102",
+    "instagram": "consultorio_odontologico_dra_liliana_bartoli_de_godnic_odontologia",
+    "direccion": "Córdoba , Gran, Villa Ballester",
+    "ciudad": "Buenos Aires",
+    "rating": 5.0,
+    "reviews_count": 3,
+    "horarios": "Lun a Vie: 09:00 - 19:30 hs",
+    "especialidades": [
+      {
+        "titulo": "Alineadores Invisibles",
+        "descripcion": "Ortodoncia estética 3D sin brackets.",
+        "icono": "Sparkles"
+      },
+      {
+        "titulo": "Implantes Dentales",
+        "descripcion": "Rehabilitación oral fija de alta precisión.",
+        "icono": "ShieldCheck"
+      },
+      {
+        "titulo": "Blanqueamiento LED",
+        "descripcion": "Aclaramiento profesional en 1 sesión.",
+        "icono": "Zap"
+      },
+      {
+        "titulo": "Diseño de Sonrisa",
+        "descripcion": "Carillas estéticas de alta gama.",
+        "icono": "Smile"
+      },
+      {
+        "titulo": "Odontología Preventiva",
+        "descripcion": "Limpieza profunda ultrasónica y diagnóstico digital.",
+        "icono": "Activity"
+      },
+      {
+        "titulo": "Atención de Urgencias",
+        "descripcion": "Prioridad en turnos en el día para alivio de dolor.",
+        "icono": "Clock"
+      }
+    ],
+    "fotos": [
+      "https://lh3.googleusercontent.com/gps-proxy/ALd4DhFlPGyu2oI4KUqKBD90WkAFb6Ni3om2Cu9nyTls95xirClYHs-3ePmmAjX3ILiAA2vsJv9LtKpXWKUErpdX7UBP6HEo3uaNRXoj4lb6irYsMFbPPpWbh85I12uP-98CXkifvPDKoJW2x6gkX6sHC0jY0bl7H5P9sxpaTESkyKCe2GGUUAJKKpm5yHnaDsTbFqkW7uk=w1600-h1000-k-no"
+    ],
+    "antes_despues": [
+      {
+        "titulo": "Blanqueamiento Dental LED",
+        "tratamiento": "Tratamiento en 1 sesión de 60 min",
+        "antes_url": "/images/blanqueamiento-antes.jpg",
+        "despues_url": "/images/blanqueamiento-despues.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "nombre": "Carolina Rossi",
+        "estrellas": 5,
+        "comentario": "Excelente atención en CONSULTORIO ODONTOLOGICO Dra. Liliana Bartoli de Godnic. Muy profesionales y atención puntual.",
+        "fecha": "Hace 2 semanas"
+      }
+    ],
+    "maps_url": "https://www.google.com/maps/place/CONSULTORIO+ODONTOLOGICO+Dra.+Liliana+Bartoli+de+Godnic/data=!4m7!3m6!1s0x95bcb756862a97c3:0xcecaf1ab11cbe4d9!8m2!3d-34.5519476!4d-58.551408!16s%2Fg%2F11b6_nzhkp!19sChIJw5cqhla3vJUR2eTLEavxys4?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkxNC4wIJJjKgBIAVAD&rclk=1"
+  },
+  {
+    "slug": "odontologia-alem",
+    "nombre": "Odontologia Alem",
+    "subtitulo": "Consultorio Odontológico en Villa Ballester & Estética 3D",
+    "telefono": "011 3877-5268",
+    "whatsapp": "5491138775268",
+    "instagram": "odontologia_alem_odontologia",
+    "direccion": "Dr. Pedro Honaine , Villa San Andrés, Villa Ballester",
+    "ciudad": "Buenos Aires",
+    "rating": 4.9,
+    "reviews_count": 10,
+    "horarios": "Lun a Vie: 09:00 - 19:30 hs",
+    "especialidades": [
+      {
+        "titulo": "Alineadores Invisibles",
+        "descripcion": "Ortodoncia estética 3D sin brackets.",
+        "icono": "Sparkles"
+      },
+      {
+        "titulo": "Implantes Dentales",
+        "descripcion": "Rehabilitación oral fija de alta precisión.",
+        "icono": "ShieldCheck"
+      },
+      {
+        "titulo": "Blanqueamiento LED",
+        "descripcion": "Aclaramiento profesional en 1 sesión.",
+        "icono": "Zap"
+      },
+      {
+        "titulo": "Diseño de Sonrisa",
+        "descripcion": "Carillas estéticas de alta gama.",
+        "icono": "Smile"
+      },
+      {
+        "titulo": "Odontología Preventiva",
+        "descripcion": "Limpieza profunda ultrasónica y diagnóstico digital.",
+        "icono": "Activity"
+      },
+      {
+        "titulo": "Atención de Urgencias",
+        "descripcion": "Prioridad en turnos en el día para alivio de dolor.",
+        "icono": "Clock"
+      }
+    ],
+    "fotos": [
+      "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnFFFljB_A5XyhLagoIJRcmTU0EKXeDKo99S62AGq1zGN0bNQel3gYalqrSmiwI0IDxf0HWKs4GFGNbVZwvOoe1-PzhPHgpAHT10JSIrH_DJvCF90hb18hzhOVnK9pOSWrxQhk=w1600-h1000-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnraZlWJ08bs-7OJnMTiudVKjBHlyFv8n_FmAOtvNiPaG4b-3qUUyWWx6A3wsPSALTQhwTFKFNGJa8lenMm9FBZMmbAxqK9Abmkv2rxAU_d_-76kXCmT2ZpmF39SMtUYs8Tns9V=w1600-h1000-k-no"
+    ],
+    "antes_despues": [
+      {
+        "titulo": "Blanqueamiento Dental LED",
+        "tratamiento": "Tratamiento en 1 sesión de 60 min",
+        "antes_url": "/images/blanqueamiento-antes.jpg",
+        "despues_url": "/images/blanqueamiento-despues.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "nombre": "Carolina Rossi",
+        "estrellas": 5,
+        "comentario": "Excelente atención en Odontologia Alem. Muy profesionales y atención puntual.",
+        "fecha": "Hace 2 semanas"
+      }
+    ],
+    "maps_url": "https://www.google.com/maps/place/Odontologia+Alem/data=!4m7!3m6!1s0x95bcb7253801b9b7:0x629c22b3a2a55832!8m2!3d-34.5648116!4d-58.5489627!16s%2Fg%2F11s5tyxw9f!19sChIJt7kBOCW3vJURMlilorMinGI?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkxNC4wIJJjKgBIAVAD&rclk=1"
+  },
+  {
+    "slug": "consultorio-odontologico-horacio-hernandez",
+    "nombre": "Consultorio Odontologico Horacio Hernandez",
+    "subtitulo": "Consultorio Odontológico en Villa Ballester & Estética 3D",
+    "telefono": "011 4768-2912",
+    "whatsapp": "5491147682912",
+    "instagram": "consultorio_odontologico_horacio_hernandez_odontologia",
+    "direccion": "Pueyrredón, Villa Ballester",
+    "ciudad": "Buenos Aires",
+    "rating": 5.0,
+    "reviews_count": 2,
+    "horarios": "Lun a Vie: 09:00 - 19:30 hs",
+    "especialidades": [
+      {
+        "titulo": "Alineadores Invisibles",
+        "descripcion": "Ortodoncia estética 3D sin brackets.",
+        "icono": "Sparkles"
+      },
+      {
+        "titulo": "Implantes Dentales",
+        "descripcion": "Rehabilitación oral fija de alta precisión.",
+        "icono": "ShieldCheck"
+      },
+      {
+        "titulo": "Blanqueamiento LED",
+        "descripcion": "Aclaramiento profesional en 1 sesión.",
+        "icono": "Zap"
+      },
+      {
+        "titulo": "Diseño de Sonrisa",
+        "descripcion": "Carillas estéticas de alta gama.",
+        "icono": "Smile"
+      },
+      {
+        "titulo": "Odontología Preventiva",
+        "descripcion": "Limpieza profunda ultrasónica y diagnóstico digital.",
+        "icono": "Activity"
+      },
+      {
+        "titulo": "Atención de Urgencias",
+        "descripcion": "Prioridad en turnos en el día para alivio de dolor.",
+        "icono": "Clock"
+      }
+    ],
+    "fotos": [
+      "https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=1600&q=80",
+      "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=1600&q=80"
+    ],
+    "antes_despues": [
+      {
+        "titulo": "Blanqueamiento Dental LED",
+        "tratamiento": "Tratamiento en 1 sesión de 60 min",
+        "antes_url": "/images/blanqueamiento-antes.jpg",
+        "despues_url": "/images/blanqueamiento-despues.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "nombre": "Carolina Rossi",
+        "estrellas": 5,
+        "comentario": "Excelente atención en Consultorio Odontologico Horacio Hernandez. Muy profesionales y atención puntual.",
+        "fecha": "Hace 2 semanas"
+      }
+    ],
+    "maps_url": "https://www.google.com/maps/place/Consultorio+Odontologico+Horacio+Hernandez/data=!4m7!3m6!1s0x95bcb7549c5c4231:0xe31565434dda9693!8m2!3d-34.5474719!4d-58.5487843!16s%2Fg%2F11dz27hz__!19sChIJMUJcnFS3vJURk5baTUNlFeM?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkxNC4wIJJjKgBIAVAD&rclk=1"
+  },
+  {
+    "slug": "dr-fernando-petrelli-odontologia",
+    "nombre": "Dr. Fernando Petrelli Odontología",
+    "subtitulo": "Consultorio Odontológico en Villa Ballester & Estética 3D",
+    "telefono": "011 2681-1135",
+    "whatsapp": "5491126811135",
+    "instagram": "dr_fernando_petrelli_odontologia_odontologia",
+    "direccion": "San Juan, Villa Ballester",
+    "ciudad": "Buenos Aires",
+    "rating": 4.6,
+    "reviews_count": 17,
+    "horarios": "Lun a Vie: 09:00 - 19:30 hs",
+    "especialidades": [
+      {
+        "titulo": "Alineadores Invisibles",
+        "descripcion": "Ortodoncia estética 3D sin brackets.",
+        "icono": "Sparkles"
+      },
+      {
+        "titulo": "Implantes Dentales",
+        "descripcion": "Rehabilitación oral fija de alta precisión.",
+        "icono": "ShieldCheck"
+      },
+      {
+        "titulo": "Blanqueamiento LED",
+        "descripcion": "Aclaramiento profesional en 1 sesión.",
+        "icono": "Zap"
+      },
+      {
+        "titulo": "Diseño de Sonrisa",
+        "descripcion": "Carillas estéticas de alta gama.",
+        "icono": "Smile"
+      },
+      {
+        "titulo": "Odontología Preventiva",
+        "descripcion": "Limpieza profunda ultrasónica y diagnóstico digital.",
+        "icono": "Activity"
+      },
+      {
+        "titulo": "Atención de Urgencias",
+        "descripcion": "Prioridad en turnos en el día para alivio de dolor.",
+        "icono": "Clock"
+      }
+    ],
+    "fotos": [
+      "https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=1600&q=80",
+      "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=1600&q=80"
+    ],
+    "antes_despues": [
+      {
+        "titulo": "Blanqueamiento Dental LED",
+        "tratamiento": "Tratamiento en 1 sesión de 60 min",
+        "antes_url": "/images/blanqueamiento-antes.jpg",
+        "despues_url": "/images/blanqueamiento-despues.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "nombre": "Carolina Rossi",
+        "estrellas": 5,
+        "comentario": "Excelente atención en Dr. Fernando Petrelli Odontología. Muy profesionales y atención puntual.",
+        "fecha": "Hace 2 semanas"
+      }
+    ],
+    "maps_url": "https://www.google.com/maps/place/Dr.+Fernando+Petrelli+Odontolog%C3%ADa/data=!4m7!3m6!1s0x95bcb75005959089:0x2ffaa7332c64d56a!8m2!3d-34.5537832!4d-58.5436557!16s%2Fg%2F11f4w3wc69!19sChIJiZCVBVC3vJURatVkLDOn-i8?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkxNC4wIJJjKgBIAVAD&rclk=1"
+  },
+  {
+    "slug": "dr-kawka-ernesto",
+    "nombre": "Dr. Kawka, Ernesto",
+    "subtitulo": "Consultorio Odontológico en Villa Ballester & Estética 3D",
+    "telefono": "011 4768-9744",
+    "whatsapp": "5491147689744",
+    "instagram": "dr_kawka_ernesto_odontologia",
+    "direccion": "Independencia Consultorio 5° B, Gran, Villa Ballester",
+    "ciudad": "Buenos Aires",
+    "rating": 5.0,
+    "reviews_count": 1,
+    "horarios": "Lun a Vie: 09:00 - 19:30 hs",
+    "especialidades": [
+      {
+        "titulo": "Alineadores Invisibles",
+        "descripcion": "Ortodoncia estética 3D sin brackets.",
+        "icono": "Sparkles"
+      },
+      {
+        "titulo": "Implantes Dentales",
+        "descripcion": "Rehabilitación oral fija de alta precisión.",
+        "icono": "ShieldCheck"
+      },
+      {
+        "titulo": "Blanqueamiento LED",
+        "descripcion": "Aclaramiento profesional en 1 sesión.",
+        "icono": "Zap"
+      },
+      {
+        "titulo": "Diseño de Sonrisa",
+        "descripcion": "Carillas estéticas de alta gama.",
+        "icono": "Smile"
+      },
+      {
+        "titulo": "Odontología Preventiva",
+        "descripcion": "Limpieza profunda ultrasónica y diagnóstico digital.",
+        "icono": "Activity"
+      },
+      {
+        "titulo": "Atención de Urgencias",
+        "descripcion": "Prioridad en turnos en el día para alivio de dolor.",
+        "icono": "Clock"
+      }
+    ],
+    "fotos": [
+      "https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=1600&q=80",
+      "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=1600&q=80"
+    ],
+    "antes_despues": [
+      {
+        "titulo": "Blanqueamiento Dental LED",
+        "tratamiento": "Tratamiento en 1 sesión de 60 min",
+        "antes_url": "/images/blanqueamiento-antes.jpg",
+        "despues_url": "/images/blanqueamiento-despues.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "nombre": "Carolina Rossi",
+        "estrellas": 5,
+        "comentario": "Excelente atención en Dr. Kawka, Ernesto. Muy profesionales y atención puntual.",
+        "fecha": "Hace 2 semanas"
+      }
+    ],
+    "maps_url": "https://www.google.com/maps/place/Dr.+Kawka,+Ernesto/data=!4m7!3m6!1s0x95bcb755f5a016c1:0x84752a6a7f1d765d!8m2!3d-34.5511275!4d-58.5542772!16s%2Fg%2F11b6_t8pvw!19sChIJwRag9VW3vJURXXYdf2oqdYQ?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkxNC4wIJJjKgBIAVAD&rclk=1"
+  },
+  {
+    "slug": "consultorio-odontologico-dr-deluca",
+    "nombre": "Consultorio Odontologico Dr. Deluca",
+    "subtitulo": "Consultorio Odontológico en Villa Ballester & Estética 3D",
+    "telefono": "011 4752-4285",
+    "whatsapp": "5491147524285",
+    "instagram": "consultorio_odontologico_dr_deluca_odontologia",
+    "direccion": "C. 67 , Villa Parque San Lorenzo, Villa Ballester",
+    "ciudad": "Buenos Aires",
+    "rating": 4.4,
+    "reviews_count": 31,
+    "horarios": "Lun a Vie: 09:00 - 19:30 hs",
+    "especialidades": [
+      {
+        "titulo": "Alineadores Invisibles",
+        "descripcion": "Ortodoncia estética 3D sin brackets.",
+        "icono": "Sparkles"
+      },
+      {
+        "titulo": "Implantes Dentales",
+        "descripcion": "Rehabilitación oral fija de alta precisión.",
+        "icono": "ShieldCheck"
+      },
+      {
+        "titulo": "Blanqueamiento LED",
+        "descripcion": "Aclaramiento profesional en 1 sesión.",
+        "icono": "Zap"
+      },
+      {
+        "titulo": "Diseño de Sonrisa",
+        "descripcion": "Carillas estéticas de alta gama.",
+        "icono": "Smile"
+      },
+      {
+        "titulo": "Odontología Preventiva",
+        "descripcion": "Limpieza profunda ultrasónica y diagnóstico digital.",
+        "icono": "Activity"
+      },
+      {
+        "titulo": "Atención de Urgencias",
+        "descripcion": "Prioridad en turnos en el día para alivio de dolor.",
+        "icono": "Clock"
+      }
+    ],
+    "fotos": [
+      "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnT0VqbBkcxt4RLf4_wHPEmQ91R8ECzEa3fDsudQMYSBziibW7ro_f6S5RocXpOgrQOmAC20rDnSjvn3DQaWvpD_5BuhhKQMTJNNEJF2TOxBLuCiuKsaQZ4fjd20h43-q3A2Tg4yA=w1600-h1000-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmuM7yijkDCE_K_vHgZc1KeSY2vd6DB9zvCQMl1e1_e9sUk1ID013WFdiollcqBXGGy4YdrmjtaX0-ZEYh4suQZJ52IhNNUUsMpXUPK_7P-lU4uDto0WxwcsyFXpcUNrxPfStWn=w1600-h1000-k-no"
+    ],
+    "antes_despues": [
+      {
+        "titulo": "Blanqueamiento Dental LED",
+        "tratamiento": "Tratamiento en 1 sesión de 60 min",
+        "antes_url": "/images/blanqueamiento-antes.jpg",
+        "despues_url": "/images/blanqueamiento-despues.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "nombre": "Carolina Rossi",
+        "estrellas": 5,
+        "comentario": "Excelente atención en Consultorio Odontologico Dr. Deluca. Muy profesionales y atención puntual.",
+        "fecha": "Hace 2 semanas"
+      }
+    ],
+    "maps_url": "https://www.google.com/maps/place/Consultorio+Odontologico+Dr.+Deluca/data=!4m7!3m6!1s0x95bcb76bec31e04b:0xe8b6f5c6b1eca88d!8m2!3d-34.5663227!4d-58.5361687!16s%2Fg%2F11f2644lg_!19sChIJS-Ax7Gu3vJURjajsscb1tug?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkxNC4wIJJjKgBIAVAD&rclk=1"
+  },
+  {
+    "slug": "centro-odontologico-malaver",
+    "nombre": "Centro Odontológico Malaver",
+    "subtitulo": "Consultorio Odontológico en Villa Ballester & Estética 3D",
+    "telefono": "011 15-4181-2128",
+    "whatsapp": "5491141812128",
+    "instagram": "centro_odontologico_malaver_odontologia",
+    "direccion": "88, Agustín Álvarez , Villa San Andrés, Villa Ballester",
+    "ciudad": "Buenos Aires",
+    "rating": 4.7,
+    "reviews_count": 14,
+    "horarios": "Lun a Vie: 09:00 - 19:30 hs",
+    "especialidades": [
+      {
+        "titulo": "Alineadores Invisibles",
+        "descripcion": "Ortodoncia estética 3D sin brackets.",
+        "icono": "Sparkles"
+      },
+      {
+        "titulo": "Implantes Dentales",
+        "descripcion": "Rehabilitación oral fija de alta precisión.",
+        "icono": "ShieldCheck"
+      },
+      {
+        "titulo": "Blanqueamiento LED",
+        "descripcion": "Aclaramiento profesional en 1 sesión.",
+        "icono": "Zap"
+      },
+      {
+        "titulo": "Diseño de Sonrisa",
+        "descripcion": "Carillas estéticas de alta gama.",
+        "icono": "Smile"
+      },
+      {
+        "titulo": "Odontología Preventiva",
+        "descripcion": "Limpieza profunda ultrasónica y diagnóstico digital.",
+        "icono": "Activity"
+      },
+      {
+        "titulo": "Atención de Urgencias",
+        "descripcion": "Prioridad en turnos en el día para alivio de dolor.",
+        "icono": "Clock"
+      }
+    ],
+    "fotos": [
+      "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWn7mK2NxFWnz_mjwnSGOCUOGYIf3SvU8G83EFuBJRC0WWLUuZmMQNZVOsukD6EM-CEgwLcccGCOTKEux7j02wCZwLz5BGBjnbyQ_h43IavfaI_x4KcIOfZvaadabPbDl4yQ_fWS=w1600-h1000-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnEETIzW2N_Zg8h5qqwewAPk-0PNMNMasgvxXIP6AK0RTLybu3bQfsrGY-t-kEsoDrH6KIJeTCokyWtDAt-IzD9dlTJD1SOBntU33vCUftIdNcA0XwHWoETn0tx0D3LHKWbfrM9USZfts0=w1600-h1000-k-no"
+    ],
+    "antes_despues": [
+      {
+        "titulo": "Blanqueamiento Dental LED",
+        "tratamiento": "Tratamiento en 1 sesión de 60 min",
+        "antes_url": "/images/blanqueamiento-antes.jpg",
+        "despues_url": "/images/blanqueamiento-despues.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "nombre": "Carolina Rossi",
+        "estrellas": 5,
+        "comentario": "Excelente atención en Centro Odontológico Malaver. Muy profesionales y atención puntual.",
+        "fecha": "Hace 2 semanas"
+      }
+    ],
+    "maps_url": "https://www.google.com/maps/place/Centro+Odontol%C3%B3gico+Malaver/data=!4m7!3m6!1s0x95bcb74f824436ad:0xbfe8464eacdea900!8m2!3d-34.552818!4d-58.540306!16s%2Fg%2F1vzqtfjr!19sChIJrTZEgk-3vJURAKnerE5G6L8?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkxNC4wIJJjKgBIAVAD&rclk=1"
+  },
+  {
+    "slug": "ssalud-odontologica-integral-privada",
+    "nombre": "Ssalud Odontologica Integral Privada",
+    "subtitulo": "Consultorio Odontológico en Villa Ballester & Estética 3D",
+    "telefono": "011 4847-2134",
+    "whatsapp": "5491148472134",
+    "instagram": "ssalud_odontologica_integral_privada_odontologia",
+    "direccion": "V L pez, Villa Ballester",
+    "ciudad": "Buenos Aires",
+    "rating": 5.0,
+    "reviews_count": 15,
+    "horarios": "Lun a Vie: 09:00 - 19:30 hs",
+    "especialidades": [
+      {
+        "titulo": "Alineadores Invisibles",
+        "descripcion": "Ortodoncia estética 3D sin brackets.",
+        "icono": "Sparkles"
+      },
+      {
+        "titulo": "Implantes Dentales",
+        "descripcion": "Rehabilitación oral fija de alta precisión.",
+        "icono": "ShieldCheck"
+      },
+      {
+        "titulo": "Blanqueamiento LED",
+        "descripcion": "Aclaramiento profesional en 1 sesión.",
+        "icono": "Zap"
+      },
+      {
+        "titulo": "Diseño de Sonrisa",
+        "descripcion": "Carillas estéticas de alta gama.",
+        "icono": "Smile"
+      },
+      {
+        "titulo": "Odontología Preventiva",
+        "descripcion": "Limpieza profunda ultrasónica y diagnóstico digital.",
+        "icono": "Activity"
+      },
+      {
+        "titulo": "Atención de Urgencias",
+        "descripcion": "Prioridad en turnos en el día para alivio de dolor.",
+        "icono": "Clock"
+      }
+    ],
+    "fotos": [
+      "https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=1600&q=80",
+      "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=1600&q=80"
+    ],
+    "antes_despues": [
+      {
+        "titulo": "Blanqueamiento Dental LED",
+        "tratamiento": "Tratamiento en 1 sesión de 60 min",
+        "antes_url": "/images/blanqueamiento-antes.jpg",
+        "despues_url": "/images/blanqueamiento-despues.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "nombre": "Carolina Rossi",
+        "estrellas": 5,
+        "comentario": "Excelente atención en Ssalud Odontologica Integral Privada. Muy profesionales y atención puntual.",
+        "fecha": "Hace 2 semanas"
+      }
+    ],
+    "maps_url": "https://www.google.com/maps/place/Ssalud+Odontologica+Integral+Privada/data=!4m7!3m6!1s0x95bcb9fc3a22ee49:0xd9a13d5d2df45b3a!8m2!3d-34.5542601!4d-58.5580021!16s%2Fg%2F1q62f6v6_!19sChIJSe4iOvy5vJUROlv0LV09odk?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkxNC4wIJJjKgBIAVAD&rclk=1"
+  },
+  {
+    "slug": "odontologia-mouzo",
+    "nombre": "Odontologia MOUZO",
+    "subtitulo": "Consultorio Odontológico en Villa Ballester & Estética 3D",
+    "telefono": "011 3794-3004",
+    "whatsapp": "5491137943004",
+    "instagram": "odontologia_mouzo_odontologia",
+    "direccion": "Artigas, Villa Ballester",
+    "ciudad": "Buenos Aires",
+    "rating": 4.3,
+    "reviews_count": 97,
+    "horarios": "Lun a Vie: 09:00 - 19:30 hs",
+    "especialidades": [
+      {
+        "titulo": "Alineadores Invisibles",
+        "descripcion": "Ortodoncia estética 3D sin brackets.",
+        "icono": "Sparkles"
+      },
+      {
+        "titulo": "Implantes Dentales",
+        "descripcion": "Rehabilitación oral fija de alta precisión.",
+        "icono": "ShieldCheck"
+      },
+      {
+        "titulo": "Blanqueamiento LED",
+        "descripcion": "Aclaramiento profesional en 1 sesión.",
+        "icono": "Zap"
+      },
+      {
+        "titulo": "Diseño de Sonrisa",
+        "descripcion": "Carillas estéticas de alta gama.",
+        "icono": "Smile"
+      },
+      {
+        "titulo": "Odontología Preventiva",
+        "descripcion": "Limpieza profunda ultrasónica y diagnóstico digital.",
+        "icono": "Activity"
+      },
+      {
+        "titulo": "Atención de Urgencias",
+        "descripcion": "Prioridad en turnos en el día para alivio de dolor.",
+        "icono": "Clock"
+      }
+    ],
+    "fotos": [
+      "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkSfwMSzRJGp2jxxw77sMj-Hsquxx5vGVg7m370n14CO_Qhj4ffpCN81S4SG3lULHWI55holky5dhmxrr_vfwUHzGoOK950TR6npwE09Y01Q_yxOyzk-XCwO8mt5-sRpYfstKg6JS0JrOvk=w1600-h1000-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkoxWlTGmgct0YfUpkU-CJb4ZmvaK10r3J9BOfVxrt89EVUifRWg46HhANbpyxe9GIm-lIo9g7mcGwjI0MaCXPEjXI77P6RPyqwwvvSaSP2XW_WgeSu8lItjubaWPC_EpGXP0Ei=w1600-h1000-k-no"
+    ],
+    "antes_despues": [
+      {
+        "titulo": "Blanqueamiento Dental LED",
+        "tratamiento": "Tratamiento en 1 sesión de 60 min",
+        "antes_url": "/images/blanqueamiento-antes.jpg",
+        "despues_url": "/images/blanqueamiento-despues.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "nombre": "Carolina Rossi",
+        "estrellas": 5,
+        "comentario": "Excelente atención en Odontologia MOUZO. Muy profesionales y atención puntual.",
+        "fecha": "Hace 2 semanas"
+      }
+    ],
+    "maps_url": "https://www.google.com/maps/place/Odontologia+MOUZO/data=!4m7!3m6!1s0x95bcbbc5ac20f5b3:0x755b2005dc6435c7!8m2!3d-34.5422329!4d-58.5713886!16s%2Fg%2F11t4lk7cw7!19sChIJs_UgrMW7vJURxzVk3AUgW3U?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkxNC4wIJJjKgBIAVAD&rclk=1"
   }
 ]
