@@ -5609,5 +5609,74 @@
       }
     ],
     "maps_url": "https://www.google.com/maps/place/Costas+al+R%C3%ADo+-+Odontolog%C3%ADa/data=!4m7!3m6!1s0x95bcb18c2b4540e1:0xb2388602a3ff77c3!8m2!3d-34.5161135!4d-58.4764258!16s%2Fg%2F11k3wt3rvh!19sChIJ4UBFK4yxvJURw3f_owKGOLI?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkxMy4wIJJjKgBIAVAD&rclk=1"
+  },
+  {
+    "slug": "dra-nathaly-martinez",
+    "nombre": "Dra. Nathaly Martinez",
+    "subtitulo": "Consultorio Odontológico de Dra. Nathaly Martinez • Martínez",
+    "telefono": "011 2877-9912",
+    "whatsapp": "5491128779912",
+    "instagram": "dra_nathaly_martinez_odontologia",
+    "direccion": "Cdad. de la Paz 1965, Belgrano, Martínez",
+    "ciudad": "Buenos Aires",
+    "rating": 5.0,
+    "reviews_count": 47,
+    "horarios": "Lun a Vie: 09:00 - 19:30 hs",
+    "especialidades": [
+      {
+        "titulo": "Estética & Blanqueamiento",
+        "descripcion": "Carillas estéticas, blanqueamiento dental y diseño de sonrisa sin dolor.",
+        "icono": "Sparkles"
+      },
+      {
+        "titulo": "Ortodoncia & Alineadores",
+        "descripcion": "Brackets estéticos y sistemas modernos para alinear tus dientes.",
+        "icono": "Smile"
+      },
+      {
+        "titulo": "Implantes & Cirugía",
+        "descripcion": "Rehabilitación oral segura para recuperar piezas perdidas con máxima firmeza.",
+        "icono": "ShieldCheck"
+      },
+      {
+        "titulo": "Odontología General",
+        "descripcion": "Limpiezas ultrasonido, arreglos estéticos, conductos y urgencias en el día.",
+        "icono": "Activity"
+      }
+    ],
+    "fotos": [
+      "https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=1600&q=80",
+      "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=1600&q=80",
+      "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=1600&q=80"
+    ],
+    "antes_despues": [
+      {
+        "titulo": "Blanqueamiento Dental LED",
+        "tratamiento": "Tratamiento en 1 sesión de 60 min",
+        "antes_url": "/images/blanqueamiento-antes.jpg",
+        "despues_url": "/images/blanqueamiento-despues.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "nombre": "Paciente verificado",
+        "estrellas": 5,
+        "comentario": "Excelente atención en Martínez, mucha paciencia y trabajo impecable. Súper recomendable.",
+        "fecha": "Hace 2 semanas"
+      },
+      {
+        "nombre": "Paciente verificado",
+        "estrellas": 5,
+        "comentario": "Instalaciones impecables y mucha amabilidad. Resolvieron mi problema de inmediato.",
+        "fecha": "Hace 1 mes"
+      },
+      {
+        "nombre": "Paciente verificado",
+        "estrellas": 5,
+        "comentario": "Gran profesionalismo y puntualidad. Los elijo siempre.",
+        "fecha": "Hace 1 mes"
+      }
+    ],
+    "maps_url": "https://www.google.com/maps/place/Dra.Nathaly+Martinez+%7C+DentiSalud+Group/data=!4m7!3m6!1s0x95bcb59a121939bd:0x579a94e99325d5ca!8m2!3d-34.5638503!4d-58.4565009!16s%2Fg%2F11zhbdgjj5!19sChIJvTkZEpq1vJURytUlk-mUmlc"
   }
 ]
