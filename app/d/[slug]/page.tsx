@@ -8,6 +8,7 @@ import { Hero } from '@/components/Hero';
 import { Specialties } from '@/components/Specialties';
 import { BeforeAfter } from '@/components/BeforeAfter';
 import { Reviews } from '@/components/Reviews';
+import { BlogPreview } from '@/components/BlogPreview';
 import { LocationMap } from '@/components/LocationMap';
 import { Footer } from '@/components/Footer';
 import { FloatingWhatsApp } from '@/components/FloatingWhatsApp';
@@ -130,6 +131,7 @@ export default async function DentistPage({ params }: PageProps) {
       <Specialties dentist={dentist} />
       <BeforeAfter dentist={dentist} />
       <Reviews dentist={dentist} />
+      <BlogPreview dentist={dentist} />
       <LocationMap dentist={dentist} />
       <Footer dentist={dentist} />
       <FloatingWhatsApp dentist={dentist} />

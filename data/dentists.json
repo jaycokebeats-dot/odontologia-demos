@@ -5612,15 +5612,15 @@
   },
   {
     "slug": "dra-nathaly-martinez",
-    "nombre": "Dra. Nathaly Martinez",
-    "subtitulo": "Consultorio Odontológico de Dra. Nathaly Martinez • Martínez",
+    "nombre": "Dra. Nathaly Martinez | DentiSalud Group",
+    "subtitulo": "Consultorio Odontológico DentiSalud Group • Martínez",
     "telefono": "011 2877-9912",
     "whatsapp": "5491128779912",
     "instagram": "dra_nathaly_martinez_odontologia",
     "direccion": "Cdad. de la Paz 1965, Belgrano, Martínez",
     "ciudad": "Buenos Aires",
     "rating": 5.0,
-    "reviews_count": 47,
+    "reviews_count": 56,
     "horarios": "Lun a Vie: 09:00 - 19:30 hs",
     "especialidades": [
       {
@@ -5637,11 +5637,6 @@
         "titulo": "Implantes & Cirugía",
         "descripcion": "Rehabilitación oral segura para recuperar piezas perdidas con máxima firmeza.",
         "icono": "ShieldCheck"
-      },
-      {
-        "titulo": "Odontología General",
-        "descripcion": "Limpiezas ultrasonido, arreglos estéticos, conductos y urgencias en el día.",
-        "icono": "Activity"
       }
     ],
     "fotos": [
@@ -5659,21 +5654,21 @@
     ],
     "reviews": [
       {
-        "nombre": "Paciente verificado",
+        "nombre": "Esteban Perazzo",
         "estrellas": 5,
-        "comentario": "Excelente atención en Martínez, mucha paciencia y trabajo impecable. Súper recomendable.",
-        "fecha": "Hace 2 semanas"
+        "comentario": "No tengo palabras para describir la felicidad que sentís cuando salís del consultorio de Nataly . Una excelente profesional en todo , la tranquilidad , empatía , el trato humano tanto de ella y sus colaboradoras es único . La recomiendo toda la vida excelente servicio y costo !!",
+        "fecha": "Hace 1 semana"
       },
       {
-        "nombre": "Paciente verificado",
+        "nombre": "Eloradana Villalobos",
         "estrellas": 5,
-        "comentario": "Instalaciones impecables y mucha amabilidad. Resolvieron mi problema de inmediato.",
+        "comentario": "La mejor en lo que hace, tengo aprox 4 años siendo su paciente y sin duda alguna la recomiendo con ojos cerrados 🤩 excelente trabajo. Tiene el mejor equipo de trabajo, son un amor ❤️ La quiero mi doc preferida por siempre ❤️💅",
         "fecha": "Hace 1 mes"
       },
       {
-        "nombre": "Paciente verificado",
+        "nombre": "Oriana Rodriguez",
         "estrellas": 5,
-        "comentario": "Gran profesionalismo y puntualidad. Los elijo siempre.",
+        "comentario": "Excelente Profesional, siempre atendiendo con mucha paciencia a cada uno de los pacientes, trabaja con materiales de primera, y siempre te brinda la mejor solución. Gracias!",
         "fecha": "Hace 1 mes"
       }
     ],
