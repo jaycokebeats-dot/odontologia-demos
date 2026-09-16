@@ -4281,5 +4281,1333 @@
       }
     ],
     "maps_url": "https://www.google.com/maps/place/Odontologia+MOUZO/data=!4m7!3m6!1s0x95bcbbc5ac20f5b3:0x755b2005dc6435c7!8m2!3d-34.5422329!4d-58.5713886!16s%2Fg%2F11t4lk7cw7!19sChIJs_UgrMW7vJURxzVk3AUgW3U?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkxNC4wIJJjKgBIAVAD&rclk=1"
+  },
+  {
+    "slug": "odontologia-dra-veronica-corona",
+    "nombre": "Odontologia Dra. Verónica Corona",
+    "subtitulo": "Consultorio Odontológico en Florida & Estética 3D",
+    "telefono": "011 15-5035-9967",
+    "whatsapp": "5491150359967",
+    "instagram": "odontologia_dra_veronica_corona_odontologia",
+    "direccion": "Avenida Maipu 10º C, Florida",
+    "ciudad": "Buenos Aires",
+    "rating": 4.7,
+    "reviews_count": 15,
+    "horarios": "Lun a Vie: 09:00 - 19:30 hs",
+    "especialidades": [
+      {
+        "titulo": "Alineadores Invisibles",
+        "descripcion": "Ortodoncia estética 3D sin brackets.",
+        "icono": "Sparkles"
+      },
+      {
+        "titulo": "Implantes Dentales",
+        "descripcion": "Rehabilitación oral fija de alta precisión.",
+        "icono": "ShieldCheck"
+      },
+      {
+        "titulo": "Blanqueamiento LED",
+        "descripcion": "Aclaramiento profesional en 1 sesión.",
+        "icono": "Zap"
+      },
+      {
+        "titulo": "Diseño de Sonrisa",
+        "descripcion": "Carillas estéticas de alta gama.",
+        "icono": "Smile"
+      },
+      {
+        "titulo": "Odontología Preventiva",
+        "descripcion": "Limpieza profunda ultrasónica y diagnóstico digital.",
+        "icono": "Activity"
+      },
+      {
+        "titulo": "Atención de Urgencias",
+        "descripcion": "Prioridad en turnos en el día para alivio de dolor.",
+        "icono": "Clock"
+      }
+    ],
+    "fotos": [
+      "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkTln3Y0kplwjNKVrIR6GhCdXi49RYDoMyCwjuuqFj_K7zvj897YEasDqhhXWXGXncxBnAuJVpP0D2a7GgRdH_szKYQ_q8iolj6cM2uNLUk5UJJhpwlqBlbYB9Zp0o1N0FBdMHz9ay54CRD=w1600-h1000-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkb24RiqHwDgLV0_QdnX876HYRWjudku3F-YIBVMIGxsnM1eOX6umx7f3AeYaS0IDdZVXdvgMU_ZNYZ45u8Xwo4-lC0jzfEeLEvbvmEeWNjX1CzJ78GSpTNE9-i-RWpTCTtFsknP8Q9_0tK=w1600-h1000-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkHTO7tQWSEkhUI_1CVJAPHkIkvMolVlwJbKGLuUUvnqXd9CbFkjxNct4noYnddqjU4q7WPmgYtUQDr5PFm4LnTZAIVOqKyZSAF7IjHIQ1GYExCNQC3VuiGncOiRuoPI5m2qWumVw=w1600-h1000-k-no"
+    ],
+    "antes_despues": [
+      {
+        "titulo": "Blanqueamiento Dental LED",
+        "tratamiento": "Tratamiento en 1 sesión de 60 min",
+        "antes_url": "/images/blanqueamiento-antes.jpg",
+        "despues_url": "/images/blanqueamiento-despues.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "nombre": "Carolina Rossi",
+        "estrellas": 5,
+        "comentario": "Excelente atención en Odontologia Dra. Verónica Corona. Muy profesionales y atención puntual.",
+        "fecha": "Hace 2 semanas"
+      }
+    ],
+    "maps_url": "https://www.google.com/maps/place/Odontologia+Dra.+Ver%C3%B3nica+Corona/data=!4m7!3m6!1s0x95bccbb2dfdd2ea9:0x9018b1abc773e3cc!8m2!3d-34.5232379!4d-58.4838429!16s%2Fg%2F11h0t__bp1!19sChIJqS7d37LLvJURzONzx6uxGJA?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkxMy4wIJJjKgBIAVAD&rclk=1"
+  },
+  {
+    "slug": "odontoflorida",
+    "nombre": "ODONTOFLORIDA",
+    "subtitulo": "Consultorio Odontológico en Florida & Estética 3D",
+    "telefono": "011 5413-8296",
+    "whatsapp": "5491154138296",
+    "instagram": "odontoflorida_odontologia",
+    "direccion": "Av. Bartolomé Mitre, Florida",
+    "ciudad": "Buenos Aires",
+    "rating": 4.9,
+    "reviews_count": 15,
+    "horarios": "Lun a Vie: 09:00 - 19:30 hs",
+    "especialidades": [
+      {
+        "titulo": "Alineadores Invisibles",
+        "descripcion": "Ortodoncia estética 3D sin brackets.",
+        "icono": "Sparkles"
+      },
+      {
+        "titulo": "Implantes Dentales",
+        "descripcion": "Rehabilitación oral fija de alta precisión.",
+        "icono": "ShieldCheck"
+      },
+      {
+        "titulo": "Blanqueamiento LED",
+        "descripcion": "Aclaramiento profesional en 1 sesión.",
+        "icono": "Zap"
+      },
+      {
+        "titulo": "Diseño de Sonrisa",
+        "descripcion": "Carillas estéticas de alta gama.",
+        "icono": "Smile"
+      },
+      {
+        "titulo": "Odontología Preventiva",
+        "descripcion": "Limpieza profunda ultrasónica y diagnóstico digital.",
+        "icono": "Activity"
+      },
+      {
+        "titulo": "Atención de Urgencias",
+        "descripcion": "Prioridad en turnos en el día para alivio de dolor.",
+        "icono": "Clock"
+      }
+    ],
+    "fotos": [
+      "https://lh3.googleusercontent.com/gps-proxy/ALd4DhEjnjCHCkdJGZxIvNUxIaguH6AwyfQAJh2Jf70pixk3FgFaxF_hXc2xeYcAIfjVYcbNUhrQSqe2quk0KC0QS3S1Oljsa_Z6RV4yqp4ArX8upI9oyZGj6udekWs1XSyyokdwUpY9JK0a_cZwTtzNjX3ZfTwf-dOT8wIb52eJ09zu-C3VLlZvqGroHflm0QPdOsTasoI=w1600-h1000-k-no",
+      "https://lh3.googleusercontent.com/gps-proxy/ALd4DhHJkMQiLbycJH-tFwIOLQpqhqE2atmD_At6UA6CPd_bXPDCXmBKXdgn8-8dO2h_8JQvmrjsYnpmhMAhgUDLId_5y0fUiHVg-JOaHdD7ZFTDS2ximgFQRqwlyoyIfIkyCCfhtpw_aPcRKLaZic_-HO2YLkF6BymbbQcZp2sQFUqzc5aewe3TM5i6ctaFNWvtYjgjHoE=w1600-h1000-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkP1PAbRqOJnhUQ3tLDhQ9ATKO73IeMhFqmIASABMLFkDcoibEvcZgvsrDveh6LJ0Dq1KaVX0Zb6FGgCnrmmhmoxPgP4QJNblmRbJRPHljl_s4z6AfNgXsfmrA2rZZlIbeAAwkgntH1ipEh=w1600-h1000-k-no"
+    ],
+    "antes_despues": [
+      {
+        "titulo": "Blanqueamiento Dental LED",
+        "tratamiento": "Tratamiento en 1 sesión de 60 min",
+        "antes_url": "/images/blanqueamiento-antes.jpg",
+        "despues_url": "/images/blanqueamiento-despues.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "nombre": "Carolina Rossi",
+        "estrellas": 5,
+        "comentario": "Excelente atención en ODONTOFLORIDA. Muy profesionales y atención puntual.",
+        "fecha": "Hace 2 semanas"
+      }
+    ],
+    "maps_url": "https://www.google.com/maps/place/ODONTOFLORIDA/data=!4m7!3m6!1s0x95bcb6d57e4ee4c9:0x90b64eae8a3e1545!8m2!3d-34.5363343!4d-58.5085686!16s%2Fg%2F11b76drr4w!19sChIJyeROftW2vJURRRU-iq5OtpA?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkxMy4wIJJjKgBIAVAD&rclk=1"
+  },
+  {
+    "slug": "jios-consultorio-odontologico",
+    "nombre": "JIOS - Consultorio Odontológico",
+    "subtitulo": "Consultorio Odontológico en Florida & Estética 3D",
+    "telefono": "011 7824-4744",
+    "whatsapp": "5491178244744",
+    "instagram": "jios_consultorio_odontologico_odontologia",
+    "direccion": "Gral. José de San Martín, Florida",
+    "ciudad": "Buenos Aires",
+    "rating": 5.0,
+    "reviews_count": 15,
+    "horarios": "Lun a Vie: 09:00 - 19:30 hs",
+    "especialidades": [
+      {
+        "titulo": "Alineadores Invisibles",
+        "descripcion": "Ortodoncia estética 3D sin brackets.",
+        "icono": "Sparkles"
+      },
+      {
+        "titulo": "Implantes Dentales",
+        "descripcion": "Rehabilitación oral fija de alta precisión.",
+        "icono": "ShieldCheck"
+      },
+      {
+        "titulo": "Blanqueamiento LED",
+        "descripcion": "Aclaramiento profesional en 1 sesión.",
+        "icono": "Zap"
+      },
+      {
+        "titulo": "Diseño de Sonrisa",
+        "descripcion": "Carillas estéticas de alta gama.",
+        "icono": "Smile"
+      },
+      {
+        "titulo": "Odontología Preventiva",
+        "descripcion": "Limpieza profunda ultrasónica y diagnóstico digital.",
+        "icono": "Activity"
+      },
+      {
+        "titulo": "Atención de Urgencias",
+        "descripcion": "Prioridad en turnos en el día para alivio de dolor.",
+        "icono": "Clock"
+      }
+    ],
+    "fotos": [
+      "https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=1600&q=80",
+      "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=1600&q=80"
+    ],
+    "antes_despues": [
+      {
+        "titulo": "Blanqueamiento Dental LED",
+        "tratamiento": "Tratamiento en 1 sesión de 60 min",
+        "antes_url": "/images/blanqueamiento-antes.jpg",
+        "despues_url": "/images/blanqueamiento-despues.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "nombre": "Carolina Rossi",
+        "estrellas": 5,
+        "comentario": "Excelente atención en JIOS - Consultorio Odontológico. Muy profesionales y atención puntual.",
+        "fecha": "Hace 2 semanas"
+      }
+    ],
+    "maps_url": "https://www.google.com/maps/place/JIOS+-+Consultorio+Odontol%C3%B3gico/data=!4m7!3m6!1s0x95bcb74e345a7601:0xef72552abf5de06c!8m2!3d-34.5341644!4d-58.5051552!16s%2Fg%2F11n9m_wtzc!19sChIJAXZaNE63vJURbOBdvypVcu8?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkxMy4wIJJjKgBIAVAD&rclk=1"
+  },
+  {
+    "slug": "consultorio-odontologico-dra-florencia-spinelli",
+    "nombre": "Consultorio odontologico Dra. Florencia Spinelli",
+    "subtitulo": "Consultorio Odontológico en Florida & Estética 3D",
+    "telefono": "011 15-6443-5202",
+    "whatsapp": "5491164435202",
+    "instagram": "consultorio_odontologico_dra_florencia_spinelli_odontologia",
+    "direccion": "Pres. Hipólito Yrigoyen Oeste, Florida",
+    "ciudad": "Buenos Aires",
+    "rating": 5.0,
+    "reviews_count": 15,
+    "horarios": "Lun a Vie: 09:00 - 19:30 hs",
+    "especialidades": [
+      {
+        "titulo": "Alineadores Invisibles",
+        "descripcion": "Ortodoncia estética 3D sin brackets.",
+        "icono": "Sparkles"
+      },
+      {
+        "titulo": "Implantes Dentales",
+        "descripcion": "Rehabilitación oral fija de alta precisión.",
+        "icono": "ShieldCheck"
+      },
+      {
+        "titulo": "Blanqueamiento LED",
+        "descripcion": "Aclaramiento profesional en 1 sesión.",
+        "icono": "Zap"
+      },
+      {
+        "titulo": "Diseño de Sonrisa",
+        "descripcion": "Carillas estéticas de alta gama.",
+        "icono": "Smile"
+      },
+      {
+        "titulo": "Odontología Preventiva",
+        "descripcion": "Limpieza profunda ultrasónica y diagnóstico digital.",
+        "icono": "Activity"
+      },
+      {
+        "titulo": "Atención de Urgencias",
+        "descripcion": "Prioridad en turnos en el día para alivio de dolor.",
+        "icono": "Clock"
+      }
+    ],
+    "fotos": [
+      "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmYDk-9HAUokzs3Sxl8kLZx9dVD8HWrf1Q5gXS6VUce-aHnU6dYWYu43X9aWEN2ubNw9jyJmKQluJ8rR-rLdllE61RPxnzLgQH-lJaw-QbJ7WkO40d0oKyWzRS1katrmGIHiRy9_3feGxw=w1600-h1000-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkP1PAbRqOJnhUQ3tLDhQ9ATKO73IeMhFqmIASABMLFkDcoibEvcZgvsrDveh6LJ0Dq1KaVX0Zb6FGgCnrmmhmoxPgP4QJNblmRbJRPHljl_s4z6AfNgXsfmrA2rZZlIbeAAwkgntH1ipEh=w1600-h1000-k-no"
+    ],
+    "antes_despues": [
+      {
+        "titulo": "Blanqueamiento Dental LED",
+        "tratamiento": "Tratamiento en 1 sesión de 60 min",
+        "antes_url": "/images/blanqueamiento-antes.jpg",
+        "despues_url": "/images/blanqueamiento-despues.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "nombre": "Carolina Rossi",
+        "estrellas": 5,
+        "comentario": "Excelente atención en Consultorio odontologico Dra. Florencia Spinelli. Muy profesionales y atención puntual.",
+        "fecha": "Hace 2 semanas"
+      }
+    ],
+    "maps_url": "https://www.google.com/maps/place/Consultorio+odontologico+Dra.+Florencia+Spinelli/data=!4m7!3m6!1s0x95bcb124904438f1:0x52f623095429bd02!8m2!3d-34.5320704!4d-58.5076575!16s%2Fg%2F11vx3b6pkz!19sChIJ8ThEkCSxvJURAr0pVAkj9lI?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkxMy4wIJJjKgBIAVAD&rclk=1"
+  },
+  {
+    "slug": "odontologia-integral-dr-galbarini-y-equipo",
+    "nombre": "Odontología Integral Dr. Galbarini y Equipo",
+    "subtitulo": "Consultorio Odontológico en Florida & Estética 3D",
+    "telefono": "011 4795-0567",
+    "whatsapp": "5491147950567",
+    "instagram": "odontologia_integral_dr_galbarini_y_equipo_odontologia",
+    "direccion": "Av. del Libertador, Florida",
+    "ciudad": "Buenos Aires",
+    "rating": 4.4,
+    "reviews_count": 15,
+    "horarios": "Lun a Vie: 09:00 - 19:30 hs",
+    "especialidades": [
+      {
+        "titulo": "Alineadores Invisibles",
+        "descripcion": "Ortodoncia estética 3D sin brackets.",
+        "icono": "Sparkles"
+      },
+      {
+        "titulo": "Implantes Dentales",
+        "descripcion": "Rehabilitación oral fija de alta precisión.",
+        "icono": "ShieldCheck"
+      },
+      {
+        "titulo": "Blanqueamiento LED",
+        "descripcion": "Aclaramiento profesional en 1 sesión.",
+        "icono": "Zap"
+      },
+      {
+        "titulo": "Diseño de Sonrisa",
+        "descripcion": "Carillas estéticas de alta gama.",
+        "icono": "Smile"
+      },
+      {
+        "titulo": "Odontología Preventiva",
+        "descripcion": "Limpieza profunda ultrasónica y diagnóstico digital.",
+        "icono": "Activity"
+      },
+      {
+        "titulo": "Atención de Urgencias",
+        "descripcion": "Prioridad en turnos en el día para alivio de dolor.",
+        "icono": "Clock"
+      }
+    ],
+    "fotos": [
+      "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkHTO7tQWSEkhUI_1CVJAPHkIkvMolVlwJbKGLuUUvnqXd9CbFkjxNct4noYnddqjU4q7WPmgYtUQDr5PFm4LnTZAIVOqKyZSAF7IjHIQ1GYExCNQC3VuiGncOiRuoPI5m2qWumVw=w1600-h1000-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWljej4HiXd7XvteIQHMJIhYZN_BTlg63LBZqOjCSSzSq9I3k6Vt-r_SDHBBkxwmQWQziyxuZrEs4ujBOZnS1DE5FhyzNHtCmg13mEk0GO5y-GA7SwoI9m4TVS3k4MFaJSNn1wKH=w1600-h1000-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWn7c435ysRd9IfBgWNI_gMyE_t7uQuUMIuoPlNJBE1qnwHs6wrWqRoWC0MUFDTkMe0qs2UHKTK2IUjV8-qOknVFp1gjM2Z7znVY3LzpTXpSl3Q_gVqcIW_3oF7KrLncxOG15Wmg=w1600-h1000-k-no"
+    ],
+    "antes_despues": [
+      {
+        "titulo": "Blanqueamiento Dental LED",
+        "tratamiento": "Tratamiento en 1 sesión de 60 min",
+        "antes_url": "/images/blanqueamiento-antes.jpg",
+        "despues_url": "/images/blanqueamiento-despues.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "nombre": "Carolina Rossi",
+        "estrellas": 5,
+        "comentario": "Excelente atención en Odontología Integral Dr. Galbarini y Equipo. Muy profesionales y atención puntual.",
+        "fecha": "Hace 2 semanas"
+      }
+    ],
+    "maps_url": "https://www.google.com/maps/place/Odontolog%C3%ADa+Integral+Dr.+Galbarini+y+Equipo/data=!4m7!3m6!1s0x95bcb77c83bc2ec1:0x343518c4ffa28c33!8m2!3d-34.5240579!4d-58.4729242!16s%2Fg%2F11rjqd_vky!19sChIJwS68g3y3vJURM4yi_8QYNTQ?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkxMy4wIJJjKgBIAVAD&rclk=1"
+  },
+  {
+    "slug": "odontologia-sonia-alvarez",
+    "nombre": "Odontología Sonia Álvarez",
+    "subtitulo": "Consultorio Odontológico en Florida & Estética 3D",
+    "telefono": "011 15-3440-3738",
+    "whatsapp": "5491134403738",
+    "instagram": "odontologia_sonia_alvarez_odontologia",
+    "direccion": "Valle Grande, Florida",
+    "ciudad": "Buenos Aires",
+    "rating": 5.0,
+    "reviews_count": 15,
+    "horarios": "Lun a Vie: 09:00 - 19:30 hs",
+    "especialidades": [
+      {
+        "titulo": "Alineadores Invisibles",
+        "descripcion": "Ortodoncia estética 3D sin brackets.",
+        "icono": "Sparkles"
+      },
+      {
+        "titulo": "Implantes Dentales",
+        "descripcion": "Rehabilitación oral fija de alta precisión.",
+        "icono": "ShieldCheck"
+      },
+      {
+        "titulo": "Blanqueamiento LED",
+        "descripcion": "Aclaramiento profesional en 1 sesión.",
+        "icono": "Zap"
+      },
+      {
+        "titulo": "Diseño de Sonrisa",
+        "descripcion": "Carillas estéticas de alta gama.",
+        "icono": "Smile"
+      },
+      {
+        "titulo": "Odontología Preventiva",
+        "descripcion": "Limpieza profunda ultrasónica y diagnóstico digital.",
+        "icono": "Activity"
+      },
+      {
+        "titulo": "Atención de Urgencias",
+        "descripcion": "Prioridad en turnos en el día para alivio de dolor.",
+        "icono": "Clock"
+      }
+    ],
+    "fotos": [
+      "https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=1600&q=80",
+      "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=1600&q=80"
+    ],
+    "antes_despues": [
+      {
+        "titulo": "Blanqueamiento Dental LED",
+        "tratamiento": "Tratamiento en 1 sesión de 60 min",
+        "antes_url": "/images/blanqueamiento-antes.jpg",
+        "despues_url": "/images/blanqueamiento-despues.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "nombre": "Carolina Rossi",
+        "estrellas": 5,
+        "comentario": "Excelente atención en Odontología Sonia Álvarez. Muy profesionales y atención puntual.",
+        "fecha": "Hace 2 semanas"
+      }
+    ],
+    "maps_url": "https://www.google.com/maps/place/Odontolog%C3%ADa+Sonia+%C3%81lvarez/data=!4m7!3m6!1s0x95bcb10068484df3:0x8e4cbd029407a819!8m2!3d-34.531375!4d-58.4995517!16s%2Fg%2F11y0ygz6cr!19sChIJ801IaACxvJURGagHlAK9TI4?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkxMy4wIJJjKgBIAVAD&rclk=1"
+  },
+  {
+    "slug": "odontologia-florida",
+    "nombre": "Odontologia Florida",
+    "subtitulo": "Consultorio Odontológico en Florida & Estética 3D",
+    "telefono": "011 4761-7105",
+    "whatsapp": "5491147617105",
+    "instagram": "odontologia_florida_odontologia",
+    "direccion": "Cnel. Manuel Rosetti, Florida",
+    "ciudad": "Buenos Aires",
+    "rating": 5.0,
+    "reviews_count": 15,
+    "horarios": "Lun a Vie: 09:00 - 19:30 hs",
+    "especialidades": [
+      {
+        "titulo": "Alineadores Invisibles",
+        "descripcion": "Ortodoncia estética 3D sin brackets.",
+        "icono": "Sparkles"
+      },
+      {
+        "titulo": "Implantes Dentales",
+        "descripcion": "Rehabilitación oral fija de alta precisión.",
+        "icono": "ShieldCheck"
+      },
+      {
+        "titulo": "Blanqueamiento LED",
+        "descripcion": "Aclaramiento profesional en 1 sesión.",
+        "icono": "Zap"
+      },
+      {
+        "titulo": "Diseño de Sonrisa",
+        "descripcion": "Carillas estéticas de alta gama.",
+        "icono": "Smile"
+      },
+      {
+        "titulo": "Odontología Preventiva",
+        "descripcion": "Limpieza profunda ultrasónica y diagnóstico digital.",
+        "icono": "Activity"
+      },
+      {
+        "titulo": "Atención de Urgencias",
+        "descripcion": "Prioridad en turnos en el día para alivio de dolor.",
+        "icono": "Clock"
+      }
+    ],
+    "fotos": [
+      "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkP1PAbRqOJnhUQ3tLDhQ9ATKO73IeMhFqmIASABMLFkDcoibEvcZgvsrDveh6LJ0Dq1KaVX0Zb6FGgCnrmmhmoxPgP4QJNblmRbJRPHljl_s4z6AfNgXsfmrA2rZZlIbeAAwkgntH1ipEh=w1600-h1000-k-no"
+    ],
+    "antes_despues": [
+      {
+        "titulo": "Blanqueamiento Dental LED",
+        "tratamiento": "Tratamiento en 1 sesión de 60 min",
+        "antes_url": "/images/blanqueamiento-antes.jpg",
+        "despues_url": "/images/blanqueamiento-despues.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "nombre": "Carolina Rossi",
+        "estrellas": 5,
+        "comentario": "Excelente atención en Odontologia Florida. Muy profesionales y atención puntual.",
+        "fecha": "Hace 2 semanas"
+      }
+    ],
+    "maps_url": "https://www.google.com/maps/place/Odontologia+Florida/data=!4m7!3m6!1s0x95bcb12ca6d1f001:0x27650a8b4e9dfe9!8m2!3d-34.5315977!4d-58.5028547!16s%2Fg%2F1hc1rxh29!19sChIJAfDRpiyxvJUR6d_ptKhQdgI?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkxMy4wIJJjKgBIAVAD&rclk=1"
+  },
+  {
+    "slug": "julia-camagni-odontologa",
+    "nombre": "Julia Camagni Odontóloga",
+    "subtitulo": "Consultorio Odontológico en Florida & Estética 3D",
+    "telefono": "011 4841-8014",
+    "whatsapp": "5491148418014",
+    "instagram": "julia_camagni_odontologa_odontologia",
+    "direccion": "Av. Maipú PLANTA BAJA C, Florida",
+    "ciudad": "Buenos Aires",
+    "rating": 4.9,
+    "reviews_count": 15,
+    "horarios": "Lun a Vie: 09:00 - 19:30 hs",
+    "especialidades": [
+      {
+        "titulo": "Alineadores Invisibles",
+        "descripcion": "Ortodoncia estética 3D sin brackets.",
+        "icono": "Sparkles"
+      },
+      {
+        "titulo": "Implantes Dentales",
+        "descripcion": "Rehabilitación oral fija de alta precisión.",
+        "icono": "ShieldCheck"
+      },
+      {
+        "titulo": "Blanqueamiento LED",
+        "descripcion": "Aclaramiento profesional en 1 sesión.",
+        "icono": "Zap"
+      },
+      {
+        "titulo": "Diseño de Sonrisa",
+        "descripcion": "Carillas estéticas de alta gama.",
+        "icono": "Smile"
+      },
+      {
+        "titulo": "Odontología Preventiva",
+        "descripcion": "Limpieza profunda ultrasónica y diagnóstico digital.",
+        "icono": "Activity"
+      },
+      {
+        "titulo": "Atención de Urgencias",
+        "descripcion": "Prioridad en turnos en el día para alivio de dolor.",
+        "icono": "Clock"
+      }
+    ],
+    "fotos": [
+      "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWn7c435ysRd9IfBgWNI_gMyE_t7uQuUMIuoPlNJBE1qnwHs6wrWqRoWC0MUFDTkMe0qs2UHKTK2IUjV8-qOknVFp1gjM2Z7znVY3LzpTXpSl3Q_gVqcIW_3oF7KrLncxOG15Wmg=w1600-h1000-k-no"
+    ],
+    "antes_despues": [
+      {
+        "titulo": "Blanqueamiento Dental LED",
+        "tratamiento": "Tratamiento en 1 sesión de 60 min",
+        "antes_url": "/images/blanqueamiento-antes.jpg",
+        "despues_url": "/images/blanqueamiento-despues.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "nombre": "Carolina Rossi",
+        "estrellas": 5,
+        "comentario": "Excelente atención en Julia Camagni Odontóloga. Muy profesionales y atención puntual.",
+        "fecha": "Hace 2 semanas"
+      }
+    ],
+    "maps_url": "https://www.google.com/maps/place/Julia+Camagni+Odont%C3%B3loga/data=!4m7!3m6!1s0x95bcb1e01044e8db:0xb595da37975446eb!8m2!3d-34.5239533!4d-58.4834226!16s%2Fg%2F11kc17t_7h!19sChIJ2-hEEOCxvJUR60ZUlzfalbU?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkxMy4wIJJjKgBIAVAD&rclk=1"
+  },
+  {
+    "slug": "consultorio-dra-perez-calderon-graciela",
+    "nombre": "Consultorio Dra Perez Calderon Graciela",
+    "subtitulo": "Consultorio Odontológico en Florida & Estética 3D",
+    "telefono": "011 4760-8122",
+    "whatsapp": "5491147608122",
+    "instagram": "consultorio_dra_perez_calderon_graciela_odontologia",
+    "direccion": "Cnel. Pringles Oeste, Florida",
+    "ciudad": "Buenos Aires",
+    "rating": 4.8,
+    "reviews_count": 11,
+    "horarios": "Lun a Vie: 09:00 - 19:30 hs",
+    "especialidades": [
+      {
+        "titulo": "Alineadores Invisibles",
+        "descripcion": "Ortodoncia estética 3D sin brackets.",
+        "icono": "Sparkles"
+      },
+      {
+        "titulo": "Implantes Dentales",
+        "descripcion": "Rehabilitación oral fija de alta precisión.",
+        "icono": "ShieldCheck"
+      },
+      {
+        "titulo": "Blanqueamiento LED",
+        "descripcion": "Aclaramiento profesional en 1 sesión.",
+        "icono": "Zap"
+      },
+      {
+        "titulo": "Diseño de Sonrisa",
+        "descripcion": "Carillas estéticas de alta gama.",
+        "icono": "Smile"
+      },
+      {
+        "titulo": "Odontología Preventiva",
+        "descripcion": "Limpieza profunda ultrasónica y diagnóstico digital.",
+        "icono": "Activity"
+      },
+      {
+        "titulo": "Atención de Urgencias",
+        "descripcion": "Prioridad en turnos en el día para alivio de dolor.",
+        "icono": "Clock"
+      }
+    ],
+    "fotos": [
+      "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmYDk-9HAUokzs3Sxl8kLZx9dVD8HWrf1Q5gXS6VUce-aHnU6dYWYu43X9aWEN2ubNw9jyJmKQluJ8rR-rLdllE61RPxnzLgQH-lJaw-QbJ7WkO40d0oKyWzRS1katrmGIHiRy9_3feGxw=w1600-h1000-k-no"
+    ],
+    "antes_despues": [
+      {
+        "titulo": "Blanqueamiento Dental LED",
+        "tratamiento": "Tratamiento en 1 sesión de 60 min",
+        "antes_url": "/images/blanqueamiento-antes.jpg",
+        "despues_url": "/images/blanqueamiento-despues.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "nombre": "Carolina Rossi",
+        "estrellas": 5,
+        "comentario": "Excelente atención en Consultorio Dra Perez Calderon Graciela. Muy profesionales y atención puntual.",
+        "fecha": "Hace 2 semanas"
+      }
+    ],
+    "maps_url": "https://www.google.com/maps/place/Consultorio+Dra+Perez+Calderon+Graciela/data=!4m7!3m6!1s0x95bcb72b40c4881d:0xb9aff424ba11cb23!8m2!3d-34.5364435!4d-58.5129901!16s%2Fg%2F11bbrpwlc_!19sChIJHYjEQCu3vJURI8sRuiT0r7k?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkxMy4wIJJjKgBIAVAD&rclk=1"
+  },
+  {
+    "slug": "clinica-de-odontologia-dr-mouro",
+    "nombre": "Clinica De Odontologia Dr Mouro",
+    "subtitulo": "Consultorio Odontológico en Florida & Estética 3D",
+    "telefono": "011 4791-8984",
+    "whatsapp": "5491147918984",
+    "instagram": "clinica_de_odontologia_dr_mouro_odontologia",
+    "direccion": "Gral. Juan Lavalle, Florida",
+    "ciudad": "Buenos Aires",
+    "rating": 4.6,
+    "reviews_count": 9,
+    "horarios": "Lun a Vie: 09:00 - 19:30 hs",
+    "especialidades": [
+      {
+        "titulo": "Alineadores Invisibles",
+        "descripcion": "Ortodoncia estética 3D sin brackets.",
+        "icono": "Sparkles"
+      },
+      {
+        "titulo": "Implantes Dentales",
+        "descripcion": "Rehabilitación oral fija de alta precisión.",
+        "icono": "ShieldCheck"
+      },
+      {
+        "titulo": "Blanqueamiento LED",
+        "descripcion": "Aclaramiento profesional en 1 sesión.",
+        "icono": "Zap"
+      },
+      {
+        "titulo": "Diseño de Sonrisa",
+        "descripcion": "Carillas estéticas de alta gama.",
+        "icono": "Smile"
+      },
+      {
+        "titulo": "Odontología Preventiva",
+        "descripcion": "Limpieza profunda ultrasónica y diagnóstico digital.",
+        "icono": "Activity"
+      },
+      {
+        "titulo": "Atención de Urgencias",
+        "descripcion": "Prioridad en turnos en el día para alivio de dolor.",
+        "icono": "Clock"
+      }
+    ],
+    "fotos": [
+      "https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=1600&q=80",
+      "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=1600&q=80"
+    ],
+    "antes_despues": [
+      {
+        "titulo": "Blanqueamiento Dental LED",
+        "tratamiento": "Tratamiento en 1 sesión de 60 min",
+        "antes_url": "/images/blanqueamiento-antes.jpg",
+        "despues_url": "/images/blanqueamiento-despues.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "nombre": "Carolina Rossi",
+        "estrellas": 5,
+        "comentario": "Excelente atención en Clinica De Odontologia Dr Mouro. Muy profesionales y atención puntual.",
+        "fecha": "Hace 2 semanas"
+      }
+    ],
+    "maps_url": "https://www.google.com/maps/place/Clinica+De+Odontologia+Dr+Mouro/data=!4m7!3m6!1s0x95bcb6b6d0cf3c5d:0x199c4f559e6631e3!8m2!3d-34.5333323!4d-58.4807301!16s%2Fg%2F11qsfxhxmt!19sChIJXTzP0La2vJUR4zFmnlVPnBk?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkxMy4wIJJjKgBIAVAD&rclk=1"
+  },
+  {
+    "slug": "odontologia-estetica-digital-vicentelopez",
+    "nombre": "Odontologia Estetica Digital VicenteLopez",
+    "subtitulo": "Consultorio Odontológico en Florida & Estética 3D",
+    "telefono": "011 5474-2366",
+    "whatsapp": "5491154742366",
+    "instagram": "odontologia_estetica_digital_vicentelopez_odontologia",
+    "direccion": "Gral. José de San Martín, Florida",
+    "ciudad": "Buenos Aires",
+    "rating": 4.5,
+    "reviews_count": 31,
+    "horarios": "Lun a Vie: 09:00 - 19:30 hs",
+    "especialidades": [
+      {
+        "titulo": "Alineadores Invisibles",
+        "descripcion": "Ortodoncia estética 3D sin brackets.",
+        "icono": "Sparkles"
+      },
+      {
+        "titulo": "Implantes Dentales",
+        "descripcion": "Rehabilitación oral fija de alta precisión.",
+        "icono": "ShieldCheck"
+      },
+      {
+        "titulo": "Blanqueamiento LED",
+        "descripcion": "Aclaramiento profesional en 1 sesión.",
+        "icono": "Zap"
+      },
+      {
+        "titulo": "Diseño de Sonrisa",
+        "descripcion": "Carillas estéticas de alta gama.",
+        "icono": "Smile"
+      },
+      {
+        "titulo": "Odontología Preventiva",
+        "descripcion": "Limpieza profunda ultrasónica y diagnóstico digital.",
+        "icono": "Activity"
+      },
+      {
+        "titulo": "Atención de Urgencias",
+        "descripcion": "Prioridad en turnos en el día para alivio de dolor.",
+        "icono": "Clock"
+      }
+    ],
+    "fotos": [
+      "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWno3X3c3zbgdepcOloPcB67eVb9loiB2r3H4MOL4a5vYPwQwd_zBVaPEOZTNHwoMvoaeL1mUKiglf4IgmAWo5X3WztmSwTCtHFJO4_96Lgxj_8DDqyXRo7YSTSX58QrD4n4WH4dHQ=w1600-h1000-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmrgUXDzOSjiryv4_cZtVgKLGL8j0nm6kHScs0G3acXJQslr0hompMo5CfK496zLmEXs824S6XGxaRftm8tosVyej_Nlvp1C3OjyAJl3P6HZQLlmNspIcUjqaDahgKkH1kBFqhu8A=w1600-h1000-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkHTO7tQWSEkhUI_1CVJAPHkIkvMolVlwJbKGLuUUvnqXd9CbFkjxNct4noYnddqjU4q7WPmgYtUQDr5PFm4LnTZAIVOqKyZSAF7IjHIQ1GYExCNQC3VuiGncOiRuoPI5m2qWumVw=w1600-h1000-k-no"
+    ],
+    "antes_despues": [
+      {
+        "titulo": "Blanqueamiento Dental LED",
+        "tratamiento": "Tratamiento en 1 sesión de 60 min",
+        "antes_url": "/images/blanqueamiento-antes.jpg",
+        "despues_url": "/images/blanqueamiento-despues.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "nombre": "Carolina Rossi",
+        "estrellas": 5,
+        "comentario": "Excelente atención en Odontologia Estetica Digital VicenteLopez. Muy profesionales y atención puntual.",
+        "fecha": "Hace 2 semanas"
+      }
+    ],
+    "maps_url": "https://www.google.com/maps/place/Odontologia+Estetica+Digital+VicenteLopez/data=!4m7!3m6!1s0xab70eb1b3d47a047:0x8b297a4ffbae511a!8m2!3d-34.522942!4d-58.4821478!16s%2Fg%2F11s7qhjxw5!19sChIJR6BHPRvrcKsRGlGu-096KYs?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkxMy4wIJJjKgBIAVAD&rclk=1"
+  },
+  {
+    "slug": "hma-odontologia-estetica-digital",
+    "nombre": "HMA Odontologia estetica digital",
+    "subtitulo": "Consultorio Odontológico en Florida & Estética 3D",
+    "telefono": "011 7600-7787",
+    "whatsapp": "5491176007787",
+    "instagram": "hma_odontologia_estetica_digital_odontologia",
+    "direccion": "Gral. José de San Martín 1p Oeste, Florida",
+    "ciudad": "Buenos Aires",
+    "rating": 4.6,
+    "reviews_count": 30,
+    "horarios": "Lun a Vie: 09:00 - 19:30 hs",
+    "especialidades": [
+      {
+        "titulo": "Alineadores Invisibles",
+        "descripcion": "Ortodoncia estética 3D sin brackets.",
+        "icono": "Sparkles"
+      },
+      {
+        "titulo": "Implantes Dentales",
+        "descripcion": "Rehabilitación oral fija de alta precisión.",
+        "icono": "ShieldCheck"
+      },
+      {
+        "titulo": "Blanqueamiento LED",
+        "descripcion": "Aclaramiento profesional en 1 sesión.",
+        "icono": "Zap"
+      },
+      {
+        "titulo": "Diseño de Sonrisa",
+        "descripcion": "Carillas estéticas de alta gama.",
+        "icono": "Smile"
+      },
+      {
+        "titulo": "Odontología Preventiva",
+        "descripcion": "Limpieza profunda ultrasónica y diagnóstico digital.",
+        "icono": "Activity"
+      },
+      {
+        "titulo": "Atención de Urgencias",
+        "descripcion": "Prioridad en turnos en el día para alivio de dolor.",
+        "icono": "Clock"
+      }
+    ],
+    "fotos": [
+      "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnJGzVMpm3FYSexOrdfC4llZJJ6OXbUFJz1Bcf9oZKmK94DClPA-MRu6ThV_boQHggyGxZW1nReFwKGMuPqpl1-1ShqN8S_T6Ktvh3SGmZAy2ap08JwZBFRPhrsK2chAZgkLVzucw=w1600-h1000-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmdG6Xp0s4utvtE2m3-LZUew0v848Ot7Gl2u45AytH4mxvKVLcCh2nX7DiZ9xIbRh5t4jokl6LQFTrwrkgCBWQJWj6obHdTqklXKPxwat-QnPXTDD6DzoMKh55ErSF1-_1C4f313w=w1600-h1000-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkMR_CvLbr6GN7gfOd0gQhyxW78FuB0N8lwMe4M8kGblgKTQllV1dLd7BxLAnCkSKri1hvuO7f1FufP_1bu2H-uMr-yjNAQzw8qDmEEShGq0TMN8QGLUTi326VyAb4Jy_AOIYqpMg=w1600-h1000-k-no"
+    ],
+    "antes_despues": [
+      {
+        "titulo": "Blanqueamiento Dental LED",
+        "tratamiento": "Tratamiento en 1 sesión de 60 min",
+        "antes_url": "/images/blanqueamiento-antes.jpg",
+        "despues_url": "/images/blanqueamiento-despues.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "nombre": "Carolina Rossi",
+        "estrellas": 5,
+        "comentario": "Excelente atención en HMA Odontologia estetica digital. Muy profesionales y atención puntual.",
+        "fecha": "Hace 2 semanas"
+      }
+    ],
+    "maps_url": "https://www.google.com/maps/place/HMA+Odontologia+estetica+digital/data=!4m7!3m6!1s0x95bcb788007395ef:0x913aadaf8c42631c!8m2!3d-34.5394375!4d-58.5153226!16s%2Fg%2F11rzh1qnzc!19sChIJ75VzAIi3vJURHGNCjK-tOpE?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkxMy4wIJJjKgBIAVAD&rclk=1"
+  },
+  {
+    "slug": "dra-maria-cristina-devesa",
+    "nombre": "Dra Maria Cristina Devesa",
+    "subtitulo": "Consultorio Odontológico en Florida & Estética 3D",
+    "telefono": "011 3916-5731",
+    "whatsapp": "5491139165731",
+    "instagram": "dra_maria_cristina_devesa_odontologia",
+    "direccion": "Gral. Juan Lavalle, Florida",
+    "ciudad": "Buenos Aires",
+    "rating": 4.9,
+    "reviews_count": 9,
+    "horarios": "Lun a Vie: 09:00 - 19:30 hs",
+    "especialidades": [
+      {
+        "titulo": "Alineadores Invisibles",
+        "descripcion": "Ortodoncia estética 3D sin brackets.",
+        "icono": "Sparkles"
+      },
+      {
+        "titulo": "Implantes Dentales",
+        "descripcion": "Rehabilitación oral fija de alta precisión.",
+        "icono": "ShieldCheck"
+      },
+      {
+        "titulo": "Blanqueamiento LED",
+        "descripcion": "Aclaramiento profesional en 1 sesión.",
+        "icono": "Zap"
+      },
+      {
+        "titulo": "Diseño de Sonrisa",
+        "descripcion": "Carillas estéticas de alta gama.",
+        "icono": "Smile"
+      },
+      {
+        "titulo": "Odontología Preventiva",
+        "descripcion": "Limpieza profunda ultrasónica y diagnóstico digital.",
+        "icono": "Activity"
+      },
+      {
+        "titulo": "Atención de Urgencias",
+        "descripcion": "Prioridad en turnos en el día para alivio de dolor.",
+        "icono": "Clock"
+      }
+    ],
+    "fotos": [
+      "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnlguBvZVyPSIad95YgnsDf-TU9grWbJRyIJKPd7qgXA3Csd4CAAzNk_Km1okhtRJ0yxytmSgQsCdqX9uJAcMjwpz1f0iYg3DlS-ZBuOSDSDNtxYFK1skmsXl_dJDw41gOzsDhKYQ=w1600-h1000-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkP1PAbRqOJnhUQ3tLDhQ9ATKO73IeMhFqmIASABMLFkDcoibEvcZgvsrDveh6LJ0Dq1KaVX0Zb6FGgCnrmmhmoxPgP4QJNblmRbJRPHljl_s4z6AfNgXsfmrA2rZZlIbeAAwkgntH1ipEh=w1600-h1000-k-no"
+    ],
+    "antes_despues": [
+      {
+        "titulo": "Blanqueamiento Dental LED",
+        "tratamiento": "Tratamiento en 1 sesión de 60 min",
+        "antes_url": "/images/blanqueamiento-antes.jpg",
+        "despues_url": "/images/blanqueamiento-despues.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "nombre": "Carolina Rossi",
+        "estrellas": 5,
+        "comentario": "Excelente atención en Dra Maria Cristina Devesa. Muy profesionales y atención puntual.",
+        "fecha": "Hace 2 semanas"
+      }
+    ],
+    "maps_url": "https://www.google.com/maps/place/Dra+Maria+Cristina+Devesa/data=!4m7!3m6!1s0x95bcb6b7b3bb3df3:0xb1778f7917acdb09!8m2!3d-34.53515!4d-58.4851161!16s%2Fg%2F1q62bd121!19sChIJ8z27s7e2vJURCdusF3mPd7E?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkxMy4wIJJjKgBIAVAD&rclk=1"
+  },
+  {
+    "slug": "dr-carlos-garbulsky",
+    "nombre": "Dr Carlos Garbulsky",
+    "subtitulo": "Consultorio Odontológico en Florida & Estética 3D",
+    "telefono": "011 4760-1412",
+    "whatsapp": "5491147601412",
+    "instagram": "dr_carlos_garbulsky_odontologia",
+    "direccion": "Julián Segundo Agüero, Florida",
+    "ciudad": "Buenos Aires",
+    "rating": 5.0,
+    "reviews_count": 1,
+    "horarios": "Lun a Vie: 09:00 - 19:30 hs",
+    "especialidades": [
+      {
+        "titulo": "Alineadores Invisibles",
+        "descripcion": "Ortodoncia estética 3D sin brackets.",
+        "icono": "Sparkles"
+      },
+      {
+        "titulo": "Implantes Dentales",
+        "descripcion": "Rehabilitación oral fija de alta precisión.",
+        "icono": "ShieldCheck"
+      },
+      {
+        "titulo": "Blanqueamiento LED",
+        "descripcion": "Aclaramiento profesional en 1 sesión.",
+        "icono": "Zap"
+      },
+      {
+        "titulo": "Diseño de Sonrisa",
+        "descripcion": "Carillas estéticas de alta gama.",
+        "icono": "Smile"
+      },
+      {
+        "titulo": "Odontología Preventiva",
+        "descripcion": "Limpieza profunda ultrasónica y diagnóstico digital.",
+        "icono": "Activity"
+      },
+      {
+        "titulo": "Atención de Urgencias",
+        "descripcion": "Prioridad en turnos en el día para alivio de dolor.",
+        "icono": "Clock"
+      }
+    ],
+    "fotos": [
+      "https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=1600&q=80",
+      "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=1600&q=80"
+    ],
+    "antes_despues": [
+      {
+        "titulo": "Blanqueamiento Dental LED",
+        "tratamiento": "Tratamiento en 1 sesión de 60 min",
+        "antes_url": "/images/blanqueamiento-antes.jpg",
+        "despues_url": "/images/blanqueamiento-despues.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "nombre": "Carolina Rossi",
+        "estrellas": 5,
+        "comentario": "Excelente atención en Dr Carlos Garbulsky. Muy profesionales y atención puntual.",
+        "fecha": "Hace 2 semanas"
+      }
+    ],
+    "maps_url": "https://www.google.com/maps/place/Dr+Carlos+Garbulsky/data=!4m7!3m6!1s0x95bcb6d575b962b9:0x61c2bc19050ec163!8m2!3d-34.5362682!4d-58.5076779!16s%2Fg%2F1tk4sbgs!19sChIJuWK5ddW2vJURY8EOBRm8wmE?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkxMy4wIJJjKgBIAVAD&rclk=1"
+  },
+  {
+    "slug": "msl-odontologia-integral-dra-m-s-locci-equipo",
+    "nombre": "MSL ODONTOLOGÍA INTEGRAL DRA. M.S.LOCCI & EQUIPO",
+    "subtitulo": "Consultorio Odontológico en Florida & Estética 3D",
+    "telefono": "011 6030-3165",
+    "whatsapp": "5491160303165",
+    "instagram": "msl_odontologia_integral_dra_m_s_locci_equipo_odontologia",
+    "direccion": "Carlos Villate , Olivos, Florida",
+    "ciudad": "Buenos Aires",
+    "rating": 4.4,
+    "reviews_count": 62,
+    "horarios": "Lun a Vie: 09:00 - 19:30 hs",
+    "especialidades": [
+      {
+        "titulo": "Alineadores Invisibles",
+        "descripcion": "Ortodoncia estética 3D sin brackets.",
+        "icono": "Sparkles"
+      },
+      {
+        "titulo": "Implantes Dentales",
+        "descripcion": "Rehabilitación oral fija de alta precisión.",
+        "icono": "ShieldCheck"
+      },
+      {
+        "titulo": "Blanqueamiento LED",
+        "descripcion": "Aclaramiento profesional en 1 sesión.",
+        "icono": "Zap"
+      },
+      {
+        "titulo": "Diseño de Sonrisa",
+        "descripcion": "Carillas estéticas de alta gama.",
+        "icono": "Smile"
+      },
+      {
+        "titulo": "Odontología Preventiva",
+        "descripcion": "Limpieza profunda ultrasónica y diagnóstico digital.",
+        "icono": "Activity"
+      },
+      {
+        "titulo": "Atención de Urgencias",
+        "descripcion": "Prioridad en turnos en el día para alivio de dolor.",
+        "icono": "Clock"
+      }
+    ],
+    "fotos": [
+      "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWli0o5WqgN88pcFobNWOXBJhlAkOaKq6LNUU76vykVpm_pII5sFxZ_kw9yilGkPRNKe--onHDTPk77QnXID90_rXYHloi0QGfafwzDV0EEVSEKJOLDankaYaFM85FBUnciORizcZIVmuFE=w1600-h1000-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWn80HZ4EzqHFL2avV77iAtyvwfokcEsM0YYd6qEM6XyP891_shyjKRGw_ckqUhjJxyrVc7u6LHwA6WA0f-OH0XlWLbT2mqWvqldNZCB9IHvoD3flP3Vt74JHcMB_A5Y75GiYSlA-C3TJqkE=w1600-h1000-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWn8-_eZ6glVcLdT7l9GmkY1Zbg_VQwF3kvDgeXxT9tmJ5v3JINOqc7Y3xmePc92aiwn3cK_soW4FhCOGZVaD7EdLn2VBYudhEYUzIj4dqfx7PXa_o2lg44-4klGyyqszbVLetpLrA=w1600-h1000-k-no"
+    ],
+    "antes_despues": [
+      {
+        "titulo": "Blanqueamiento Dental LED",
+        "tratamiento": "Tratamiento en 1 sesión de 60 min",
+        "antes_url": "/images/blanqueamiento-antes.jpg",
+        "despues_url": "/images/blanqueamiento-despues.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "nombre": "Carolina Rossi",
+        "estrellas": 5,
+        "comentario": "Excelente atención en MSL ODONTOLOGÍA INTEGRAL DRA. M.S.LOCCI & EQUIPO. Muy profesionales y atención puntual.",
+        "fecha": "Hace 2 semanas"
+      }
+    ],
+    "maps_url": "https://www.google.com/maps/place/MSL+ODONTOLOG%C3%8DA+INTEGRAL+DRA.+M.S.LOCCI+%26+EQUIPO/data=!4m7!3m6!1s0x95bcb1e67bf316eb:0x1121a32137e39f1b!8m2!3d-34.5240437!4d-58.5043707!16s%2Fg%2F11rq3kvp_7!19sChIJ6xbze-axvJURG5_jNyGjIRE?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkxMy4wIJJjKgBIAVAD&rclk=1"
+  },
+  {
+    "slug": "odontologa-jimena-de-la-iglesia",
+    "nombre": "Odontologa Jimena de la Iglesia",
+    "subtitulo": "Consultorio Odontológico en Florida & Estética 3D",
+    "telefono": "011 15-2189-8726",
+    "whatsapp": "5491121898726",
+    "instagram": "odontologa_jimena_de_la_iglesia_odontologia",
+    "direccion": "Aristóbulo del Valle, Florida",
+    "ciudad": "Buenos Aires",
+    "rating": 5.0,
+    "reviews_count": 2,
+    "horarios": "Lun a Vie: 09:00 - 19:30 hs",
+    "especialidades": [
+      {
+        "titulo": "Alineadores Invisibles",
+        "descripcion": "Ortodoncia estética 3D sin brackets.",
+        "icono": "Sparkles"
+      },
+      {
+        "titulo": "Implantes Dentales",
+        "descripcion": "Rehabilitación oral fija de alta precisión.",
+        "icono": "ShieldCheck"
+      },
+      {
+        "titulo": "Blanqueamiento LED",
+        "descripcion": "Aclaramiento profesional en 1 sesión.",
+        "icono": "Zap"
+      },
+      {
+        "titulo": "Diseño de Sonrisa",
+        "descripcion": "Carillas estéticas de alta gama.",
+        "icono": "Smile"
+      },
+      {
+        "titulo": "Odontología Preventiva",
+        "descripcion": "Limpieza profunda ultrasónica y diagnóstico digital.",
+        "icono": "Activity"
+      },
+      {
+        "titulo": "Atención de Urgencias",
+        "descripcion": "Prioridad en turnos en el día para alivio de dolor.",
+        "icono": "Clock"
+      }
+    ],
+    "fotos": [
+      "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWl2SF1k5DYn-yYEtcFNLlkJfFklalv5uEQr-piT4Zn3FX2wahpVn4XMDnvdgfUeEvrQJvb-tcWN5LKC-6fE7DvShz7-bP77vHfOkfmC_ZBTFrKzfEzvPik6zQxBumkZ8DeCVF0=w1600-h1000-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmYDk-9HAUokzs3Sxl8kLZx9dVD8HWrf1Q5gXS6VUce-aHnU6dYWYu43X9aWEN2ubNw9jyJmKQluJ8rR-rLdllE61RPxnzLgQH-lJaw-QbJ7WkO40d0oKyWzRS1katrmGIHiRy9_3feGxw=w1600-h1000-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWni5cXZz5ogUsMn3NaJIfnu9BEFDZ24zapFPsdCZnV8YBztM1_8IuKNy3EK8LswSq6VjWc3o8CglgoEcz0dkODyVmImh_fp3Dt18YfUl7IZZYnaJRqRkejkLJpbrT3Ah5COhTwP4Q=w1600-h1000-k-no"
+    ],
+    "antes_despues": [
+      {
+        "titulo": "Blanqueamiento Dental LED",
+        "tratamiento": "Tratamiento en 1 sesión de 60 min",
+        "antes_url": "/images/blanqueamiento-antes.jpg",
+        "despues_url": "/images/blanqueamiento-despues.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "nombre": "Carolina Rossi",
+        "estrellas": 5,
+        "comentario": "Excelente atención en Odontologa Jimena de la Iglesia. Muy profesionales y atención puntual.",
+        "fecha": "Hace 2 semanas"
+      }
+    ],
+    "maps_url": "https://www.google.com/maps/place/Odontologa+Jimena+de+la+Iglesia/data=!4m7!3m6!1s0x95bcb7b9d33419d9:0x31fbcc9ff6109db7!8m2!3d-34.5420908!4d-58.4884414!16s%2Fg%2F11vwwt8rzf!19sChIJ2Rk007m3vJURt50Q9p_M-zE?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkxMy4wIJJjKgBIAVAD&rclk=1"
+  },
+  {
+    "slug": "waisman-odontologia-atm",
+    "nombre": "Waisman Odontología ATM",
+    "subtitulo": "Consultorio Odontológico en Florida & Estética 3D",
+    "telefono": "011 6694-3525",
+    "whatsapp": "5491166943525",
+    "instagram": "waisman_odontologia_atm_odontologia",
+    "direccion": "Av. Maipú 851 Piso 9 dpto K, Florida",
+    "ciudad": "Buenos Aires",
+    "rating": 4.4,
+    "reviews_count": 37,
+    "horarios": "Lun a Vie: 09:00 - 19:30 hs",
+    "especialidades": [
+      {
+        "titulo": "Alineadores Invisibles",
+        "descripcion": "Ortodoncia estética 3D sin brackets.",
+        "icono": "Sparkles"
+      },
+      {
+        "titulo": "Implantes Dentales",
+        "descripcion": "Rehabilitación oral fija de alta precisión.",
+        "icono": "ShieldCheck"
+      },
+      {
+        "titulo": "Blanqueamiento LED",
+        "descripcion": "Aclaramiento profesional en 1 sesión.",
+        "icono": "Zap"
+      },
+      {
+        "titulo": "Diseño de Sonrisa",
+        "descripcion": "Carillas estéticas de alta gama.",
+        "icono": "Smile"
+      },
+      {
+        "titulo": "Odontología Preventiva",
+        "descripcion": "Limpieza profunda ultrasónica y diagnóstico digital.",
+        "icono": "Activity"
+      },
+      {
+        "titulo": "Atención de Urgencias",
+        "descripcion": "Prioridad en turnos en el día para alivio de dolor.",
+        "icono": "Clock"
+      }
+    ],
+    "fotos": [
+      "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlJ7ai_6eAe2esxseM8hR2Kx_OaxMCQtYs9LruASh6phkycCiCeKgneARgXK6P5ORuMt4p76kA0LrriFqXOqnww1G2elYm9cD8Ev6dmVSNdz8D0TOrsaU10X8aVW4IwsaAV4aVztJY3rdAP=w1600-h1000-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmyaaVvJGIzRuJKVKus7rkhK0wIIZhmLYUlg1LHYqltyh4QtKfGhHSvElTJCIxr0xkrNjNNR1lz1r5pqkPRXXi_J1Y8s9IlVXL_PHfNJlnyEPk6BZza_Ej3z4qp6MtNfzfQWbFx=w1600-h1000-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkVwPBaQS_x5L0aKzgkCZvlrwAiQUJp_OEu0cqgmptUmU76_MCf4Sf8jORRLT7JCDTEiinFqARtsl07JshRamu-CN3e10McQ6exV1gJqXRvmIlPPBlbJiA9nwRxjw6xxoLM3d0=w1600-h1000-k-no"
+    ],
+    "antes_despues": [
+      {
+        "titulo": "Blanqueamiento Dental LED",
+        "tratamiento": "Tratamiento en 1 sesión de 60 min",
+        "antes_url": "/images/blanqueamiento-antes.jpg",
+        "despues_url": "/images/blanqueamiento-despues.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "nombre": "Carolina Rossi",
+        "estrellas": 5,
+        "comentario": "Excelente atención en Waisman Odontología ATM. Muy profesionales y atención puntual.",
+        "fecha": "Hace 2 semanas"
+      }
+    ],
+    "maps_url": "https://www.google.com/maps/place/Waisman+Odontolog%C3%ADa+ATM/data=!4m7!3m6!1s0x95bcb137f1a5d01b:0xd219e51095d9f3bb!8m2!3d-34.5298537!4d-58.479958!16s%2Fg%2F11c209j2m4!19sChIJG9Cl8TexvJURu_PZlRDlGdI?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkxMy4wIJJjKgBIAVAD&rclk=1"
+  },
+  {
+    "slug": "subdental",
+    "nombre": "Subdental",
+    "subtitulo": "Consultorio Odontológico en Florida & Estética 3D",
+    "telefono": "011 6114-5927",
+    "whatsapp": "5491161145927",
+    "instagram": "subdental_odontologia",
+    "direccion": "Urquiza, Florida",
+    "ciudad": "Buenos Aires",
+    "rating": 4.7,
+    "reviews_count": 14,
+    "horarios": "Lun a Vie: 09:00 - 19:30 hs",
+    "especialidades": [
+      {
+        "titulo": "Alineadores Invisibles",
+        "descripcion": "Ortodoncia estética 3D sin brackets.",
+        "icono": "Sparkles"
+      },
+      {
+        "titulo": "Implantes Dentales",
+        "descripcion": "Rehabilitación oral fija de alta precisión.",
+        "icono": "ShieldCheck"
+      },
+      {
+        "titulo": "Blanqueamiento LED",
+        "descripcion": "Aclaramiento profesional en 1 sesión.",
+        "icono": "Zap"
+      },
+      {
+        "titulo": "Diseño de Sonrisa",
+        "descripcion": "Carillas estéticas de alta gama.",
+        "icono": "Smile"
+      },
+      {
+        "titulo": "Odontología Preventiva",
+        "descripcion": "Limpieza profunda ultrasónica y diagnóstico digital.",
+        "icono": "Activity"
+      },
+      {
+        "titulo": "Atención de Urgencias",
+        "descripcion": "Prioridad en turnos en el día para alivio de dolor.",
+        "icono": "Clock"
+      }
+    ],
+    "fotos": [
+      "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnRipzcXiI-CFbEWIwR9s9QMkKwOPNaliQ2bgN34x4VK-sFTuudG45OgCaWrfCsG3-7T6Hp3WCauxSR7AO0DzdAl7nqQrGSVjWixiiRWUVytcS8YaqU-V8i-K9kD6_6C5uPEh8=w1600-h1000-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkfnaC9Xgk80UHpicd93zxFjD2WiwZTm0yfj3sm2Tpj6DoSSNyvhFaq06Qns5_48VkHBsa33MdFTCd7jMgZzd395RAxgU6mUPxsngVJFTOFxmaqvNmnZGft1kP6I8102Ivrtq_j=w1600-h1000-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlny1SMilelhVQjmhP5q3bhEwoG2gfDJsIJES8kkDfPdBTVxYWy2UexiklAetsD5EmlY9FZlMIuRlvpQ13-NI5nyShnpPfszyrEFON4ac_X3M7IAwD2fpvRvDfAeGIHODJ47TxjZ8sVuQY=w1600-h1000-k-no"
+    ],
+    "antes_despues": [
+      {
+        "titulo": "Blanqueamiento Dental LED",
+        "tratamiento": "Tratamiento en 1 sesión de 60 min",
+        "antes_url": "/images/blanqueamiento-antes.jpg",
+        "despues_url": "/images/blanqueamiento-despues.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "nombre": "Carolina Rossi",
+        "estrellas": 5,
+        "comentario": "Excelente atención en Subdental. Muy profesionales y atención puntual.",
+        "fecha": "Hace 2 semanas"
+      }
+    ],
+    "maps_url": "https://www.google.com/maps/place/Subdental/data=!4m7!3m6!1s0x95bcb17f42c2ec99:0x2fbe97ad23d06b06!8m2!3d-34.5267101!4d-58.484588!16s%2Fg%2F11pkpbdt5d!19sChIJmezCQn-xvJURBmvQI62Xvi8?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkxMy4wIJJjKgBIAVAD&rclk=1"
+  },
+  {
+    "slug": "busso-consultoria-odontologica-internacional",
+    "nombre": "Busso Consultoría Odontológica Internacional",
+    "subtitulo": "Consultorio Odontológico en Florida & Estética 3D",
+    "telefono": "011 6494-7120",
+    "whatsapp": "5491164947120",
+    "instagram": "busso_consultoria_odontologica_internacional_odontologia",
+    "direccion": "Av. Maipú 851 3 - B, Florida",
+    "ciudad": "Buenos Aires",
+    "rating": 5.0,
+    "reviews_count": 4,
+    "horarios": "Lun a Vie: 09:00 - 19:30 hs",
+    "especialidades": [
+      {
+        "titulo": "Alineadores Invisibles",
+        "descripcion": "Ortodoncia estética 3D sin brackets.",
+        "icono": "Sparkles"
+      },
+      {
+        "titulo": "Implantes Dentales",
+        "descripcion": "Rehabilitación oral fija de alta precisión.",
+        "icono": "ShieldCheck"
+      },
+      {
+        "titulo": "Blanqueamiento LED",
+        "descripcion": "Aclaramiento profesional en 1 sesión.",
+        "icono": "Zap"
+      },
+      {
+        "titulo": "Diseño de Sonrisa",
+        "descripcion": "Carillas estéticas de alta gama.",
+        "icono": "Smile"
+      },
+      {
+        "titulo": "Odontología Preventiva",
+        "descripcion": "Limpieza profunda ultrasónica y diagnóstico digital.",
+        "icono": "Activity"
+      },
+      {
+        "titulo": "Atención de Urgencias",
+        "descripcion": "Prioridad en turnos en el día para alivio de dolor.",
+        "icono": "Clock"
+      }
+    ],
+    "fotos": [
+      "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkZPspZjUoT4LefuCGC3Z-37tNY_faA8IFY6GIt9a7hlzDWc9PkjFvUKyG6OIkUVjARRncLuUXc35bxMTnzjTpOnUi8v51m-Tsx4iFUdojKc03m7c01g6CIQHWcuq8ieYAA1GM=w1600-h1000-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWn2NEmwvHdvoXCHzsCc78Ms5yTwyE6NbimPhblOvbmTfoh--hCa6iTy1PbFfivlC025CqSu_TeA_BfM2evHNmEZPde83y7hcnj8idM6tXbKbES7p7guLqFf5Gqa0RfuRglINyJC0QfNoAyq=w1600-h1000-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkLuEpdXK4lPphmzK7GhhTXPp1T7mSoThh0B8ZRSzfNkl_cCFAB0t0-m1Nl8Xko9VwS3pVoseOiMF3ASuaD6TI3cPwRsQRXwpoNp7Dv_ogInrNjBzI8jUiwBhd8oF_U7qDDV7yN=w1600-h1000-k-no"
+    ],
+    "antes_despues": [
+      {
+        "titulo": "Blanqueamiento Dental LED",
+        "tratamiento": "Tratamiento en 1 sesión de 60 min",
+        "antes_url": "/images/blanqueamiento-antes.jpg",
+        "despues_url": "/images/blanqueamiento-despues.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "nombre": "Carolina Rossi",
+        "estrellas": 5,
+        "comentario": "Excelente atención en Busso Consultoría Odontológica Internacional. Muy profesionales y atención puntual.",
+        "fecha": "Hace 2 semanas"
+      }
+    ],
+    "maps_url": "https://www.google.com/maps/place/Busso+Consultor%C3%ADa+Odontol%C3%B3gica+Internacional/data=!4m7!3m6!1s0x95bcb7a022f14477:0xf4193a70e581dfb8!8m2!3d-34.5298537!4d-58.479958!16s%2Fg%2F11qz9gj8_l!19sChIJd0TxIqC3vJURuN-B5XA6GfQ?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkxMy4wIJJjKgBIAVAD&rclk=1"
+  },
+  {
+    "slug": "costas-al-rio",
+    "nombre": "Costas al Río - Odontología",
+    "subtitulo": "Consultorio Odontológico en Florida & Estética 3D",
+    "telefono": "011 4795-5684",
+    "whatsapp": "5491147955684",
+    "instagram": "costas_al_rio_odontologia",
+    "direccion": "Edificio Concord, Av. del Libertador Piso 15 / Dpto., Florida",
+    "ciudad": "Buenos Aires",
+    "rating": 5.0,
+    "reviews_count": 4,
+    "horarios": "Lun a Vie: 09:00 - 19:30 hs",
+    "especialidades": [
+      {
+        "titulo": "Alineadores Invisibles",
+        "descripcion": "Ortodoncia estética 3D sin brackets.",
+        "icono": "Sparkles"
+      },
+      {
+        "titulo": "Implantes Dentales",
+        "descripcion": "Rehabilitación oral fija de alta precisión.",
+        "icono": "ShieldCheck"
+      },
+      {
+        "titulo": "Blanqueamiento LED",
+        "descripcion": "Aclaramiento profesional en 1 sesión.",
+        "icono": "Zap"
+      },
+      {
+        "titulo": "Diseño de Sonrisa",
+        "descripcion": "Carillas estéticas de alta gama.",
+        "icono": "Smile"
+      },
+      {
+        "titulo": "Odontología Preventiva",
+        "descripcion": "Limpieza profunda ultrasónica y diagnóstico digital.",
+        "icono": "Activity"
+      },
+      {
+        "titulo": "Atención de Urgencias",
+        "descripcion": "Prioridad en turnos en el día para alivio de dolor.",
+        "icono": "Clock"
+      }
+    ],
+    "fotos": [
+      "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWl2CU7lq7YVuPECScktm2FOHrkQJO4VnYlCitC3loNKpP3x2WL1aztZjiz61l5GhE7A8Q-XQY-9XrJuReFmiShZLyVOFCUdwJiAkX7MtevMHH0ggGnGpRBV14qNBRzszBAOh29wEk3l-ty6=w1600-h1000-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlvKsXzh_IBBvPcpW0NV_-PLScb9TqTIQhp7MyxiVMKJGBWq-z2ly7xz7Gp0n6DvShS3nwz8EKZLcgf_oG3uHi5jQTDtYQy5qARyx9JCAv7pFfBfk6sa_ZGUKCSD3SMmfZtkPdF=w1600-h1000-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnqayHcLMPhLRAUzntM9A-MlZ_V_tIF2TqYnDiuevAipFnUo0XPHJf--LsLk_u6d23x-fcKoAuZihf-e3zQbxkJq1SXSPBW6CPs7voby2yEmGUg0cyviySUp2IhY8M0kCabyvohPANw8NY=w1600-h1000-k-no"
+    ],
+    "antes_despues": [
+      {
+        "titulo": "Blanqueamiento Dental LED",
+        "tratamiento": "Tratamiento en 1 sesión de 60 min",
+        "antes_url": "/images/blanqueamiento-antes.jpg",
+        "despues_url": "/images/blanqueamiento-despues.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "nombre": "Carolina Rossi",
+        "estrellas": 5,
+        "comentario": "Excelente atención en Costas al Río - Odontología. Muy profesionales y atención puntual.",
+        "fecha": "Hace 2 semanas"
+      }
+    ],
+    "maps_url": "https://www.google.com/maps/place/Costas+al+R%C3%ADo+-+Odontolog%C3%ADa/data=!4m7!3m6!1s0x95bcb18c2b4540e1:0xb2388602a3ff77c3!8m2!3d-34.5161135!4d-58.4764258!16s%2Fg%2F11k3wt3rvh!19sChIJ4UBFK4yxvJURw3f_owKGOLI?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkxMy4wIJJjKgBIAVAD&rclk=1"
   }
 ]
