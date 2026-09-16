@@ -37,6 +37,7 @@ export interface Dentist {
   antes_despues: AntesDespuesCase[];
   reviews: Review[];
   maps_url: string;
+  descripcion_custom?: string;
 }
 
 export const DENTISTS: Dentist[] = dentistsData as Dentist[];

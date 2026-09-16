@@ -42,7 +42,11 @@ export const Hero: React.FC<HeroProps> = ({ dentist }) => {
             </h1>
 
             <p className="text-lg text-slate-600 leading-relaxed max-w-2xl font-normal">
-              En <strong>{dentist.nombre}</strong> brindamos atención odontológica integral con la más avanzada tecnología 3D, máxima higiene y un trato humano orientado a tu tranquilidad y bienestar.
+              {dentist.descripcion_custom ? (
+                dentist.descripcion_custom
+              ) : (
+                <>En <strong>{dentist.nombre}</strong> brindamos atención odontológica integral con la más avanzada tecnología 3D, máxima higiene y un trato humano orientado a tu tranquilidad y bienestar.</>
+              )}
             </p>
 
             {/* Badges / Benefits list */}
