@@ -42,7 +42,11 @@ export const Hero: React.FC<HeroProps> = ({ dentist }) => {
             </h1>
 
             <p className="text-lg text-slate-600 leading-relaxed max-w-2xl font-normal">
-              {dentist.descripcion_custom ? (
+              {dentist.slug === 'dra-nathaly-martinez' ? (
+                <>
+                  En <strong className="text-cyan-800 font-extrabold bg-cyan-100/60 px-1 rounded">DentiSalud Argentina</strong>, la <strong className="text-cyan-900 font-bold">Dra. Nathaly Martínez</strong> y su equipo brindan odontología integral en el corazón de <strong className="text-slate-900 font-extrabold bg-slate-100 px-1 rounded">Belgrano, CABA</strong>. Combinamos tecnología de última generación, materiales de alta calidad y atención personalizada para una experiencia cómoda, confiable y con soluciones duraderas para tu sonrisa.
+                </>
+              ) : dentist.descripcion_custom ? (
                 dentist.descripcion_custom
               ) : (
                 <>En <strong>{dentist.nombre}</strong> brindamos atención odontológica integral con la más avanzada tecnología 3D, máxima higiene y un trato humano orientado a tu tranquilidad y bienestar.</>
