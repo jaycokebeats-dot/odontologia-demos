@@ -1,5 +1,1585 @@
 [
   {
+    "slug": "dental-total-san-isidro-marquez-y-panamericana",
+    "nombre": "Dental Total San Isidro Márquez y Panamericana",
+    "subtitulo": "Consultorio Odontológico & Estética Dental Particular • Zona Norte / San Isidro",
+    "telefono": "0800-777-1919",
+    "whatsapp": "5498007771919",
+    "instagram": "dental_total_san_isidro_marquez_y_panamericana_odontologia",
+    "direccion": "Colectora Acceso Nte. 2743, HOR",
+    "ciudad": "Buenos Aires",
+    "rating": 4.9,
+    "reviews_count": 666,
+    "horarios": "Lun a Vie: 09:00 - 19:30 hs | Sáb: 09:00 - 13:00 hs",
+    "especialidades": [
+      {
+        "titulo": "Alineadores Invisibles",
+        "descripcion": "Ortodoncia estética y sin brackets con la última tecnología 3D.",
+        "icono": "Sparkles"
+      },
+      {
+        "titulo": "Implantes Dentales",
+        "descripcion": "Rehabilitación oral fija de alta precisión y máxima durabilidad.",
+        "icono": "ShieldCheck"
+      },
+      {
+        "titulo": "Blanqueamiento LED",
+        "descripcion": "Aclaramiento dental profesional en 1 sola sesión sin sensibilidad.",
+        "icono": "Zap"
+      },
+      {
+        "titulo": "Diseño de Sonrisa",
+        "descripcion": "Carillas de porcelana y resina guiadas por estética facial.",
+        "icono": "Smile"
+      },
+      {
+        "titulo": "Odontología Preventiva",
+        "descripcion": "Limpieza profunda con ultrasónico y diagnóstico digital.",
+        "icono": "Activity"
+      },
+      {
+        "titulo": "Atención de Urgencias",
+        "descripcion": "Prioridad en turnos en el día para alivio inmediato de dolor.",
+        "icono": "Clock"
+      }
+    ],
+    "fotos": [
+      "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWn4FVoq4wqrb-Y7EyxknXH-wpNaWL4RePXxrDDZiFjSNFfRfieCxnQCpbNsAqB1qgvv_ZibhGYQ-vncJnKl2pQPU95QqPDb3BQLJxhSc0pc_Vdt6GgNWLyKJ3wbD8VDd5Ox2s8Ob02yrEQO=w1600-h1000-k-no",
+      "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=1600&q=80",
+      "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=1600&q=80"
+    ],
+    "antes_despues": [
+      {
+        "titulo": "Blanqueamiento Dental LED",
+        "tratamiento": "Tratamiento en 1 sesión de 60 minutos",
+        "antes_url": "/images/blanqueamiento-antes.jpg",
+        "despues_url": "/images/blanqueamiento-despues.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "nombre": "Carolina Mendoza",
+        "estrellas": 5,
+        "comentario": "Excelente atención en Dental Total San Isidro Márquez y Panamericana. Los resultados superaron mis expectativas. El consultorio es impecable y muy moderno.",
+        "fecha": "Hace 2 semanas"
+      },
+      {
+        "nombre": "Esteban Rossi",
+        "estrellas": 5,
+        "comentario": "Atención profesional, puntualidad impecable y mucha calidez de todo el equipo. 100% recomendable.",
+        "fecha": "Hace 1 mes"
+      },
+      {
+        "nombre": "Valeria Peralta",
+        "estrellas": 5,
+        "comentario": "Instalaciones de primera categoría y excelente explicación de cada paso del tratamiento.",
+        "fecha": "Hace 3 meses"
+      }
+    ],
+    "maps_url": "https://www.google.com/maps/place/Dental+Total+San+Isidro+M%C3%A1rquez+y+Panamericana/data=!4m7!3m6!1s0x95bcb07795224d71:0xba93e3d7216bfe62!8m2!3d-34.49586!4d-58.5526558!16s%2Fg%2F1pt_zpwbg!19sChIJcU0ilXewvJURYv5rIdfjk7o?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkxNS4wIJJjKgBIAVAD&rclk=1"
+  },
+  {
+    "slug": "agustina-perez-vila-odontologia-integral",
+    "nombre": "Agustina Pérez Vila Odontología Integral",
+    "subtitulo": "Consultorio Odontológico & Estética Dental Particular • Zona Norte / San Isidro",
+    "telefono": "011 3402-2026",
+    "whatsapp": "5491134022026",
+    "instagram": "agustina_perez_vila_odontologia_integral_odontologia",
+    "direccion": "Blanco Encalada 197, San Isidro",
+    "ciudad": "Buenos Aires",
+    "rating": 5.0,
+    "reviews_count": 34,
+    "horarios": "Lun a Vie: 09:00 - 19:30 hs | Sáb: 09:00 - 13:00 hs",
+    "especialidades": [
+      {
+        "titulo": "Alineadores Invisibles",
+        "descripcion": "Ortodoncia estética y sin brackets con la última tecnología 3D.",
+        "icono": "Sparkles"
+      },
+      {
+        "titulo": "Implantes Dentales",
+        "descripcion": "Rehabilitación oral fija de alta precisión y máxima durabilidad.",
+        "icono": "ShieldCheck"
+      },
+      {
+        "titulo": "Blanqueamiento LED",
+        "descripcion": "Aclaramiento dental profesional en 1 sola sesión sin sensibilidad.",
+        "icono": "Zap"
+      },
+      {
+        "titulo": "Diseño de Sonrisa",
+        "descripcion": "Carillas de porcelana y resina guiadas por estética facial.",
+        "icono": "Smile"
+      },
+      {
+        "titulo": "Odontología Preventiva",
+        "descripcion": "Limpieza profunda con ultrasónico y diagnóstico digital.",
+        "icono": "Activity"
+      },
+      {
+        "titulo": "Atención de Urgencias",
+        "descripcion": "Prioridad en turnos en el día para alivio inmediato de dolor.",
+        "icono": "Clock"
+      }
+    ],
+    "fotos": [
+      "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmYywnbJtjbsXoyzEjvCZqtR7jeN-dyYYTOvqVdf9cKmTi2tTJX-unkANZGqTG1Siels_zB3V3DfPbAux_-KKvrQViIdese9Moq4s79S7n7O59Kz-L8hWEIz3bCvdzJj8ErNPnUFEAgM8c=w1600-h1000-k-no",
+      "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=1600&q=80",
+      "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=1600&q=80"
+    ],
+    "antes_despues": [
+      {
+        "titulo": "Blanqueamiento Dental LED",
+        "tratamiento": "Tratamiento en 1 sesión de 60 minutos",
+        "antes_url": "/images/blanqueamiento-antes.jpg",
+        "despues_url": "/images/blanqueamiento-despues.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "nombre": "Carolina Mendoza",
+        "estrellas": 5,
+        "comentario": "Excelente atención en Agustina Pérez Vila Odontología Integral. Los resultados superaron mis expectativas. El consultorio es impecable y muy moderno.",
+        "fecha": "Hace 2 semanas"
+      },
+      {
+        "nombre": "Esteban Rossi",
+        "estrellas": 5,
+        "comentario": "Atención profesional, puntualidad impecable y mucha calidez de todo el equipo. 100% recomendable.",
+        "fecha": "Hace 1 mes"
+      },
+      {
+        "nombre": "Valeria Peralta",
+        "estrellas": 5,
+        "comentario": "Instalaciones de primera categoría y excelente explicación de cada paso del tratamiento.",
+        "fecha": "Hace 3 meses"
+      }
+    ],
+    "maps_url": "https://www.google.com/maps/place/Agustina+P%C3%A9rez+Vila+Odontolog%C3%ADa+Integral/data=!4m7!3m6!1s0x2e5b2ef4ac1d46e9:0xa417cc25429c2c9f!8m2!3d-34.4926283!4d-58.5530481!16s%2Fg%2F11yn01rnfg!19sChIJ6UYdrPQuWy4RnyycQiXMF6Q?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkxNS4wIJJjKgBIAVAD&rclk=1"
+  },
+  {
+    "slug": "dra-piedra-maria-del-valle",
+    "nombre": "Dra. Piedra, Maria Del Valle",
+    "subtitulo": "Consultorio Odontológico & Estética Dental Particular • Zona Norte / San Isidro",
+    "telefono": "011 4732-3064",
+    "whatsapp": "5491147323064",
+    "instagram": "dra_piedra_maria_del_valle_odontologia",
+    "direccion": "Diego Palma 463, San Isidro",
+    "ciudad": "Buenos Aires",
+    "rating": 4.7,
+    "reviews_count": 19,
+    "horarios": "Lun a Vie: 09:00 - 19:30 hs | Sáb: 09:00 - 13:00 hs",
+    "especialidades": [
+      {
+        "titulo": "Alineadores Invisibles",
+        "descripcion": "Ortodoncia estética y sin brackets con la última tecnología 3D.",
+        "icono": "Sparkles"
+      },
+      {
+        "titulo": "Implantes Dentales",
+        "descripcion": "Rehabilitación oral fija de alta precisión y máxima durabilidad.",
+        "icono": "ShieldCheck"
+      },
+      {
+        "titulo": "Blanqueamiento LED",
+        "descripcion": "Aclaramiento dental profesional en 1 sola sesión sin sensibilidad.",
+        "icono": "Zap"
+      },
+      {
+        "titulo": "Diseño de Sonrisa",
+        "descripcion": "Carillas de porcelana y resina guiadas por estética facial.",
+        "icono": "Smile"
+      },
+      {
+        "titulo": "Odontología Preventiva",
+        "descripcion": "Limpieza profunda con ultrasónico y diagnóstico digital.",
+        "icono": "Activity"
+      },
+      {
+        "titulo": "Atención de Urgencias",
+        "descripcion": "Prioridad en turnos en el día para alivio inmediato de dolor.",
+        "icono": "Clock"
+      }
+    ],
+    "fotos": [
+      "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmYywnbJtjbsXoyzEjvCZqtR7jeN-dyYYTOvqVdf9cKmTi2tTJX-unkANZGqTG1Siels_zB3V3DfPbAux_-KKvrQViIdese9Moq4s79S7n7O59Kz-L8hWEIz3bCvdzJj8ErNPnUFEAgM8c=w1600-h1000-k-no",
+      "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=1600&q=80",
+      "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=1600&q=80"
+    ],
+    "antes_despues": [
+      {
+        "titulo": "Blanqueamiento Dental LED",
+        "tratamiento": "Tratamiento en 1 sesión de 60 minutos",
+        "antes_url": "/images/blanqueamiento-antes.jpg",
+        "despues_url": "/images/blanqueamiento-despues.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "nombre": "Carolina Mendoza",
+        "estrellas": 5,
+        "comentario": "Excelente atención en Dra. Piedra, Maria Del Valle. Los resultados superaron mis expectativas. El consultorio es impecable y muy moderno.",
+        "fecha": "Hace 2 semanas"
+      },
+      {
+        "nombre": "Esteban Rossi",
+        "estrellas": 5,
+        "comentario": "Atención profesional, puntualidad impecable y mucha calidez de todo el equipo. 100% recomendable.",
+        "fecha": "Hace 1 mes"
+      },
+      {
+        "nombre": "Valeria Peralta",
+        "estrellas": 5,
+        "comentario": "Instalaciones de primera categoría y excelente explicación de cada paso del tratamiento.",
+        "fecha": "Hace 3 meses"
+      }
+    ],
+    "maps_url": "https://www.google.com/maps/place/Dra.+Piedra,+Maria+Del+Valle/data=!4m7!3m6!1s0x95bcb03986218d9d:0xcb2648b6b2e9ac44!8m2!3d-34.4734277!4d-58.5222685!16s%2Fg%2F11h7s3t2tg!19sChIJnY0hhjmwvJURRKzpsrZIJss?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkxNS4wIJJjKgBIAVAD&rclk=1"
+  },
+  {
+    "slug": "consultorio-odontologico-dr-merea-gonzalo",
+    "nombre": "Consultorio Odontologico Dr Merea Gonzalo",
+    "subtitulo": "Consultorio Odontológico & Estética Dental Particular • Zona Norte / San Isidro",
+    "telefono": "011 4747-4565",
+    "whatsapp": "5491147474565",
+    "instagram": "consultorio_odontologico_dr_merea_gonzalo_odontologia",
+    "direccion": "Martin y Omar 224 SEGUNDO PISO OF 8, San Isidro",
+    "ciudad": "Buenos Aires",
+    "rating": 4.5,
+    "reviews_count": 28,
+    "horarios": "Lun a Vie: 09:00 - 19:30 hs | Sáb: 09:00 - 13:00 hs",
+    "especialidades": [
+      {
+        "titulo": "Alineadores Invisibles",
+        "descripcion": "Ortodoncia estética y sin brackets con la última tecnología 3D.",
+        "icono": "Sparkles"
+      },
+      {
+        "titulo": "Implantes Dentales",
+        "descripcion": "Rehabilitación oral fija de alta precisión y máxima durabilidad.",
+        "icono": "ShieldCheck"
+      },
+      {
+        "titulo": "Blanqueamiento LED",
+        "descripcion": "Aclaramiento dental profesional en 1 sola sesión sin sensibilidad.",
+        "icono": "Zap"
+      },
+      {
+        "titulo": "Diseño de Sonrisa",
+        "descripcion": "Carillas de porcelana y resina guiadas por estética facial.",
+        "icono": "Smile"
+      },
+      {
+        "titulo": "Odontología Preventiva",
+        "descripcion": "Limpieza profunda con ultrasónico y diagnóstico digital.",
+        "icono": "Activity"
+      },
+      {
+        "titulo": "Atención de Urgencias",
+        "descripcion": "Prioridad en turnos en el día para alivio inmediato de dolor.",
+        "icono": "Clock"
+      }
+    ],
+    "fotos": [
+      "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkd7rs8UYRMS80tjt6WLdsSp2-2kgXs0-cEZ79zAW4HQv0KE9-306rmNfr8N7_FO7vbyrbXSjpytX4hYgfCh1I1WkFVbgNTotqCBGeeghyYOEj5gDWQCR4S94cUwFr7yliWBsCBsg=w1600-h1000-k-no",
+      "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=1600&q=80",
+      "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=1600&q=80"
+    ],
+    "antes_despues": [
+      {
+        "titulo": "Blanqueamiento Dental LED",
+        "tratamiento": "Tratamiento en 1 sesión de 60 minutos",
+        "antes_url": "/images/blanqueamiento-antes.jpg",
+        "despues_url": "/images/blanqueamiento-despues.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "nombre": "Carolina Mendoza",
+        "estrellas": 5,
+        "comentario": "Excelente atención en Consultorio Odontologico Dr Merea Gonzalo. Los resultados superaron mis expectativas. El consultorio es impecable y muy moderno.",
+        "fecha": "Hace 2 semanas"
+      },
+      {
+        "nombre": "Esteban Rossi",
+        "estrellas": 5,
+        "comentario": "Atención profesional, puntualidad impecable y mucha calidez de todo el equipo. 100% recomendable.",
+        "fecha": "Hace 1 mes"
+      },
+      {
+        "nombre": "Valeria Peralta",
+        "estrellas": 5,
+        "comentario": "Instalaciones de primera categoría y excelente explicación de cada paso del tratamiento.",
+        "fecha": "Hace 3 meses"
+      }
+    ],
+    "maps_url": "https://www.google.com/maps/place/Consultorio+Odontologico+Dr+Merea+Gonzalo/data=!4m7!3m6!1s0x95bcb034604c0b7b:0x7a1ddfc1b6a1fa25!8m2!3d-34.4711505!4d-58.5116226!16s%2Fg%2F11bbrqqcq8!19sChIJewtMYDSwvJURJfqhtsHfHXo?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkxNS4wIJJjKgBIAVAD&rclk=1"
+  },
+  {
+    "slug": "odonto-san-isidro",
+    "nombre": "Odonto San Isidro",
+    "subtitulo": "Consultorio Odontológico & Estética Dental Particular • Zona Norte / San Isidro",
+    "telefono": "011 3166-7594",
+    "whatsapp": "5491131667594",
+    "instagram": "odonto_san_isidro_odontologia",
+    "direccion": "Martin y Omar 242, San Isidro",
+    "ciudad": "Buenos Aires",
+    "rating": 4.9,
+    "reviews_count": 22,
+    "horarios": "Lun a Vie: 09:00 - 19:30 hs | Sáb: 09:00 - 13:00 hs",
+    "especialidades": [
+      {
+        "titulo": "Alineadores Invisibles",
+        "descripcion": "Ortodoncia estética y sin brackets con la última tecnología 3D.",
+        "icono": "Sparkles"
+      },
+      {
+        "titulo": "Implantes Dentales",
+        "descripcion": "Rehabilitación oral fija de alta precisión y máxima durabilidad.",
+        "icono": "ShieldCheck"
+      },
+      {
+        "titulo": "Blanqueamiento LED",
+        "descripcion": "Aclaramiento dental profesional en 1 sola sesión sin sensibilidad.",
+        "icono": "Zap"
+      },
+      {
+        "titulo": "Diseño de Sonrisa",
+        "descripcion": "Carillas de porcelana y resina guiadas por estética facial.",
+        "icono": "Smile"
+      },
+      {
+        "titulo": "Odontología Preventiva",
+        "descripcion": "Limpieza profunda con ultrasónico y diagnóstico digital.",
+        "icono": "Activity"
+      },
+      {
+        "titulo": "Atención de Urgencias",
+        "descripcion": "Prioridad en turnos en el día para alivio inmediato de dolor.",
+        "icono": "Clock"
+      }
+    ],
+    "fotos": [
+      "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWl-PN7snO06qNRHL6QsvpJcu2oyP5kax0YI-Fpb9oX6hRkqqt0QY9apKQRFLO-mpF_F-4rcvC_RWDy2aKRGSm5UGofZOt7XtlQZ3_eGvxv145R4kbXOvU12HMkQoDYF2bbc5WoXdq-ghKM=w1600-h1000-k-no",
+      "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=1600&q=80",
+      "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=1600&q=80"
+    ],
+    "antes_despues": [
+      {
+        "titulo": "Blanqueamiento Dental LED",
+        "tratamiento": "Tratamiento en 1 sesión de 60 minutos",
+        "antes_url": "/images/blanqueamiento-antes.jpg",
+        "despues_url": "/images/blanqueamiento-despues.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "nombre": "Carolina Mendoza",
+        "estrellas": 5,
+        "comentario": "Excelente atención en Odonto San Isidro. Los resultados superaron mis expectativas. El consultorio es impecable y muy moderno.",
+        "fecha": "Hace 2 semanas"
+      },
+      {
+        "nombre": "Esteban Rossi",
+        "estrellas": 5,
+        "comentario": "Atención profesional, puntualidad impecable y mucha calidez de todo el equipo. 100% recomendable.",
+        "fecha": "Hace 1 mes"
+      },
+      {
+        "nombre": "Valeria Peralta",
+        "estrellas": 5,
+        "comentario": "Instalaciones de primera categoría y excelente explicación de cada paso del tratamiento.",
+        "fecha": "Hace 3 meses"
+      }
+    ],
+    "maps_url": "https://www.google.com/maps/place/Odonto+San+Isidro/data=!4m7!3m6!1s0x95bcb1b3bff9b9b3:0xc9f24bcc6b3d0270!8m2!3d-34.4710785!4d-58.5114685!16s%2Fg%2F11csbpzkwc!19sChIJs7n5v7OxvJURcAI9a8xL8sk?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkxNS4wIJJjKgBIAVAD&rclk=1"
+  },
+  {
+    "slug": "centro-odontologico-odous",
+    "nombre": "Centro Odontologico Odous",
+    "subtitulo": "Consultorio Odontológico & Estética Dental Particular • Zona Norte / San Isidro",
+    "telefono": "011 5802-6503",
+    "whatsapp": "5491158026503",
+    "instagram": "centro_odontologico_odous_odontologia",
+    "direccion": "Gral. Manuel Belgrano 440, San Isidro",
+    "ciudad": "Buenos Aires",
+    "rating": 4.3,
+    "reviews_count": 115,
+    "horarios": "Lun a Vie: 09:00 - 19:30 hs | Sáb: 09:00 - 13:00 hs",
+    "especialidades": [
+      {
+        "titulo": "Alineadores Invisibles",
+        "descripcion": "Ortodoncia estética y sin brackets con la última tecnología 3D.",
+        "icono": "Sparkles"
+      },
+      {
+        "titulo": "Implantes Dentales",
+        "descripcion": "Rehabilitación oral fija de alta precisión y máxima durabilidad.",
+        "icono": "ShieldCheck"
+      },
+      {
+        "titulo": "Blanqueamiento LED",
+        "descripcion": "Aclaramiento dental profesional en 1 sola sesión sin sensibilidad.",
+        "icono": "Zap"
+      },
+      {
+        "titulo": "Diseño de Sonrisa",
+        "descripcion": "Carillas de porcelana y resina guiadas por estética facial.",
+        "icono": "Smile"
+      },
+      {
+        "titulo": "Odontología Preventiva",
+        "descripcion": "Limpieza profunda con ultrasónico y diagnóstico digital.",
+        "icono": "Activity"
+      },
+      {
+        "titulo": "Atención de Urgencias",
+        "descripcion": "Prioridad en turnos en el día para alivio inmediato de dolor.",
+        "icono": "Clock"
+      }
+    ],
+    "fotos": [
+      "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWln8_NYcL7CDK_cXJastJHwiZefY9qKDokhibNkesw4hGajyl6ARp8zHAIG656GZZrl_lpXsLR_4Th3LJCNATpUttYQKibBdLYyxJBTHh-ojCvpKLTnYu7qXAENDKKA6FpcrlL-=w1600-h1000-k-no",
+      "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=1600&q=80",
+      "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=1600&q=80"
+    ],
+    "antes_despues": [
+      {
+        "titulo": "Blanqueamiento Dental LED",
+        "tratamiento": "Tratamiento en 1 sesión de 60 minutos",
+        "antes_url": "/images/blanqueamiento-antes.jpg",
+        "despues_url": "/images/blanqueamiento-despues.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "nombre": "Carolina Mendoza",
+        "estrellas": 5,
+        "comentario": "Excelente atención en Centro Odontologico Odous. Los resultados superaron mis expectativas. El consultorio es impecable y muy moderno.",
+        "fecha": "Hace 2 semanas"
+      },
+      {
+        "nombre": "Esteban Rossi",
+        "estrellas": 5,
+        "comentario": "Atención profesional, puntualidad impecable y mucha calidez de todo el equipo. 100% recomendable.",
+        "fecha": "Hace 1 mes"
+      },
+      {
+        "nombre": "Valeria Peralta",
+        "estrellas": 5,
+        "comentario": "Instalaciones de primera categoría y excelente explicación de cada paso del tratamiento.",
+        "fecha": "Hace 3 meses"
+      }
+    ],
+    "maps_url": "https://www.google.com/maps/place/Centro+Odontologico+Odous/data=!4m7!3m6!1s0x95bcb033596ff785:0xa34fe833225dfd4b!8m2!3d-34.4691929!4d-58.5098837!16s%2Fg%2F1tj2k1_l!19sChIJhfdvWTOwvJURS_1dIjPoT6M?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkxNS4wIJJjKgBIAVAD&rclk=1"
+  },
+  {
+    "slug": "ba-dental-studio",
+    "nombre": "BA Dental Studio",
+    "subtitulo": "Consultorio Odontológico & Estética Dental Particular • Zona Norte / San Isidro",
+    "telefono": "011 3247-7248",
+    "whatsapp": "5491132477248",
+    "instagram": "ba_dental_studio_odontologia",
+    "direccion": "Blanco Encalada 197, San Isidro",
+    "ciudad": "Buenos Aires",
+    "rating": 4.7,
+    "reviews_count": 14,
+    "horarios": "Lun a Vie: 09:00 - 19:30 hs | Sáb: 09:00 - 13:00 hs",
+    "especialidades": [
+      {
+        "titulo": "Alineadores Invisibles",
+        "descripcion": "Ortodoncia estética y sin brackets con la última tecnología 3D.",
+        "icono": "Sparkles"
+      },
+      {
+        "titulo": "Implantes Dentales",
+        "descripcion": "Rehabilitación oral fija de alta precisión y máxima durabilidad.",
+        "icono": "ShieldCheck"
+      },
+      {
+        "titulo": "Blanqueamiento LED",
+        "descripcion": "Aclaramiento dental profesional en 1 sola sesión sin sensibilidad.",
+        "icono": "Zap"
+      },
+      {
+        "titulo": "Diseño de Sonrisa",
+        "descripcion": "Carillas de porcelana y resina guiadas por estética facial.",
+        "icono": "Smile"
+      },
+      {
+        "titulo": "Odontología Preventiva",
+        "descripcion": "Limpieza profunda con ultrasónico y diagnóstico digital.",
+        "icono": "Activity"
+      },
+      {
+        "titulo": "Atención de Urgencias",
+        "descripcion": "Prioridad en turnos en el día para alivio inmediato de dolor.",
+        "icono": "Clock"
+      }
+    ],
+    "fotos": [
+      "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWln8_NYcL7CDK_cXJastJHwiZefY9qKDokhibNkesw4hGajyl6ARp8zHAIG656GZZrl_lpXsLR_4Th3LJCNATpUttYQKibBdLYyxJBTHh-ojCvpKLTnYu7qXAENDKKA6FpcrlL-=w1600-h1000-k-no",
+      "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=1600&q=80",
+      "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=1600&q=80"
+    ],
+    "antes_despues": [
+      {
+        "titulo": "Blanqueamiento Dental LED",
+        "tratamiento": "Tratamiento en 1 sesión de 60 minutos",
+        "antes_url": "/images/blanqueamiento-antes.jpg",
+        "despues_url": "/images/blanqueamiento-despues.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "nombre": "Carolina Mendoza",
+        "estrellas": 5,
+        "comentario": "Excelente atención en BA Dental Studio. Los resultados superaron mis expectativas. El consultorio es impecable y muy moderno.",
+        "fecha": "Hace 2 semanas"
+      },
+      {
+        "nombre": "Esteban Rossi",
+        "estrellas": 5,
+        "comentario": "Atención profesional, puntualidad impecable y mucha calidez de todo el equipo. 100% recomendable.",
+        "fecha": "Hace 1 mes"
+      },
+      {
+        "nombre": "Valeria Peralta",
+        "estrellas": 5,
+        "comentario": "Instalaciones de primera categoría y excelente explicación de cada paso del tratamiento.",
+        "fecha": "Hace 3 meses"
+      }
+    ],
+    "maps_url": "https://www.google.com/maps/place/BA+Dental+Studio+-+San+Isidro/data=!4m7!3m6!1s0x95bcb13e75344f59:0x5aa4a5c885711b8d!8m2!3d-34.4926283!4d-58.5530481!16s%2Fg%2F11z2_fdwmb!19sChIJWU80dT6xvJURjRtxhcilpFo?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkxNS4wIJJjKgBIAVAD&rclk=1"
+  },
+  {
+    "slug": "maria-soledad-lopez-odontologia-integral",
+    "nombre": "María Soledad López Odontología Integral",
+    "subtitulo": "Consultorio Odontológico & Estética Dental Particular • Zona Norte / San Isidro",
+    "telefono": "011 2384-4347",
+    "whatsapp": "5491123844347",
+    "instagram": "maria_soledad_lopez_odontologia_integral_odontologia",
+    "direccion": "Diego Palma 948, San Isidro",
+    "ciudad": "Buenos Aires",
+    "rating": 5.0,
+    "reviews_count": 27,
+    "horarios": "Lun a Vie: 09:00 - 19:30 hs | Sáb: 09:00 - 13:00 hs",
+    "especialidades": [
+      {
+        "titulo": "Alineadores Invisibles",
+        "descripcion": "Ortodoncia estética y sin brackets con la última tecnología 3D.",
+        "icono": "Sparkles"
+      },
+      {
+        "titulo": "Implantes Dentales",
+        "descripcion": "Rehabilitación oral fija de alta precisión y máxima durabilidad.",
+        "icono": "ShieldCheck"
+      },
+      {
+        "titulo": "Blanqueamiento LED",
+        "descripcion": "Aclaramiento dental profesional en 1 sola sesión sin sensibilidad.",
+        "icono": "Zap"
+      },
+      {
+        "titulo": "Diseño de Sonrisa",
+        "descripcion": "Carillas de porcelana y resina guiadas por estética facial.",
+        "icono": "Smile"
+      },
+      {
+        "titulo": "Odontología Preventiva",
+        "descripcion": "Limpieza profunda con ultrasónico y diagnóstico digital.",
+        "icono": "Activity"
+      },
+      {
+        "titulo": "Atención de Urgencias",
+        "descripcion": "Prioridad en turnos en el día para alivio inmediato de dolor.",
+        "icono": "Clock"
+      }
+    ],
+    "fotos": [
+      "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnWxv-gQf5eGHD086RE6BpRoB2EN9Qk0Tejwip_N0_7A3nVGjGvoEEM5Bu-DyAdOCOkZp3pLwQIZepiSzfp0EDbFlhjo_FtkDzVexXZrdYbOsLQ4ruvT9Y787dFfl5g46plc-njkw=w1600-h1000-k-no",
+      "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=1600&q=80",
+      "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=1600&q=80"
+    ],
+    "antes_despues": [
+      {
+        "titulo": "Blanqueamiento Dental LED",
+        "tratamiento": "Tratamiento en 1 sesión de 60 minutos",
+        "antes_url": "/images/blanqueamiento-antes.jpg",
+        "despues_url": "/images/blanqueamiento-despues.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "nombre": "Carolina Mendoza",
+        "estrellas": 5,
+        "comentario": "Excelente atención en María Soledad López Odontología Integral. Los resultados superaron mis expectativas. El consultorio es impecable y muy moderno.",
+        "fecha": "Hace 2 semanas"
+      },
+      {
+        "nombre": "Esteban Rossi",
+        "estrellas": 5,
+        "comentario": "Atención profesional, puntualidad impecable y mucha calidez de todo el equipo. 100% recomendable.",
+        "fecha": "Hace 1 mes"
+      },
+      {
+        "nombre": "Valeria Peralta",
+        "estrellas": 5,
+        "comentario": "Instalaciones de primera categoría y excelente explicación de cada paso del tratamiento.",
+        "fecha": "Hace 3 meses"
+      }
+    ],
+    "maps_url": "https://www.google.com/maps/place/Mar%C3%ADa+Soledad+L%C3%B3pez+Odontolog%C3%ADa+Integral/data=!4m7!3m6!1s0x95bcb1df3d12bb93:0xb967bc4c2b985814!8m2!3d-34.4765331!4d-58.527763!16s%2Fg%2F11ft01m9zc!19sChIJk7sSPd-xvJURFFiYK0y8Z7k?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkxNS4wIJJjKgBIAVAD&rclk=1"
+  },
+  {
+    "slug": "mil-odontologia-integral",
+    "nombre": "Mil Odontología Integral",
+    "subtitulo": "Consultorio Odontológico & Estética Dental Particular • Zona Norte / San Isidro",
+    "telefono": "011 7100-6268",
+    "whatsapp": "5491171006268",
+    "instagram": "mil_odontologia_integral_odontologia",
+    "direccion": "Martin y Omar 129, 1642 San Isidro",
+    "ciudad": "Buenos Aires",
+    "rating": 4.7,
+    "reviews_count": 44,
+    "horarios": "Lun a Vie: 09:00 - 19:30 hs | Sáb: 09:00 - 13:00 hs",
+    "especialidades": [
+      {
+        "titulo": "Alineadores Invisibles",
+        "descripcion": "Ortodoncia estética y sin brackets con la última tecnología 3D.",
+        "icono": "Sparkles"
+      },
+      {
+        "titulo": "Implantes Dentales",
+        "descripcion": "Rehabilitación oral fija de alta precisión y máxima durabilidad.",
+        "icono": "ShieldCheck"
+      },
+      {
+        "titulo": "Blanqueamiento LED",
+        "descripcion": "Aclaramiento dental profesional en 1 sola sesión sin sensibilidad.",
+        "icono": "Zap"
+      },
+      {
+        "titulo": "Diseño de Sonrisa",
+        "descripcion": "Carillas de porcelana y resina guiadas por estética facial.",
+        "icono": "Smile"
+      },
+      {
+        "titulo": "Odontología Preventiva",
+        "descripcion": "Limpieza profunda con ultrasónico y diagnóstico digital.",
+        "icono": "Activity"
+      },
+      {
+        "titulo": "Atención de Urgencias",
+        "descripcion": "Prioridad en turnos en el día para alivio inmediato de dolor.",
+        "icono": "Clock"
+      }
+    ],
+    "fotos": [
+      "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmhdAiiYC-KoXXCNR0DTF82LnfxD9uX50CNOplDCq4p661oCk--DUE4Y6NMbkvOR_fHu05dbfSWLB6w3mzZKri4DAiDw8_iHMc3_QyivnGlf_QZccXPQY_EPqLVbqIL_ncFKtaJ=w1600-h1000-k-no",
+      "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=1600&q=80",
+      "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=1600&q=80"
+    ],
+    "antes_despues": [
+      {
+        "titulo": "Blanqueamiento Dental LED",
+        "tratamiento": "Tratamiento en 1 sesión de 60 minutos",
+        "antes_url": "/images/blanqueamiento-antes.jpg",
+        "despues_url": "/images/blanqueamiento-despues.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "nombre": "Carolina Mendoza",
+        "estrellas": 5,
+        "comentario": "Excelente atención en Mil Odontología Integral. Los resultados superaron mis expectativas. El consultorio es impecable y muy moderno.",
+        "fecha": "Hace 2 semanas"
+      },
+      {
+        "nombre": "Esteban Rossi",
+        "estrellas": 5,
+        "comentario": "Atención profesional, puntualidad impecable y mucha calidez de todo el equipo. 100% recomendable.",
+        "fecha": "Hace 1 mes"
+      },
+      {
+        "nombre": "Valeria Peralta",
+        "estrellas": 5,
+        "comentario": "Instalaciones de primera categoría y excelente explicación de cada paso del tratamiento.",
+        "fecha": "Hace 3 meses"
+      }
+    ],
+    "maps_url": "https://www.google.com/maps/place/Mil+Odontolog%C3%ADa+Integral/data=!4m7!3m6!1s0x95bcb119dad4f499:0x49146eba49642d2d!8m2!3d-34.4720855!4d-58.5125814!16s%2Fg%2F11tjm2w1cz!19sChIJmfTU2hmxvJURLS1kSbpuFEk?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkxNS4wIJJjKgBIAVAD&rclk=1"
+  },
+  {
+    "slug": "numia-odontologia-integral",
+    "nombre": "NUMIA odontologia integral",
+    "subtitulo": "Consultorio Odontológico & Estética Dental Particular • Zona Norte / San Isidro",
+    "telefono": "011 7892-0141",
+    "whatsapp": "5491178920141",
+    "instagram": "numia_odontologia_integral_odontologia",
+    "direccion": "Blanco Encalada 150 local 6, San Isidro",
+    "ciudad": "Buenos Aires",
+    "rating": 5.0,
+    "reviews_count": 17,
+    "horarios": "Lun a Vie: 09:00 - 19:30 hs | Sáb: 09:00 - 13:00 hs",
+    "especialidades": [
+      {
+        "titulo": "Alineadores Invisibles",
+        "descripcion": "Ortodoncia estética y sin brackets con la última tecnología 3D.",
+        "icono": "Sparkles"
+      },
+      {
+        "titulo": "Implantes Dentales",
+        "descripcion": "Rehabilitación oral fija de alta precisión y máxima durabilidad.",
+        "icono": "ShieldCheck"
+      },
+      {
+        "titulo": "Blanqueamiento LED",
+        "descripcion": "Aclaramiento dental profesional en 1 sola sesión sin sensibilidad.",
+        "icono": "Zap"
+      },
+      {
+        "titulo": "Diseño de Sonrisa",
+        "descripcion": "Carillas de porcelana y resina guiadas por estética facial.",
+        "icono": "Smile"
+      },
+      {
+        "titulo": "Odontología Preventiva",
+        "descripcion": "Limpieza profunda con ultrasónico y diagnóstico digital.",
+        "icono": "Activity"
+      },
+      {
+        "titulo": "Atención de Urgencias",
+        "descripcion": "Prioridad en turnos en el día para alivio inmediato de dolor.",
+        "icono": "Clock"
+      }
+    ],
+    "fotos": [
+      "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWm_QObQyuZkQ-8uSpPJXbM4THZpNGfLdRpI3m2LjyooU4k1yAcTbO9ogBZAIEIKQzVMo6_EzfQrGhoZOa0Tf67HBp9chWNcPSCw--UHA6w4riGEz6PeERS3JQMh6-oNQ7PP79K5AiwhZEA=w1600-h1000-k-no",
+      "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=1600&q=80",
+      "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=1600&q=80"
+    ],
+    "antes_despues": [
+      {
+        "titulo": "Blanqueamiento Dental LED",
+        "tratamiento": "Tratamiento en 1 sesión de 60 minutos",
+        "antes_url": "/images/blanqueamiento-antes.jpg",
+        "despues_url": "/images/blanqueamiento-despues.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "nombre": "Carolina Mendoza",
+        "estrellas": 5,
+        "comentario": "Excelente atención en NUMIA odontologia integral. Los resultados superaron mis expectativas. El consultorio es impecable y muy moderno.",
+        "fecha": "Hace 2 semanas"
+      },
+      {
+        "nombre": "Esteban Rossi",
+        "estrellas": 5,
+        "comentario": "Atención profesional, puntualidad impecable y mucha calidez de todo el equipo. 100% recomendable.",
+        "fecha": "Hace 1 mes"
+      },
+      {
+        "nombre": "Valeria Peralta",
+        "estrellas": 5,
+        "comentario": "Instalaciones de primera categoría y excelente explicación de cada paso del tratamiento.",
+        "fecha": "Hace 3 meses"
+      }
+    ],
+    "maps_url": "https://www.google.com/maps/place/NUMIA+odontologia+integral/data=!4m7!3m6!1s0x95bcb1e50b5b556b:0x2057b83131372722!8m2!3d-34.4932528!4d-58.5529827!16s%2Fg%2F11z6c3rcqn!19sChIJa1VbC-WxvJURIic3MTG4VyA?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkxNS4wIJJjKgBIAVAD&rclk=1"
+  },
+  {
+    "slug": "odontologia-dr-armando-mariconde-y-equipo",
+    "nombre": "ODONTOLOGÍA DR. ARMANDO MARICONDE Y EQUIPO",
+    "subtitulo": "Consultorio Odontológico & Estética Dental Particular • Zona Norte / San Isidro",
+    "telefono": "011 2179-0746",
+    "whatsapp": "5491121790746",
+    "instagram": "odontologia_dr_armando_mariconde_y_equipo_odontologia",
+    "direccion": "Gral. Alvear 442 3 PISO DEPARTAMENTO 10, San Isidro",
+    "ciudad": "Buenos Aires",
+    "rating": 5.0,
+    "reviews_count": 6,
+    "horarios": "Lun a Vie: 09:00 - 19:30 hs | Sáb: 09:00 - 13:00 hs",
+    "especialidades": [
+      {
+        "titulo": "Alineadores Invisibles",
+        "descripcion": "Ortodoncia estética y sin brackets con la última tecnología 3D.",
+        "icono": "Sparkles"
+      },
+      {
+        "titulo": "Implantes Dentales",
+        "descripcion": "Rehabilitación oral fija de alta precisión y máxima durabilidad.",
+        "icono": "ShieldCheck"
+      },
+      {
+        "titulo": "Blanqueamiento LED",
+        "descripcion": "Aclaramiento dental profesional en 1 sola sesión sin sensibilidad.",
+        "icono": "Zap"
+      },
+      {
+        "titulo": "Diseño de Sonrisa",
+        "descripcion": "Carillas de porcelana y resina guiadas por estética facial.",
+        "icono": "Smile"
+      },
+      {
+        "titulo": "Odontología Preventiva",
+        "descripcion": "Limpieza profunda con ultrasónico y diagnóstico digital.",
+        "icono": "Activity"
+      },
+      {
+        "titulo": "Atención de Urgencias",
+        "descripcion": "Prioridad en turnos en el día para alivio inmediato de dolor.",
+        "icono": "Clock"
+      }
+    ],
+    "fotos": [
+      "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmIRZDMoBT83LF4pSN1JCkWD-bmzWMcZ4FqVv4oREsGrjGiFyKy2_Y9iKELmyaoVos84tz_gNEdjDizLmAqiK-gfTb2V65ZmT0SCw3jEc0FfaLBOyDMZ-3ZAh_WkxCEp52_R07SPws6HixJ=w1600-h1000-k-no",
+      "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=1600&q=80",
+      "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=1600&q=80"
+    ],
+    "antes_despues": [
+      {
+        "titulo": "Blanqueamiento Dental LED",
+        "tratamiento": "Tratamiento en 1 sesión de 60 minutos",
+        "antes_url": "/images/blanqueamiento-antes.jpg",
+        "despues_url": "/images/blanqueamiento-despues.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "nombre": "Carolina Mendoza",
+        "estrellas": 5,
+        "comentario": "Excelente atención en ODONTOLOGÍA DR. ARMANDO MARICONDE Y EQUIPO. Los resultados superaron mis expectativas. El consultorio es impecable y muy moderno.",
+        "fecha": "Hace 2 semanas"
+      },
+      {
+        "nombre": "Esteban Rossi",
+        "estrellas": 5,
+        "comentario": "Atención profesional, puntualidad impecable y mucha calidez de todo el equipo. 100% recomendable.",
+        "fecha": "Hace 1 mes"
+      },
+      {
+        "nombre": "Valeria Peralta",
+        "estrellas": 5,
+        "comentario": "Instalaciones de primera categoría y excelente explicación de cada paso del tratamiento.",
+        "fecha": "Hace 3 meses"
+      }
+    ],
+    "maps_url": "https://www.google.com/maps/place/ODONTOLOG%C3%8DA+DR.+ARMANDO+MARICONDE+Y+EQUIPO/data=!4m7!3m6!1s0x95bcb13c6d9b9595:0xe7f823dda3a9771e!8m2!3d-34.4870567!4d-58.4958058!16s%2Fg%2F11zg1cdyzy!19sChIJlZWbbTyxvJURHnepo90j-Oc?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkxNS4wIJJjKgBIAVAD&rclk=1"
+  },
+  {
+    "slug": "dra-laura-brown-odontologia-integral-estetica-implantes-periodoncia-ortodoncia-edodoncia",
+    "nombre": "Dra Laura Brown Odontologia integral,estetica,implantes,periodoncia ,ortodoncia,edodoncia",
+    "subtitulo": "Consultorio Odontológico & Estética Dental Particular • Zona Norte / San Isidro",
+    "telefono": "011 5527-2162",
+    "whatsapp": "5491155272162",
+    "instagram": "dra_laura_brown_odontologia_integral_estetica_implantes_periodoncia_ortodoncia_edodoncia_odontologia",
+    "direccion": "Av. Andrés Rolón 100, San Isidro",
+    "ciudad": "Buenos Aires",
+    "rating": 5.0,
+    "reviews_count": 15,
+    "horarios": "Lun a Vie: 09:00 - 19:30 hs | Sáb: 09:00 - 13:00 hs",
+    "especialidades": [
+      {
+        "titulo": "Alineadores Invisibles",
+        "descripcion": "Ortodoncia estética y sin brackets con la última tecnología 3D.",
+        "icono": "Sparkles"
+      },
+      {
+        "titulo": "Implantes Dentales",
+        "descripcion": "Rehabilitación oral fija de alta precisión y máxima durabilidad.",
+        "icono": "ShieldCheck"
+      },
+      {
+        "titulo": "Blanqueamiento LED",
+        "descripcion": "Aclaramiento dental profesional en 1 sola sesión sin sensibilidad.",
+        "icono": "Zap"
+      },
+      {
+        "titulo": "Diseño de Sonrisa",
+        "descripcion": "Carillas de porcelana y resina guiadas por estética facial.",
+        "icono": "Smile"
+      },
+      {
+        "titulo": "Odontología Preventiva",
+        "descripcion": "Limpieza profunda con ultrasónico y diagnóstico digital.",
+        "icono": "Activity"
+      },
+      {
+        "titulo": "Atención de Urgencias",
+        "descripcion": "Prioridad en turnos en el día para alivio inmediato de dolor.",
+        "icono": "Clock"
+      }
+    ],
+    "fotos": [
+      "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWknvEGyfrhEs36V6uD5w2KklsH-ZmYfKfCXkxgJhke0ZFPgAmqaeMCzhLTVi_mmcGOCxyIYQjy-JVVdmC80au6f6gkiKGtuMEtG7AHaFATOib5bNawhg2rPwzQvPjHoLp1sUp-T2Q=w1600-h1000-k-no",
+      "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=1600&q=80",
+      "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=1600&q=80"
+    ],
+    "antes_despues": [
+      {
+        "titulo": "Blanqueamiento Dental LED",
+        "tratamiento": "Tratamiento en 1 sesión de 60 minutos",
+        "antes_url": "/images/blanqueamiento-antes.jpg",
+        "despues_url": "/images/blanqueamiento-despues.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "nombre": "Carolina Mendoza",
+        "estrellas": 5,
+        "comentario": "Excelente atención en Dra Laura Brown Odontologia integral,estetica,implantes,periodoncia ,ortodoncia,edodoncia. Los resultados superaron mis expectativas. El consultorio es impecable y muy moderno.",
+        "fecha": "Hace 2 semanas"
+      },
+      {
+        "nombre": "Esteban Rossi",
+        "estrellas": 5,
+        "comentario": "Atención profesional, puntualidad impecable y mucha calidez de todo el equipo. 100% recomendable.",
+        "fecha": "Hace 1 mes"
+      },
+      {
+        "nombre": "Valeria Peralta",
+        "estrellas": 5,
+        "comentario": "Instalaciones de primera categoría y excelente explicación de cada paso del tratamiento.",
+        "fecha": "Hace 3 meses"
+      }
+    ],
+    "maps_url": "https://www.google.com/maps/place/Dra+Laura+Brown+Odontologia+integral,estetica,implantes,periodoncia+,ortodoncia,edodoncia/data=!4m7!3m6!1s0x95bcb040803b9249:0x92d17f917d7957ff!8m2!3d-34.481284!4d-58.5283398!16s%2Fg%2F12q4xk6nq!19sChIJSZI7gECwvJUR_1d5fZF_0ZI?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkxNS4wIJJjKgBIAVAD&rclk=1"
+  },
+  {
+    "slug": "consultorio-odontologico-dra-peirano",
+    "nombre": "Consultorio Odontologico Dra. Peirano",
+    "subtitulo": "Consultorio Odontológico & Estética Dental Particular • Zona Norte / San Isidro",
+    "telefono": "011 2562-1827",
+    "whatsapp": "5491125621827",
+    "instagram": "consultorio_odontologico_dra_peirano_odontologia",
+    "direccion": "Alsina 1152, San Isidro",
+    "ciudad": "Buenos Aires",
+    "rating": 5.0,
+    "reviews_count": 0,
+    "horarios": "Lun a Vie: 09:00 - 19:30 hs | Sáb: 09:00 - 13:00 hs",
+    "especialidades": [
+      {
+        "titulo": "Alineadores Invisibles",
+        "descripcion": "Ortodoncia estética y sin brackets con la última tecnología 3D.",
+        "icono": "Sparkles"
+      },
+      {
+        "titulo": "Implantes Dentales",
+        "descripcion": "Rehabilitación oral fija de alta precisión y máxima durabilidad.",
+        "icono": "ShieldCheck"
+      },
+      {
+        "titulo": "Blanqueamiento LED",
+        "descripcion": "Aclaramiento dental profesional en 1 sola sesión sin sensibilidad.",
+        "icono": "Zap"
+      },
+      {
+        "titulo": "Diseño de Sonrisa",
+        "descripcion": "Carillas de porcelana y resina guiadas por estética facial.",
+        "icono": "Smile"
+      },
+      {
+        "titulo": "Odontología Preventiva",
+        "descripcion": "Limpieza profunda con ultrasónico y diagnóstico digital.",
+        "icono": "Activity"
+      },
+      {
+        "titulo": "Atención de Urgencias",
+        "descripcion": "Prioridad en turnos en el día para alivio inmediato de dolor.",
+        "icono": "Clock"
+      }
+    ],
+    "fotos": [
+      "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmY3CtEsBe-P_yUjve4Fi6CmaTy0bNJ2164hAc5T42Hh1A0g5xtiZxrds0yyMKhs7gtQZGm1EAkSW_P17XfUk9Zoumcx-mu2MBLNzdmCvG5RjrI-F8JRM33NKHSPX5LGsqvsHeOTL6nRjiC=w1600-h1000-k-no",
+      "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=1600&q=80",
+      "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=1600&q=80"
+    ],
+    "antes_despues": [
+      {
+        "titulo": "Blanqueamiento Dental LED",
+        "tratamiento": "Tratamiento en 1 sesión de 60 minutos",
+        "antes_url": "/images/blanqueamiento-antes.jpg",
+        "despues_url": "/images/blanqueamiento-despues.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "nombre": "Carolina Mendoza",
+        "estrellas": 5,
+        "comentario": "Excelente atención en Consultorio Odontologico Dra. Peirano. Los resultados superaron mis expectativas. El consultorio es impecable y muy moderno.",
+        "fecha": "Hace 2 semanas"
+      },
+      {
+        "nombre": "Esteban Rossi",
+        "estrellas": 5,
+        "comentario": "Atención profesional, puntualidad impecable y mucha calidez de todo el equipo. 100% recomendable.",
+        "fecha": "Hace 1 mes"
+      },
+      {
+        "nombre": "Valeria Peralta",
+        "estrellas": 5,
+        "comentario": "Instalaciones de primera categoría y excelente explicación de cada paso del tratamiento.",
+        "fecha": "Hace 3 meses"
+      }
+    ],
+    "maps_url": "https://www.google.com/maps/place/Consultorio+Odontologico+Dra.+Peirano/data=!4m7!3m6!1s0x95bcb171323f83d9:0x2ff2b4584fbceaa1!8m2!3d-34.4795222!4d-58.5294905!16s%2Fg%2F11zddlf61d!19sChIJ2YM_MnGxvJURoeq8T1i08i8?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkxNS4wIJJjKgBIAVAD&rclk=1"
+  },
+  {
+    "slug": "odonto-quality",
+    "nombre": "Odonto Quality",
+    "subtitulo": "Consultorio Odontológico & Estética Dental Particular • Zona Norte / San Isidro",
+    "telefono": "011 6866-3096",
+    "whatsapp": "5491168663096",
+    "instagram": "odonto_quality_odontologia",
+    "direccion": "Gral. Manuel Belgrano 351 piso 1 B, San Isidro",
+    "ciudad": "Buenos Aires",
+    "rating": 4.5,
+    "reviews_count": 91,
+    "horarios": "Lun a Vie: 09:00 - 19:30 hs | Sáb: 09:00 - 13:00 hs",
+    "especialidades": [
+      {
+        "titulo": "Alineadores Invisibles",
+        "descripcion": "Ortodoncia estética y sin brackets con la última tecnología 3D.",
+        "icono": "Sparkles"
+      },
+      {
+        "titulo": "Implantes Dentales",
+        "descripcion": "Rehabilitación oral fija de alta precisión y máxima durabilidad.",
+        "icono": "ShieldCheck"
+      },
+      {
+        "titulo": "Blanqueamiento LED",
+        "descripcion": "Aclaramiento dental profesional en 1 sola sesión sin sensibilidad.",
+        "icono": "Zap"
+      },
+      {
+        "titulo": "Diseño de Sonrisa",
+        "descripcion": "Carillas de porcelana y resina guiadas por estética facial.",
+        "icono": "Smile"
+      },
+      {
+        "titulo": "Odontología Preventiva",
+        "descripcion": "Limpieza profunda con ultrasónico y diagnóstico digital.",
+        "icono": "Activity"
+      },
+      {
+        "titulo": "Atención de Urgencias",
+        "descripcion": "Prioridad en turnos en el día para alivio inmediato de dolor.",
+        "icono": "Clock"
+      }
+    ],
+    "fotos": [
+      "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWm2nU7Z-61xIygJRQ9DpiIfBQUOtx_zboJritRsSpXQN1gZLfmtzWf4jrgKeFVpWOvaJtfwq7OXiuFVsYpAprNs7-RqOJFUmw_SIYssy25Fnjtf5TIotvESYu1jlaBTQfrRKOUP=w1600-h1000-k-no",
+      "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=1600&q=80",
+      "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=1600&q=80"
+    ],
+    "antes_despues": [
+      {
+        "titulo": "Blanqueamiento Dental LED",
+        "tratamiento": "Tratamiento en 1 sesión de 60 minutos",
+        "antes_url": "/images/blanqueamiento-antes.jpg",
+        "despues_url": "/images/blanqueamiento-despues.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "nombre": "Carolina Mendoza",
+        "estrellas": 5,
+        "comentario": "Excelente atención en Odonto Quality. Los resultados superaron mis expectativas. El consultorio es impecable y muy moderno.",
+        "fecha": "Hace 2 semanas"
+      },
+      {
+        "nombre": "Esteban Rossi",
+        "estrellas": 5,
+        "comentario": "Atención profesional, puntualidad impecable y mucha calidez de todo el equipo. 100% recomendable.",
+        "fecha": "Hace 1 mes"
+      },
+      {
+        "nombre": "Valeria Peralta",
+        "estrellas": 5,
+        "comentario": "Instalaciones de primera categoría y excelente explicación de cada paso del tratamiento.",
+        "fecha": "Hace 3 meses"
+      }
+    ],
+    "maps_url": "https://www.google.com/maps/place/Odonto+Quality/data=!4m7!3m6!1s0x95bcb0336256487d:0xb6b7750abd58d1e4!8m2!3d-34.4698375!4d-58.5105677!16s%2Fg%2F11bbrmhlgs!19sChIJfUhWYjOwvJUR5NFYvQp1t7Y?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkxNS4wIJJjKgBIAVAD&rclk=1"
+  },
+  {
+    "slug": "dental-total-san-isidro-centro",
+    "nombre": "Dental Total San Isidro Centro",
+    "subtitulo": "Consultorio Odontológico & Estética Dental Particular • Zona Norte / San Isidro",
+    "telefono": "0800-777-1919",
+    "whatsapp": "5498007771919",
+    "instagram": "dental_total_san_isidro_centro_odontologia",
+    "direccion": "9 de Julio 316, San Isidro",
+    "ciudad": "Buenos Aires",
+    "rating": 4.5,
+    "reviews_count": 157,
+    "horarios": "Lun a Vie: 09:00 - 19:30 hs | Sáb: 09:00 - 13:00 hs",
+    "especialidades": [
+      {
+        "titulo": "Alineadores Invisibles",
+        "descripcion": "Ortodoncia estética y sin brackets con la última tecnología 3D.",
+        "icono": "Sparkles"
+      },
+      {
+        "titulo": "Implantes Dentales",
+        "descripcion": "Rehabilitación oral fija de alta precisión y máxima durabilidad.",
+        "icono": "ShieldCheck"
+      },
+      {
+        "titulo": "Blanqueamiento LED",
+        "descripcion": "Aclaramiento dental profesional en 1 sola sesión sin sensibilidad.",
+        "icono": "Zap"
+      },
+      {
+        "titulo": "Diseño de Sonrisa",
+        "descripcion": "Carillas de porcelana y resina guiadas por estética facial.",
+        "icono": "Smile"
+      },
+      {
+        "titulo": "Odontología Preventiva",
+        "descripcion": "Limpieza profunda con ultrasónico y diagnóstico digital.",
+        "icono": "Activity"
+      },
+      {
+        "titulo": "Atención de Urgencias",
+        "descripcion": "Prioridad en turnos en el día para alivio inmediato de dolor.",
+        "icono": "Clock"
+      }
+    ],
+    "fotos": [
+      "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlfPNMr7v2UGp5-xYhVLchBPVzxBc8qDQgf3QBYSMEG6aN1duWLbuqd0cDfihjyOrVr6V4VddSfooGm9saX0IZ7Y2epUUD-u8HmGQyOsfkjSmZoc4QjvMbnChGVe2QtSoHPcnGgRgpeNZ4=w1600-h1000-k-no",
+      "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=1600&q=80",
+      "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=1600&q=80"
+    ],
+    "antes_despues": [
+      {
+        "titulo": "Blanqueamiento Dental LED",
+        "tratamiento": "Tratamiento en 1 sesión de 60 minutos",
+        "antes_url": "/images/blanqueamiento-antes.jpg",
+        "despues_url": "/images/blanqueamiento-despues.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "nombre": "Carolina Mendoza",
+        "estrellas": 5,
+        "comentario": "Excelente atención en Dental Total San Isidro Centro. Los resultados superaron mis expectativas. El consultorio es impecable y muy moderno.",
+        "fecha": "Hace 2 semanas"
+      },
+      {
+        "nombre": "Esteban Rossi",
+        "estrellas": 5,
+        "comentario": "Atención profesional, puntualidad impecable y mucha calidez de todo el equipo. 100% recomendable.",
+        "fecha": "Hace 1 mes"
+      },
+      {
+        "nombre": "Valeria Peralta",
+        "estrellas": 5,
+        "comentario": "Instalaciones de primera categoría y excelente explicación de cada paso del tratamiento.",
+        "fecha": "Hace 3 meses"
+      }
+    ],
+    "maps_url": "https://www.google.com/maps/place/Dental+Total+San+Isidro+Centro/data=!4m7!3m6!1s0x9432a29b81552e0d:0x3f7d7dacc2a6b546!8m2!3d-34.4695885!4d-58.5115402!16s%2Fg%2F11c5248zs6!19sChIJDS5VgZuiMpQRRrWmwqx9fT8?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkxNS4wIJJjKgBIAVAD&rclk=1"
+  },
+  {
+    "slug": "odontologia-las-lomas",
+    "nombre": "Odontologia Las Lomas",
+    "subtitulo": "Consultorio Odontológico & Estética Dental Particular • Zona Norte / San Isidro",
+    "telefono": "011 4174-2969",
+    "whatsapp": "5491141742969",
+    "instagram": "odontologia_las_lomas_odontologia",
+    "direccion": "Av. Juan Segundo Fernández 256 1er piso. Local 16, San Isidro",
+    "ciudad": "Buenos Aires",
+    "rating": 5.0,
+    "reviews_count": 26,
+    "horarios": "Lun a Vie: 09:00 - 19:30 hs | Sáb: 09:00 - 13:00 hs",
+    "especialidades": [
+      {
+        "titulo": "Alineadores Invisibles",
+        "descripcion": "Ortodoncia estética y sin brackets con la última tecnología 3D.",
+        "icono": "Sparkles"
+      },
+      {
+        "titulo": "Implantes Dentales",
+        "descripcion": "Rehabilitación oral fija de alta precisión y máxima durabilidad.",
+        "icono": "ShieldCheck"
+      },
+      {
+        "titulo": "Blanqueamiento LED",
+        "descripcion": "Aclaramiento dental profesional en 1 sola sesión sin sensibilidad.",
+        "icono": "Zap"
+      },
+      {
+        "titulo": "Diseño de Sonrisa",
+        "descripcion": "Carillas de porcelana y resina guiadas por estética facial.",
+        "icono": "Smile"
+      },
+      {
+        "titulo": "Odontología Preventiva",
+        "descripcion": "Limpieza profunda con ultrasónico y diagnóstico digital.",
+        "icono": "Activity"
+      },
+      {
+        "titulo": "Atención de Urgencias",
+        "descripcion": "Prioridad en turnos en el día para alivio inmediato de dolor.",
+        "icono": "Clock"
+      }
+    ],
+    "fotos": [
+      "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWm6tkOtdO4AQ5p0Hf4-MUJqaTt522JsMlV20jA9Tx4RAimgBx5hEmxu6IrSitqk4lCXJP7Uu4ykqELqn50VcyObY96GuZ9Eyy4ELI7SZLwyjWWeuFeZmLq7imc_oUK5m4TjGNXuOVoKU9p0=w1600-h1000-k-no",
+      "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=1600&q=80",
+      "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=1600&q=80"
+    ],
+    "antes_despues": [
+      {
+        "titulo": "Blanqueamiento Dental LED",
+        "tratamiento": "Tratamiento en 1 sesión de 60 minutos",
+        "antes_url": "/images/blanqueamiento-antes.jpg",
+        "despues_url": "/images/blanqueamiento-despues.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "nombre": "Carolina Mendoza",
+        "estrellas": 5,
+        "comentario": "Excelente atención en Odontologia Las Lomas. Los resultados superaron mis expectativas. El consultorio es impecable y muy moderno.",
+        "fecha": "Hace 2 semanas"
+      },
+      {
+        "nombre": "Esteban Rossi",
+        "estrellas": 5,
+        "comentario": "Atención profesional, puntualidad impecable y mucha calidez de todo el equipo. 100% recomendable.",
+        "fecha": "Hace 1 mes"
+      },
+      {
+        "nombre": "Valeria Peralta",
+        "estrellas": 5,
+        "comentario": "Instalaciones de primera categoría y excelente explicación de cada paso del tratamiento.",
+        "fecha": "Hace 3 meses"
+      }
+    ],
+    "maps_url": "https://www.google.com/maps/place/Odontologia+Las+Lomas/data=!4m7!3m6!1s0x95bcb100f453ea1d:0x9b86f42997ebd26b!8m2!3d-34.4896139!4d-58.5486016!16s%2Fg%2F11yk5vy6xl!19sChIJHepT9ACxvJURa9Lrlyn0hps?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkxNS4wIJJjKgBIAVAD&rclk=1"
+  },
+  {
+    "slug": "consultorio-odontologico-dra-riestra-isabel",
+    "nombre": "Consultorio odontológico \" Dra. Riestra Isabel\"",
+    "subtitulo": "Consultorio Odontológico & Estética Dental Particular • Zona Norte / San Isidro",
+    "telefono": "011 3256-1356",
+    "whatsapp": "5491132561356",
+    "instagram": "consultorio_odontologico_dra_riestra_isabel_odontologia",
+    "direccion": "Sarratea 9330, Boulogne",
+    "ciudad": "Buenos Aires",
+    "rating": 4.8,
+    "reviews_count": 24,
+    "horarios": "Lun a Vie: 09:00 - 19:30 hs | Sáb: 09:00 - 13:00 hs",
+    "especialidades": [
+      {
+        "titulo": "Alineadores Invisibles",
+        "descripcion": "Ortodoncia estética y sin brackets con la última tecnología 3D.",
+        "icono": "Sparkles"
+      },
+      {
+        "titulo": "Implantes Dentales",
+        "descripcion": "Rehabilitación oral fija de alta precisión y máxima durabilidad.",
+        "icono": "ShieldCheck"
+      },
+      {
+        "titulo": "Blanqueamiento LED",
+        "descripcion": "Aclaramiento dental profesional en 1 sola sesión sin sensibilidad.",
+        "icono": "Zap"
+      },
+      {
+        "titulo": "Diseño de Sonrisa",
+        "descripcion": "Carillas de porcelana y resina guiadas por estética facial.",
+        "icono": "Smile"
+      },
+      {
+        "titulo": "Odontología Preventiva",
+        "descripcion": "Limpieza profunda con ultrasónico y diagnóstico digital.",
+        "icono": "Activity"
+      },
+      {
+        "titulo": "Atención de Urgencias",
+        "descripcion": "Prioridad en turnos en el día para alivio inmediato de dolor.",
+        "icono": "Clock"
+      }
+    ],
+    "fotos": [
+      "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkXPZzSbampQPuskZzZyocomNLegNkYS7uK3kFguUBzwO0oJevmpuMJJTPGeod4sTqvRWpSvN1Siov-PrIzh0GxkHy3aXWpBvo76F7dlVuCB16U3nlJldAv5GMQn0LJRzGkC2dY=w1600-h1000-k-no",
+      "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=1600&q=80",
+      "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=1600&q=80"
+    ],
+    "antes_despues": [
+      {
+        "titulo": "Blanqueamiento Dental LED",
+        "tratamiento": "Tratamiento en 1 sesión de 60 minutos",
+        "antes_url": "/images/blanqueamiento-antes.jpg",
+        "despues_url": "/images/blanqueamiento-despues.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "nombre": "Carolina Mendoza",
+        "estrellas": 5,
+        "comentario": "Excelente atención en Consultorio odontológico \" Dra. Riestra Isabel\". Los resultados superaron mis expectativas. El consultorio es impecable y muy moderno.",
+        "fecha": "Hace 2 semanas"
+      },
+      {
+        "nombre": "Esteban Rossi",
+        "estrellas": 5,
+        "comentario": "Atención profesional, puntualidad impecable y mucha calidez de todo el equipo. 100% recomendable.",
+        "fecha": "Hace 1 mes"
+      },
+      {
+        "nombre": "Valeria Peralta",
+        "estrellas": 5,
+        "comentario": "Instalaciones de primera categoría y excelente explicación de cada paso del tratamiento.",
+        "fecha": "Hace 3 meses"
+      }
+    ],
+    "maps_url": "https://www.google.com/maps/place/Consultorio+odontol%C3%B3gico+%22+Dra.+Riestra+Isabel%22/data=!4m7!3m6!1s0x95bcbba82b6b21cd:0xd38d3336a005cf18!8m2!3d-34.5094579!4d-58.5781002!16s%2Fg%2F11sjrc1rzd!19sChIJzSFrK6i7vJURGM8FoDYzjdM?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkxNS4wIJJjKgBIAVAD&rclk=1"
+  },
+  {
+    "slug": "dental-total-martinez",
+    "nombre": "Dental Total Martínez",
+    "subtitulo": "Consultorio Odontológico & Estética Dental Particular • Zona Norte / San Isidro",
+    "telefono": "0800-777-1919",
+    "whatsapp": "5498007771919",
+    "instagram": "dental_total_martinez_odontologia",
+    "direccion": "Hipólito Yrigoyen 15, San Isidro",
+    "ciudad": "Buenos Aires",
+    "rating": 4.8,
+    "reviews_count": 135,
+    "horarios": "Lun a Vie: 09:00 - 19:30 hs | Sáb: 09:00 - 13:00 hs",
+    "especialidades": [
+      {
+        "titulo": "Alineadores Invisibles",
+        "descripcion": "Ortodoncia estética y sin brackets con la última tecnología 3D.",
+        "icono": "Sparkles"
+      },
+      {
+        "titulo": "Implantes Dentales",
+        "descripcion": "Rehabilitación oral fija de alta precisión y máxima durabilidad.",
+        "icono": "ShieldCheck"
+      },
+      {
+        "titulo": "Blanqueamiento LED",
+        "descripcion": "Aclaramiento dental profesional en 1 sola sesión sin sensibilidad.",
+        "icono": "Zap"
+      },
+      {
+        "titulo": "Diseño de Sonrisa",
+        "descripcion": "Carillas de porcelana y resina guiadas por estética facial.",
+        "icono": "Smile"
+      },
+      {
+        "titulo": "Odontología Preventiva",
+        "descripcion": "Limpieza profunda con ultrasónico y diagnóstico digital.",
+        "icono": "Activity"
+      },
+      {
+        "titulo": "Atención de Urgencias",
+        "descripcion": "Prioridad en turnos en el día para alivio inmediato de dolor.",
+        "icono": "Clock"
+      }
+    ],
+    "fotos": [
+      "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnh8WBjBgLJl8XqHzq-OM0fbhqZ1JqejdPppCz9ZP1dMz6zePUg42pwy3w2qWHvLoIJuAKG8Xyv3XsZledXj4uDw4pWF27YbsksZWdl-24sN4fFoPrhWkcUl1uKMDF4tnQVW1gyA-CqumER=w1600-h1000-k-no",
+      "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=1600&q=80",
+      "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=1600&q=80"
+    ],
+    "antes_despues": [
+      {
+        "titulo": "Blanqueamiento Dental LED",
+        "tratamiento": "Tratamiento en 1 sesión de 60 minutos",
+        "antes_url": "/images/blanqueamiento-antes.jpg",
+        "despues_url": "/images/blanqueamiento-despues.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "nombre": "Carolina Mendoza",
+        "estrellas": 5,
+        "comentario": "Excelente atención en Dental Total Martínez. Los resultados superaron mis expectativas. El consultorio es impecable y muy moderno.",
+        "fecha": "Hace 2 semanas"
+      },
+      {
+        "nombre": "Esteban Rossi",
+        "estrellas": 5,
+        "comentario": "Atención profesional, puntualidad impecable y mucha calidez de todo el equipo. 100% recomendable.",
+        "fecha": "Hace 1 mes"
+      },
+      {
+        "nombre": "Valeria Peralta",
+        "estrellas": 5,
+        "comentario": "Instalaciones de primera categoría y excelente explicación de cada paso del tratamiento.",
+        "fecha": "Hace 3 meses"
+      }
+    ],
+    "maps_url": "https://www.google.com/maps/place/Dental+Total+Mart%C3%ADnez/data=!4m7!3m6!1s0x95bcb1e2820d870f:0xe42748bc85349389!8m2!3d-34.4895689!4d-58.500931!16s%2Fg%2F11wj5f4mc2!19sChIJD4cNguKxvJURiZM0hbxIJ-Q?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkxNS4wIJJjKgBIAVAD&rclk=1"
+  },
+  {
+    "slug": "dr-beauty-san-isidro",
+    "nombre": "Dr Beauty San Isidro",
+    "subtitulo": "Consultorio Odontológico & Estética Dental Particular • Zona Norte / San Isidro",
+    "telefono": "011 6300-3900",
+    "whatsapp": "5491163003900",
+    "instagram": "dr_beauty_san_isidro_odontologia",
+    "direccion": "Blanco Encalada 197, San Isidro",
+    "ciudad": "Buenos Aires",
+    "rating": 4.9,
+    "reviews_count": 38,
+    "horarios": "Lun a Vie: 09:00 - 19:30 hs | Sáb: 09:00 - 13:00 hs",
+    "especialidades": [
+      {
+        "titulo": "Alineadores Invisibles",
+        "descripcion": "Ortodoncia estética y sin brackets con la última tecnología 3D.",
+        "icono": "Sparkles"
+      },
+      {
+        "titulo": "Implantes Dentales",
+        "descripcion": "Rehabilitación oral fija de alta precisión y máxima durabilidad.",
+        "icono": "ShieldCheck"
+      },
+      {
+        "titulo": "Blanqueamiento LED",
+        "descripcion": "Aclaramiento dental profesional en 1 sola sesión sin sensibilidad.",
+        "icono": "Zap"
+      },
+      {
+        "titulo": "Diseño de Sonrisa",
+        "descripcion": "Carillas de porcelana y resina guiadas por estética facial.",
+        "icono": "Smile"
+      },
+      {
+        "titulo": "Odontología Preventiva",
+        "descripcion": "Limpieza profunda con ultrasónico y diagnóstico digital.",
+        "icono": "Activity"
+      },
+      {
+        "titulo": "Atención de Urgencias",
+        "descripcion": "Prioridad en turnos en el día para alivio inmediato de dolor.",
+        "icono": "Clock"
+      }
+    ],
+    "fotos": [
+      "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmvBdDEX0wQvOCxVXdy4jWVMH1aHNGzCbNDTuaUayjV2tVfhLJ4t3nYTKj5rH3weqkz1H_P3kvGIeGb3qg_1ybN4xHx8Ry931k5ZRchkH1Aje7De-mccDVNe5-6GSaMKw6h71qJ=w1600-h1000-k-no",
+      "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=1600&q=80",
+      "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=1600&q=80"
+    ],
+    "antes_despues": [
+      {
+        "titulo": "Blanqueamiento Dental LED",
+        "tratamiento": "Tratamiento en 1 sesión de 60 minutos",
+        "antes_url": "/images/blanqueamiento-antes.jpg",
+        "despues_url": "/images/blanqueamiento-despues.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "nombre": "Carolina Mendoza",
+        "estrellas": 5,
+        "comentario": "Excelente atención en Dr Beauty San Isidro. Los resultados superaron mis expectativas. El consultorio es impecable y muy moderno.",
+        "fecha": "Hace 2 semanas"
+      },
+      {
+        "nombre": "Esteban Rossi",
+        "estrellas": 5,
+        "comentario": "Atención profesional, puntualidad impecable y mucha calidez de todo el equipo. 100% recomendable.",
+        "fecha": "Hace 1 mes"
+      },
+      {
+        "nombre": "Valeria Peralta",
+        "estrellas": 5,
+        "comentario": "Instalaciones de primera categoría y excelente explicación de cada paso del tratamiento.",
+        "fecha": "Hace 3 meses"
+      }
+    ],
+    "maps_url": "https://www.google.com/maps/place/Dr+Beauty+San+Isidro/data=!4m7!3m6!1s0x95bcb1b0364554f1:0xdd14e587fadb17c!8m2!3d-34.4926978!4d-58.5531061!16s%2Fg%2F11pkhx8l08!19sChIJ8VRFNrCxvJURfLGtf1hO0Q0?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkxNS4wIJJjKgBIAVAD&rclk=1"
+  },
+  {
+    "slug": "consultorio-odontologico-integral-doctores-sosa",
+    "nombre": "Consultorio Odontológico Integral Doctores Sosa",
+    "subtitulo": "Consultorio Odontológico & Estética Dental Particular • Zona Norte / San Isidro",
+    "telefono": "011 4803-4481",
+    "whatsapp": "5491148034481",
+    "instagram": "consultorio_odontologico_integral_doctores_sosa_odontologia",
+    "direccion": "CGN, Acassuso 654",
+    "ciudad": "Buenos Aires",
+    "rating": 5.0,
+    "reviews_count": 1,
+    "horarios": "Lun a Vie: 09:00 - 19:30 hs | Sáb: 09:00 - 13:00 hs",
+    "especialidades": [
+      {
+        "titulo": "Alineadores Invisibles",
+        "descripcion": "Ortodoncia estética y sin brackets con la última tecnología 3D.",
+        "icono": "Sparkles"
+      },
+      {
+        "titulo": "Implantes Dentales",
+        "descripcion": "Rehabilitación oral fija de alta precisión y máxima durabilidad.",
+        "icono": "ShieldCheck"
+      },
+      {
+        "titulo": "Blanqueamiento LED",
+        "descripcion": "Aclaramiento dental profesional en 1 sola sesión sin sensibilidad.",
+        "icono": "Zap"
+      },
+      {
+        "titulo": "Diseño de Sonrisa",
+        "descripcion": "Carillas de porcelana y resina guiadas por estética facial.",
+        "icono": "Smile"
+      },
+      {
+        "titulo": "Odontología Preventiva",
+        "descripcion": "Limpieza profunda con ultrasónico y diagnóstico digital.",
+        "icono": "Activity"
+      },
+      {
+        "titulo": "Atención de Urgencias",
+        "descripcion": "Prioridad en turnos en el día para alivio inmediato de dolor.",
+        "icono": "Clock"
+      }
+    ],
+    "fotos": [
+      "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWluoHSrdQRpcbfBCspvUJmQGOPlqPzejZvw6ILbx-eYvZdEI2l4FpedJFG6Mdb6UvmYm2VroHgBDyC_-dvyRfDqWU98fUJqX6KylTFqcWOY3rF1GJnKZvBko4hcWaIg0F9ID4eev2JkxN7Q=w1600-h1000-k-no",
+      "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=1600&q=80",
+      "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=1600&q=80"
+    ],
+    "antes_despues": [
+      {
+        "titulo": "Blanqueamiento Dental LED",
+        "tratamiento": "Tratamiento en 1 sesión de 60 minutos",
+        "antes_url": "/images/blanqueamiento-antes.jpg",
+        "despues_url": "/images/blanqueamiento-despues.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "nombre": "Carolina Mendoza",
+        "estrellas": 5,
+        "comentario": "Excelente atención en Consultorio Odontológico Integral Doctores Sosa. Los resultados superaron mis expectativas. El consultorio es impecable y muy moderno.",
+        "fecha": "Hace 2 semanas"
+      },
+      {
+        "nombre": "Esteban Rossi",
+        "estrellas": 5,
+        "comentario": "Atención profesional, puntualidad impecable y mucha calidez de todo el equipo. 100% recomendable.",
+        "fecha": "Hace 1 mes"
+      },
+      {
+        "nombre": "Valeria Peralta",
+        "estrellas": 5,
+        "comentario": "Instalaciones de primera categoría y excelente explicación de cada paso del tratamiento.",
+        "fecha": "Hace 3 meses"
+      }
+    ],
+    "maps_url": "https://www.google.com/maps/place/Consultorio+Odontol%C3%B3gico+Integral+Doctores+Sosa/data=!4m7!3m6!1s0x95bcb16c9c59e75b:0xaf2ce956f1c35ae8!8m2!3d-34.4679671!4d-58.5153285!16s%2Fg%2F11m7v5dq4h!19sChIJW-dZnGyxvJUR6FrD8VbpLK8?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkxNS4wIJJjKgBIAVAD&rclk=1"
+  },
+  {
     "slug": "odontologia-dra-alejandra-scava-belgrano",
     "nombre": "Odontología Dra. Alejandra Scava Belgrano",
     "subtitulo": "Consultorio Odontológico & Estética Dental Particular • CABA / Belgrano",
