@@ -1,5 +1,1585 @@
 [
   {
+    "slug": "dra-daniela-acuna-esp-ortodoncia-y-ortopedia-maxilar",
+    "nombre": "Dra. Daniela Acuña, Esp. Ortodoncia y Ortopedia Maxilar",
+    "subtitulo": "Especialista en Ortodoncia & Estética Dental 3D • CABA / Recoleta",
+    "telefono": "011 2409-9891",
+    "whatsapp": "5491124099891",
+    "instagram": "dra_daniela_acuna_esp_ortodoncia_y_ortopedia_maxilar_odontologia",
+    "direccion": "Billinghurst 1323, Cdad. Autónoma de",
+    "ciudad": "Buenos Aires",
+    "rating": 5.0,
+    "reviews_count": 36,
+    "horarios": "Lun a Vie: 09:00 - 19:30 hs | Sáb: 09:00 - 13:00 hs",
+    "especialidades": [
+      {
+        "titulo": "Alineadores Invisibles",
+        "descripcion": "Ortodoncia estética y sin brackets con la última tecnología 3D.",
+        "icono": "Sparkles"
+      },
+      {
+        "titulo": "Implantes Dentales",
+        "descripcion": "Rehabilitación oral fija de alta precisión y máxima durabilidad.",
+        "icono": "ShieldCheck"
+      },
+      {
+        "titulo": "Blanqueamiento LED",
+        "descripcion": "Aclaramiento dental profesional en 1 sola sesión sin sensibilidad.",
+        "icono": "Zap"
+      },
+      {
+        "titulo": "Diseño de Sonrisa",
+        "descripcion": "Carillas de porcelana y resina guiadas por estética facial.",
+        "icono": "Smile"
+      },
+      {
+        "titulo": "Odontología Preventiva",
+        "descripcion": "Limpieza profunda con ultrasónico y diagnóstico digital.",
+        "icono": "Activity"
+      },
+      {
+        "titulo": "Atención de Urgencias",
+        "descripcion": "Prioridad en turnos en el día para alivio inmediato de dolor.",
+        "icono": "Clock"
+      }
+    ],
+    "fotos": [
+      "https://lh3.googleusercontent.com/grass-cs/ACvplmPDzLWFa2ouY-jxoEhDFqqjdFbziinqIthb1HgUEIB4D2LKijEUZMwGHIQGJfX8UuQ5Ted35wja8Ab5R-YSzan5UeO6Np-R1fMj-X_BJ-C3iDQWofOSd_vJl_nU9UoaSqJ3gEvTnsYdWOKR=w1600-h1000-k-no",
+      "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=1600&q=80",
+      "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=1600&q=80"
+    ],
+    "antes_despues": [
+      {
+        "titulo": "Blanqueamiento Dental LED",
+        "tratamiento": "Tratamiento en 1 sesión de 60 minutos",
+        "antes_url": "/images/blanqueamiento-antes.jpg",
+        "despues_url": "/images/blanqueamiento-despues.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "nombre": "Carolina Mendoza",
+        "estrellas": 5,
+        "comentario": "Excelente atención en Dra. Daniela Acuña, Esp. Ortodoncia y Ortopedia Maxilar. La calidez profesional y el cuidado personalizado marcan la diferencia. 100% recomendable.",
+        "fecha": "Hace 2 semanas"
+      },
+      {
+        "nombre": "Esteban Rossi",
+        "estrellas": 5,
+        "comentario": "Atención profesional, puntualidad impecable y mucha calidez de todo el equipo. 100% recomendable.",
+        "fecha": "Hace 1 mes"
+      },
+      {
+        "nombre": "Valeria Peralta",
+        "estrellas": 5,
+        "comentario": "Instalaciones de primera categoría y excelente explicación de cada paso del tratamiento.",
+        "fecha": "Hace 3 meses"
+      }
+    ],
+    "maps_url": "https://www.google.com/maps/place/Dra.+Daniela+Acu%C3%B1a,+Esp.+Ortodoncia+y+Ortopedia+Maxilar+-+Odontolog%C3%ADa+Integral/data=!4m7!3m6!1s0x95bccb4b1394cc61:0xf4ad241aed87ccbc!8m2!3d-34.5945578!4d-58.4132668!16s%2Fg%2F11z20b4l2p!19sChIJYcyUE0vLvJURvMyH7RokrfQ?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkxNS4wIJJjKgBIAVAD&rclk=1"
+  },
+  {
+    "slug": "od-rocio-galarza",
+    "nombre": "Od. Rocio Galarza",
+    "subtitulo": "Consultorio Odontológico & Estética Dental Particular • CABA / Recoleta",
+    "telefono": "011 2276-5565",
+    "whatsapp": "5491122765565",
+    "instagram": "od_rocio_galarza_odontologia",
+    "direccion": "Av. Sta. Fe 2245, Cdad. Autónoma de",
+    "ciudad": "Buenos Aires",
+    "rating": 5.0,
+    "reviews_count": 15,
+    "horarios": "Lun a Vie: 09:00 - 19:30 hs | Sáb: 09:00 - 13:00 hs",
+    "especialidades": [
+      {
+        "titulo": "Alineadores Invisibles",
+        "descripcion": "Ortodoncia estética y sin brackets con la última tecnología 3D.",
+        "icono": "Sparkles"
+      },
+      {
+        "titulo": "Implantes Dentales",
+        "descripcion": "Rehabilitación oral fija de alta precisión y máxima durabilidad.",
+        "icono": "ShieldCheck"
+      },
+      {
+        "titulo": "Blanqueamiento LED",
+        "descripcion": "Aclaramiento dental profesional en 1 sola sesión sin sensibilidad.",
+        "icono": "Zap"
+      },
+      {
+        "titulo": "Diseño de Sonrisa",
+        "descripcion": "Carillas de porcelana y resina guiadas por estética facial.",
+        "icono": "Smile"
+      },
+      {
+        "titulo": "Odontología Preventiva",
+        "descripcion": "Limpieza profunda con ultrasónico y diagnóstico digital.",
+        "icono": "Activity"
+      },
+      {
+        "titulo": "Atención de Urgencias",
+        "descripcion": "Prioridad en turnos en el día para alivio inmediato de dolor.",
+        "icono": "Clock"
+      }
+    ],
+    "fotos": [
+      "https://lh3.googleusercontent.com/grass-cs/ACvplmNUC-rzEcNsuJYwHZINOyFxOqonBjMykGtV6zzJN9PbGc-Mvp1v-fRbCwSDz18-TcIHjKbmJJ6_ktKodlSjRAS6bxLH20bUj8adI2HW7xnTbZX2T20ZDg1d5jpdD0xqYHHUBPAn8ytPUDu9=w1600-h1000-k-no",
+      "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=1600&q=80",
+      "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=1600&q=80"
+    ],
+    "antes_despues": [
+      {
+        "titulo": "Blanqueamiento Dental LED",
+        "tratamiento": "Tratamiento en 1 sesión de 60 minutos",
+        "antes_url": "/images/blanqueamiento-antes.jpg",
+        "despues_url": "/images/blanqueamiento-despues.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "nombre": "Carolina Mendoza",
+        "estrellas": 5,
+        "comentario": "Excelente atención en Od. Rocio Galarza. La calidez profesional y el cuidado personalizado marcan la diferencia. 100% recomendable.",
+        "fecha": "Hace 2 semanas"
+      },
+      {
+        "nombre": "Esteban Rossi",
+        "estrellas": 5,
+        "comentario": "Atención profesional, puntualidad impecable y mucha calidez de todo el equipo. 100% recomendable.",
+        "fecha": "Hace 1 mes"
+      },
+      {
+        "nombre": "Valeria Peralta",
+        "estrellas": 5,
+        "comentario": "Instalaciones de primera categoría y excelente explicación de cada paso del tratamiento.",
+        "fecha": "Hace 3 meses"
+      }
+    ],
+    "maps_url": "https://www.google.com/maps/place/Od.+Rocio+Galarza+-+Ortodoncia+%26+Ortopedia+-+Recoleta/data=!4m7!3m6!1s0x95bccbd7322690ab:0x9c565c7610952491!8m2!3d-34.5950613!4d-58.3990591!16s%2Fg%2F11z5wkw71d!19sChIJq5AmMtfLvJURkSSVEHZcVpw?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkxNS4wIJJjKgBIAVAD&rclk=1"
+  },
+  {
+    "slug": "dra-sol-condoluci",
+    "nombre": "Dra. Sol Condoluci",
+    "subtitulo": "Consultorio Odontológico & Estética Dental Particular • CABA / Recoleta",
+    "telefono": "011 6170-7702",
+    "whatsapp": "5491161707702",
+    "instagram": "dra_sol_condoluci_odontologia",
+    "direccion": "Juncal 2507, Cdad. Autónoma de",
+    "ciudad": "Buenos Aires",
+    "rating": 5.0,
+    "reviews_count": 8,
+    "horarios": "Lun a Vie: 09:00 - 19:30 hs | Sáb: 09:00 - 13:00 hs",
+    "especialidades": [
+      {
+        "titulo": "Alineadores Invisibles",
+        "descripcion": "Ortodoncia estética y sin brackets con la última tecnología 3D.",
+        "icono": "Sparkles"
+      },
+      {
+        "titulo": "Implantes Dentales",
+        "descripcion": "Rehabilitación oral fija de alta precisión y máxima durabilidad.",
+        "icono": "ShieldCheck"
+      },
+      {
+        "titulo": "Blanqueamiento LED",
+        "descripcion": "Aclaramiento dental profesional en 1 sola sesión sin sensibilidad.",
+        "icono": "Zap"
+      },
+      {
+        "titulo": "Diseño de Sonrisa",
+        "descripcion": "Carillas de porcelana y resina guiadas por estética facial.",
+        "icono": "Smile"
+      },
+      {
+        "titulo": "Odontología Preventiva",
+        "descripcion": "Limpieza profunda con ultrasónico y diagnóstico digital.",
+        "icono": "Activity"
+      },
+      {
+        "titulo": "Atención de Urgencias",
+        "descripcion": "Prioridad en turnos en el día para alivio inmediato de dolor.",
+        "icono": "Clock"
+      }
+    ],
+    "fotos": [
+      "https://lh3.googleusercontent.com/grass-cs/ACvplmPerKHzPDtJK06rn22DfJXTTgxUFaxKWxwrVd6nmY7bQzIMMP7F2RJIV5OEHOmtOObVoBKgVSxt_G7KgU9ZyZtv-5Kz4VddkmLfkRFbMHweo-fwcbDvdf-tQn8XPe26pHlSNkC_xA=w1600-h1000-k-no",
+      "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=1600&q=80",
+      "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=1600&q=80"
+    ],
+    "antes_despues": [
+      {
+        "titulo": "Blanqueamiento Dental LED",
+        "tratamiento": "Tratamiento en 1 sesión de 60 minutos",
+        "antes_url": "/images/blanqueamiento-antes.jpg",
+        "despues_url": "/images/blanqueamiento-despues.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "nombre": "Carolina Mendoza",
+        "estrellas": 5,
+        "comentario": "Excelente atención en Dra. Sol Condoluci. La calidez profesional y el cuidado personalizado marcan la diferencia. 100% recomendable.",
+        "fecha": "Hace 2 semanas"
+      },
+      {
+        "nombre": "Esteban Rossi",
+        "estrellas": 5,
+        "comentario": "Atención profesional, puntualidad impecable y mucha calidez de todo el equipo. 100% recomendable.",
+        "fecha": "Hace 1 mes"
+      },
+      {
+        "nombre": "Valeria Peralta",
+        "estrellas": 5,
+        "comentario": "Instalaciones de primera categoría y excelente explicación de cada paso del tratamiento.",
+        "fecha": "Hace 3 meses"
+      }
+    ],
+    "maps_url": "https://www.google.com/maps/place/Dra.+Sol+Condoluci+-+Implantes+%26+Rehabilitaci%C3%B3n+oral/data=!4m7!3m6!1s0x95bccb6764ffa3f1:0x750ddd56d3e67ade!8m2!3d-34.5907722!4d-58.4024635!16s%2Fg%2F11z1rn5qfj!19sChIJ8aP_ZGfLvJUR3nrm01bdDXU?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkxNS4wIJJjKgBIAVAD&rclk=1"
+  },
+  {
+    "slug": "dra-lara-folatti",
+    "nombre": "Dra. Lara Folatti",
+    "subtitulo": "Consultorio Odontológico & Estética Dental Particular • CABA / Recoleta",
+    "telefono": "011 15-2770-2075",
+    "whatsapp": "5491127702075",
+    "instagram": "dra_lara_folatti_odontologia",
+    "direccion": "Paraguay 1582, Cdad. Autónoma de",
+    "ciudad": "Buenos Aires",
+    "rating": 5.0,
+    "reviews_count": 35,
+    "horarios": "Lun a Vie: 09:00 - 19:30 hs | Sáb: 09:00 - 13:00 hs",
+    "especialidades": [
+      {
+        "titulo": "Alineadores Invisibles",
+        "descripcion": "Ortodoncia estética y sin brackets con la última tecnología 3D.",
+        "icono": "Sparkles"
+      },
+      {
+        "titulo": "Implantes Dentales",
+        "descripcion": "Rehabilitación oral fija de alta precisión y máxima durabilidad.",
+        "icono": "ShieldCheck"
+      },
+      {
+        "titulo": "Blanqueamiento LED",
+        "descripcion": "Aclaramiento dental profesional en 1 sola sesión sin sensibilidad.",
+        "icono": "Zap"
+      },
+      {
+        "titulo": "Diseño de Sonrisa",
+        "descripcion": "Carillas de porcelana y resina guiadas por estética facial.",
+        "icono": "Smile"
+      },
+      {
+        "titulo": "Odontología Preventiva",
+        "descripcion": "Limpieza profunda con ultrasónico y diagnóstico digital.",
+        "icono": "Activity"
+      },
+      {
+        "titulo": "Atención de Urgencias",
+        "descripcion": "Prioridad en turnos en el día para alivio inmediato de dolor.",
+        "icono": "Clock"
+      }
+    ],
+    "fotos": [
+      "https://lh3.googleusercontent.com/grass-cs/ACvplmNQhZYmnT9vqAJC5e_8pLEq3UkEhKZxQeq38lsWbuYYfEE40C-4cabPyJg2XlZYgnuBblm8J1EzAkELoS5foMl-U_X_c9kP82Hh3sOaWfPb6Nu9-LSY6pqC9tXyccIwXuheuD4F2A=w1600-h1000-k-no",
+      "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=1600&q=80",
+      "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=1600&q=80"
+    ],
+    "antes_despues": [
+      {
+        "titulo": "Blanqueamiento Dental LED",
+        "tratamiento": "Tratamiento en 1 sesión de 60 minutos",
+        "antes_url": "/images/blanqueamiento-antes.jpg",
+        "despues_url": "/images/blanqueamiento-despues.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "nombre": "Carolina Mendoza",
+        "estrellas": 5,
+        "comentario": "Excelente atención en Dra. Lara Folatti. La calidez profesional y el cuidado personalizado marcan la diferencia. 100% recomendable.",
+        "fecha": "Hace 2 semanas"
+      },
+      {
+        "nombre": "Esteban Rossi",
+        "estrellas": 5,
+        "comentario": "Atención profesional, puntualidad impecable y mucha calidez de todo el equipo. 100% recomendable.",
+        "fecha": "Hace 1 mes"
+      },
+      {
+        "nombre": "Valeria Peralta",
+        "estrellas": 5,
+        "comentario": "Instalaciones de primera categoría y excelente explicación de cada paso del tratamiento.",
+        "fecha": "Hace 3 meses"
+      }
+    ],
+    "maps_url": "https://www.google.com/maps/place/Dra.+Lara+Folatti+-+Odontolog%C3%ADa+est%C3%A9tica/data=!4m7!3m6!1s0x95bccb0cff6ca253:0x29a062c51e134061!8m2!3d-34.5985408!4d-58.3893424!16s%2Fg%2F11y3wj5pgg!19sChIJU6Js_wzLvJURYUATHsVioCk?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkxNS4wIJJjKgBIAVAD&rclk=1"
+  },
+  {
+    "slug": "consultorios-odontologicos-dra-blois",
+    "nombre": "Consultorios Odontológicos Dra. Blois",
+    "subtitulo": "Consultorio Odontológico & Estética Dental Particular • CABA / Recoleta",
+    "telefono": "011 4801-5201",
+    "whatsapp": "5491148015201",
+    "instagram": "consultorios_odontologicos_dra_blois_odontologia",
+    "direccion": "Av. Gral. Las Heras 2081, Cdad. Autónoma de",
+    "ciudad": "Buenos Aires",
+    "rating": 4.6,
+    "reviews_count": 29,
+    "horarios": "Lun a Vie: 09:00 - 19:30 hs | Sáb: 09:00 - 13:00 hs",
+    "especialidades": [
+      {
+        "titulo": "Alineadores Invisibles",
+        "descripcion": "Ortodoncia estética y sin brackets con la última tecnología 3D.",
+        "icono": "Sparkles"
+      },
+      {
+        "titulo": "Implantes Dentales",
+        "descripcion": "Rehabilitación oral fija de alta precisión y máxima durabilidad.",
+        "icono": "ShieldCheck"
+      },
+      {
+        "titulo": "Blanqueamiento LED",
+        "descripcion": "Aclaramiento dental profesional en 1 sola sesión sin sensibilidad.",
+        "icono": "Zap"
+      },
+      {
+        "titulo": "Diseño de Sonrisa",
+        "descripcion": "Carillas de porcelana y resina guiadas por estética facial.",
+        "icono": "Smile"
+      },
+      {
+        "titulo": "Odontología Preventiva",
+        "descripcion": "Limpieza profunda con ultrasónico y diagnóstico digital.",
+        "icono": "Activity"
+      },
+      {
+        "titulo": "Atención de Urgencias",
+        "descripcion": "Prioridad en turnos en el día para alivio inmediato de dolor.",
+        "icono": "Clock"
+      }
+    ],
+    "fotos": [
+      "https://lh3.googleusercontent.com/grass-cs/ACvplmNQhZYmnT9vqAJC5e_8pLEq3UkEhKZxQeq38lsWbuYYfEE40C-4cabPyJg2XlZYgnuBblm8J1EzAkELoS5foMl-U_X_c9kP82Hh3sOaWfPb6Nu9-LSY6pqC9tXyccIwXuheuD4F2A=w1600-h1000-k-no",
+      "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=1600&q=80",
+      "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=1600&q=80"
+    ],
+    "antes_despues": [
+      {
+        "titulo": "Blanqueamiento Dental LED",
+        "tratamiento": "Tratamiento en 1 sesión de 60 minutos",
+        "antes_url": "/images/blanqueamiento-antes.jpg",
+        "despues_url": "/images/blanqueamiento-despues.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "nombre": "Carolina Mendoza",
+        "estrellas": 5,
+        "comentario": "Excelente atención en Consultorios Odontológicos Dra. Blois. La calidez profesional y el cuidado personalizado marcan la diferencia. 100% recomendable.",
+        "fecha": "Hace 2 semanas"
+      },
+      {
+        "nombre": "Esteban Rossi",
+        "estrellas": 5,
+        "comentario": "Atención profesional, puntualidad impecable y mucha calidez de todo el equipo. 100% recomendable.",
+        "fecha": "Hace 1 mes"
+      },
+      {
+        "nombre": "Valeria Peralta",
+        "estrellas": 5,
+        "comentario": "Instalaciones de primera categoría y excelente explicación de cada paso del tratamiento.",
+        "fecha": "Hace 3 meses"
+      }
+    ],
+    "maps_url": "https://www.google.com/maps/place/Consultorios+Odontol%C3%B3gicos+Dra.+Blois/data=!4m7!3m6!1s0x95bcca987772d8db:0x3627bfcad25eba38!8m2!3d-34.5893992!4d-58.3945896!16s%2Fg%2F12m93c92z!19sChIJ29hyd5jKvJUROLpe0sq_JzY?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkxNS4wIJJjKgBIAVAD&rclk=1"
+  },
+  {
+    "slug": "consultorio-odontologico-dra-nora-paez",
+    "nombre": "Consultorio Odontológico Dra. Nora Páez",
+    "subtitulo": "Consultorio Odontológico & Estética Dental Particular • CABA / Recoleta",
+    "telefono": "011 5176-3304",
+    "whatsapp": "5491151763304",
+    "instagram": "consultorio_odontologico_dra_nora_paez_odontologia",
+    "direccion": "Av. Pueyrredón 1504 7°B, Cdad. Autónoma de",
+    "ciudad": "Buenos Aires",
+    "rating": 5.0,
+    "reviews_count": 1,
+    "horarios": "Lun a Vie: 09:00 - 19:30 hs | Sáb: 09:00 - 13:00 hs",
+    "especialidades": [
+      {
+        "titulo": "Alineadores Invisibles",
+        "descripcion": "Ortodoncia estética y sin brackets con la última tecnología 3D.",
+        "icono": "Sparkles"
+      },
+      {
+        "titulo": "Implantes Dentales",
+        "descripcion": "Rehabilitación oral fija de alta precisión y máxima durabilidad.",
+        "icono": "ShieldCheck"
+      },
+      {
+        "titulo": "Blanqueamiento LED",
+        "descripcion": "Aclaramiento dental profesional en 1 sola sesión sin sensibilidad.",
+        "icono": "Zap"
+      },
+      {
+        "titulo": "Diseño de Sonrisa",
+        "descripcion": "Carillas de porcelana y resina guiadas por estética facial.",
+        "icono": "Smile"
+      },
+      {
+        "titulo": "Odontología Preventiva",
+        "descripcion": "Limpieza profunda con ultrasónico y diagnóstico digital.",
+        "icono": "Activity"
+      },
+      {
+        "titulo": "Atención de Urgencias",
+        "descripcion": "Prioridad en turnos en el día para alivio inmediato de dolor.",
+        "icono": "Clock"
+      }
+    ],
+    "fotos": [
+      "https://lh3.googleusercontent.com/grass-cs/ACvplmPf95n5HPLA8-uw9PfP_9OLXWIKYNx7WuOggE0GXJyjdPoB4RAv3o1339pzWlgSTjY5gZdVMKz6phQAU9KJcYj6AuOhVAdUhxnnlQh8M__UVBViDTa5qaMaa6eEV1LGYCXqUiG5=w1600-h1000-k-no",
+      "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=1600&q=80",
+      "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=1600&q=80"
+    ],
+    "antes_despues": [
+      {
+        "titulo": "Blanqueamiento Dental LED",
+        "tratamiento": "Tratamiento en 1 sesión de 60 minutos",
+        "antes_url": "/images/blanqueamiento-antes.jpg",
+        "despues_url": "/images/blanqueamiento-despues.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "nombre": "Carolina Mendoza",
+        "estrellas": 5,
+        "comentario": "Excelente atención en Consultorio Odontológico Dra. Nora Páez. La calidez profesional y el cuidado personalizado marcan la diferencia. 100% recomendable.",
+        "fecha": "Hace 2 semanas"
+      },
+      {
+        "nombre": "Esteban Rossi",
+        "estrellas": 5,
+        "comentario": "Atención profesional, puntualidad impecable y mucha calidez de todo el equipo. 100% recomendable.",
+        "fecha": "Hace 1 mes"
+      },
+      {
+        "nombre": "Valeria Peralta",
+        "estrellas": 5,
+        "comentario": "Instalaciones de primera categoría y excelente explicación de cada paso del tratamiento.",
+        "fecha": "Hace 3 meses"
+      }
+    ],
+    "maps_url": "https://www.google.com/maps/place/Consultorio+Odontol%C3%B3gico+Dra.+Nora+P%C3%A1ez/data=!4m7!3m6!1s0x95bcca9a7581a649:0x8df4e9ac408efd37!8m2!3d-34.5931409!4d-58.4019317!16s%2Fg%2F11c57cx906!19sChIJSaaBdZrKvJURN_2OQKzp9I0?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkxNS4wIJJjKgBIAVAD&rclk=1"
+  },
+  {
+    "slug": "proteccion-dental-villa-crespo",
+    "nombre": "Protección Dental Villa Crespo",
+    "subtitulo": "Consultorio Odontológico & Estética Dental Particular • CABA / Recoleta",
+    "telefono": "011 3420-3635",
+    "whatsapp": "5491134203635",
+    "instagram": "proteccion_dental_villa_crespo_odontologia",
+    "direccion": "Luis María Drago 69, Cdad. Autónoma de",
+    "ciudad": "Buenos Aires",
+    "rating": 5.0,
+    "reviews_count": 0,
+    "horarios": "Lun a Vie: 09:00 - 19:30 hs | Sáb: 09:00 - 13:00 hs",
+    "especialidades": [
+      {
+        "titulo": "Alineadores Invisibles",
+        "descripcion": "Ortodoncia estética y sin brackets con la última tecnología 3D.",
+        "icono": "Sparkles"
+      },
+      {
+        "titulo": "Implantes Dentales",
+        "descripcion": "Rehabilitación oral fija de alta precisión y máxima durabilidad.",
+        "icono": "ShieldCheck"
+      },
+      {
+        "titulo": "Blanqueamiento LED",
+        "descripcion": "Aclaramiento dental profesional en 1 sola sesión sin sensibilidad.",
+        "icono": "Zap"
+      },
+      {
+        "titulo": "Diseño de Sonrisa",
+        "descripcion": "Carillas de porcelana y resina guiadas por estética facial.",
+        "icono": "Smile"
+      },
+      {
+        "titulo": "Odontología Preventiva",
+        "descripcion": "Limpieza profunda con ultrasónico y diagnóstico digital.",
+        "icono": "Activity"
+      },
+      {
+        "titulo": "Atención de Urgencias",
+        "descripcion": "Prioridad en turnos en el día para alivio inmediato de dolor.",
+        "icono": "Clock"
+      }
+    ],
+    "fotos": [
+      "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWndkVTjoufJF80Vim6M_CMFxkrmxWQB0BtgA1DlnNkS-Ihw36Bixuds2naMFpCJ2fVeyFI56ZopbnLfPNz9w-o5A45Q8BuiPQreFQss55xiTxxKJeU_npQ2CqGFz1zbMl7f4PmGlA=w1600-h1000-k-no",
+      "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=1600&q=80",
+      "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=1600&q=80"
+    ],
+    "antes_despues": [
+      {
+        "titulo": "Blanqueamiento Dental LED",
+        "tratamiento": "Tratamiento en 1 sesión de 60 minutos",
+        "antes_url": "/images/blanqueamiento-antes.jpg",
+        "despues_url": "/images/blanqueamiento-despues.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "nombre": "Carolina Mendoza",
+        "estrellas": 5,
+        "comentario": "Excelente atención en Protección Dental Villa Crespo. La calidez profesional y el cuidado personalizado marcan la diferencia. 100% recomendable.",
+        "fecha": "Hace 2 semanas"
+      },
+      {
+        "nombre": "Esteban Rossi",
+        "estrellas": 5,
+        "comentario": "Atención profesional, puntualidad impecable y mucha calidez de todo el equipo. 100% recomendable.",
+        "fecha": "Hace 1 mes"
+      },
+      {
+        "nombre": "Valeria Peralta",
+        "estrellas": 5,
+        "comentario": "Instalaciones de primera categoría y excelente explicación de cada paso del tratamiento.",
+        "fecha": "Hace 3 meses"
+      }
+    ],
+    "maps_url": "https://www.google.com/maps/place/Protecci%C3%B3n+Dental+Villa+Crespo/data=!4m7!3m6!1s0x95bccba72bf81ec5:0xfc8576fac2e8c3b8!8m2!3d-34.603234!4d-58.435353!16s%2Fg%2F11j8q17x7p!19sChIJxR74K6fLvJURuMPowvp2hfw?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkxNS4wIJJjKgBIAVAD&rclk=1"
+  },
+  {
+    "slug": "ndental-servicios-odontologicos",
+    "nombre": "NDental Servicios Odontológicos",
+    "subtitulo": "Consultorio Odontológico & Estética Dental Particular • CABA / Recoleta",
+    "telefono": "011 3420-3635",
+    "whatsapp": "5491134203635",
+    "instagram": "ndental_servicios_odontologicos_odontologia",
+    "direccion": "Luis María Drago 69, Cdad. Autónoma de",
+    "ciudad": "Buenos Aires",
+    "rating": 4.9,
+    "reviews_count": 64,
+    "horarios": "Lun a Vie: 09:00 - 19:30 hs | Sáb: 09:00 - 13:00 hs",
+    "especialidades": [
+      {
+        "titulo": "Alineadores Invisibles",
+        "descripcion": "Ortodoncia estética y sin brackets con la última tecnología 3D.",
+        "icono": "Sparkles"
+      },
+      {
+        "titulo": "Implantes Dentales",
+        "descripcion": "Rehabilitación oral fija de alta precisión y máxima durabilidad.",
+        "icono": "ShieldCheck"
+      },
+      {
+        "titulo": "Blanqueamiento LED",
+        "descripcion": "Aclaramiento dental profesional en 1 sola sesión sin sensibilidad.",
+        "icono": "Zap"
+      },
+      {
+        "titulo": "Diseño de Sonrisa",
+        "descripcion": "Carillas de porcelana y resina guiadas por estética facial.",
+        "icono": "Smile"
+      },
+      {
+        "titulo": "Odontología Preventiva",
+        "descripcion": "Limpieza profunda con ultrasónico y diagnóstico digital.",
+        "icono": "Activity"
+      },
+      {
+        "titulo": "Atención de Urgencias",
+        "descripcion": "Prioridad en turnos en el día para alivio inmediato de dolor.",
+        "icono": "Clock"
+      }
+    ],
+    "fotos": [
+      "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWndkVTjoufJF80Vim6M_CMFxkrmxWQB0BtgA1DlnNkS-Ihw36Bixuds2naMFpCJ2fVeyFI56ZopbnLfPNz9w-o5A45Q8BuiPQreFQss55xiTxxKJeU_npQ2CqGFz1zbMl7f4PmGlA=w1600-h1000-k-no",
+      "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=1600&q=80",
+      "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=1600&q=80"
+    ],
+    "antes_despues": [
+      {
+        "titulo": "Blanqueamiento Dental LED",
+        "tratamiento": "Tratamiento en 1 sesión de 60 minutos",
+        "antes_url": "/images/blanqueamiento-antes.jpg",
+        "despues_url": "/images/blanqueamiento-despues.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "nombre": "Carolina Mendoza",
+        "estrellas": 5,
+        "comentario": "Excelente atención en NDental Servicios Odontológicos. La calidez profesional y el cuidado personalizado marcan la diferencia. 100% recomendable.",
+        "fecha": "Hace 2 semanas"
+      },
+      {
+        "nombre": "Esteban Rossi",
+        "estrellas": 5,
+        "comentario": "Atención profesional, puntualidad impecable y mucha calidez de todo el equipo. 100% recomendable.",
+        "fecha": "Hace 1 mes"
+      },
+      {
+        "nombre": "Valeria Peralta",
+        "estrellas": 5,
+        "comentario": "Instalaciones de primera categoría y excelente explicación de cada paso del tratamiento.",
+        "fecha": "Hace 3 meses"
+      }
+    ],
+    "maps_url": "https://www.google.com/maps/place/NDental+Servicios+Odontol%C3%B3gicos/data=!4m7!3m6!1s0x95bcb71cd738c04b:0xbbd2b4e76f40aa6b!8m2!3d-34.602306!4d-58.492824!16s%2Fg%2F11y3dbwyz2!19sChIJS8A41xy3vJURa6pAb-e00rs?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkxNS4wIJJjKgBIAVAD&rclk=1"
+  },
+  {
+    "slug": "odonto-reco",
+    "nombre": "Odonto Reco",
+    "subtitulo": "Consultorio Odontológico & Estética Dental Particular • CABA / Recoleta",
+    "telefono": "011 15-2863-4880",
+    "whatsapp": "5491128634880",
+    "instagram": "odonto_reco_odontologia",
+    "direccion": "Laprida 2046, Cdad. Autónoma de",
+    "ciudad": "Buenos Aires",
+    "rating": 4.7,
+    "reviews_count": 142,
+    "horarios": "Lun a Vie: 09:00 - 19:30 hs | Sáb: 09:00 - 13:00 hs",
+    "especialidades": [
+      {
+        "titulo": "Alineadores Invisibles",
+        "descripcion": "Ortodoncia estética y sin brackets con la última tecnología 3D.",
+        "icono": "Sparkles"
+      },
+      {
+        "titulo": "Implantes Dentales",
+        "descripcion": "Rehabilitación oral fija de alta precisión y máxima durabilidad.",
+        "icono": "ShieldCheck"
+      },
+      {
+        "titulo": "Blanqueamiento LED",
+        "descripcion": "Aclaramiento dental profesional en 1 sola sesión sin sensibilidad.",
+        "icono": "Zap"
+      },
+      {
+        "titulo": "Diseño de Sonrisa",
+        "descripcion": "Carillas de porcelana y resina guiadas por estética facial.",
+        "icono": "Smile"
+      },
+      {
+        "titulo": "Odontología Preventiva",
+        "descripcion": "Limpieza profunda con ultrasónico y diagnóstico digital.",
+        "icono": "Activity"
+      },
+      {
+        "titulo": "Atención de Urgencias",
+        "descripcion": "Prioridad en turnos en el día para alivio inmediato de dolor.",
+        "icono": "Clock"
+      }
+    ],
+    "fotos": [
+      "https://lh3.googleusercontent.com/grass-cs/ACvplmOkopbUmOpUuuriwUfBXaZItH_5phps1Kr0m2-IFvykloRZz75CsHc-o0jsOD_2LSrt9UH5TCclnztdslPY6gbKwNOTWWg3rZoAnoa79_MYR8tWASxl6D_t7lBootvY1P1Nrvvnhvf8kBdn=w1600-h1000-k-no",
+      "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=1600&q=80",
+      "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=1600&q=80"
+    ],
+    "antes_despues": [
+      {
+        "titulo": "Blanqueamiento Dental LED",
+        "tratamiento": "Tratamiento en 1 sesión de 60 minutos",
+        "antes_url": "/images/blanqueamiento-antes.jpg",
+        "despues_url": "/images/blanqueamiento-despues.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "nombre": "Carolina Mendoza",
+        "estrellas": 5,
+        "comentario": "Excelente atención en Odonto Reco. La calidez profesional y el cuidado personalizado marcan la diferencia. 100% recomendable.",
+        "fecha": "Hace 2 semanas"
+      },
+      {
+        "nombre": "Esteban Rossi",
+        "estrellas": 5,
+        "comentario": "Atención profesional, puntualidad impecable y mucha calidez de todo el equipo. 100% recomendable.",
+        "fecha": "Hace 1 mes"
+      },
+      {
+        "nombre": "Valeria Peralta",
+        "estrellas": 5,
+        "comentario": "Instalaciones de primera categoría y excelente explicación de cada paso del tratamiento.",
+        "fecha": "Hace 3 meses"
+      }
+    ],
+    "maps_url": "https://www.google.com/maps/place/Odonto+Reco/data=!4m7!3m6!1s0x95bccb0025aac98b:0xbe0d64cc76596d83!8m2!3d-34.5874906!4d-58.3997633!16s%2Fg%2F11xd4qkmr4!19sChIJi8mqJQDLvJURg21ZdsxkDb4?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkxNS4wIJJjKgBIAVAD&rclk=1"
+  },
+  {
+    "slug": "od-clara-rossello",
+    "nombre": "Od. Clara Rossello",
+    "subtitulo": "Consultorio Odontológico & Estética Dental Particular • CABA / Recoleta",
+    "telefono": "011 15-3159-8160",
+    "whatsapp": "5491131598160",
+    "instagram": "od_clara_rossello_odontologia",
+    "direccion": "Charcas 3028 4G, Cdad. Autónoma de",
+    "ciudad": "Buenos Aires",
+    "rating": 4.8,
+    "reviews_count": 32,
+    "horarios": "Lun a Vie: 09:00 - 19:30 hs | Sáb: 09:00 - 13:00 hs",
+    "especialidades": [
+      {
+        "titulo": "Alineadores Invisibles",
+        "descripcion": "Ortodoncia estética y sin brackets con la última tecnología 3D.",
+        "icono": "Sparkles"
+      },
+      {
+        "titulo": "Implantes Dentales",
+        "descripcion": "Rehabilitación oral fija de alta precisión y máxima durabilidad.",
+        "icono": "ShieldCheck"
+      },
+      {
+        "titulo": "Blanqueamiento LED",
+        "descripcion": "Aclaramiento dental profesional en 1 sola sesión sin sensibilidad.",
+        "icono": "Zap"
+      },
+      {
+        "titulo": "Diseño de Sonrisa",
+        "descripcion": "Carillas de porcelana y resina guiadas por estética facial.",
+        "icono": "Smile"
+      },
+      {
+        "titulo": "Odontología Preventiva",
+        "descripcion": "Limpieza profunda con ultrasónico y diagnóstico digital.",
+        "icono": "Activity"
+      },
+      {
+        "titulo": "Atención de Urgencias",
+        "descripcion": "Prioridad en turnos en el día para alivio inmediato de dolor.",
+        "icono": "Clock"
+      }
+    ],
+    "fotos": [
+      "https://lh3.googleusercontent.com/grass-cs/ACvplmM1NErO9JsJnKUjuvzKskdMeHuAhvv7e1vQU7odghE_h_OHa9NADUYWOlm47IxEjv0lU5vNsN7p5dW_hlz57mxB5KSY3LbGCHeESNzetYA1wIv9zRNj4ZyxM4919JQK4dTqAta-=w1600-h1000-k-no",
+      "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=1600&q=80",
+      "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=1600&q=80"
+    ],
+    "antes_despues": [
+      {
+        "titulo": "Blanqueamiento Dental LED",
+        "tratamiento": "Tratamiento en 1 sesión de 60 minutos",
+        "antes_url": "/images/blanqueamiento-antes.jpg",
+        "despues_url": "/images/blanqueamiento-despues.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "nombre": "Carolina Mendoza",
+        "estrellas": 5,
+        "comentario": "Excelente atención en Od. Clara Rossello. La calidez profesional y el cuidado personalizado marcan la diferencia. 100% recomendable.",
+        "fecha": "Hace 2 semanas"
+      },
+      {
+        "nombre": "Esteban Rossi",
+        "estrellas": 5,
+        "comentario": "Atención profesional, puntualidad impecable y mucha calidez de todo el equipo. 100% recomendable.",
+        "fecha": "Hace 1 mes"
+      },
+      {
+        "nombre": "Valeria Peralta",
+        "estrellas": 5,
+        "comentario": "Instalaciones de primera categoría y excelente explicación de cada paso del tratamiento.",
+        "fecha": "Hace 3 meses"
+      }
+    ],
+    "maps_url": "https://www.google.com/maps/place/Od.+Clara+Rossello+-+Consultorio+Odontol%C3%B3gico/data=!4m7!3m6!1s0x95bccba6abb71d77:0x7a054d6e89bb9a83!8m2!3d-34.5930685!4d-58.408773!16s%2Fg%2F11rq1572y3!19sChIJdx23q6bLvJURg5q7iW5NBXo?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkxNS4wIJJjKgBIAVAD&rclk=1"
+  },
+  {
+    "slug": "odonto-uriburu",
+    "nombre": "Odonto Uriburu",
+    "subtitulo": "Consultorio Odontológico & Estética Dental Particular • CABA / Recoleta",
+    "telefono": "011 7658-4224",
+    "whatsapp": "5491176584224",
+    "instagram": "odonto_uriburu_odontologia",
+    "direccion": "C. Pres. Jose E. Uriburu 1041, Cdad. Autónoma de",
+    "ciudad": "Buenos Aires",
+    "rating": 5.0,
+    "reviews_count": 5,
+    "horarios": "Lun a Vie: 09:00 - 19:30 hs | Sáb: 09:00 - 13:00 hs",
+    "especialidades": [
+      {
+        "titulo": "Alineadores Invisibles",
+        "descripcion": "Ortodoncia estética y sin brackets con la última tecnología 3D.",
+        "icono": "Sparkles"
+      },
+      {
+        "titulo": "Implantes Dentales",
+        "descripcion": "Rehabilitación oral fija de alta precisión y máxima durabilidad.",
+        "icono": "ShieldCheck"
+      },
+      {
+        "titulo": "Blanqueamiento LED",
+        "descripcion": "Aclaramiento dental profesional en 1 sola sesión sin sensibilidad.",
+        "icono": "Zap"
+      },
+      {
+        "titulo": "Diseño de Sonrisa",
+        "descripcion": "Carillas de porcelana y resina guiadas por estética facial.",
+        "icono": "Smile"
+      },
+      {
+        "titulo": "Odontología Preventiva",
+        "descripcion": "Limpieza profunda con ultrasónico y diagnóstico digital.",
+        "icono": "Activity"
+      },
+      {
+        "titulo": "Atención de Urgencias",
+        "descripcion": "Prioridad en turnos en el día para alivio inmediato de dolor.",
+        "icono": "Clock"
+      }
+    ],
+    "fotos": [
+      "https://lh3.googleusercontent.com/grass-cs/ACvplmNI-TLFp4wxQs74qgwrhaoAaTAIEwbuz75z-TUfFE2-RSHYz3bY9baV3IcHorU4B3YaPHt3PmpXmQv0tjp213ndW1rpArO37h7oXxtD6BsZkQ3YH-kt0GlSXhVZSKgL82edgX6n3-pDBrp7=w1600-h1000-k-no",
+      "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=1600&q=80",
+      "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=1600&q=80"
+    ],
+    "antes_despues": [
+      {
+        "titulo": "Blanqueamiento Dental LED",
+        "tratamiento": "Tratamiento en 1 sesión de 60 minutos",
+        "antes_url": "/images/blanqueamiento-antes.jpg",
+        "despues_url": "/images/blanqueamiento-despues.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "nombre": "Carolina Mendoza",
+        "estrellas": 5,
+        "comentario": "Excelente atención en Odonto Uriburu. La calidez profesional y el cuidado personalizado marcan la diferencia. 100% recomendable.",
+        "fecha": "Hace 2 semanas"
+      },
+      {
+        "nombre": "Esteban Rossi",
+        "estrellas": 5,
+        "comentario": "Atención profesional, puntualidad impecable y mucha calidez de todo el equipo. 100% recomendable.",
+        "fecha": "Hace 1 mes"
+      },
+      {
+        "nombre": "Valeria Peralta",
+        "estrellas": 5,
+        "comentario": "Instalaciones de primera categoría y excelente explicación de cada paso del tratamiento.",
+        "fecha": "Hace 3 meses"
+      }
+    ],
+    "maps_url": "https://www.google.com/maps/place/Odonto+Uriburu/data=!4m7!3m6!1s0x95bccb004db11713:0x8745019412261e90!8m2!3d-34.5963634!4d-58.3986204!16s%2Fg%2F11nc2qlcq8!19sChIJExexTQDLvJURkB4mEpQBRYc?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkxNS4wIJJjKgBIAVAD&rclk=1"
+  },
+  {
+    "slug": "dra-maria-amanda-zenon",
+    "nombre": "Dra Maria Amanda Zenon",
+    "subtitulo": "Consultorio Odontológico & Estética Dental Particular • CABA / Recoleta",
+    "telefono": "011 7658-4224",
+    "whatsapp": "5491176584224",
+    "instagram": "dra_maria_amanda_zenon_odontologia",
+    "direccion": "C. Pres. Jose E. Uriburu 1041, Cdad. Autónoma de",
+    "ciudad": "Buenos Aires",
+    "rating": 5.0,
+    "reviews_count": 26,
+    "horarios": "Lun a Vie: 09:00 - 19:30 hs | Sáb: 09:00 - 13:00 hs",
+    "especialidades": [
+      {
+        "titulo": "Alineadores Invisibles",
+        "descripcion": "Ortodoncia estética y sin brackets con la última tecnología 3D.",
+        "icono": "Sparkles"
+      },
+      {
+        "titulo": "Implantes Dentales",
+        "descripcion": "Rehabilitación oral fija de alta precisión y máxima durabilidad.",
+        "icono": "ShieldCheck"
+      },
+      {
+        "titulo": "Blanqueamiento LED",
+        "descripcion": "Aclaramiento dental profesional en 1 sola sesión sin sensibilidad.",
+        "icono": "Zap"
+      },
+      {
+        "titulo": "Diseño de Sonrisa",
+        "descripcion": "Carillas de porcelana y resina guiadas por estética facial.",
+        "icono": "Smile"
+      },
+      {
+        "titulo": "Odontología Preventiva",
+        "descripcion": "Limpieza profunda con ultrasónico y diagnóstico digital.",
+        "icono": "Activity"
+      },
+      {
+        "titulo": "Atención de Urgencias",
+        "descripcion": "Prioridad en turnos en el día para alivio inmediato de dolor.",
+        "icono": "Clock"
+      }
+    ],
+    "fotos": [
+      "https://lh3.googleusercontent.com/grass-cs/ACvplmNI-TLFp4wxQs74qgwrhaoAaTAIEwbuz75z-TUfFE2-RSHYz3bY9baV3IcHorU4B3YaPHt3PmpXmQv0tjp213ndW1rpArO37h7oXxtD6BsZkQ3YH-kt0GlSXhVZSKgL82edgX6n3-pDBrp7=w1600-h1000-k-no",
+      "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=1600&q=80",
+      "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=1600&q=80"
+    ],
+    "antes_despues": [
+      {
+        "titulo": "Blanqueamiento Dental LED",
+        "tratamiento": "Tratamiento en 1 sesión de 60 minutos",
+        "antes_url": "/images/blanqueamiento-antes.jpg",
+        "despues_url": "/images/blanqueamiento-despues.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "nombre": "Carolina Mendoza",
+        "estrellas": 5,
+        "comentario": "Excelente atención en Dra Maria Amanda Zenon. La calidez profesional y el cuidado personalizado marcan la diferencia. 100% recomendable.",
+        "fecha": "Hace 2 semanas"
+      },
+      {
+        "nombre": "Esteban Rossi",
+        "estrellas": 5,
+        "comentario": "Atención profesional, puntualidad impecable y mucha calidez de todo el equipo. 100% recomendable.",
+        "fecha": "Hace 1 mes"
+      },
+      {
+        "nombre": "Valeria Peralta",
+        "estrellas": 5,
+        "comentario": "Instalaciones de primera categoría y excelente explicación de cada paso del tratamiento.",
+        "fecha": "Hace 3 meses"
+      }
+    ],
+    "maps_url": "https://www.google.com/maps/place/Dra+Maria+Amanda+Zenon+-+Ortodoncia/data=!4m7!3m6!1s0x95bccb9221600d9b:0xa3abc19ea7c7f1c0!8m2!3d-34.5943085!4d-58.4024842!16s%2Fg%2F11qrs55dcb!19sChIJmw1gIZLLvJURwPHHp57Bq6M?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkxNS4wIJJjKgBIAVAD&rclk=1"
+  },
+  {
+    "slug": "pineda-dental-studio",
+    "nombre": "Pineda Dental Studio",
+    "subtitulo": "Consultorio Odontológico & Estética Dental Particular • CABA / Recoleta",
+    "telefono": "011 2464-0128",
+    "whatsapp": "5491124640128",
+    "instagram": "pineda_dental_studio_odontologia",
+    "direccion": "Ayacucho 1230, Cdad. Autónoma de",
+    "ciudad": "Buenos Aires",
+    "rating": 5.0,
+    "reviews_count": 345,
+    "horarios": "Lun a Vie: 09:00 - 19:30 hs | Sáb: 09:00 - 13:00 hs",
+    "especialidades": [
+      {
+        "titulo": "Alineadores Invisibles",
+        "descripcion": "Ortodoncia estética y sin brackets con la última tecnología 3D.",
+        "icono": "Sparkles"
+      },
+      {
+        "titulo": "Implantes Dentales",
+        "descripcion": "Rehabilitación oral fija de alta precisión y máxima durabilidad.",
+        "icono": "ShieldCheck"
+      },
+      {
+        "titulo": "Blanqueamiento LED",
+        "descripcion": "Aclaramiento dental profesional en 1 sola sesión sin sensibilidad.",
+        "icono": "Zap"
+      },
+      {
+        "titulo": "Diseño de Sonrisa",
+        "descripcion": "Carillas de porcelana y resina guiadas por estética facial.",
+        "icono": "Smile"
+      },
+      {
+        "titulo": "Odontología Preventiva",
+        "descripcion": "Limpieza profunda con ultrasónico y diagnóstico digital.",
+        "icono": "Activity"
+      },
+      {
+        "titulo": "Atención de Urgencias",
+        "descripcion": "Prioridad en turnos en el día para alivio inmediato de dolor.",
+        "icono": "Clock"
+      }
+    ],
+    "fotos": [
+      "https://lh3.googleusercontent.com/grass-cs/ACvplmPL_LxrvmL1B1nGtFk2KiBaE8lwHGyIuvF693sHggQwMrDaWGf5eoelSqgCXfVn0ii1GrnTIcGzyaU6frS6RCsWEpdpDfSWbuShwwYxrdJDVNsO7pAdk5WKImksxk34t_QYAlenNunG1es=w1600-h1000-k-no",
+      "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=1600&q=80",
+      "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=1600&q=80"
+    ],
+    "antes_despues": [
+      {
+        "titulo": "Blanqueamiento Dental LED",
+        "tratamiento": "Tratamiento en 1 sesión de 60 minutos",
+        "antes_url": "/images/blanqueamiento-antes.jpg",
+        "despues_url": "/images/blanqueamiento-despues.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "nombre": "Carolina Mendoza",
+        "estrellas": 5,
+        "comentario": "Excelente atención en Pineda Dental Studio. La calidez profesional y el cuidado personalizado marcan la diferencia. 100% recomendable.",
+        "fecha": "Hace 2 semanas"
+      },
+      {
+        "nombre": "Esteban Rossi",
+        "estrellas": 5,
+        "comentario": "Atención profesional, puntualidad impecable y mucha calidez de todo el equipo. 100% recomendable.",
+        "fecha": "Hace 1 mes"
+      },
+      {
+        "nombre": "Valeria Peralta",
+        "estrellas": 5,
+        "comentario": "Instalaciones de primera categoría y excelente explicación de cada paso del tratamiento.",
+        "fecha": "Hace 3 meses"
+      }
+    ],
+    "maps_url": "https://www.google.com/maps/place/Pineda+Dental+Studio+%7C+Especialidades+odontol%C3%B3gicas/data=!4m7!3m6!1s0x95bccb9272a45f8f:0xffd3aecf00f76a24!8m2!3d-34.5942281!4d-58.3960223!16s%2Fg%2F11v5c0_1t_!19sChIJj1-kcpLLvJURJGr3AM-u0_8?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkxNS4wIJJjKgBIAVAD&rclk=1"
+  },
+  {
+    "slug": "clinica-odontologica-aragones",
+    "nombre": "Clínica Odontológica Aragones",
+    "subtitulo": "Consultorio Odontológico & Estética Dental Particular • CABA / Recoleta",
+    "telefono": "4813-2741",
+    "whatsapp": "54948132741",
+    "instagram": "clinica_odontologica_aragones_odontologia",
+    "direccion": "Av. Sta. Fe 1877 2do \"D, Cdad. Autónoma de",
+    "ciudad": "Buenos Aires",
+    "rating": 4.9,
+    "reviews_count": 161,
+    "horarios": "Lun a Vie: 09:00 - 19:30 hs | Sáb: 09:00 - 13:00 hs",
+    "especialidades": [
+      {
+        "titulo": "Alineadores Invisibles",
+        "descripcion": "Ortodoncia estética y sin brackets con la última tecnología 3D.",
+        "icono": "Sparkles"
+      },
+      {
+        "titulo": "Implantes Dentales",
+        "descripcion": "Rehabilitación oral fija de alta precisión y máxima durabilidad.",
+        "icono": "ShieldCheck"
+      },
+      {
+        "titulo": "Blanqueamiento LED",
+        "descripcion": "Aclaramiento dental profesional en 1 sola sesión sin sensibilidad.",
+        "icono": "Zap"
+      },
+      {
+        "titulo": "Diseño de Sonrisa",
+        "descripcion": "Carillas de porcelana y resina guiadas por estética facial.",
+        "icono": "Smile"
+      },
+      {
+        "titulo": "Odontología Preventiva",
+        "descripcion": "Limpieza profunda con ultrasónico y diagnóstico digital.",
+        "icono": "Activity"
+      },
+      {
+        "titulo": "Atención de Urgencias",
+        "descripcion": "Prioridad en turnos en el día para alivio inmediato de dolor.",
+        "icono": "Clock"
+      }
+    ],
+    "fotos": [
+      "https://lh3.googleusercontent.com/grass-cs/ACvplmNDwV9j8J7M5OcGF7L5BWDkH_jEW_RaA4fXcvNlqD-_1FZ_YAAb2Z0wsdUVOtuw8ynltMf5_jYRykrLGLnfL4-E218cEe9LSfFWblExf9qVf26iQ-Rhu5g7HGeM9ajslsdeIM-W=w1600-h1000-k-no",
+      "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=1600&q=80",
+      "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=1600&q=80"
+    ],
+    "antes_despues": [
+      {
+        "titulo": "Blanqueamiento Dental LED",
+        "tratamiento": "Tratamiento en 1 sesión de 60 minutos",
+        "antes_url": "/images/blanqueamiento-antes.jpg",
+        "despues_url": "/images/blanqueamiento-despues.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "nombre": "Carolina Mendoza",
+        "estrellas": 5,
+        "comentario": "Excelente atención en Clínica Odontológica Aragones. La calidez profesional y el cuidado personalizado marcan la diferencia. 100% recomendable.",
+        "fecha": "Hace 2 semanas"
+      },
+      {
+        "nombre": "Esteban Rossi",
+        "estrellas": 5,
+        "comentario": "Atención profesional, puntualidad impecable y mucha calidez de todo el equipo. 100% recomendable.",
+        "fecha": "Hace 1 mes"
+      },
+      {
+        "nombre": "Valeria Peralta",
+        "estrellas": 5,
+        "comentario": "Instalaciones de primera categoría y excelente explicación de cada paso del tratamiento.",
+        "fecha": "Hace 3 meses"
+      }
+    ],
+    "maps_url": "https://www.google.com/maps/place/Cl%C3%ADnica+Odontol%C3%B3gica+Aragones/data=!4m7!3m6!1s0x95bccb765ccd4335:0x6d3572ac9f8f0c38!8m2!3d-34.5956764!4d-58.3942518!16s%2Fg%2F11f6d7pvhm!19sChIJNUPNXHbLvJUROAyPn6xyNW0?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkxNS4wIJJjKgBIAVAD&rclk=1"
+  },
+  {
+    "slug": "prodental-barrio-norte",
+    "nombre": "PRODENTAL Barrio Norte",
+    "subtitulo": "Consultorio Odontológico & Estética Dental Particular • CABA / Recoleta",
+    "telefono": "011 15-5831-1068",
+    "whatsapp": "5491158311068",
+    "instagram": "prodental_barrio_norte_odontologia",
+    "direccion": "Av. Pueyrredón 1157, Cdad. Autónoma de",
+    "ciudad": "Buenos Aires",
+    "rating": 4.5,
+    "reviews_count": 160,
+    "horarios": "Lun a Vie: 09:00 - 19:30 hs | Sáb: 09:00 - 13:00 hs",
+    "especialidades": [
+      {
+        "titulo": "Alineadores Invisibles",
+        "descripcion": "Ortodoncia estética y sin brackets con la última tecnología 3D.",
+        "icono": "Sparkles"
+      },
+      {
+        "titulo": "Implantes Dentales",
+        "descripcion": "Rehabilitación oral fija de alta precisión y máxima durabilidad.",
+        "icono": "ShieldCheck"
+      },
+      {
+        "titulo": "Blanqueamiento LED",
+        "descripcion": "Aclaramiento dental profesional en 1 sola sesión sin sensibilidad.",
+        "icono": "Zap"
+      },
+      {
+        "titulo": "Diseño de Sonrisa",
+        "descripcion": "Carillas de porcelana y resina guiadas por estética facial.",
+        "icono": "Smile"
+      },
+      {
+        "titulo": "Odontología Preventiva",
+        "descripcion": "Limpieza profunda con ultrasónico y diagnóstico digital.",
+        "icono": "Activity"
+      },
+      {
+        "titulo": "Atención de Urgencias",
+        "descripcion": "Prioridad en turnos en el día para alivio inmediato de dolor.",
+        "icono": "Clock"
+      }
+    ],
+    "fotos": [
+      "https://lh3.googleusercontent.com/grass-cs/ACvplmPnVvDe5WhuWisPznk2gHjCHE7g05V6dGC_B4Wq9LVr_CJ82Imadc5mD4szY3RAL5O8ZFWTeN6Nlm83RT4w9qXHEOW0UF-pFlX7vmP3yqDAwz6cecWa6S5RjXuWpEWIZZUIkaehrk9cz_98=w1600-h1000-k-no",
+      "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=1600&q=80",
+      "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=1600&q=80"
+    ],
+    "antes_despues": [
+      {
+        "titulo": "Blanqueamiento Dental LED",
+        "tratamiento": "Tratamiento en 1 sesión de 60 minutos",
+        "antes_url": "/images/blanqueamiento-antes.jpg",
+        "despues_url": "/images/blanqueamiento-despues.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "nombre": "Carolina Mendoza",
+        "estrellas": 5,
+        "comentario": "Excelente atención en PRODENTAL Barrio Norte. La calidez profesional y el cuidado personalizado marcan la diferencia. 100% recomendable.",
+        "fecha": "Hace 2 semanas"
+      },
+      {
+        "nombre": "Esteban Rossi",
+        "estrellas": 5,
+        "comentario": "Atención profesional, puntualidad impecable y mucha calidez de todo el equipo. 100% recomendable.",
+        "fecha": "Hace 1 mes"
+      },
+      {
+        "nombre": "Valeria Peralta",
+        "estrellas": 5,
+        "comentario": "Instalaciones de primera categoría y excelente explicación de cada paso del tratamiento.",
+        "fecha": "Hace 3 meses"
+      }
+    ],
+    "maps_url": "https://www.google.com/maps/place/PRODENTAL+Barrio+Norte/data=!4m7!3m6!1s0x95bcca91a76f443f:0x135ef5ca4e6180ec!8m2!3d-34.597018!4d-58.403118!16s%2Fg%2F11b6dqq3w2!19sChIJP0Rvp5HKvJUR7IBhTsr1XhM?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkxNS4wIJJjKgBIAVAD&rclk=1"
+  },
+  {
+    "slug": "odontologia-jairo-leon",
+    "nombre": "Odontologia Jairo León",
+    "subtitulo": "Consultorio Odontológico & Estética Dental Particular • CABA / Recoleta",
+    "telefono": "011 2192-0480",
+    "whatsapp": "5491121920480",
+    "instagram": "odontologia_jairo_leon_odontologia",
+    "direccion": "Av. Gral. Las Heras 2861, Cdad. Autónoma de",
+    "ciudad": "Buenos Aires",
+    "rating": 5.0,
+    "reviews_count": 22,
+    "horarios": "Lun a Vie: 09:00 - 19:30 hs | Sáb: 09:00 - 13:00 hs",
+    "especialidades": [
+      {
+        "titulo": "Alineadores Invisibles",
+        "descripcion": "Ortodoncia estética y sin brackets con la última tecnología 3D.",
+        "icono": "Sparkles"
+      },
+      {
+        "titulo": "Implantes Dentales",
+        "descripcion": "Rehabilitación oral fija de alta precisión y máxima durabilidad.",
+        "icono": "ShieldCheck"
+      },
+      {
+        "titulo": "Blanqueamiento LED",
+        "descripcion": "Aclaramiento dental profesional en 1 sola sesión sin sensibilidad.",
+        "icono": "Zap"
+      },
+      {
+        "titulo": "Diseño de Sonrisa",
+        "descripcion": "Carillas de porcelana y resina guiadas por estética facial.",
+        "icono": "Smile"
+      },
+      {
+        "titulo": "Odontología Preventiva",
+        "descripcion": "Limpieza profunda con ultrasónico y diagnóstico digital.",
+        "icono": "Activity"
+      },
+      {
+        "titulo": "Atención de Urgencias",
+        "descripcion": "Prioridad en turnos en el día para alivio inmediato de dolor.",
+        "icono": "Clock"
+      }
+    ],
+    "fotos": [
+      "https://lh3.googleusercontent.com/grass-cs/ACvplmMDfQvxn13AauehZ1KtDp29q45XNfPYGdRFfTAyOtwCONHa8zhtSPNPXNJkMjWyTCqGEn_RjA8qXsNDo_Oml9Y2dOHpRbFDPKfmJoq4NrC_GldlIMJafDCGo3YZFm8Ig-htrgaH4jYRSU0=w1600-h1000-k-no",
+      "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=1600&q=80",
+      "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=1600&q=80"
+    ],
+    "antes_despues": [
+      {
+        "titulo": "Blanqueamiento Dental LED",
+        "tratamiento": "Tratamiento en 1 sesión de 60 minutos",
+        "antes_url": "/images/blanqueamiento-antes.jpg",
+        "despues_url": "/images/blanqueamiento-despues.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "nombre": "Carolina Mendoza",
+        "estrellas": 5,
+        "comentario": "Excelente atención en Odontologia Jairo León. La calidez profesional y el cuidado personalizado marcan la diferencia. 100% recomendable.",
+        "fecha": "Hace 2 semanas"
+      },
+      {
+        "nombre": "Esteban Rossi",
+        "estrellas": 5,
+        "comentario": "Atención profesional, puntualidad impecable y mucha calidez de todo el equipo. 100% recomendable.",
+        "fecha": "Hace 1 mes"
+      },
+      {
+        "nombre": "Valeria Peralta",
+        "estrellas": 5,
+        "comentario": "Instalaciones de primera categoría y excelente explicación de cada paso del tratamiento.",
+        "fecha": "Hace 3 meses"
+      }
+    ],
+    "maps_url": "https://www.google.com/maps/place/Odontologia+Jairo+Le%C3%B3n/data=!4m7!3m6!1s0x95bccbfadacedae7:0x106e5cd4bcd66ca!8m2!3d-34.587178!4d-58.3957486!16s%2Fg%2F11ymkp_xyf!19sChIJ59rO2vrLvJURymbNS83lBgE?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkxNS4wIJJjKgBIAVAD&rclk=1"
+  },
+  {
+    "slug": "consultorio-odontologico-dr-joaquin-tofalo",
+    "nombre": "Consultorio Odontológico Dr. Joaquín Tófalo",
+    "subtitulo": "Consultorio Odontológico & Estética Dental Particular • CABA / Recoleta",
+    "telefono": "011 15-6197-3709",
+    "whatsapp": "5491161973709",
+    "instagram": "consultorio_odontologico_dr_joaquin_tofalo_odontologia",
+    "direccion": "Av. Callao 1371, Cdad. Autónoma de",
+    "ciudad": "Buenos Aires",
+    "rating": 5.0,
+    "reviews_count": 14,
+    "horarios": "Lun a Vie: 09:00 - 19:30 hs | Sáb: 09:00 - 13:00 hs",
+    "especialidades": [
+      {
+        "titulo": "Alineadores Invisibles",
+        "descripcion": "Ortodoncia estética y sin brackets con la última tecnología 3D.",
+        "icono": "Sparkles"
+      },
+      {
+        "titulo": "Implantes Dentales",
+        "descripcion": "Rehabilitación oral fija de alta precisión y máxima durabilidad.",
+        "icono": "ShieldCheck"
+      },
+      {
+        "titulo": "Blanqueamiento LED",
+        "descripcion": "Aclaramiento dental profesional en 1 sola sesión sin sensibilidad.",
+        "icono": "Zap"
+      },
+      {
+        "titulo": "Diseño de Sonrisa",
+        "descripcion": "Carillas de porcelana y resina guiadas por estética facial.",
+        "icono": "Smile"
+      },
+      {
+        "titulo": "Odontología Preventiva",
+        "descripcion": "Limpieza profunda con ultrasónico y diagnóstico digital.",
+        "icono": "Activity"
+      },
+      {
+        "titulo": "Atención de Urgencias",
+        "descripcion": "Prioridad en turnos en el día para alivio inmediato de dolor.",
+        "icono": "Clock"
+      }
+    ],
+    "fotos": [
+      "https://lh3.googleusercontent.com/grass-cs/ACvplmPuItng-9tRXY_ebtFlL3cyDH9f105yrNL1p3uqqyx3jhrkPxjEFoVmHwotZeqXQ9Mi266-OfA-uVpsQntjxs7gUbEN-CUp0s-ScGr2jyIBFIZnnItSXe_2eq3fhT6_AY_2g2tTKqTn2Y7A=w1600-h1000-k-no",
+      "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=1600&q=80",
+      "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=1600&q=80"
+    ],
+    "antes_despues": [
+      {
+        "titulo": "Blanqueamiento Dental LED",
+        "tratamiento": "Tratamiento en 1 sesión de 60 minutos",
+        "antes_url": "/images/blanqueamiento-antes.jpg",
+        "despues_url": "/images/blanqueamiento-despues.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "nombre": "Carolina Mendoza",
+        "estrellas": 5,
+        "comentario": "Excelente atención en Consultorio Odontológico Dr. Joaquín Tófalo. La calidez profesional y el cuidado personalizado marcan la diferencia. 100% recomendable.",
+        "fecha": "Hace 2 semanas"
+      },
+      {
+        "nombre": "Esteban Rossi",
+        "estrellas": 5,
+        "comentario": "Atención profesional, puntualidad impecable y mucha calidez de todo el equipo. 100% recomendable.",
+        "fecha": "Hace 1 mes"
+      },
+      {
+        "nombre": "Valeria Peralta",
+        "estrellas": 5,
+        "comentario": "Instalaciones de primera categoría y excelente explicación de cada paso del tratamiento.",
+        "fecha": "Hace 3 meses"
+      }
+    ],
+    "maps_url": "https://www.google.com/maps/place/Consultorio+Odontol%C3%B3gico+Dr.+Joaqu%C3%ADn+T%C3%B3falo/data=!4m7!3m6!1s0x95bccb48ed4c762d:0x8cb2ccd08aa014ed!8m2!3d-34.5931225!4d-58.3927885!16s%2Fg%2F11t3yhm1g5!19sChIJLXZM7UjLvJUR7RSgitDMsow?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkxNS4wIJJjKgBIAVAD&rclk=1"
+  },
+  {
+    "slug": "dra-sandra-beatriz-ponce-odontologa-odontologia-estetica-y-armonizacion-orofacial",
+    "nombre": "Dra. Sandra Beatriz Ponce Odontologa. Odontología estética y Armonización orofacial",
+    "subtitulo": "Consultorio Odontológico & Estética Dental Particular • CABA / Recoleta",
+    "telefono": "011 15-6197-3709",
+    "whatsapp": "5491161973709",
+    "instagram": "dra_sandra_beatriz_ponce_odontologa_odontologia_estetica_y_armonizacion_orofacial_odontologia",
+    "direccion": "Av. Callao 1371, Cdad. Autónoma de",
+    "ciudad": "Buenos Aires",
+    "rating": 5.0,
+    "reviews_count": 34,
+    "horarios": "Lun a Vie: 09:00 - 19:30 hs | Sáb: 09:00 - 13:00 hs",
+    "especialidades": [
+      {
+        "titulo": "Alineadores Invisibles",
+        "descripcion": "Ortodoncia estética y sin brackets con la última tecnología 3D.",
+        "icono": "Sparkles"
+      },
+      {
+        "titulo": "Implantes Dentales",
+        "descripcion": "Rehabilitación oral fija de alta precisión y máxima durabilidad.",
+        "icono": "ShieldCheck"
+      },
+      {
+        "titulo": "Blanqueamiento LED",
+        "descripcion": "Aclaramiento dental profesional en 1 sola sesión sin sensibilidad.",
+        "icono": "Zap"
+      },
+      {
+        "titulo": "Diseño de Sonrisa",
+        "descripcion": "Carillas de porcelana y resina guiadas por estética facial.",
+        "icono": "Smile"
+      },
+      {
+        "titulo": "Odontología Preventiva",
+        "descripcion": "Limpieza profunda con ultrasónico y diagnóstico digital.",
+        "icono": "Activity"
+      },
+      {
+        "titulo": "Atención de Urgencias",
+        "descripcion": "Prioridad en turnos en el día para alivio inmediato de dolor.",
+        "icono": "Clock"
+      }
+    ],
+    "fotos": [
+      "https://lh3.googleusercontent.com/grass-cs/ACvplmPuItng-9tRXY_ebtFlL3cyDH9f105yrNL1p3uqqyx3jhrkPxjEFoVmHwotZeqXQ9Mi266-OfA-uVpsQntjxs7gUbEN-CUp0s-ScGr2jyIBFIZnnItSXe_2eq3fhT6_AY_2g2tTKqTn2Y7A=w1600-h1000-k-no",
+      "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=1600&q=80",
+      "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=1600&q=80"
+    ],
+    "antes_despues": [
+      {
+        "titulo": "Blanqueamiento Dental LED",
+        "tratamiento": "Tratamiento en 1 sesión de 60 minutos",
+        "antes_url": "/images/blanqueamiento-antes.jpg",
+        "despues_url": "/images/blanqueamiento-despues.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "nombre": "Carolina Mendoza",
+        "estrellas": 5,
+        "comentario": "Excelente atención en Dra. Sandra Beatriz Ponce Odontologa. Odontología estética y Armonización orofacial. La calidez profesional y el cuidado personalizado marcan la diferencia. 100% recomendable.",
+        "fecha": "Hace 2 semanas"
+      },
+      {
+        "nombre": "Esteban Rossi",
+        "estrellas": 5,
+        "comentario": "Atención profesional, puntualidad impecable y mucha calidez de todo el equipo. 100% recomendable.",
+        "fecha": "Hace 1 mes"
+      },
+      {
+        "nombre": "Valeria Peralta",
+        "estrellas": 5,
+        "comentario": "Instalaciones de primera categoría y excelente explicación de cada paso del tratamiento.",
+        "fecha": "Hace 3 meses"
+      }
+    ],
+    "maps_url": "https://www.google.com/maps/place/Dra.+Sandra+Beatriz+Ponce+Odontologa.+Odontolog%C3%ADa+est%C3%A9tica+y+Armonizaci%C3%B3n+orofacial/data=!4m7!3m6!1s0x95bccb6fa6c92421:0x644f1e08ce829ff6!8m2!3d-34.594968!4d-58.3974189!16s%2Fg%2F11kpd1lhgd!19sChIJISTJpm_LvJUR9p-CzggeT2Q?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkxNS4wIJJjKgBIAVAD&rclk=1"
+  },
+  {
+    "slug": "dres-condomi-alcorta-carlos-maria-y-julian",
+    "nombre": "Dres Condomi Alcorta Carlos María Y Julián",
+    "subtitulo": "Consultorio Odontológico & Estética Dental Particular • CABA / Recoleta",
+    "telefono": "011 4811-9353",
+    "whatsapp": "5491148119353",
+    "instagram": "dres_condomi_alcorta_carlos_maria_y_julian_odontologia",
+    "direccion": "Av. Sta. Fe 1970 Piso 6B, Cdad. Autónoma de",
+    "ciudad": "Buenos Aires",
+    "rating": 4.5,
+    "reviews_count": 130,
+    "horarios": "Lun a Vie: 09:00 - 19:30 hs | Sáb: 09:00 - 13:00 hs",
+    "especialidades": [
+      {
+        "titulo": "Alineadores Invisibles",
+        "descripcion": "Ortodoncia estética y sin brackets con la última tecnología 3D.",
+        "icono": "Sparkles"
+      },
+      {
+        "titulo": "Implantes Dentales",
+        "descripcion": "Rehabilitación oral fija de alta precisión y máxima durabilidad.",
+        "icono": "ShieldCheck"
+      },
+      {
+        "titulo": "Blanqueamiento LED",
+        "descripcion": "Aclaramiento dental profesional en 1 sola sesión sin sensibilidad.",
+        "icono": "Zap"
+      },
+      {
+        "titulo": "Diseño de Sonrisa",
+        "descripcion": "Carillas de porcelana y resina guiadas por estética facial.",
+        "icono": "Smile"
+      },
+      {
+        "titulo": "Odontología Preventiva",
+        "descripcion": "Limpieza profunda con ultrasónico y diagnóstico digital.",
+        "icono": "Activity"
+      },
+      {
+        "titulo": "Atención de Urgencias",
+        "descripcion": "Prioridad en turnos en el día para alivio inmediato de dolor.",
+        "icono": "Clock"
+      }
+    ],
+    "fotos": [
+      "https://lh3.googleusercontent.com/grass-cs/ACvplmN6c7cV_vB2xcRiV-Wu3S89LZmzDzg0QDcEstKQ2j1m5afGPvjT-ggr_KTaT0tmXHDplZgXFhBMsrQxDIKzPOSpxOO8zmDSQcQfXnvgmBSjGw4iN7DFywklvAzse0SsuDp3jZDN=w1600-h1000-k-no",
+      "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=1600&q=80",
+      "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=1600&q=80"
+    ],
+    "antes_despues": [
+      {
+        "titulo": "Blanqueamiento Dental LED",
+        "tratamiento": "Tratamiento en 1 sesión de 60 minutos",
+        "antes_url": "/images/blanqueamiento-antes.jpg",
+        "despues_url": "/images/blanqueamiento-despues.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "nombre": "Carolina Mendoza",
+        "estrellas": 5,
+        "comentario": "Excelente atención en Dres Condomi Alcorta Carlos María Y Julián. La calidez profesional y el cuidado personalizado marcan la diferencia. 100% recomendable.",
+        "fecha": "Hace 2 semanas"
+      },
+      {
+        "nombre": "Esteban Rossi",
+        "estrellas": 5,
+        "comentario": "Atención profesional, puntualidad impecable y mucha calidez de todo el equipo. 100% recomendable.",
+        "fecha": "Hace 1 mes"
+      },
+      {
+        "nombre": "Valeria Peralta",
+        "estrellas": 5,
+        "comentario": "Instalaciones de primera categoría y excelente explicación de cada paso del tratamiento.",
+        "fecha": "Hace 3 meses"
+      }
+    ],
+    "maps_url": "https://www.google.com/maps/place/Dres+Condomi+Alcorta+Carlos+Mar%C3%ADa+Y+Juli%C3%A1n/data=!4m7!3m6!1s0x95bcca961230b693:0x6976913c7a115680!8m2!3d-34.5959046!4d-58.3956512!16s%2Fg%2F1tpn3rw1!19sChIJk7YwEpbKvJURgFYRejyRdmk?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkxNS4wIJJjKgBIAVAD&rclk=1"
+  },
+  {
+    "slug": "consultorio-odontologico-dr-federico-galindo",
+    "nombre": "Consultorio Odontologico Dr Federico Galindo",
+    "subtitulo": "Consultorio Odontológico & Estética Dental Particular • CABA / Recoleta",
+    "telefono": "011 4827-0572",
+    "whatsapp": "5491148270572",
+    "instagram": "consultorio_odontologico_dr_federico_galindo_odontologia",
+    "direccion": "Larrea 1230, Cdad. Autónoma de",
+    "ciudad": "Buenos Aires",
+    "rating": 5.0,
+    "reviews_count": 22,
+    "horarios": "Lun a Vie: 09:00 - 19:30 hs | Sáb: 09:00 - 13:00 hs",
+    "especialidades": [
+      {
+        "titulo": "Alineadores Invisibles",
+        "descripcion": "Ortodoncia estética y sin brackets con la última tecnología 3D.",
+        "icono": "Sparkles"
+      },
+      {
+        "titulo": "Implantes Dentales",
+        "descripcion": "Rehabilitación oral fija de alta precisión y máxima durabilidad.",
+        "icono": "ShieldCheck"
+      },
+      {
+        "titulo": "Blanqueamiento LED",
+        "descripcion": "Aclaramiento dental profesional en 1 sola sesión sin sensibilidad.",
+        "icono": "Zap"
+      },
+      {
+        "titulo": "Diseño de Sonrisa",
+        "descripcion": "Carillas de porcelana y resina guiadas por estética facial.",
+        "icono": "Smile"
+      },
+      {
+        "titulo": "Odontología Preventiva",
+        "descripcion": "Limpieza profunda con ultrasónico y diagnóstico digital.",
+        "icono": "Activity"
+      },
+      {
+        "titulo": "Atención de Urgencias",
+        "descripcion": "Prioridad en turnos en el día para alivio inmediato de dolor.",
+        "icono": "Clock"
+      }
+    ],
+    "fotos": [
+      "https://lh3.googleusercontent.com/grass-cs/ACvplmN6c7cV_vB2xcRiV-Wu3S89LZmzDzg0QDcEstKQ2j1m5afGPvjT-ggr_KTaT0tmXHDplZgXFhBMsrQxDIKzPOSpxOO8zmDSQcQfXnvgmBSjGw4iN7DFywklvAzse0SsuDp3jZDN=w1600-h1000-k-no",
+      "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=1600&q=80",
+      "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=1600&q=80"
+    ],
+    "antes_despues": [
+      {
+        "titulo": "Blanqueamiento Dental LED",
+        "tratamiento": "Tratamiento en 1 sesión de 60 minutos",
+        "antes_url": "/images/blanqueamiento-antes.jpg",
+        "despues_url": "/images/blanqueamiento-despues.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "nombre": "Carolina Mendoza",
+        "estrellas": 5,
+        "comentario": "Excelente atención en Consultorio Odontologico Dr Federico Galindo. La calidez profesional y el cuidado personalizado marcan la diferencia. 100% recomendable.",
+        "fecha": "Hace 2 semanas"
+      },
+      {
+        "nombre": "Esteban Rossi",
+        "estrellas": 5,
+        "comentario": "Atención profesional, puntualidad impecable y mucha calidez de todo el equipo. 100% recomendable.",
+        "fecha": "Hace 1 mes"
+      },
+      {
+        "nombre": "Valeria Peralta",
+        "estrellas": 5,
+        "comentario": "Instalaciones de primera categoría y excelente explicación de cada paso del tratamiento.",
+        "fecha": "Hace 3 meses"
+      }
+    ],
+    "maps_url": "https://www.google.com/maps/place/Consultorio+Odontologico+Dr+Federico+Galindo/data=!4m7!3m6!1s0x95bcca90a976dd0b:0x538c1d0d6808dacf!8m2!3d-34.5932386!4d-58.4006113!16s%2Fg%2F11clyx4y24!19sChIJC912qZDKvJURz9oIaA0djFM?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkxNS4wIJJjKgBIAVAD&rclk=1"
+  },
+  {
     "slug": "centro-odontologico-recoleta",
     "nombre": "Centro Odontológico Recoleta",
     "subtitulo": "Consultorio Odontológico & Estética Dental • Recoleta / Barrio Norte",
