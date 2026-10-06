@@ -7,34 +7,40 @@ import { DENTISALUD_PHOTOS } from '@/data/dentisalud-photos';
 export function HeroCarousel() {
   const slides = [
     {
-      url: DENTISALUD_PHOTOS.heroDoctora,
+      url: DENTISALUD_PHOTOS.salaEspera, // Foto 19
+      name: 'Sala de Espera',
+      role: 'Espacio moderno y confortable en Belgrano',
+      alt: 'Sala de espera en DentiSalud Group',
+    },
+    {
+      url: DENTISALUD_PHOTOS.cartelLampara, // Foto 24
+      name: 'Equipamiento de Vanguardia',
+      role: 'Lámpara operativa y tecnología ergonómica',
+      alt: 'Lámpara odontológica y equipamiento en gabinete',
+    },
+    {
+      url: DENTISALUD_PHOTOS.escaneando, // Foto 28
+      name: 'Escaneo Digital 3D',
+      role: 'Impresiones digitales precisas sin molestias',
+      alt: 'Proceso de escaneo digital 3D intraoral',
+    },
+    {
+      url: DENTISALUD_PHOTOS.consultorio, // Foto 21
+      name: 'Gabinete Odontológico',
+      role: 'Sillón ergonómico e higiene certificada',
+      alt: 'Consultorio odontológico en Belgrano',
+    },
+    {
+      url: DENTISALUD_PHOTOS.recepcionista, // Foto 25
+      name: 'Atención & Recepción',
+      role: 'Coordinación de turnos y atención cálida',
+      alt: 'Atención al paciente en recepción DentiSalud Group',
+    },
+    {
+      url: DENTISALUD_PHOTOS.heroDoctora, // Foto 35
       name: 'Dra. Nathaly Martínez',
       role: 'Directora Médica · DentiSalud Group',
-      alt: 'Dra. Nathaly Martínez en la recepción de DentiSalud Group',
-    },
-    {
-      url: DENTISALUD_PHOTOS.doctoraChair,
-      name: 'Dra. Nathaly Martínez',
-      role: 'Especialista en Implantología & Estética Dental',
-      alt: 'Dra. Nathaly Martínez en consultorio odontológico',
-    },
-    {
-      url: DENTISALUD_PHOTOS.doctoraDesk,
-      name: 'Atención Personalizada',
-      role: 'Consulta integral y diagnóstico por cámara intraoral',
-      alt: 'Dra. Nathaly Martínez escuchando las necesidades del paciente',
-    },
-    {
-      url: DENTISALUD_PHOTOS.doctoraReceta,
-      name: 'Dra. Nathaly Martínez',
-      role: 'Atención personalizada y explicaciones claras',
-      alt: 'Dra. Nathaly Martínez en consulta con paciente',
-    },
-    {
-      url: DENTISALUD_PHOTOS.consultorio,
-      name: 'Gabinete Odontológico',
-      role: 'Sillón ergonómico y tecnología de vanguardia',
-      alt: 'Consultorio odontológico en Belgrano',
+      alt: 'Dra. Nathaly Martínez en DentiSalud Group',
     },
   ];
 
