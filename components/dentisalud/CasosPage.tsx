@@ -71,10 +71,12 @@ export function DentiSaludCasosPage({ basePath = '' }: CasosPageProps) {
               ))}
             </div>
 
-            {/* Cases Interactive Grid */}
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {/* Cases Interactive Grid (Centered Flex Grid) */}
+            <div className="flex flex-wrap justify-center gap-8">
               {filteredCases.map((c) => (
-                <BeforeAfterCard key={c.id} caseData={c} />
+                <div key={c.id} className="w-full md:w-[calc(50%-16px)] lg:w-[calc(33.333%-22px)] flex flex-col">
+                  <BeforeAfterCard caseData={c} />
+                </div>
               ))}
             </div>
           </div>
