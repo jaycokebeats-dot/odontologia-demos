@@ -71,10 +71,12 @@ export function DentiSaludNosotrosPage({ basePath = '' }: NosotrosPageProps) {
                     className="w-full h-full object-cover object-top group-hover:scale-102 transition duration-500"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-slate-900/60 via-transparent to-transparent" />
-                  <div className="absolute bottom-6 left-6 right-6 text-white">
-                    <div className="text-lg font-serif font-bold drop-shadow-md">
-                      DentiSalud Group
-                    </div>
+                  <div className="absolute bottom-6 left-6 right-6 text-white space-y-1">
+                    <img
+                      src="/images/dentisalud/logo_dentisalud_white.png"
+                      alt="DentiSalud Group"
+                      className="h-7 w-auto object-contain drop-shadow-md"
+                    />
                     <div className="text-xs text-teal-200 font-medium drop-shadow-md">
                       Atención personalizada en Belgrano
                     </div>

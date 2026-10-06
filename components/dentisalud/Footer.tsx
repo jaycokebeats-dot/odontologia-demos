@@ -14,17 +14,11 @@ export function DentiSaludFooter({ basePath = '/d/dra-nathaly-martinez' }: Foote
           {/* Brand Info */}
           <div className="lg:col-span-2 space-y-4">
             <Link href={basePath || '/'} className="flex items-center gap-3.5 group">
-              <div className="w-11 h-11 rounded-full bg-white text-[#0A2540] flex items-center justify-center font-bold shadow-md">
-                <span className="text-2xl font-serif font-black">D</span>
-              </div>
-              <div>
-                <span className="block text-2xl font-serif font-black text-white leading-none tracking-tight">
-                  DentiSalud
-                </span>
-                <span className="block text-[11px] font-extrabold text-teal-300 uppercase tracking-[0.18em] mt-1">
-                  BY NATHALY MARTÍNEZ
-                </span>
-              </div>
+              <img
+                src="/images/dentisalud/logo_dentisalud_white.png"
+                alt="DentiSalud Group by Dra. Nathaly Martínez"
+                className="h-9 sm:h-11 w-auto object-contain transition group-hover:scale-102"
+              />
             </Link>
             <p className="text-sm text-slate-300 max-w-sm font-light leading-relaxed">
               Odontología integral en el corazón de Belgrano, CABA. Atención personalizada, materiales de alta durabilidad y tecnología de última generación.

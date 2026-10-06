@@ -25,19 +25,13 @@ export function DentiSaludNavbar({ basePath = '/d/dra-nathaly-martinez' }: Navba
     <header className="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-slate-100 shadow-2xs">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
-          {/* Logo */}
+          {/* Official Logo */}
           <Link href={basePath || '/'} className="flex items-center gap-3.5 group">
-            <div className="w-11 h-11 rounded-full bg-[#0A2540] text-white flex items-center justify-center font-bold shadow-md group-hover:scale-105 transition transform border border-teal-500/20">
-              <span className="text-2xl font-serif font-black">D</span>
-            </div>
-            <div>
-              <span className="block text-2xl font-serif font-black text-[#0A2540] leading-none tracking-tight">
-                DentiSalud
-              </span>
-              <span className="block text-[11px] font-extrabold text-teal-800 uppercase tracking-[0.18em] mt-1">
-                BY NATHALY MARTÍNEZ
-              </span>
-            </div>
+            <img
+              src="/images/dentisalud/logo_dentisalud.png"
+              alt="DentiSalud Group by Dra. Nathaly Martínez"
+              className="h-9 sm:h-11 w-auto object-contain transition group-hover:scale-102"
+            />
           </Link>
 
           {/* Desktop Nav Links */}

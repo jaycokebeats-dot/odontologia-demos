@@ -97,9 +97,14 @@ export function DentiSaludHomePage({ basePath = '' }: HomePageProps) {
             <div className="grid lg:grid-cols-12 gap-12 lg:gap-8 items-center">
               {/* Left Column */}
               <div className="lg:col-span-7 space-y-6">
-                <div className="inline-block">
-                  <span className="text-xs font-bold uppercase tracking-widest text-slate-700 border-b-2 border-slate-300 pb-1">
-                    Dentista en Belgrano, CABA.
+                <div className="flex flex-wrap items-center gap-3">
+                  <img
+                    src="/images/dentisalud/logo_dentisalud.png"
+                    alt="DentiSalud Group"
+                    className="h-7 w-auto object-contain"
+                  />
+                  <span className="text-xs font-bold uppercase tracking-widest text-slate-700 border-b-2 border-slate-300 pb-0.5">
+                    · Dentista en Belgrano, CABA
                   </span>
                 </div>
 
