@@ -86,11 +86,6 @@ export function DentiSaludFooter({ basePath = '/d/dra-nathaly-martinez' }: Foote
                   Blog de Salud Bucal
                 </Link>
               </li>
-              <li>
-                <Link href={`${basePath}/urgencias`} className="text-[#F29479] font-medium hover:text-white transition">
-                  Urgencias 24/7
-                </Link>
-              </li>
             </ul>
           </div>
 

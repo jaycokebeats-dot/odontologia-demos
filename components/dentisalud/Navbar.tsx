@@ -19,7 +19,6 @@ export function DentiSaludNavbar({ basePath = '/d/dra-nathaly-martinez' }: Navba
     { label: 'Casos y testimonios', href: `${basePath}/casos-y-testimonios` },
     { label: 'Nosotros', href: `${basePath}/nosotros` },
     { label: 'Blog', href: `${basePath}/blog` },
-    { label: 'Urgencias', href: `${basePath}/urgencias`, isUrgent: true },
   ];
 
   return (
@@ -51,7 +50,7 @@ export function DentiSaludNavbar({ basePath = '/d/dra-nathaly-martinez' }: Navba
                   href={link.href}
                   className={`transition-colors duration-200 hover:text-[#0A2540] ${
                     isActive ? 'text-[#0A2540] font-bold' : ''
-                  } ${link.isUrgent ? 'text-[#C45535] font-semibold hover:text-[#B84A2A]' : ''}`}
+                  }`}
                 >
                   {link.label}
                 </Link>
@@ -93,7 +92,7 @@ export function DentiSaludNavbar({ basePath = '/d/dra-nathaly-martinez' }: Navba
               onClick={() => setMobileMenuOpen(false)}
               className={`block px-3 py-2 rounded-xl text-base font-semibold transition ${
                 pathname === link.href ? 'bg-[#EAF6F6] text-[#0A2540]' : 'text-slate-700 hover:bg-slate-50'
-              } ${link.isUrgent ? 'text-[#C45535]' : ''}`}
+              }`}
             >
               {link.label}
             </Link>

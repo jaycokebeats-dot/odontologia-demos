@@ -25,6 +25,9 @@ import { DentiSaludFloatingWhatsApp } from './FloatingWhatsApp';
 import { BeforeAfterCard } from './BeforeAfterCard';
 import { GoogleMapEmbed } from './GoogleMapEmbed';
 import { PlaceholderFrame } from './PlaceholderFrame';
+import { HeroCarousel } from './HeroCarousel';
+import { ClinicSpacesCarousel } from './ClinicSpacesCarousel';
+import { ReviewsCarousel } from './ReviewsCarousel';
 
 interface HomePageProps {
   basePath?: string;
@@ -96,16 +99,16 @@ export function DentiSaludHomePage({ basePath = '' }: HomePageProps) {
               <div className="lg:col-span-7 space-y-6">
                 <div className="inline-block">
                   <span className="text-xs font-bold uppercase tracking-widest text-slate-700 border-b-2 border-slate-300 pb-1">
-                    ODONTOLOGÍA INTEGRAL · BELGRANO, CABA
+                    Dentista en Belgrano, CABA.
                   </span>
                 </div>
 
                 <h1 className="text-4xl sm:text-5xl lg:text-6xl font-serif font-bold text-[#0A2540] leading-[1.12] tracking-tight">
-                  Tu sonrisa, en manos que se toman el tiempo.
+                  Tu sonrisa en manos expertas
                 </h1>
 
                 <p className="text-base sm:text-lg text-slate-700 leading-relaxed font-normal max-w-xl">
-                  Tecnología de última generación, materiales de alta calidad y atención personalizada, en un espacio pensado para vos.
+                  Tu salud bucal en manos expertas. Atención personalizada, tecnología de última generación, materiales de alta calidad y durabilidad en DentiSalud Group, un espacio pensado para vos.
                 </p>
 
                 <div className="pt-2 flex flex-col sm:flex-row items-stretch sm:items-center gap-4">
@@ -148,38 +151,9 @@ export function DentiSaludHomePage({ basePath = '' }: HomePageProps) {
                 </div>
               </div>
 
-              {/* Right Column: Real Doctor Photo Container */}
+              {/* Right Column: Dynamic Doctor & Clinic Hero Carousel */}
               <div className="lg:col-span-5">
-                <div className="relative mx-auto max-w-md lg:max-w-none">
-                  <div className="relative aspect-[4/5] rounded-[2.5rem] overflow-hidden shadow-2xl border-4 border-[#D5E8E8] bg-slate-100 group">
-                    <img
-                      src={DENTISALUD_PHOTOS.heroDoctora}
-                      alt="Dra. Nathaly Martínez - Directora Médica de DentiSalud Group"
-                      className="w-full h-full object-cover object-top group-hover:scale-102 transition duration-500"
-                    />
-                    
-                    {/* Top Doctor Name Badge */}
-                    <div className="absolute top-4 left-4 bg-slate-900/80 backdrop-blur-md px-4 py-2.5 rounded-2xl text-white border border-white/15 shadow-xl">
-                      <div className="text-sm font-serif font-bold leading-tight drop-shadow-xs">
-                        Dra. Nathaly Martínez
-                      </div>
-                      <div className="text-[11px] text-teal-300 font-medium leading-tight">
-                        Directora Médica · DentiSalud Group
-                      </div>
-                    </div>
-                  </div>
-
-                  {/* Floating Google Rating Badge (Bottom Left) */}
-                  <div className="absolute -bottom-5 -left-2 sm:left-4 bg-white rounded-2xl p-4 shadow-2xl border border-slate-200 flex items-center gap-3.5 z-20">
-                    <div className="w-10 h-10 rounded-xl bg-amber-50 text-amber-500 flex items-center justify-center font-bold">
-                      <Star className="w-5 h-5 fill-amber-400 text-amber-400" />
-                    </div>
-                    <div>
-                      <div className="text-sm font-extrabold text-[#0A2540]">5.0 ⭐ en Google</div>
-                      <div className="text-[11px] text-slate-600 font-medium">68 opiniones reales</div>
-                    </div>
-                  </div>
-                </div>
+                <HeroCarousel />
               </div>
             </div>
           </div>
@@ -190,7 +164,7 @@ export function DentiSaludHomePage({ basePath = '' }: HomePageProps) {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center max-w-2xl mx-auto mb-14 space-y-2">
               <h2 className="text-3xl sm:text-4xl font-serif font-bold text-[#0A2540]">
-                Así es tu primera consulta
+                Así es tu primera visita
               </h2>
               <p className="text-slate-700 text-base font-normal">
                 Un proceso claro, sin apuros y sin sorpresas.
@@ -229,7 +203,7 @@ export function DentiSaludHomePage({ basePath = '' }: HomePageProps) {
                   Tratamientos
                 </h2>
                 <p className="text-slate-700 text-base mt-2 font-normal">
-                  Todo lo que necesitás para cuidar tu sonrisa, en un solo lugar.
+                  Desde una limpieza preventiva hasta una rehabilitación compleja, todo en un mismo lugar.
                 </p>
               </div>
 
@@ -289,130 +263,46 @@ export function DentiSaludHomePage({ basePath = '' }: HomePageProps) {
           </div>
         </section>
 
-        {/* BLOQUE 4 — BANNER DE URGENCIAS (Dark Navy) */}
-        <section className="py-14 bg-[#0A2540] text-white">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="flex flex-col md:flex-row items-center justify-between gap-6">
-              <div className="space-y-2 text-center md:text-left">
-                <div className="inline-block bg-[#C45535] text-white text-[10px] font-bold uppercase tracking-widest px-3 py-1 rounded-full mb-1">
-                  ATENCIÓN DE URGENCIAS
-                </div>
-                <h3 className="text-2xl sm:text-3xl font-serif font-bold">
-                  ¿Dolor, un diente roto o una urgencia?
-                </h3>
-                <p className="text-xs sm:text-sm text-slate-300 max-w-xl font-normal">
-                  No hace falta esperar. Atendemos de lunes a sábado de 9 a 19:30 hs y contamos con urgencias fuera de horario. Escribinos y coordinamos tu atención lo antes posible.
-                </p>
-              </div>
-
-              <a
-                href={DENTISALUD_INFO.whatsappUrgencias}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="shrink-0 bg-white hover:bg-slate-100 text-[#0A2540] font-extrabold text-sm px-7 py-4 rounded-full shadow-lg transition transform hover:scale-105"
-              >
-                Escribir por WhatsApp
-              </a>
-            </div>
-          </div>
-        </section>
-
-        {/* BLOQUE 5 — UN ESPACIO PENSADO PARA QUE TE RELAJES */}
-        <section className="py-20 bg-white">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="grid lg:grid-cols-12 gap-12 items-center mb-16">
-              {/* Left Real Clinic Photo Container */}
-              <div className="lg:col-span-6">
-                <div className="relative aspect-[4/3] rounded-3xl overflow-hidden shadow-xl border border-slate-200 bg-slate-100 group">
-                  <img
-                    src={DENTISALUD_PHOTOS.consultorio}
-                    alt="Consultorio principal DentiSalud Group"
-                    className="w-full h-full object-cover group-hover:scale-103 transition duration-500"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-slate-900/40 via-transparent to-transparent" />
-                  <div className="absolute bottom-4 left-4 right-4 text-white text-xs font-bold drop-shadow-md">
-                    Consultorio DentiSalud · Equipamiento ergonómico y luz natural
-                  </div>
-                </div>
-              </div>
-
-              {/* Right Description */}
-              <div className="lg:col-span-6 space-y-6">
-                <span className="text-xs font-bold uppercase tracking-widest text-slate-700">
-                  TU COMODIDAD PRIMERO
-                </span>
-                <h2 className="text-3xl sm:text-4xl font-serif font-bold text-[#0A2540]">
-                  Un espacio pensado para que te relajes
-                </h2>
-
-                <div className="space-y-5 pt-2">
-                  <div className="space-y-1">
-                    <h3 className="text-base font-bold text-[#0A2540]">Tiempo para vos</h3>
-                    <p className="text-sm text-slate-700">
-                      Dedicamos un tiempo importante a cada paciente, escuchando sin apuros.
-                    </p>
-                  </div>
-
-                  <div className="space-y-1">
-                    <h3 className="text-base font-bold text-[#0A2540]">Manejo del dolor</h3>
-                    <p className="text-sm text-slate-700">
-                      Aplicamos técnicas avanzadas para que cada procedimiento sea lo más cómodo e indoloro posible.
-                    </p>
-                  </div>
-
-                  <div className="space-y-1">
-                    <h3 className="text-base font-bold text-[#0A2540]">Un ambiente confortable</h3>
-                    <p className="text-sm text-slate-700">
-                      Un consultorio cálido, limpio y tranquilo en Belgrano, ideado para que dejes atrás cualquier temor.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            {/* Gallery Real Photos */}
-            <div className="space-y-4">
-              <span className="text-xs font-bold uppercase tracking-wider text-slate-700 block">
-                CONOCÉ EL ESPACIO
+        {/* BLOQUE 5 — UN ESPACIO PENSADO ESPECIALMENTE PARA VOS */}
+        <section className="py-20 bg-white border-t border-slate-100">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
+            <div className="max-w-3xl space-y-4">
+              <span className="text-xs font-bold uppercase tracking-widest text-slate-700">
+                TU COMODIDAD PRIMERO
               </span>
-              <div className="grid sm:grid-cols-3 gap-6">
-                <div className="relative aspect-[16/10] rounded-2xl overflow-hidden shadow-md border border-slate-200 bg-slate-100 group">
-                  <img
-                    src={DENTISALUD_PHOTOS.recepcion}
-                    alt="Recepción DentiSalud Group"
-                    className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-slate-900/60 via-transparent to-transparent" />
-                  <div className="absolute bottom-3 left-3 right-3 text-white text-xs font-bold">
-                    Recepción y Área de Bienvenida
-                  </div>
+              <h2 className="text-3xl sm:text-4xl font-serif font-bold text-[#0A2540]">
+                Un espacio pensado especialmente para vos
+              </h2>
+              <p className="text-base text-slate-700 leading-relaxed font-normal">
+                Ir al dentista no tiene por qué ser una experiencia traumática. En DentiSalud Group cuidamos cada detalle.
+              </p>
+
+              <div className="grid sm:grid-cols-3 gap-6 pt-4">
+                <div className="space-y-1">
+                  <h3 className="text-base font-bold text-[#0A2540]">Tiempo para vos</h3>
+                  <p className="text-sm text-slate-700">
+                    Dedicamos un tiempo importante a cada paciente, sin apuros.
+                  </p>
                 </div>
 
-                <div className="relative aspect-[16/10] rounded-2xl overflow-hidden shadow-md border border-slate-200 bg-slate-100 group">
-                  <img
-                    src={DENTISALUD_PHOTOS.salaEspera}
-                    alt="Sala de Espera DentiSalud Group"
-                    className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-slate-900/60 via-transparent to-transparent" />
-                  <div className="absolute bottom-3 left-3 right-3 text-white text-xs font-bold">
-                    Sala de Espera Confortable
-                  </div>
+                <div className="space-y-1">
+                  <h3 className="text-base font-bold text-[#0A2540]">Manejo del dolor</h3>
+                  <p className="text-sm text-slate-700">
+                    Aplicamos técnicas para que cada procedimiento sea lo más cómodo posible.
+                  </p>
                 </div>
 
-                <div className="relative aspect-[16/10] rounded-2xl overflow-hidden shadow-md border border-slate-200 bg-slate-100 group">
-                  <img
-                    src={DENTISALUD_PHOTOS.scanner3d}
-                    alt="Scanner Shining 3D Tecnología DentiSalud"
-                    className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-slate-900/60 via-transparent to-transparent" />
-                  <div className="absolute bottom-3 left-3 right-3 text-white text-xs font-bold">
-                    Scanner Shining 3D Digital
-                  </div>
+                <div className="space-y-1">
+                  <h3 className="text-base font-bold text-[#0A2540]">Un ambiente confortable</h3>
+                  <p className="text-sm text-slate-700">
+                    Un consultorio cálido y tranquilo, pensado para vos.
+                  </p>
                 </div>
               </div>
             </div>
+
+            {/* Gallery Real Photos Carousel */}
+            <ClinicSpacesCarousel />
           </div>
         </section>
 
@@ -422,10 +312,10 @@ export function DentiSaludHomePage({ basePath = '' }: HomePageProps) {
             <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-4">
               <div>
                 <h2 className="text-3xl sm:text-4xl font-serif font-bold text-[#0A2540]">
-                  Resultados reales
+                  Pacientes que hoy sonríen sin pensarlo dos veces
                 </h2>
                 <p className="text-slate-700 text-base font-normal mt-1">
-                  Desliza la barra para ver la transformación real de nuestros pacientes.
+                  ⭐ 5,0 en Google · 77 reseñas reales
                 </p>
               </div>
 
@@ -444,23 +334,8 @@ export function DentiSaludHomePage({ basePath = '' }: HomePageProps) {
               {/* Case 2: Micro Diseño */}
               <BeforeAfterCard caseData={BEFORE_AFTER_CASES[4]} />
 
-              {/* Patient Review Card (Dark Navy) */}
-              <div className="bg-[#0A2540] text-white rounded-3xl p-8 shadow-md flex flex-col justify-between space-y-6">
-                <div className="space-y-4">
-                  <div className="flex items-center gap-1 text-amber-400">
-                    {[...Array(5)].map((_, i) => (
-                      <Star key={i} className="w-4 h-4 fill-amber-400" />
-                    ))}
-                  </div>
-                  <p className="text-sm italic leading-relaxed text-slate-200 font-normal">
-                    "{PATIENT_REVIEWS[0].comment}"
-                  </p>
-                </div>
-                <div className="pt-4 border-t border-[#133C63]">
-                  <div className="font-bold text-sm text-white">{PATIENT_REVIEWS[0].name}</div>
-                  <div className="text-xs text-teal-300">{PATIENT_REVIEWS[0].treatment} · {PATIENT_REVIEWS[0].date}</div>
-                </div>
-              </div>
+              {/* Interactive Reviews Carousel Card */}
+              <ReviewsCarousel />
             </div>
           </div>
         </section>

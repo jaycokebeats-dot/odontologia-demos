@@ -73,7 +73,7 @@ export function DentiSaludUrgenciasPage({ basePath = '/d/dra-nathaly-martinez' }
 
                 <div className="pt-2 flex flex-col sm:flex-row items-stretch sm:items-center gap-4">
                   <a
-                    href={DENTISALUD_INFO.whatsappUrgencias}
+                    href={DENTISALUD_INFO.whatsappGeneral}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center justify-center gap-2.5 bg-[#C45535] hover:bg-[#B84A2A] text-white font-extrabold text-sm px-8 py-4 rounded-full shadow-lg hover:shadow-xl transition transform hover:-translate-y-0.5"
@@ -180,7 +180,7 @@ export function DentiSaludUrgenciasPage({ basePath = '/d/dra-nathaly-martinez' }
             </p>
             <div>
               <a
-                href={DENTISALUD_INFO.whatsappUrgencias}
+                href={DENTISALUD_INFO.whatsappGeneral}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2.5 bg-[#C45535] hover:bg-[#B84A2A] text-white font-extrabold text-sm px-8 py-4 rounded-full shadow-xl transition transform hover:scale-105"

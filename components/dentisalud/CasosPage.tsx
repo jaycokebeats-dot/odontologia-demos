@@ -8,16 +8,17 @@ import { DentiSaludNavbar } from './Navbar';
 import { DentiSaludFooter } from './Footer';
 import { DentiSaludFloatingWhatsApp } from './FloatingWhatsApp';
 import { BeforeAfterCard } from './BeforeAfterCard';
+import { ReviewsCarousel } from './ReviewsCarousel';
 
 interface CasosPageProps {
   basePath?: string;
 }
 
-export function DentiSaludCasosPage({ basePath = '/d/dra-nathaly-martinez' }: CasosPageProps) {
+export function DentiSaludCasosPage({ basePath = '' }: CasosPageProps) {
   const [activeCategory, setActiveCategory] = useState<string>('todos');
 
   const categories = [
-    { id: 'todos', label: 'Todos los casos (16)' },
+    { id: 'todos', label: `Todos los casos (${BEFORE_AFTER_CASES.length})` },
     { id: 'estetica', label: 'Diseño de sonrisa' },
     { id: 'carillas', label: 'Carillas' },
     { id: 'blanqueamiento', label: 'Blanqueamiento' },
@@ -38,13 +39,13 @@ export function DentiSaludCasosPage({ basePath = '/d/dra-nathaly-martinez' }: Ca
         {/* HERO SECTION (Mint Ice Background) */}
         <section className="py-16 md:py-24 bg-[#EAF6F6] border-b border-[#D5E8E8]">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-4">
-            <span className="text-xs font-bold uppercase tracking-widest text-slate-500">
+            <span className="text-xs font-bold uppercase tracking-widest text-slate-700">
               CASOS REALES Y TESTIMONIOS
             </span>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-serif font-extrabold text-[#0A2540] tracking-tight">
               Resultados reales de nuestros pacientes
             </h1>
-            <p className="text-base sm:text-lg text-slate-600 font-normal max-w-2xl leading-relaxed">
+            <p className="text-base sm:text-lg text-slate-700 font-normal max-w-2xl leading-relaxed">
               Desliza sobre las fotos para comparar el estado inicial (Antes) con el resultado final (Después) logrado por la Dra. Nathaly Martínez y su equipo.
             </p>
           </div>
@@ -86,12 +87,16 @@ export function DentiSaludCasosPage({ basePath = '/d/dra-nathaly-martinez' }: Ca
               <h2 className="text-3xl sm:text-4xl font-serif font-extrabold text-[#0A2540]">
                 Lo que cuentan nuestros pacientes
               </h2>
-              <p className="text-slate-600 text-sm">
-                Opiniones 100% reales verificadas en Google Maps.
+              <p className="text-slate-700 text-sm">
+                ⭐ 5,0 en Google · 77 reseñas verificadas en Google Maps.
               </p>
             </div>
 
-            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div className="max-w-3xl mx-auto mb-10">
+              <ReviewsCarousel />
+            </div>
+
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               {PATIENT_REVIEWS.map((rev, idx) => (
                 <div
                   key={idx}
@@ -110,7 +115,7 @@ export function DentiSaludCasosPage({ basePath = '/d/dra-nathaly-martinez' }: Ca
 
                   <div className="pt-4 border-t border-slate-100">
                     <div className="font-bold text-xs text-[#0A2540]">{rev.name}</div>
-                    <div className="text-[11px] text-slate-400">{rev.treatment}</div>
+                    <div className="text-[11px] text-slate-500">{rev.treatment}</div>
                   </div>
                 </div>
               ))}
@@ -124,7 +129,7 @@ export function DentiSaludCasosPage({ basePath = '/d/dra-nathaly-martinez' }: Ca
             <h2 className="text-3xl sm:text-4xl font-serif font-extrabold text-[#0A2540]">
               Tu sonrisa puede ser la próxima
             </h2>
-            <p className="text-slate-600 text-sm sm:text-base">
+            <p className="text-slate-700 text-sm sm:text-base">
               Escribinos por WhatsApp y coordinamos tu consulta integral.
             </p>
             <div>

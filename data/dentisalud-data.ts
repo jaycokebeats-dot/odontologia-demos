@@ -47,12 +47,11 @@ export const DENTISALUD_INFO = {
   tagline: 'BY NATHALY MARTÍNEZ',
   address: 'Ciudad de la Paz 1965, Belgrano, CABA',
   city: 'Belgrano, CABA',
-  hours: 'Lunes a Sábado de 9:00 a 19:30 hs · Urgencias fuera de horario',
+  hours: 'Lunes a Sábado de 9:00 a 19:30 hs',
   phone: '+54 9 11 2877-9912',
-  whatsappGeneral: 'https://wa.me/5491128779912?text=Hola%2C%20quiero%20agendar%20una%20consulta',
-  whatsappUrgencias: 'https://wa.me/5491128779912?text=Hola%2C%20tengo%20una%20urgencia%20odontologica',
+  whatsappGeneral: 'https://wa.me/5491128779912?text=Hola%2C%20quiero%20reservar%20una%20consulta',
   rating: 5.0,
-  reviewsCount: 68,
+  reviewsCount: 77,
   googleMapsUrl: 'https://www.google.com/maps/place/Dra.Nathaly+Martinez+%7C+DentiSalud+Group/data=!4m7!3m6!1s0x95bcb59a121939bd:0x579a94e99325d5ca!8m2!3d-34.5638503!4d-58.4565009!16s%2Fg%2F11zhbdgjj5!19sChIJvTkZEpq1vJURytUlk-mUmlc',
   mapsEmbedUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.453297072551!2d-58.45907582348574!3d-34.56384585557761!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb59a121939bd%3A0x579a94e99325d5ca!2sDra.Nathaly%20Martinez%20%7C%20DentiSalud%20Group!5e0!3m2!1ses!2sar!4v1700000000000!5m2!1ses!2sar',
   transports: {
@@ -75,7 +74,7 @@ export const TREATMENTS: TreatmentDetail[] = [
     heroH1: 'Consulta odontológica integral en Belgrano: empezá con una hoja de ruta clara',
     heroBajada: 'En DentiSalud Group te dedicamos el tiempo que merecés. En tu primera visita revisamos tu salud bucal completa, escuchamos qué necesitás y te explicamos las alternativas disponibles para tu caso. Te vas con un plan claro y a medida.',
     trustPoints: ['Evaluación clínica completa', 'Cámara intraoral en vivo', 'Plan claro por etapas', 'Amplio horario de atención'],
-    priceNote: 'Precio: Consulta integral $40.000 ($35.000 en efectivo)',
+    priceNote: 'Precio: Consulta integral $40.000',
     ctaText: 'Agendar mi consulta integral',
     ctaLink: 'https://wa.me/5491128779912?text=Hola%2C%20quiero%20agendar%20mi%20consulta%20integral',
     featuresTitle: 'Qué incluye tu consulta integral',
@@ -90,7 +89,7 @@ export const TREATMENTS: TreatmentDetail[] = [
       { question: '¿Cuánto dura la consulta?', answer: 'Dedicamos el tiempo necesario para poder evaluar exhaustivamente y responder todas tus dudas.' },
       { question: '¿El valor de la consulta se descuenta del tratamiento?', answer: 'Algunos tratamientos cuentan con reintegro del costo de la consulta. Podés consultar con nuestro equipo de Atención al Paciente.' },
       { question: '¿Cómo reservo mi turno?', answer: 'Escribinos por WhatsApp y coordinamos un día y horario según tu disponibilidad.' },
-      { question: '¿Cuánto cuesta la consulta integral?', answer: 'Actualmente tiene un valor de ARS $40.000 (descuento a $35.000 en efectivo).' }
+      { question: '¿Cuánto cuesta la consulta integral?', answer: 'Actualmente tiene un valor de ARS $40.000.' }
     ]
   },
   {
