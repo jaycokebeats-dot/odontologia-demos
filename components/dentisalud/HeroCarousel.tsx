@@ -25,10 +25,10 @@ export function HeroCarousel() {
       alt: 'Dra. Nathaly Martínez escuchando las necesidades del paciente',
     },
     {
-      url: DENTISALUD_PHOTOS.recepcion,
-      name: 'Recepción DentiSalud',
-      role: 'Espacio cálido y moderno en Belgrano',
-      alt: 'Área de recepción e ingreso a DentiSalud Group',
+      url: DENTISALUD_PHOTOS.doctoraReceta,
+      name: 'Dra. Nathaly Martínez',
+      role: 'Atención personalizada y explicaciones claras',
+      alt: 'Dra. Nathaly Martínez en consulta con paciente',
     },
     {
       url: DENTISALUD_PHOTOS.consultorio,
