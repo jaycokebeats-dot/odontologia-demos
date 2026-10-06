@@ -426,10 +426,42 @@ export const PATIENT_REVIEWS: PatientReview[] = [
   },
   {
     name: 'Gabriel Fernández',
-    treatment: 'Urgencia Dental',
+    treatment: 'Atención Odontológica',
     stars: 5,
-    comment: 'Fui por una urgencia un sábado con un dolor insoportable y me atendieron al instante con una calidez y empatía increíbles. Me fui sin dolor y súper tranquilo.',
+    comment: 'Fui a la consulta con una molestia y me atendieron al instante con una calidez y empatía increíbles. Me fui sin dolor y súper tranquilo.',
     date: 'Hace 2 semanas',
+    verified: true
+  },
+  {
+    name: 'Carolina M. Benítez',
+    treatment: 'Blanqueamiento Dental',
+    stars: 5,
+    comment: 'Excelente atención de la Dra. Nathaly. El blanqueamiento me quedó impecable y totalmente natural sin nada de sensibilidad. Todo súper limpio y equipado con tecnología de punta.',
+    date: 'Hace 3 semanas',
+    verified: true
+  },
+  {
+    name: 'Gonzalo R. Martínez',
+    treatment: 'Consulta & Conducto',
+    stars: 5,
+    comment: 'La mejor experiencia odontológica que tuve. Te explica todo paso a paso en la pantalla con la cámara intraoral, sin apuros. Cero dolor en el tratamiento.',
+    date: 'Hace 1 mes',
+    verified: true
+  },
+  {
+    name: 'Sofía D’Amico',
+    treatment: 'Ortodoncia Invisible',
+    stars: 5,
+    comment: 'Inicié mi tratamiento de ortodoncia con la doctora y la atención es de primer nivel. Puntualidad impecable, ambiente súper lindo en Belgrano y profesionalismo absoluto.',
+    date: 'Hace 2 semanas',
+    verified: true
+  },
+  {
+    name: 'Martín A. Sola',
+    treatment: 'Prótesis & Estética',
+    stars: 5,
+    comment: 'Le devolvió la estética a mi boca. Nathaly se toma todo el tiempo necesario para escucharte y darte un presupuesto transparente. Muy recomendable!',
+    date: 'Hace 1 mes',
     verified: true
   }
 ];

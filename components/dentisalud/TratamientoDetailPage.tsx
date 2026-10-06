@@ -31,13 +31,33 @@ export function DentiSaludTratamientoDetailPage({ treatment, basePath = '' }: Tr
 
   const ortodonciaCase = BEFORE_AFTER_CASES.find((c) => c.id === 'case-ortodoncia-1');
 
-  // Ortodoncia graphic types
+  // Ortodoncia graphic types with realistic images
   const ortodonciaTypes = [
-    { title: 'Brackets metálicos', desc: 'La opción más tradicional y económica.' },
-    { title: 'Brackets autoligables', desc: 'Ajustes más simples y controles más espaciados.' },
-    { title: 'Brackets de cerámica', desc: 'Discretos, del color de tu diente.' },
-    { title: 'Brackets de zafiro', desc: 'Transparentes, de alta estética.' },
-    { title: 'Alineadores transparentes', desc: 'Removibles y casi imperceptibles.' },
+    {
+      title: 'Brackets metálicos',
+      desc: 'La opción más tradicional y económica.',
+      img: '/images/dentisalud/ortodoncia_metalicos.jpg',
+    },
+    {
+      title: 'Brackets autoligables',
+      desc: 'Ajustes más simples y controles más espaciados.',
+      img: '/images/dentisalud/ortodoncia_autoligables.jpg',
+    },
+    {
+      title: 'Brackets de cerámica',
+      desc: 'Discretos, del color de tu diente.',
+      img: '/images/dentisalud/ortodoncia_ceramica.jpg',
+    },
+    {
+      title: 'Brackets de zafiro',
+      desc: 'Transparentes, de alta estética.',
+      img: '/images/dentisalud/ortodoncia_ceramica.jpg',
+    },
+    {
+      title: 'Alineadores transparentes',
+      desc: 'Removibles y casi imperceptibles.',
+      img: '/images/dentisalud/28_escaneando.jpg',
+    },
   ];
 
   return (
@@ -163,11 +183,21 @@ export function DentiSaludTratamientoDetailPage({ treatment, basePath = '' }: Tr
                 {ortodonciaTypes.map((type, idx) => (
                   <div
                     key={idx}
-                    className="bg-[#EAF6F6] rounded-2xl p-6 border border-[#D5E8E8] hover:border-[#0A2540]/40 transition space-y-3"
+                    className="bg-[#EAF6F6] rounded-2xl overflow-hidden border border-[#D5E8E8] hover:border-[#0A2540]/40 transition flex flex-col justify-between"
                   >
-                    <Sparkles className="w-6 h-6 text-teal-700" />
-                    <h3 className="text-base font-bold text-[#0A2540]">{type.title}</h3>
-                    <p className="text-xs text-slate-700 leading-relaxed">{type.desc}</p>
+                    <div className="h-36 relative overflow-hidden bg-slate-200">
+                      <img
+                        src={type.img}
+                        alt={type.title}
+                        className="w-full h-full object-cover hover:scale-105 transition duration-500"
+                      />
+                    </div>
+                    <div className="p-5 space-y-2 flex-1 flex flex-col justify-between">
+                      <div>
+                        <h3 className="text-base font-bold text-[#0A2540]">{type.title}</h3>
+                        <p className="text-xs text-slate-700 leading-relaxed mt-1">{type.desc}</p>
+                      </div>
+                    </div>
                   </div>
                 ))}
               </div>
