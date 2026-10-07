@@ -221,6 +221,7 @@ export const TREATMENT_FEATURED_PHOTOS: Record<string, string> = {
   'arreglo-de-caries': '/images/dentisalud/9_arreglo_de_caries_despu_s_caso_2.jpg',
   'endodoncia': '/images/dentisalud/30_doctora_en_silla.jpg',
   'odontopediatria': '/images/dentisalud/11_odontopediatr_a.jpg',
+  'atm': '/images/dentisalud/atm_bruxismo_hero.jpg',
   'atm-y-bruxismo': '/images/dentisalud/atm_bruxismo_hero.jpg',
   'cirugia-maxilofacial': '/images/dentisalud/23_guantes.jpg',
 };
