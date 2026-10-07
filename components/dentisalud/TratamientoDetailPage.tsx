@@ -51,12 +51,12 @@ export function DentiSaludTratamientoDetailPage({ treatment, basePath = '' }: Tr
     {
       title: 'Brackets de zafiro',
       desc: 'Transparentes, de alta estética.',
-      img: '/images/dentisalud/ortodoncia_ceramica.jpg',
+      img: '/images/dentisalud/ortodoncia_zafiro.jpg',
     },
     {
       title: 'Alineadores transparentes',
       desc: 'Removibles y casi imperceptibles.',
-      img: '/images/dentisalud/28_escaneando.jpg',
+      img: '/images/dentisalud/ortodoncia_alineadores.jpg',
     },
   ];
 
