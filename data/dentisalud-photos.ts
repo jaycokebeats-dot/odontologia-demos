@@ -212,13 +212,15 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
 export const TREATMENT_FEATURED_PHOTOS: Record<string, string> = {
   'consulta-integral': '/images/dentisalud/26_doctora_entrega_receta.jpg',
   'limpieza-dental': '/images/dentisalud/18_dentista_en_acci_n.jpg',
-  'diseno-de-sonrisa': '/images/dentisalud/7_micro_dise_o_de_sonrisa_despu_s.jpg',
+  'diseno-de-sonrisa': '/images/dentisalud/diseno_sonrisa_hero.jpg',
   'carillas-dentales': '/images/dentisalud/14_carillas_de_disilicato_de_litio_despu_s.jpg',
-  'blanqueamiento-dental': '/images/dentisalud/31_blanqueamiento_despu_s.jpg',
+  'blanqueamiento-dental': '/images/dentisalud/blanqueamiento_hero.jpg',
   'implantes-dentales': '/images/dentisalud/27_scanner_shinning_3d_tecnolog_a.jpg',
   'protesis-dentales': '/images/dentisalud/2_pr_tesis_despu_s_caso_1.jpg',
   'coronas-de-zirconio': '/images/dentisalud/3_cornona_despu_s_caso_1.jpg',
   'arreglo-de-caries': '/images/dentisalud/9_arreglo_de_caries_despu_s_caso_2.jpg',
   'endodoncia': '/images/dentisalud/30_doctora_en_silla.jpg',
   'odontopediatria': '/images/dentisalud/11_odontopediatr_a.jpg',
+  'atm-y-bruxismo': '/images/dentisalud/atm_bruxismo_hero.jpg',
+  'cirugia-maxilofacial': '/images/dentisalud/23_guantes.jpg',
 };
