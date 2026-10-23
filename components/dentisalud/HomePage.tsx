@@ -39,30 +39,30 @@ export function DentiSaludHomePage({ basePath = '' }: HomePageProps) {
   const firstVisitSteps = [
     {
       num: '1',
-      title: 'Escribinos por WhatsApp',
-      desc: 'Contanos qué necesitás y coordinamos tu turno de forma rápida y sencilla.',
+      title: 'Contactanos por WhatsApp',
+      desc: 'Primero, nos contás qué estás necesitando, despejamos tus dudas y agendamos un turno con uno de nuestros especialistas.',
     },
     {
       num: '2',
       title: 'Consulta integral',
-      desc: 'Dedicamos el tiempo necesario a escucharte, examinar con cámara intraoral y evaluar tu caso.',
+      desc: 'Dedicamos un momento exclusivamente para escucharte y evaluar tu caso.',
     },
     {
       num: '3',
-      title: 'Tu plan y cotización',
-      desc: 'Recibís un plan claro por etapas y una cotización formal y personalizada.',
+      title: 'Diseño de un plan de tratamiento',
+      desc: 'Recibís un plan por etapas claro y tu cotización personalizada.',
     },
     {
       num: '4',
-      title: 'Tratamiento acompañado',
-      desc: 'Te acompañamos en cada etapa, asegurando la durabilidad de tus resultados sin dolor.',
+      title: '¡Manos a la obra!',
+      desc: 'Empezamos a trabajar para que alcances la mejor versión de tu sonrisa. Te acompañamos en cada etapa asegurando durabilidad en tus resultados.',
     },
   ];
 
   const faqs = [
     {
       q: '¿Qué incluye la primera consulta?',
-      a: 'Incluye valoración clínica completa, evaluación con cámara intraoral en pantalla en vivo, diagnóstico y un plan de tratamiento personalizado por escrito.',
+      a: 'Incluye valoración clínica completa, evaluación con cámara intraoral en pantalla en vivo, diagnóstico y un plan de tratamiento personalizado.',
     },
     {
       q: '¿Cuánto cuesta un tratamiento?',
@@ -108,7 +108,7 @@ export function DentiSaludHomePage({ basePath = '' }: HomePageProps) {
                 </h1>
 
                 <p className="text-base sm:text-lg text-slate-700 leading-relaxed font-normal max-w-xl">
-                  Tu salud bucal en manos expertas. Atención personalizada, tecnología de última generación, materiales de alta calidad y durabilidad en DentiSalud Group, un espacio pensado para vos.
+                  Somos un equipo interdisciplinario de profesionales de la salud bucal listos para ayudarte a alcanzar la mejor versión de tu sonrisa. Atención personalizada, tecnología de última generación, materiales de alta durabilidad. Todo en DentiSalud Group, un espacio pensado para vos.
                 </p>
 
                 <div className="pt-2 flex flex-col sm:flex-row items-stretch sm:items-center gap-4">
@@ -119,7 +119,7 @@ export function DentiSaludHomePage({ basePath = '' }: HomePageProps) {
                     className="inline-flex items-center justify-center gap-2.5 bg-[#0A2540] hover:bg-[#051E34] text-white font-bold text-sm px-8 py-4 rounded-full shadow-lg hover:shadow-xl transition transform hover:-translate-y-0.5"
                   >
                     <MessageCircle className="w-4 h-4 fill-white text-[#0A2540]" />
-                    <span>Reservar por WhatsApp</span>
+                    <span>Agendar mi turno</span>
                   </a>
 
                   <Link
@@ -128,26 +128,6 @@ export function DentiSaludHomePage({ basePath = '' }: HomePageProps) {
                   >
                     <span>Ver tratamientos</span>
                   </Link>
-                </div>
-
-                <p className="text-xs text-slate-500 font-medium">
-                  La cotización formal se entrega después de tu consulta integral.
-                </p>
-
-                {/* Badges Bar */}
-                <div className="pt-6 border-t border-slate-200 grid grid-cols-2 sm:grid-cols-3 gap-4 text-xs font-semibold text-slate-700">
-                  <div className="flex items-center gap-2">
-                    <CheckCircle2 className="w-4 h-4 text-teal-600 shrink-0" />
-                    <span>Egresadas UBA & UNLP</span>
-                  </div>
-                  <div className="flex items-center gap-2">
-                    <CheckCircle2 className="w-4 h-4 text-teal-600 shrink-0" />
-                    <span>Habilitación MinSalud</span>
-                  </div>
-                  <div className="flex items-center gap-2 col-span-2 sm:col-span-1">
-                    <CheckCircle2 className="w-4 h-4 text-teal-600 shrink-0" />
-                    <span>+10 años de experiencia</span>
-                  </div>
                 </div>
               </div>
 
@@ -160,15 +140,12 @@ export function DentiSaludHomePage({ basePath = '' }: HomePageProps) {
         </section>
 
         {/* BLOQUE 2 — ASÍ ES TU PRIMERA CONSULTA (Mint Ice Background) */}
-        <section className="py-20 bg-[#EAF6F6] border-y border-[#D5E8E8]">
+        <section className="py-12 md:py-16 bg-[#EAF6F6] border-y border-[#D5E8E8]">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="text-center max-w-2xl mx-auto mb-14 space-y-2">
+            <div className="text-center max-w-2xl mx-auto mb-10">
               <h2 className="text-3xl sm:text-4xl font-serif font-bold text-[#0A2540]">
                 Así es tu primera visita
               </h2>
-              <p className="text-slate-700 text-base font-normal">
-                Un proceso claro, sin apuros y sin sorpresas.
-              </p>
             </div>
 
             <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -251,7 +228,7 @@ export function DentiSaludHomePage({ basePath = '' }: HomePageProps) {
                     Ver todos los tratamientos →
                   </h3>
                   <p className="text-xs text-slate-300 leading-relaxed font-normal">
-                    Endodoncia, prótesis, ATM, cirugía maxilofacial y odontopediatría.
+                    Prótesis, ATM, cirugía maxilofacial y odontopediatría.
                   </p>
                 </div>
                 <div className="pt-6 font-bold text-xs text-teal-300 flex items-center gap-2">
@@ -389,7 +366,7 @@ export function DentiSaludHomePage({ basePath = '' }: HomePageProps) {
                   UBICACIÓN EN BELGRANO
                 </span>
                 <h2 className="text-3xl font-serif font-bold text-[#0A2540]">
-                  DentiSalud Group: tu dentista en Belgrano, CABA
+                  DentiSalud Group: tu dentista de confianza en Belgrano.
                 </h2>
                 <div className="space-y-2 text-sm text-slate-700 font-medium">
                   <div className="flex items-center gap-2">
@@ -453,7 +430,7 @@ export function DentiSaludHomePage({ basePath = '' }: HomePageProps) {
                 className="inline-flex items-center gap-2.5 bg-[#0A2540] hover:bg-[#051E34] text-white font-extrabold text-sm px-8 py-4 rounded-full shadow-xl transition transform hover:scale-105"
               >
                 <MessageCircle className="w-5 h-5 fill-white text-[#0A2540]" />
-                <span>Agendar mi turno por WhatsApp</span>
+                <span>Agendar mi turno</span>
               </a>
             </div>
           </div>

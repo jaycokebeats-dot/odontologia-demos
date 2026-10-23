@@ -61,7 +61,7 @@ export function DentiSaludNavbar({ basePath = '/d/dra-nathaly-martinez' }: Navba
               className="inline-flex items-center gap-2 bg-[#0A2540] hover:bg-[#051E34] text-white text-xs font-bold px-5 py-3 rounded-full shadow-md hover:shadow-lg transition transform hover:-translate-y-0.5"
             >
               <MessageCircle className="w-4 h-4 fill-white text-[#0A2540]" />
-              <span>Reservar por WhatsApp</span>
+              <span>Agendar mi turno</span>
             </a>
           </div>
 
@@ -99,7 +99,7 @@ export function DentiSaludNavbar({ basePath = '/d/dra-nathaly-martinez' }: Navba
               className="w-full inline-flex items-center justify-center gap-2 bg-[#0A2540] text-white text-sm font-bold py-3.5 px-6 rounded-full shadow-md"
             >
               <MessageCircle className="w-4 h-4 fill-white text-[#0A2540]" />
-              <span>Reservar por WhatsApp</span>
+              <span>Agendar mi turno</span>
             </a>
           </div>
         </div>

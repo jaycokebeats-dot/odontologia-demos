@@ -24,6 +24,14 @@ export interface TreatmentDetail {
   faqs?: { question: string; answer: string }[];
 }
 
+export interface TeamMember {
+  name: string;
+  role: string;
+  bio: string;
+  photo?: string;
+  tags?: string[];
+}
+
 export interface BlogArticle {
   slug: string;
   category: string;
@@ -49,7 +57,7 @@ export const DENTISALUD_INFO = {
   city: 'Belgrano, CABA',
   hours: 'Lunes a Sábado de 9:00 a 19:30 hs',
   phone: '+54 9 11 2877-9912',
-  whatsappGeneral: 'https://wa.me/5491128779912?text=Hola%2C%20quiero%20reservar%20una%20consulta',
+  whatsappGeneral: 'https://wa.me/5491128779912?text=Hola%2C%20quiero%20agendar%20un%20turno',
   rating: 5.0,
   reviewsCount: 77,
   googleMapsUrl: 'https://www.google.com/maps/place/Dra.Nathaly+Martinez+%7C+DentiSalud+Group/data=!4m7!3m6!1s0x95bcb59a121939bd:0x579a94e99325d5ca!8m2!3d-34.5638503!4d-58.4565009!16s%2Fg%2F11zhbdgjj5!19sChIJvTkZEpq1vJURytUlk-mUmlc',
@@ -60,6 +68,37 @@ export const DENTISALUD_INFO = {
   }
 };
 
+export const DENTISALUD_TEAM: TeamMember[] = [
+  {
+    name: 'Dra. Nathaly Martínez',
+    role: 'Esp. en Implantología, Rehabilitación oral y Estética dental - Cofundadora de DentiSalud Group',
+    bio: 'Odontóloga (UCV / UNLP) especialista en Implantología (UCA), Rehabilitación Oral y Estética Dental, con más de 10 años de experiencia, su compromiso es devolverle a cada paciente la confianza de sonreír. Se mantiene en constante actualización, con formación de primer nivel en la Universidad de Buenos Aires y en instituciones de referencia en Colombia y Brasil, países líderes en estética dental. También se capacitó en el manejo de pacientes infantiles, para acompañar de cerca los tratamientos de odontopediatría. Docente adjunta de la cátedra de Operatoria en la UBA.',
+    photo: '/images/dentisalud/29_doctora_en_escritorio.jpg',
+    tags: ['Implantología', 'Estética Dental', 'Rehabilitación Oral', 'Docente UBA']
+  },
+  {
+    name: 'Dra. Norma Oviedo',
+    role: 'Ortodoncista',
+    bio: 'Odontóloga especialista en Ortodoncia y Ortopedia de los Maxilares (UBA). Docente de la cátedra de Ortodoncia en la Universidad de Buenos Aires y certificada en alineadores invisibles. Participa activamente en congresos nacionales e internacionales de la especialidad, y está en continua actualización en su área.',
+    photo: '/images/dentisalud/35_recepci_n_doctora.jpg',
+    tags: ['Ortodoncia', 'Alineadores Invisibles', 'Docente UBA']
+  },
+  {
+    name: 'Dr. Isael Cova',
+    role: 'Periodoncista y experto en ATM',
+    bio: 'Odontólogo especialista en Periodoncia, experto en Trastornos de la Articulación Temporomandibular (ATM) y Dolor Orofacial con enfoque neuromuscular, con más de 10 años de trayectoria clínica. Mantiene formación continua en láser odontológico, cirugía preprotésica e imagenología dentomaxilofacial.',
+    photo: '/images/dentisalud/18_dentista_en_acci_n.jpg',
+    tags: ['Periodoncia', 'ATM & Bruxismo', 'Láser Odontológico']
+  },
+  {
+    name: 'Dr. Rasec Guariman',
+    role: 'Cirujano Maxilofacial',
+    bio: 'Odontólogo especialista en Cirugía Traumatológica Bucomaxilofacial (UCA), con más de 20 años de experiencia en cirugía maxilofacial de alta complejidad, incluyendo extracción de muelas del juicio. Es docente del Curso de Cirugía Dentomaxilar del Ateneo Odontológico Argentino y de la Especialidad de Cirugía Maxilofacial de la Universidad Católica Argentina.',
+    photo: '/images/dentisalud/23_guantes.jpg',
+    tags: ['Cirugía Maxilofacial', 'Muelas de Juicio', '+20 años exp', 'Docente UCA']
+  }
+];
+
 export const TREATMENTS: TreatmentDetail[] = [
 
   {
@@ -69,13 +108,12 @@ export const TREATMENTS: TreatmentDetail[] = [
     category: 'prevencion',
     shortDescription: 'Diagnóstico completo y un plan a tu medida con evaluación por cámara intraoral.',
     metaTitle: 'Consulta odontológica en Belgrano | DentiSalud Group',
-    metaDescription: 'Consulta integral: evaluación completa, plan claro y presupuesto. Costo: $40.000. Agendá hoy tu turno.',
+    metaDescription: 'Consulta integral: evaluación completa, plan claro y presupuesto. Agendá hoy tu turno.',
     heroBadge: 'SALUD BUCAL & PREVENCIÓN',
     heroH1: 'Consulta odontológica integral en Belgrano: empezá con una hoja de ruta clara',
     heroBajada: 'En DentiSalud Group te dedicamos el tiempo que merecés. En tu primera visita revisamos tu salud bucal completa, escuchamos qué necesitás y te explicamos las alternativas disponibles para tu caso. Te vas con un plan claro y a medida.',
     trustPoints: ['Evaluación clínica completa', 'Cámara intraoral en vivo', 'Plan claro por etapas', 'Amplio horario de atención'],
-    priceNote: 'Precio: Consulta integral $40.000',
-    ctaText: 'Agendar mi consulta integral',
+    ctaText: 'Agendar mi turno',
     ctaLink: 'https://wa.me/5491128779912?text=Hola%2C%20quiero%20agendar%20mi%20consulta%20integral',
     featuresTitle: 'Qué incluye tu consulta integral',
     features: [
@@ -97,14 +135,14 @@ export const TREATMENTS: TreatmentDetail[] = [
     numberStr: '02',
     title: 'Limpieza dental',
     category: 'prevencion',
-    shortDescription: 'Higiene profesional y prevención profunda para cuidar la salud de tus dientes y encías.',
+    shortDescription: 'Prevención y mantenimiento de tu salud bucal con la limpieza profesional profunda.',
     metaTitle: 'Limpieza dental en Belgrano | DentiSalud Group',
     metaDescription: 'Limpieza dental profesional en Belgrano. Elimina sarro y manchas superficiales. Cuidado para tus dientes y encías.',
     heroBadge: 'PREVENCIÓN & HIGIENE DENTAL',
     heroH1: 'Limpieza dental en Belgrano: el primer paso para cuidar tu sonrisa',
-    heroBajada: 'Una limpieza profesional elimina la placa y sarro que el cepillo no alcanza a retirar, previene problemas mayores a futuro y es el mejor punto de partida si hace un tiempo no venís al dentista.',
+    heroBajada: 'Limpieza profesional para cuidar la salud de tus dientes y encías.',
     trustPoints: ['Prevención y cuidado bucal', 'Atención sin apuros ni dolor', 'Lunes a sábado de 9 a 19:30 hs'],
-    ctaText: 'Consultar por limpieza dental',
+    ctaText: 'Agendar mi turno',
     ctaLink: 'https://wa.me/5491128779912?text=Hola%2C%20quiero%20consultar%20por%20una%20limpieza%20dental',
     processTitle: 'Cómo es tu sesión de limpieza',
     processSteps: [
@@ -130,11 +168,11 @@ export const TREATMENTS: TreatmentDetail[] = [
     heroH1: 'Diseño de sonrisa en Belgrano: natural y a tu medida',
     heroBajada: 'No se trata de una sonrisa estándar o igual a la de otra persona, sino de la tuya en su mejor versión. Planificamos cada detalle en armonía con tus facciones y expectativas. Las carillas son una excelente opción, pero no la única.',
     trustPoints: ['Especialistas en estética dental', 'Plan visual antes de empezar', 'Materiales importados de alta gama'],
-    priceNote: 'Empezás con la consulta integral: $40.000',
-    ctaText: 'Consultar por diseño de sonrisa',
+    ctaText: 'Agendar mi turno',
     ctaLink: 'https://wa.me/5491128779912?text=Hola%2C%20quiero%20consultar%20por%20diseno%20de%20sonrisa',
     featuresTitle: 'Por qué elegirnos para tu diseño de sonrisa',
     features: [
+      { title: 'De acuerdo a tus expectativas', desc: 'Conversamos qué buscás antes de definir cualquier cambio. Aunque las carillas son una excelente opción, ¡no es la única alternativa!' },
       { title: 'Respeto por tu esmalte', desc: 'Resultados estéticos protegiendo la estructura dentaria sin desgastes innecesarios.' },
       { title: 'Diseño digital 3D', desc: 'Para carillas de disilicato de litio planificamos digitalmente para que veas la simulación antes de avanzar.' },
       { title: 'Diversidad de materiales', desc: 'Carillas de composite (resina de alta densidad) o disilicato de litio según tus requerimientos.' }
@@ -153,10 +191,10 @@ export const TREATMENTS: TreatmentDetail[] = [
     metaTitle: 'Blanqueamiento dental en Belgrano | DentiSalud Group',
     metaDescription: 'Aclaramiento dental en Belgrano cuidando tus dientes y encías. Recuperá la luminosidad de tu sonrisa.',
     heroBadge: 'ESTÉTICA & LUMINOSIDAD',
-    heroH1: 'Blanqueamiento dental en Belgrano: más luminosidad, con cuidado',
+    heroH1: 'Blanqueamiento dental en Belgrano.',
     heroBajada: 'Tu sonrisa más blanca sin perder la apariencia natural. Evaluamos minuciosamente tu esmalte antes de indicar la técnica adecuada que minimice la sensibilidad.',
     trustPoints: ['Evaluación previa obligatoria', 'Técnica segura para el esmalte', 'Resultados visibles desde la 1ª sesión'],
-    ctaText: 'Consultar por blanqueamiento',
+    ctaText: 'Agendar mi turno',
     ctaLink: 'https://wa.me/5491128779912?text=Hola%2C%20quiero%20consultar%20por%20blanqueamiento%20dental',
     featuresTitle: 'Blanqueamiento enfocado en tu salud',
     features: [
@@ -181,7 +219,7 @@ export const TREATMENTS: TreatmentDetail[] = [
     heroH1: 'Implantes dentales en Belgrano: recuperá tu sonrisa con soluciones duraderas',
     heroBajada: 'Los implantes dentales son la mejor solución para reemplazar dientes ausentes con firmeza, estética y funcionalidad natural. Evaluamos tu hueso y diseñamos un plan preciso.',
     trustPoints: ['Cirugía guiada & segura', 'Titanio y zirconio de alta calidad', 'Rehabilitación estética completa'],
-    ctaText: 'Consultar por implantes dentales',
+    ctaText: 'Agendar mi turno',
     ctaLink: 'https://wa.me/5491128779912?text=Hola%2C%20quiero%20consultar%20por%20implantes%20dentales',
     whoIsItForTitle: '¿Para quién son los implantes?',
     whoIsItForItems: [
@@ -210,19 +248,19 @@ export const TREATMENTS: TreatmentDetail[] = [
     metaTitle: 'Ortodoncia en Belgrano | DentiSalud Group',
     metaDescription: 'Ortodoncia estéticos y alineadores invisibles en Belgrano. Mejorá tu mordida y alineación dental a cualquier edad.',
     heroBadge: 'ALINEACIÓN & MORDIDA',
-    heroH1: 'Ortodoncia en Belgrano: alineación, estética y salud para tu mordida',
+    heroH1: 'Opciones de ortodoncia a tu medida',
     heroBajada: 'Alinear tus dientes mejora la estética pero principalmente cuida la articulación temporomandibular y evita el desgaste prematuro de las piezas. Diagnóstico completo para niños y adultos.',
     trustPoints: ['Brackets estéticos & metálicos', 'Alineadores invisibles de última generación', 'Planes de cuotas accesibles'],
-    ctaText: 'Consultar por ortodoncia',
+    ctaText: 'Agendar mi turno',
     ctaLink: 'https://wa.me/5491128779912?text=Hola%2C%20quiero%20consultar%20por%20ortodoncia',
     featuresTitle: 'Opciones de ortodoncia a tu medida',
     features: [
-      { title: 'Alineadores invisibles', desc: 'Placas transparentes removibles prácticamente imperceptibles.' },
-      { title: 'Brackets cerámicos y de zafiro', desc: 'Estética discreta durante todo el tratamiento.' },
-      { title: 'Brackets metálicos convencionales', desc: 'Efectividad probada para casos complejos.' }
+      { title: 'Brackets metálicos convencionales', desc: 'Efectividad probada para casos complejos.' },
+      { title: 'Brackets cerámicos y de zafiro', desc: 'Estética discreta y transparente durante todo el tratamiento.' },
+      { title: 'Alineadores invisibles', desc: 'Placas transparentes removibles prácticamente imperceptibles.' }
     ],
     faqs: [
-      { question: '¿A qué edad se puede hacer ortodoncia?', answer: 'A cualquier edad. Evaluamos tanto niños en etapa de crecimiento como adultos de todas las edades.' }
+      { question: '¿A qué edad se puede hacer ortodoncia?', answer: 'Casi a cualquier edad. Para poder determinar si un paciente es apto para realizarse un tratamiento de ortodoncia debemos evaluar su caso, pero suele estar indicado para niños en etapa de crecimiento, adolescente o adultos de distintas edades.' }
     ]
   },
   {
@@ -233,11 +271,11 @@ export const TREATMENTS: TreatmentDetail[] = [
     shortDescription: 'Tratamiento de conducto para conservar tu pieza natural y aliviar el dolor.',
     metaTitle: 'Endodoncia en Belgrano | DentiSalud Group',
     metaDescription: 'Tratamiento de conducto en Belgrano. Salvá tu diente natural y aliviá el dolor con especialistas en endodoncia.',
-    heroBadge: 'SALVAMENTO DENTAL',
+    heroBadge: 'SALVANDO PIEZAS DENTALES',
     heroH1: 'Endodoncia en Belgrano: aliviá el dolor y conservá tu diente',
     heroBajada: 'Si una pieza dental tiene la pulpa o el nervio comprometido, el tratamiento de conducto permite eliminar la infección, aliviar el dolor de forma inmediata y salvar el diente natural.',
     trustPoints: ['Anestesia efectiva sin dolor', 'Localizadores de ápice digitales', 'Especialistas capacitados'],
-    ctaText: 'Consultar por endodoncia',
+    ctaText: 'Agendar mi turno',
     ctaLink: 'https://wa.me/5491128779912?text=Hola%2C%20quiero%20consultar%20por%20endodoncia',
     faqs: [
       { question: '¿Duele un tratamiento de conducto?', answer: 'No. Aplicamos técnicas anestésicas eficientes antes de iniciar para que el procedimiento sea totalmente indoloro.' }
@@ -255,7 +293,7 @@ export const TREATMENTS: TreatmentDetail[] = [
     heroH1: 'Prótesis dentales en Belgrano: comodidad y función para tu boca',
     heroBajada: 'Diseñamos prótesis fijas (coronas, puentes sobre dientes) o removibles (flexibles, esqueléticas) enfocadas en recuperar la masticación cómoda y la estética facial.',
     trustPoints: ['Laboratorios dentales de precisión', 'Prótesis flexibles e invisibles', 'Ajuste personalizado'],
-    ctaText: 'Consultar por prótesis dentales',
+    ctaText: 'Agendar mi turno',
     ctaLink: 'https://wa.me/5491128779912?text=Hola%2C%20quiero%20consultar%20por%20protesis%20dentales',
     faqs: [
       { question: '¿Cuál es la diferencia entre fija y removible?', answer: 'Las fijas van cementadas de forma permanente sobre dientes o implantes; las removibles se pueden retirar para su higiene.' }
@@ -273,7 +311,7 @@ export const TREATMENTS: TreatmentDetail[] = [
     heroH1: 'Tratamiento de ATM y Bruxismo en Belgrano',
     heroBajada: '¿Te levantás con dolor mandibular, dolor de cabeza o desgaste en tus dientes? Evaluamos la articulación temporomandibular y confeccionamos placas rígidas miorrelajantes.',
     trustPoints: ['Placas de descanso de acrílico rígido', 'Alivio del dolor neuromuscular', 'Protección del esmalte'],
-    ctaText: 'Consultar por ATM',
+    ctaText: 'Agendar mi turno',
     ctaLink: 'https://wa.me/5491128779912?text=Hola%2C%20quiero%20consultar%20por%20un%20tratamiento%20de%20ATM',
     faqs: [
       { question: '¿Cómo sé si tengo bruxismo?', answer: 'Los síntomas típicos son desgaste en bordes dentales, tensión en cuello/mandíbula al despertar y dolor o chasquido en la articulación.' }
@@ -291,7 +329,7 @@ export const TREATMENTS: TreatmentDetail[] = [
     heroH1: 'Cirugía maxilofacial en Belgrano: procedimiento seguro y recuperación acompañada',
     heroBajada: 'Extracción de terceros molares (muelas de juicio retenidas), piezas complejas e injertos óseos en un ambiente seguro con cirujanos capacitados.',
     trustPoints: ['Cirujanos especialistas UBA', 'Protocolos analgésicos posoperatorios', 'Monitoreo continuo'],
-    ctaText: 'Consultar por cirugía maxilofacial',
+    ctaText: 'Agendar mi turno',
     ctaLink: 'https://wa.me/5491128779912?text=Hola%2C%20quiero%20consultar%20por%20cirugia%20maxilofacial',
     faqs: [
       { question: '¿Es obligatorio sacar las muelas de juicio?', answer: 'No siempre. Se evalúa con una radiografía panorámica si están impactadas, causando dolor o desplazando dientes.' }
@@ -309,7 +347,7 @@ export const TREATMENTS: TreatmentDetail[] = [
     heroH1: 'Odontopediatría en Belgrano: sonrisas sanas desde los primeros años',
     heroBajada: 'Acompañamos el crecimiento dental de los más chicos en un clima cálido, lúdico y sin traumas para que ir al dentista sea una linda experiencia.',
     trustPoints: ['Ambiente adaptado para niños', 'Técnicas de manejo de ansiedad', 'Selladores & fluoración preventiva'],
-    ctaText: 'Consultar por odontopediatría',
+    ctaText: 'Agendar mi turno',
     ctaLink: 'https://wa.me/5491128779912?text=Hola%2C%20quiero%20consultar%20por%20odontopediatria%20para%20mi%20hijo%2Fa',
     faqs: [
       { question: '¿Cuándo llevar al bebé al dentista por primera vez?', answer: 'Recomendamos la primera visita durante el primer año de vida o cuando sale el primer diente temporal.' }
@@ -393,6 +431,22 @@ export const PATIENT_REVIEWS: PatientReview[] = [
     verified: true
   },
   {
+    name: 'Matías L. Benítez',
+    treatment: 'Tratamiento de Conducto (Endodoncia)',
+    stars: 5,
+    comment: 'Llegué con un dolor insoportable que no me dejaba dormir. El tratamiento de conducto fue un alivio inmediato. Me explicaron cada paso, anestesiaron de diez y no sentí absolutamente nada de dolor. Salvé la muela, eternamente agradecido con todo el equipo.',
+    date: 'Hace 2 semanas',
+    verified: true
+  },
+  {
+    name: 'Romina V. Carrizo',
+    treatment: 'Endodoncia & Restauración',
+    stars: 5,
+    comment: 'Le tenía pánico al tratamiento de conducto por malas experiencias pasadas en otros lugares. Acá en DentiSalud la experiencia fue totalmente distinta: súper profesionales, cero dolor, instrumental de primera y un trato humano inigualable.',
+    date: 'Hace 3 semanas',
+    verified: true
+  },
+  {
     name: 'Eloradana Villalobos',
     treatment: 'Estética & Ortodoncia',
     stars: 5,
@@ -412,7 +466,7 @@ export const PATIENT_REVIEWS: PatientReview[] = [
     name: 'Lucas González',
     treatment: 'Implantes Dentales',
     stars: 5,
-    comment: 'Me hice un implante y la verdad fue impecable. Muy cuidados los detalles de higiene, cero dolor y el postoperatorio súper tranquilo. Te entregan todo el plan claro por escrito.',
+    comment: 'Me hice un implante y la verdad fue impecable. Muy cuidados los detalles de higiene, cero dolor y el postoperatorio súper tranquilo. Te entregan todo el plan claro.',
     date: 'Hace 3 semanas',
     verified: true
   },

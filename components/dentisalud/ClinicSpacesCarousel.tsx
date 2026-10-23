@@ -36,6 +36,26 @@ export function ClinicSpacesCarousel() {
       desc: 'Podés ver en tiempo real el estado de tus dientes en pantalla.',
       url: DENTISALUD_PHOTOS.escaneando,
     },
+    {
+      title: 'Equipamiento e Iluminación Operativa',
+      desc: 'Lámparas de alta precisión y sillón ergonómico de máxima comodidad.',
+      url: DENTISALUD_PHOTOS.cartelLampara,
+    },
+    {
+      title: 'Espacio Confortable de Espera',
+      desc: 'Ambiente climatizado y tranquilo para tu mayor tranquilidad.',
+      url: DENTISALUD_PHOTOS.salaEspera2,
+    },
+    {
+      title: 'Bioseguridad & Esterilización',
+      desc: 'Protocolos estrictos de higiene y protección en cada procedimiento.',
+      url: DENTISALUD_PHOTOS.guantes,
+    },
+    {
+      title: 'Atención Cálida y Cercana',
+      desc: 'Escuchamos cada consulta con calidez y dedicación.',
+      url: DENTISALUD_PHOTOS.pacientesConversando,
+    },
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);

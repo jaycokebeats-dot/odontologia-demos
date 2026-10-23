@@ -62,8 +62,8 @@ export function HeroCarousel() {
   };
 
   return (
-    <div className="relative mx-auto max-w-md lg:max-w-none">
-      <div className="relative aspect-[4/5] rounded-[2.5rem] overflow-hidden shadow-2xl border-4 border-[#D5E8E8] bg-slate-100 group">
+    <div className="relative mx-auto max-w-xl lg:max-w-none">
+      <div className="relative aspect-[4/3] sm:aspect-[16/11] rounded-[2.5rem] overflow-hidden shadow-2xl border-4 border-[#D5E8E8] bg-slate-100 group">
         {slides.map((slide, idx) => (
           <div
             key={idx}
@@ -74,18 +74,8 @@ export function HeroCarousel() {
             <img
               src={slide.url}
               alt={slide.alt}
-              className="w-full h-full object-cover object-top"
+              className="w-full h-full object-cover object-center"
             />
-            
-            {/* Top Doctor Name Badge */}
-            <div className="absolute top-4 left-4 bg-slate-900/85 backdrop-blur-md px-4 py-2.5 rounded-2xl text-white border border-white/15 shadow-xl">
-              <div className="text-sm font-serif font-bold leading-tight drop-shadow-xs">
-                {slide.name}
-              </div>
-              <div className="text-[11px] text-teal-300 font-medium leading-tight">
-                {slide.role}
-              </div>
-            </div>
           </div>
         ))}
 

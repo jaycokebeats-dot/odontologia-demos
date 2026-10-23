@@ -28,8 +28,8 @@ export function DentiSaludBlogPage({ basePath = '/d/dra-nathaly-martinez' }: Blo
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-serif font-extrabold text-[#0A2540] tracking-tight">
               Guía de salud bucal
             </h1>
-            <p className="text-base sm:text-lg text-slate-600 font-normal max-w-2xl leading-relaxed">
-              Información clara para que decidas con tranquilidad: alternativas de tratamiento, cuidados y qué esperar de cada consulta. Todo explicado de forma transparente.
+            <p className="text-base sm:text-lg text-slate-700 font-normal max-w-2xl leading-relaxed">
+              Artículos escritos pensando en ayudarte a solventar tus inquietudes para que tomes decisiones informadas y con tranquilidad. Acá encontrarás alternativas de tratamiento, cuidados en casa, qué esperar de una consulta y respuestas a preguntas frecuentes que recibimos.
             </p>
           </div>
         </section>
@@ -86,8 +86,8 @@ export function DentiSaludBlogPage({ basePath = '/d/dra-nathaly-martinez' }: Blo
             <h2 className="text-3xl sm:text-4xl font-serif font-extrabold text-[#0A2540]">
               ¿Tenés dudas sobre tu caso puntual?
             </h2>
-            <p className="text-slate-600 text-sm sm:text-base">
-              Un artículo puede darte una idea general, pero cada boca es distinta. Escribinos y lo conversamos en una consulta personalizada.
+            <p className="text-slate-700 text-sm sm:text-base">
+              Un artículo puede darte una idea general, pero cada caso es único. Contactanos y coordinamos tu visita para una evaluación personalizada.
             </p>
             <div>
               <a
@@ -97,7 +97,7 @@ export function DentiSaludBlogPage({ basePath = '/d/dra-nathaly-martinez' }: Blo
                 className="inline-flex items-center gap-2.5 bg-[#0A2540] hover:bg-[#051E34] text-white font-extrabold text-sm px-8 py-4 rounded-full shadow-lg transition transform hover:scale-105"
               >
                 <MessageCircle className="w-5 h-5 fill-white text-[#0A2540]" />
-                <span>Reservar por WhatsApp</span>
+                <span>Agendar mi turno</span>
               </a>
             </div>
           </div>

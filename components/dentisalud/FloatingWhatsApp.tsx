@@ -14,7 +14,7 @@ export function DentiSaludFloatingWhatsApp() {
     >
       <MessageCircle className="w-5 h-5 fill-white text-[#128C7E]" />
       <span className="text-xs font-bold tracking-wide">
-        Agendar por WhatsApp
+        Agendar mi turno
       </span>
     </a>
   );

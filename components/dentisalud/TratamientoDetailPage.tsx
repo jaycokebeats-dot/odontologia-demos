@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import Link from 'next/link';
-import { ArrowLeft, MessageCircle, CheckCircle2, ChevronDown, ChevronUp, Play, Sparkles } from 'lucide-react';
+import { ArrowLeft, MessageCircle, CheckCircle2, ChevronDown, ChevronUp } from 'lucide-react';
 import { TreatmentDetail, DENTISALUD_INFO } from '@/data/dentisalud-data';
 import { TREATMENT_FEATURED_PHOTOS, BEFORE_AFTER_CASES } from '@/data/dentisalud-photos';
 import { DentiSaludNavbar } from './Navbar';
@@ -31,31 +31,26 @@ export function DentiSaludTratamientoDetailPage({ treatment, basePath = '' }: Tr
 
   const ortodonciaCase = BEFORE_AFTER_CASES.find((c) => c.id === 'case-ortodoncia-1');
 
-  // Ortodoncia graphic types with realistic images
+  // Ortodoncia graphic types with realistic images (autoligables removed, photo applied to metallic)
   const ortodonciaTypes = [
     {
       title: 'Brackets metálicos',
-      desc: 'La opción más tradicional y económica.',
-      img: '/images/dentisalud/ortodoncia_metalicos.jpg',
-    },
-    {
-      title: 'Brackets autoligables',
-      desc: 'Ajustes más simples y controles más espaciados.',
+      desc: 'La opción más tradicional, resistente y económica.',
       img: '/images/dentisalud/ortodoncia_autoligables.jpg',
     },
     {
       title: 'Brackets de cerámica',
-      desc: 'Discretos, del color de tu diente.',
+      desc: 'Discretos, mimetizados con el color de tu esmalte.',
       img: '/images/dentisalud/ortodoncia_ceramica.jpg',
     },
     {
       title: 'Brackets de zafiro',
-      desc: 'Transparentes, de alta estética.',
+      desc: 'Completamente transparentes, de máxima estética.',
       img: '/images/dentisalud/ortodoncia_zafiro.jpg',
     },
     {
       title: 'Alineadores transparentes',
-      desc: 'Removibles y casi imperceptibles.',
+      desc: 'Removibles, cómodos y prácticamente imperceptibles.',
       img: '/images/dentisalud/ortodoncia_alineadores.jpg',
     },
   ];
@@ -105,7 +100,7 @@ export function DentiSaludTratamientoDetailPage({ treatment, basePath = '' }: Tr
                     className="inline-flex items-center justify-center gap-2.5 bg-[#0A2540] hover:bg-[#051E34] text-white font-bold text-sm px-8 py-4 rounded-full shadow-lg hover:shadow-xl transition transform hover:-translate-y-0.5"
                   >
                     <MessageCircle className="w-4 h-4 fill-white text-[#0A2540]" />
-                    <span>Reservar por WhatsApp</span>
+                    <span>Agendar mi turno</span>
                   </a>
                 </div>
 
@@ -122,9 +117,9 @@ export function DentiSaludTratamientoDetailPage({ treatment, basePath = '' }: Tr
                 )}
               </div>
 
-              {/* Right Real Treatment Photo */}
+              {/* Right Real Treatment Photo (Balanced Landscape Framing) */}
               <div className="lg:col-span-5">
-                <div className="relative aspect-[4/3] rounded-3xl overflow-hidden shadow-xl border border-slate-200 bg-slate-100 group">
+                <div className="relative aspect-[4/3] sm:aspect-[16/11] rounded-3xl overflow-hidden shadow-xl border border-slate-200 bg-slate-100 group">
                   <img
                     src={featuredPhoto}
                     alt={`Tratamiento de ${treatment.title}`}
@@ -152,7 +147,7 @@ export function DentiSaludTratamientoDetailPage({ treatment, basePath = '' }: Tr
                 {treatment.whoIsItForItems.map((item, idx) => (
                   <div
                     key={idx}
-                    className="bg-white rounded-3xl p-7 border-2 border-teal-600/30 shadow-sm space-y-3 relative overflow-hidden"
+                    className="bg-white rounded-3xl p-7 border-2 border-teal-600/30 shadow-xs space-y-3 relative overflow-hidden"
                   >
                     <div className="w-8 h-8 rounded-full bg-teal-50 text-teal-700 flex items-center justify-center font-bold text-xs">
                       0{idx + 1}
@@ -172,20 +167,20 @@ export function DentiSaludTratamientoDetailPage({ treatment, basePath = '' }: Tr
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
               <div>
                 <h2 className="text-3xl font-serif font-extrabold text-[#0A2540]">
-                  Opciones de ortodoncia, de la más accesible a la más estética
+                  Opciones de ortodoncia a tu medida
                 </h2>
                 <p className="text-sm text-slate-700 mt-2">
                   En tu consulta te explicamos las diferencias y te ayudamos a elegir la alternativa indicada para tu caso.
                 </p>
               </div>
 
-              <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-4">
+              <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
                 {ortodonciaTypes.map((type, idx) => (
                   <div
                     key={idx}
-                    className="bg-[#EAF6F6] rounded-2xl overflow-hidden border border-[#D5E8E8] hover:border-[#0A2540]/40 transition flex flex-col justify-between"
+                    className="bg-[#EAF6F6] rounded-2xl overflow-hidden border border-[#D5E8E8] hover:border-[#0A2540]/40 transition flex flex-col justify-between shadow-2xs hover:shadow-md"
                   >
-                    <div className="h-36 relative overflow-hidden bg-slate-200">
+                    <div className="h-44 relative overflow-hidden bg-slate-200">
                       <img
                         src={type.img}
                         alt={type.title}
@@ -205,19 +200,24 @@ export function DentiSaludTratamientoDetailPage({ treatment, basePath = '' }: Tr
           </section>
         )}
 
-        {/* FEATURES / POR QUÉ ELEGIRNOS */}
-        {treatment.features && (
+        {/* FEATURES / POR QUÉ ELEGIRNOS (Centered bottom cards when applicable, skipped for Ortodoncia) */}
+        {treatment.features && treatment.slug !== 'ortodoncia' && (
           <section className="py-16 bg-white border-b border-slate-100">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
-              <h2 className="text-3xl font-serif font-extrabold text-[#0A2540]">
+              <h2 className="text-3xl font-serif font-extrabold text-[#0A2540] text-center md:text-left">
                 {treatment.featuresTitle || '¿Por qué elegirnos?'}
               </h2>
 
-              <div className="grid md:grid-cols-3 gap-6">
+              <div className="flex flex-wrap justify-center gap-6">
                 {treatment.features.map((f, idx) => (
-                  <div key={idx} className="bg-[#EAF6F6] rounded-3xl p-7 border border-[#D5E8E8] space-y-2">
-                    <h3 className="text-lg font-bold text-[#0A2540]">{f.title}</h3>
-                    <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">{f.desc}</p>
+                  <div
+                    key={idx}
+                    className="w-full md:w-[calc(33.333%-16px)] min-w-[280px] bg-[#EAF6F6] rounded-3xl p-7 border border-[#D5E8E8] space-y-2 flex flex-col justify-between"
+                  >
+                    <div>
+                      <h3 className="text-lg font-bold text-[#0A2540]">{f.title}</h3>
+                      <p className="text-xs sm:text-sm text-slate-700 leading-relaxed mt-2">{f.desc}</p>
+                    </div>
                   </div>
                 ))}
               </div>
@@ -250,50 +250,41 @@ export function DentiSaludTratamientoDetailPage({ treatment, basePath = '' }: Tr
           </section>
         )}
 
-        {/* DARK NAVY BANNER */}
-        <section className="py-14 bg-[#0A2540] text-white">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="flex flex-col md:flex-row items-center justify-between gap-6">
-              <div className="space-y-2 text-center md:text-left">
-                <h3 className="text-2xl sm:text-3xl font-serif font-extrabold">
-                  Tu comodidad, en cada etapa
-                </h3>
-                <p className="text-xs sm:text-sm text-slate-300 max-w-xl">
-                  Sin apuros en ninguna consulta. Aplicamos técnicas avanzadas para que no sientas dolor y tengas una experiencia placentera.
-                </p>
-              </div>
-              <a
-                href={treatment.ctaLink || DENTISALUD_INFO.whatsappGeneral}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="shrink-0 bg-white hover:bg-slate-100 text-[#0A2540] font-extrabold text-sm px-7 py-4 rounded-full shadow-lg transition"
-              >
-                Reservar consulta por WhatsApp
-              </a>
-            </div>
-          </div>
-        </section>
-
-        {/* REAL CASES / VIDEO SLOT / REVIEWS ACCORDING TO TREATMENT FEEDBACK */}
+        {/* CONSULTA INTEGRAL: REVIEWS DE GOOGLE (Replaces video placeholder) */}
         {treatment.slug === 'consulta-integral' && (
           <section className="py-16 bg-white border-b border-slate-100">
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
-              <h2 className="text-3xl font-serif font-extrabold text-[#0A2540] text-center">
-                Experiencias de nuestros pacientes
-              </h2>
-              <div className="max-w-3xl mx-auto rounded-3xl bg-[#0A2540] text-white p-8 md:p-12 text-center relative overflow-hidden shadow-2xl border border-[#133C63]">
-                <div className="w-16 h-16 rounded-full bg-teal-500/20 text-teal-300 border border-teal-400/30 flex items-center justify-center mx-auto mb-4 backdrop-blur-md">
-                  <Play className="w-8 h-8 fill-teal-400 text-teal-400 translate-x-0.5" />
-                </div>
-                <h3 className="text-xl sm:text-2xl font-serif font-bold">Mix de testimonios de nuestros pacientes</h3>
-                <p className="text-xs sm:text-sm text-slate-300 max-w-lg mx-auto mt-2 font-normal">
-                  Próximamente podrás ver aquí las historias en video de pacientes que eligieron DentiSalud Group.
+            <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
+              <div className="text-center space-y-2">
+                <h2 className="text-3xl font-serif font-extrabold text-[#0A2540]">
+                  Experiencias de nuestros pacientes
+                </h2>
+                <p className="text-sm text-slate-700">
+                  ⭐ 5,0 en Google · Testimonios verificados de quienes ya visitaron DentiSalud Group.
                 </p>
               </div>
+              <ReviewsCarousel />
             </div>
           </section>
         )}
 
+        {/* ENDODONCIA: OPINIONES REALES DE TRATAMIENTOS DE CONDUCTO */}
+        {treatment.slug === 'endodoncia' && (
+          <section className="py-16 bg-white border-b border-slate-100">
+            <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
+              <div className="text-center space-y-2">
+                <h2 className="text-3xl font-serif font-extrabold text-[#0A2540]">
+                  Opiniones de pacientes que salvaron su pieza dental
+                </h2>
+                <p className="text-sm text-slate-700">
+                  Alivio inmediato del dolor, anestesia efectiva y trato cálido sin molestias.
+                </p>
+              </div>
+              <ReviewsCarousel />
+            </div>
+          </section>
+        )}
+
+        {/* REAL CASES ACCORDING TO TREATMENT */}
         {treatment.slug === 'diseno-de-sonrisa' && disenoCases.length > 0 && (
           <section className="py-16 bg-white border-b border-slate-100">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
@@ -345,24 +336,6 @@ export function DentiSaludTratamientoDetailPage({ treatment, basePath = '' }: Tr
           </section>
         )}
 
-        {treatment.slug === 'ortodoncia' && ortodonciaCase && (
-          <section className="py-16 bg-white border-b border-slate-100">
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
-              <div className="flex items-center justify-between">
-                <h2 className="text-3xl font-serif font-extrabold text-[#0A2540]">
-                  Caso de Ortodoncia Antes y Después
-                </h2>
-                <Link href={`${basePath}/casos-y-testimonios`} className="text-xs font-bold text-[#0A2540] hover:underline">
-                  Ver todos los casos →
-                </Link>
-              </div>
-              <div className="max-w-2xl mx-auto">
-                <BeforeAfterCard caseData={ortodonciaCase} />
-              </div>
-            </div>
-          </section>
-        )}
-
         {/* FAQS ACCORDION */}
         {treatment.faqs && treatment.faqs.length > 0 && (
           <section className="py-16 bg-[#EAF6F6] border-b border-[#D5E8E8]">
@@ -373,7 +346,7 @@ export function DentiSaludTratamientoDetailPage({ treatment, basePath = '' }: Tr
 
               <div className="space-y-4">
                 {treatment.faqs.map((faq, idx) => (
-                  <div key={idx} className="border border-[#D5E8E8] rounded-2xl bg-white overflow-hidden">
+                  <div key={idx} className="border border-[#D5E8E8] rounded-2xl bg-white overflow-hidden shadow-2xs">
                     <button
                       onClick={() => setOpenFaq(openFaq === idx ? null : idx)}
                       className="w-full px-6 py-5 text-left flex items-center justify-between gap-4 font-bold text-[#0A2540] text-sm sm:text-base hover:bg-slate-50 transition"
@@ -397,14 +370,18 @@ export function DentiSaludTratamientoDetailPage({ treatment, basePath = '' }: Tr
           </section>
         )}
 
-        {/* FINAL CTA */}
-        <section className="py-16 bg-white text-center">
+        {/* FINAL CTA BANNER */}
+        <section className="py-20 bg-white text-center">
           <div className="max-w-2xl mx-auto px-4 space-y-6">
             <h2 className="text-3xl font-serif font-extrabold text-[#0A2540]">
-              Empezá por una consulta personalizada
+              {treatment.slug === 'consulta-integral'
+                ? 'La mejor versión de tu sonrisa inicia aquí'
+                : 'Empezá por una consulta personalizada'}
             </h2>
-            <p className="text-xs sm:text-sm text-slate-700">
-              Escribinos por WhatsApp y coordinamos tu primera visita en el horario que más te convenga.
+            <p className="text-sm text-slate-700">
+              {treatment.slug === 'consulta-integral'
+                ? 'Contactanos para coordinar tu primera visita en el horario que más te convenga'
+                : 'Escribinos por WhatsApp y coordinamos tu primera visita en el horario que más te convenga.'}
             </p>
             <div>
               <a
@@ -414,7 +391,7 @@ export function DentiSaludTratamientoDetailPage({ treatment, basePath = '' }: Tr
                 className="inline-flex items-center gap-2.5 bg-[#0A2540] hover:bg-[#051E34] text-white font-extrabold text-sm px-8 py-4 rounded-full shadow-lg transition transform hover:scale-105"
               >
                 <MessageCircle className="w-5 h-5 fill-white text-[#0A2540]" />
-                <span>Reservar por WhatsApp</span>
+                <span>Agendar mi turno</span>
               </a>
             </div>
           </div>

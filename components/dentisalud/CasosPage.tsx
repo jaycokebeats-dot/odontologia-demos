@@ -43,7 +43,7 @@ export function DentiSaludCasosPage({ basePath = '' }: CasosPageProps) {
               CASOS REALES Y TESTIMONIOS
             </span>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-serif font-extrabold text-[#0A2540] tracking-tight">
-              Resultados reales de nuestros pacientes
+              Resultados de nuestros pacientes
             </h1>
             <p className="text-base sm:text-lg text-slate-700 font-normal max-w-2xl leading-relaxed">
               Desliza sobre las fotos para comparar el estado inicial (Antes) con el resultado final (Después) logrado por la Dra. Nathaly Martínez y su equipo.
@@ -94,33 +94,8 @@ export function DentiSaludCasosPage({ basePath = '' }: CasosPageProps) {
               </p>
             </div>
 
-            <div className="max-w-3xl mx-auto mb-10">
+            <div className="max-w-4xl mx-auto">
               <ReviewsCarousel />
-            </div>
-
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {PATIENT_REVIEWS.map((rev, idx) => (
-                <div
-                  key={idx}
-                  className="bg-white rounded-3xl p-7 border border-[#E1ECEC] shadow-2xs space-y-4 flex flex-col justify-between"
-                >
-                  <div className="space-y-3">
-                    <div className="flex items-center gap-1 text-amber-400">
-                      {[...Array(rev.stars)].map((_, i) => (
-                        <Star key={i} className="w-4 h-4 fill-amber-400" />
-                      ))}
-                    </div>
-                    <p className="text-xs text-slate-700 italic leading-relaxed">
-                      "{rev.comment}"
-                    </p>
-                  </div>
-
-                  <div className="pt-4 border-t border-slate-100">
-                    <div className="font-bold text-xs text-[#0A2540]">{rev.name}</div>
-                    <div className="text-[11px] text-slate-500">{rev.treatment}</div>
-                  </div>
-                </div>
-              ))}
             </div>
           </div>
         </section>
@@ -142,7 +117,7 @@ export function DentiSaludCasosPage({ basePath = '' }: CasosPageProps) {
                 className="inline-flex items-center gap-2.5 bg-[#0A2540] hover:bg-[#051E34] text-white font-extrabold text-sm px-8 py-4 rounded-full shadow-xl transition transform hover:scale-105"
               >
                 <MessageCircle className="w-5 h-5 fill-white text-[#0A2540]" />
-                <span>Reservar por WhatsApp</span>
+                <span>Agendar mi turno</span>
               </a>
             </div>
           </div>

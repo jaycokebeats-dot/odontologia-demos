@@ -27,13 +27,13 @@ export function DentiSaludTratamientosPage({ basePath = '' }: TratamientosPagePr
         <section className="py-16 md:py-20 bg-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-4">
             <span className="text-xs font-bold uppercase tracking-widest text-slate-700">
-              TRATAMIENTOS
+              DentiSalud Group · Belgrano, CABA
             </span>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-serif font-extrabold text-[#0A2540] tracking-tight">
-              Tratamientos odontológicos
+              Nuestros tratamientos odontológicos
             </h1>
             <p className="text-base sm:text-lg text-slate-700 font-normal max-w-2xl leading-relaxed">
-              En DentiSalud Group encontrás odontología integral y de alto nivel en un solo lugar: desde una limpieza dental preventiva hasta una rehabilitación compleja. Cada plan de tratamiento inicia con una consulta donde te escuchamos y evaluamos tu caso.
+              Desde una limpieza preventiva hasta una rehabilitación compleja, en DentiSalud Group encontrás todo en un mismo lugar. Cada plan empieza con una consulta donde te escuchamos y evaluamos tu caso, para proponerte el camino más adecuado.
             </p>
           </div>
         </section>
@@ -180,16 +180,16 @@ export function DentiSaludTratamientosPage({ basePath = '' }: TratamientosPagePr
           </div>
         </section>
 
-        {/* SECTION 5: CÓMO DEFINIMOS TU PRESUPUESTO */}
-        <section className="py-20 bg-white">
+        {/* SECTION 5: LA TRANSFORMACIÓN DE TU SONRISA INICIA AQUÍ */}
+        <section className="py-20 bg-[#EAF6F6] border-t border-[#D5E8E8]">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex flex-col md:flex-row items-center justify-between gap-8">
               <div className="space-y-3 max-w-2xl text-center md:text-left">
                 <h2 className="text-3xl sm:text-4xl font-serif font-extrabold text-[#0A2540]">
-                  ¿Cómo definimos tu presupuesto?
+                  La transformación de tu sonrisa inicia aquí
                 </h2>
                 <p className="text-sm sm:text-base text-slate-700 leading-relaxed font-normal">
-                  Cada caso es único. Por eso la cotización formal se entrega después de tu consulta integral, junto con un plan claro de tratamiento.
+                  Asiste a una consulta integral para evaluar tu caso de forma personalizada y brindarte un plan de tratamiento adaptado a tus necesidades.
                 </p>
               </div>
 
@@ -200,7 +200,7 @@ export function DentiSaludTratamientosPage({ basePath = '' }: TratamientosPagePr
                 className="shrink-0 inline-flex items-center gap-2.5 bg-[#0A2540] hover:bg-[#051E34] text-white font-extrabold text-sm px-8 py-4 rounded-full shadow-xl transition transform hover:scale-105"
               >
                 <MessageCircle className="w-4 h-4 fill-white text-[#0A2540]" />
-                <span>Reservar por WhatsApp</span>
+                <span>Agendar mi turno</span>
               </a>
             </div>
           </div>
