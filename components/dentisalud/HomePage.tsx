@@ -243,35 +243,35 @@ export function DentiSaludHomePage({ basePath = '' }: HomePageProps) {
         {/* BLOQUE 5 — UN ESPACIO PENSADO ESPECIALMENTE PARA VOS */}
         <section className="py-20 bg-white border-t border-slate-100">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
-            <div className="max-w-3xl space-y-4">
+            <div className="text-center max-w-4xl mx-auto space-y-4">
               <span className="text-xs font-bold uppercase tracking-widest text-slate-700">
                 TU COMODIDAD PRIMERO
               </span>
               <h2 className="text-3xl sm:text-4xl font-serif font-bold text-[#0A2540]">
                 Un espacio pensado especialmente para vos
               </h2>
-              <p className="text-base text-slate-700 leading-relaxed font-normal">
+              <p className="text-base text-slate-700 leading-relaxed font-normal max-w-2xl mx-auto">
                 Ir al dentista no tiene por qué ser una experiencia traumática. En DentiSalud Group cuidamos cada detalle.
               </p>
 
-              <div className="grid sm:grid-cols-3 gap-6 pt-4">
-                <div className="space-y-1">
+              <div className="grid sm:grid-cols-3 gap-6 pt-4 text-center">
+                <div className="bg-[#EAF6F6] rounded-2xl p-6 border border-[#D5E8E8] space-y-1.5 shadow-2xs">
                   <h3 className="text-base font-bold text-[#0A2540]">Tiempo para vos</h3>
-                  <p className="text-sm text-slate-700">
+                  <p className="text-sm text-slate-700 leading-relaxed">
                     Dedicamos un tiempo importante a cada paciente, sin apuros.
                   </p>
                 </div>
 
-                <div className="space-y-1">
+                <div className="bg-[#EAF6F6] rounded-2xl p-6 border border-[#D5E8E8] space-y-1.5 shadow-2xs">
                   <h3 className="text-base font-bold text-[#0A2540]">Manejo del dolor</h3>
-                  <p className="text-sm text-slate-700">
+                  <p className="text-sm text-slate-700 leading-relaxed">
                     Aplicamos técnicas para que cada procedimiento sea lo más cómodo posible.
                   </p>
                 </div>
 
-                <div className="space-y-1">
+                <div className="bg-[#EAF6F6] rounded-2xl p-6 border border-[#D5E8E8] space-y-1.5 shadow-2xs">
                   <h3 className="text-base font-bold text-[#0A2540]">Un ambiente confortable</h3>
-                  <p className="text-sm text-slate-700">
+                  <p className="text-sm text-slate-700 leading-relaxed">
                     Un consultorio cálido y tranquilo, pensado para vos.
                   </p>
                 </div>

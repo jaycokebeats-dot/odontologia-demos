@@ -135,7 +135,7 @@ export const TREATMENTS: TreatmentDetail[] = [
     numberStr: '02',
     title: 'Limpieza dental',
     category: 'prevencion',
-    shortDescription: 'Prevención y mantenimiento de tu salud bucal con la limpieza profesional profunda.',
+    shortDescription: 'Limpieza profesional para cuidar la salud de tus dientes y encías.',
     metaTitle: 'Limpieza dental en Belgrano | DentiSalud Group',
     metaDescription: 'Limpieza dental profesional en Belgrano. Elimina sarro y manchas superficiales. Cuidado para tus dientes y encías.',
     heroBadge: 'PREVENCIÓN & HIGIENE DENTAL',
@@ -516,6 +516,57 @@ export const PATIENT_REVIEWS: PatientReview[] = [
     stars: 5,
     comment: 'Le devolvió la estética a mi boca. Nathaly se toma todo el tiempo necesario para escucharte y darte un presupuesto transparente. Muy recomendable!',
     date: 'Hace 1 mes',
+    verified: true
+  }
+];
+
+export const ENDODONCIA_REVIEWS: PatientReview[] = [
+  {
+    name: 'Matías L. Benítez',
+    treatment: 'Tratamiento de Conducto (Endodoncia)',
+    stars: 5,
+    comment: 'Llegué con un dolor insoportable que no me dejaba dormir. El tratamiento de conducto fue un alivio inmediato. Me explicaron cada paso, anestesiaron de diez y no sentí absolutamente nada de dolor. Salvé la muela, eternamente agradecido con todo el equipo.',
+    date: 'Hace 2 semanas',
+    verified: true
+  },
+  {
+    name: 'Romina V. Carrizo',
+    treatment: 'Endodoncia & Restauración',
+    stars: 5,
+    comment: 'Le tenía pánico al tratamiento de conducto por malas experiencias pasadas en otros lugares. Acá en DentiSalud la experiencia fue totalmente distinta: súper profesionales, cero dolor, instrumental de primera y un trato humano inigualable.',
+    date: 'Hace 3 semanas',
+    verified: true
+  },
+  {
+    name: 'Esteban Perazzo',
+    treatment: 'Atención Odontológica & Calidez',
+    stars: 5,
+    comment: 'No tengo palabras para describir la tranquilidad que sentís cuando salís del consultorio de Nathaly. Una excelente profesional en todo, la tranquilidad, empatía y el trato humano de ella y su equipo es único.',
+    date: 'Hace 1 semana',
+    verified: true
+  },
+  {
+    name: 'Gonzalo R. Martínez',
+    treatment: 'Tratamiento de Conducto & Restauración',
+    stars: 5,
+    comment: 'La mejor experiencia odontológica que tuve. Tenía una pieza comprometida y el tratamiento de conducto con localizador digital de ápice fue impecable. Te explica todo paso a paso en la pantalla con la cámara intraoral, sin apuros. Cero dolor.',
+    date: 'Hace 1 mes',
+    verified: true
+  },
+  {
+    name: 'Fernando P. Quiroga',
+    treatment: 'Tratamiento de Conducto',
+    stars: 5,
+    comment: 'Me salvaron una muela que en otro consultorio me decían de extraer. El tratamiento de conducto fue súper rápido, no me dolió nada ni durante el procedimiento ni en el posoperatorio. Destaco la puntualidad y la calidez del equipo.',
+    date: 'Hace 3 semanas',
+    verified: true
+  },
+  {
+    name: 'Mariana Silva',
+    treatment: 'Atención & Cuidado Integral',
+    stars: 5,
+    comment: 'Súper recomendable Nathaly y todo el equipo. Tenía mucho temor al dentista y desde la primera consulta me dio una paz y seguridad enorme. Trabajan con anestesia súper suave y tecnología de punta.',
+    date: 'Hace 2 semanas',
     verified: true
   }
 ];

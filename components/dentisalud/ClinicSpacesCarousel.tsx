@@ -69,26 +69,26 @@ export function ClinicSpacesCarousel() {
   };
 
   return (
-    <div className="relative space-y-4">
+    <div className="relative space-y-5">
       <div className="flex items-center justify-between">
         <span className="text-xs font-bold uppercase tracking-wider text-slate-700 block">
-          CONOCÉ EL ESPACIO
+          CONOCÉ EL ESPACIO ({currentIndex + 1} de {spaces.length})
         </span>
 
         <div className="flex items-center gap-2">
           <button
             onClick={prev}
-            className="p-2 rounded-full bg-slate-100 hover:bg-slate-200 text-slate-700 transition"
+            className="w-9 h-9 rounded-full bg-white hover:bg-[#EAF6F6] text-[#0A2540] border border-slate-200 shadow-xs flex items-center justify-center transition"
             aria-label="Espacio anterior"
           >
-            <ChevronLeft className="w-4 h-4" />
+            <ChevronLeft className="w-5 h-5" />
           </button>
           <button
             onClick={next}
-            className="p-2 rounded-full bg-slate-100 hover:bg-slate-200 text-slate-700 transition"
+            className="w-9 h-9 rounded-full bg-white hover:bg-[#EAF6F6] text-[#0A2540] border border-slate-200 shadow-xs flex items-center justify-center transition"
             aria-label="Siguiente espacio"
           >
-            <ChevronRight className="w-4 h-4" />
+            <ChevronRight className="w-5 h-5" />
           </button>
         </div>
       </div>
@@ -99,19 +99,19 @@ export function ClinicSpacesCarousel() {
           return (
             <div
               key={item.title + offset}
-              className="relative aspect-[16/10] rounded-2xl overflow-hidden shadow-md border border-slate-200 bg-slate-100 group transition-all duration-300"
+              className="relative aspect-[4/3] rounded-3xl overflow-hidden shadow-lg border border-slate-200/90 bg-slate-100 group transition-all duration-300"
             >
               <img
                 src={item.url}
                 alt={item.title}
                 className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-slate-900/70 via-slate-900/10 to-transparent" />
-              <div className="absolute bottom-3 left-3 right-3 text-white">
-                <div className="text-xs font-bold leading-snug drop-shadow-xs">
+              <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-slate-950/20 to-transparent" />
+              <div className="absolute bottom-4 left-4 right-4 text-white">
+                <div className="text-sm font-serif font-bold leading-snug drop-shadow-sm">
                   {item.title}
                 </div>
-                <div className="text-[10px] text-slate-300 line-clamp-1 mt-0.5">
+                <div className="text-xs text-slate-200 line-clamp-2 mt-1 font-normal leading-relaxed drop-shadow-xs">
                   {item.desc}
                 </div>
               </div>

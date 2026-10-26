@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import { ArrowLeft, MessageCircle, CheckCircle2, ChevronDown, ChevronUp } from 'lucide-react';
-import { TreatmentDetail, DENTISALUD_INFO } from '@/data/dentisalud-data';
+import { TreatmentDetail, DENTISALUD_INFO, ENDODONCIA_REVIEWS } from '@/data/dentisalud-data';
 import { TREATMENT_FEATURED_PHOTOS, BEFORE_AFTER_CASES } from '@/data/dentisalud-photos';
 import { DentiSaludNavbar } from './Navbar';
 import { DentiSaludFooter } from './Footer';
@@ -279,7 +279,7 @@ export function DentiSaludTratamientoDetailPage({ treatment, basePath = '' }: Tr
                   Alivio inmediato del dolor, anestesia efectiva y trato cálido sin molestias.
                 </p>
               </div>
-              <ReviewsCarousel />
+              <ReviewsCarousel reviews={ENDODONCIA_REVIEWS} titleBadge="Google Reviews · Tratamientos de Conducto" />
             </div>
           </section>
         )}
