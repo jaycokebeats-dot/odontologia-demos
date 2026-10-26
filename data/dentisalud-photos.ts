@@ -219,7 +219,7 @@ export const TREATMENT_FEATURED_PHOTOS: Record<string, string> = {
   'protesis-dentales': '/images/dentisalud/2_pr_tesis_despu_s_caso_1.jpg',
   'coronas-de-zirconio': '/images/dentisalud/3_cornona_despu_s_caso_1.jpg',
   'arreglo-de-caries': '/images/dentisalud/9_arreglo_de_caries_despu_s_caso_2.jpg',
-  'endodoncia': '/images/dentisalud/21_consultorio_principal.jpg',
+  'endodoncia': '/images/dentisalud/endodoncia_hero.jpg',
   'odontopediatria': '/images/dentisalud/odontopediatria_hero.jpg',
   'atm': '/images/dentisalud/atm_bruxismo_hero.jpg',
   'atm-y-bruxismo': '/images/dentisalud/atm_bruxismo_hero.jpg',
