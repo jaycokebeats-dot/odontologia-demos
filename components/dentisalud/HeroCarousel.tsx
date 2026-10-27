@@ -3,8 +3,10 @@
 import React, { useState, useEffect } from 'react';
 import { ChevronLeft, ChevronRight, Star } from 'lucide-react';
 import { DENTISALUD_PHOTOS } from '@/data/dentisalud-photos';
+import { useGoogleReviews } from './useGoogleReviews';
 
 export function HeroCarousel() {
+  const { rating, reviewsCount } = useGoogleReviews();
   const slides = [
     {
       url: DENTISALUD_PHOTOS.salaEspera, // Foto 19
@@ -116,8 +118,8 @@ export function HeroCarousel() {
           <Star className="w-5 h-5 fill-amber-400 text-amber-400" />
         </div>
         <div>
-          <div className="text-sm font-extrabold text-[#0A2540]">5.0 ⭐ en Google</div>
-          <div className="text-[11px] text-slate-600 font-medium">77 opiniones reales</div>
+          <div className="text-sm font-extrabold text-[#0A2540]">{rating.toFixed(1)} ⭐ en Google</div>
+          <div className="text-[11px] text-slate-600 font-medium">{reviewsCount} opiniones reales</div>
         </div>
       </div>
     </div>

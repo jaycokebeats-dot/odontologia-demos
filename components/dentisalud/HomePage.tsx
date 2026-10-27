@@ -19,6 +19,7 @@ import {
 } from 'lucide-react';
 import { DENTISALUD_INFO, TREATMENTS, PATIENT_REVIEWS } from '@/data/dentisalud-data';
 import { DENTISALUD_PHOTOS, BEFORE_AFTER_CASES } from '@/data/dentisalud-photos';
+import { useGoogleReviews } from './useGoogleReviews';
 import { DentiSaludNavbar } from './Navbar';
 import { DentiSaludFooter } from './Footer';
 import { DentiSaludFloatingWhatsApp } from './FloatingWhatsApp';
@@ -34,6 +35,7 @@ interface HomePageProps {
 }
 
 export function DentiSaludHomePage({ basePath = '' }: HomePageProps) {
+  const { reviewsCount, rating } = useGoogleReviews();
   const [openFaq, setOpenFaq] = useState<number | null>(0);
 
   const firstVisitSteps = [
@@ -292,7 +294,7 @@ export function DentiSaludHomePage({ basePath = '' }: HomePageProps) {
                   Pacientes que hoy sonríen sin pensarlo dos veces
                 </h2>
                 <p className="text-slate-700 text-base font-normal mt-1">
-                  ⭐ 5,0 en Google · 77 reseñas reales
+                  ⭐ {rating.toFixed(1).replace('.', ',')} en Google · {reviewsCount} reseñas reales
                 </p>
               </div>
 

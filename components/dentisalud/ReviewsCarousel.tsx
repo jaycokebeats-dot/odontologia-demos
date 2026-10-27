@@ -3,6 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import { Star, ChevronLeft, ChevronRight, Quote } from 'lucide-react';
 import { PATIENT_REVIEWS, PatientReview, DENTISALUD_INFO } from '@/data/dentisalud-data';
+import { useGoogleReviews } from './useGoogleReviews';
 
 interface ReviewsCarouselProps {
   reviews?: PatientReview[];
@@ -10,6 +11,7 @@ interface ReviewsCarouselProps {
 }
 
 export function ReviewsCarousel({ reviews = PATIENT_REVIEWS, titleBadge }: ReviewsCarouselProps) {
+  const { reviewsCount } = useGoogleReviews();
   const [currentIndex, setCurrentIndex] = useState(0);
   const activeReviews = reviews && reviews.length > 0 ? reviews : PATIENT_REVIEWS;
 
@@ -44,7 +46,7 @@ export function ReviewsCarousel({ reviews = PATIENT_REVIEWS, titleBadge }: Revie
         </div>
         <div className="flex items-center gap-1 text-xs font-bold text-teal-300">
           <Quote className="w-4 h-4" />
-          <span>{titleBadge || `Google Reviews (${DENTISALUD_INFO.reviewsCount})`}</span>
+          <span>{titleBadge || `Google Reviews (${reviewsCount})`}</span>
         </div>
       </div>
 

@@ -174,6 +174,10 @@ export function DentiSaludFooter({ basePath = '/d/dra-nathaly-martinez' }: Foote
             <span className="hover:text-slate-200 transition cursor-pointer">Política de privacidad</span>
             <span>·</span>
             <span className="hover:text-slate-200 transition cursor-pointer">Términos y condiciones</span>
+            <span>·</span>
+            <Link href="/admin" className="hover:text-teal-300 transition text-[10px] text-slate-500">
+              Acceso panel
+            </Link>
           </div>
         </div>
       </div>

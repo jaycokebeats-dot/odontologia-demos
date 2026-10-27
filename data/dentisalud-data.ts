@@ -40,6 +40,10 @@ export interface BlogArticle {
   title: string;
   keyword: string;
   excerpt: string;
+  image?: string;
+  content?: string;
+  date?: string;
+  author?: string;
 }
 
 export interface PatientReview {

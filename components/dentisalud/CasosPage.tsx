@@ -4,6 +4,7 @@ import React, { useState } from 'react';
 import { MessageCircle, Star, Sparkles } from 'lucide-react';
 import { DENTISALUD_INFO, PATIENT_REVIEWS } from '@/data/dentisalud-data';
 import { BEFORE_AFTER_CASES } from '@/data/dentisalud-photos';
+import { useGoogleReviews } from './useGoogleReviews';
 import { DentiSaludNavbar } from './Navbar';
 import { DentiSaludFooter } from './Footer';
 import { DentiSaludFloatingWhatsApp } from './FloatingWhatsApp';
@@ -15,6 +16,7 @@ interface CasosPageProps {
 }
 
 export function DentiSaludCasosPage({ basePath = '' }: CasosPageProps) {
+  const { reviewsCount, rating } = useGoogleReviews();
   const [activeCategory, setActiveCategory] = useState<string>('todos');
 
   const categories = [
@@ -90,7 +92,7 @@ export function DentiSaludCasosPage({ basePath = '' }: CasosPageProps) {
                 Lo que cuentan nuestros pacientes
               </h2>
               <p className="text-slate-700 text-sm">
-                ⭐ 5,0 en Google · 77 reseñas verificadas en Google Maps.
+                ⭐ {rating.toFixed(1).replace('.', ',')} en Google · {reviewsCount} reseñas verificadas en Google Maps.
               </p>
             </div>
 
