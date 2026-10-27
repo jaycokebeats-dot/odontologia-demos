@@ -56,7 +56,7 @@ export function TeamCarousel() {
 
       {/* Main Doctor Profile Card */}
       <div className="bg-white rounded-3xl border border-slate-200 shadow-xl overflow-hidden max-w-5xl mx-auto">
-        <div className="grid md:grid-cols-12 items-stretch min-h-[520px]">
+        <div className="grid md:grid-cols-12 items-stretch md:min-h-[630px]">
           {/* Doctor Portrait / Graphic Frame */}
           <div className="md:col-span-5 bg-gradient-to-br from-slate-100 to-[#EAF6F6] p-6 sm:p-8 flex items-center justify-center">
             <div className="relative w-full aspect-[4/5] max-w-[300px] rounded-2xl overflow-hidden shadow-lg border border-slate-200/80 bg-white group">
@@ -78,7 +78,7 @@ export function TeamCarousel() {
           </div>
 
           {/* Doctor Bio and Credentials */}
-          <div className="md:col-span-7 p-6 sm:p-10 flex flex-col justify-between space-y-6">
+          <div className="md:col-span-7 p-6 sm:p-10 flex flex-col justify-between space-y-5">
             <div className="space-y-2">
               <div className="flex items-center gap-2 text-xs font-bold text-teal-700 uppercase tracking-widest">
                 <UserCheck className="w-4 h-4 text-teal-600 shrink-0" />
@@ -87,19 +87,19 @@ export function TeamCarousel() {
               <h3 className="text-2xl sm:text-3xl font-serif font-extrabold text-[#0A2540]">
                 {currentMember.name}
               </h3>
-              <div className="min-h-[44px] flex items-center">
+              <div className="min-h-[48px] flex items-center">
                 <p className="text-sm font-semibold text-teal-800 leading-snug">
                   {currentMember.role}
                 </p>
               </div>
             </div>
 
-            <div className="p-5 rounded-2xl bg-slate-50 border border-slate-200/80 text-xs sm:text-sm text-slate-700 leading-relaxed font-normal min-h-[175px] flex items-center">
+            <div className="p-5 rounded-2xl bg-slate-50 border border-slate-200/80 text-xs sm:text-sm text-slate-700 leading-relaxed font-normal md:min-h-[230px] flex items-center">
               <p>{currentMember.bio}</p>
             </div>
 
             <div className="space-y-3">
-              <div className="min-h-[34px] flex flex-wrap items-center gap-2">
+              <div className="min-h-[64px] flex flex-wrap items-center content-center gap-2">
                 {currentMember.tags?.map((tag) => (
                   <span
                     key={tag}
