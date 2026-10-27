@@ -65,7 +65,7 @@ export const DENTISALUD_INFO = {
   phone: '+54 9 11 2877-9912',
   whatsappGeneral: 'https://wa.me/5491128779912?text=Hola%2C%20quiero%20agendar%20un%20turno',
   rating: 5.0,
-  reviewsCount: 77,
+  reviewsCount: 93,
   googleMapsUrl: 'https://www.google.com/maps/place/Dra.Nathaly+Martinez+%7C+DentiSalud+Group/data=!4m7!3m6!1s0x95bcb59a121939bd:0x579a94e99325d5ca!8m2!3d-34.5638503!4d-58.4565009!16s%2Fg%2F11zhbdgjj5!19sChIJvTkZEpq1vJURytUlk-mUmlc',
   mapsEmbedUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.453297072551!2d-58.45907582348574!3d-34.56384585557761!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb59a121939bd%3A0x579a94e99325d5ca!2sDra.Nathaly%20Martinez%20%7C%20DentiSalud%20Group!5e0!3m2!1ses!2sar!4v1700000000000!5m2!1ses!2sar',
   transports: {

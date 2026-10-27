@@ -22,7 +22,8 @@ import {
   Download,
   Copy,
   ArrowLeft,
-  Sparkles
+  Sparkles,
+  Star
 } from 'lucide-react';
 import { BlogArticle } from '@/data/dentisalud-data';
 
@@ -69,6 +70,13 @@ export function AdminBlogManager() {
   // Delete confirmation
   const [articleToDelete, setArticleToDelete] = useState<BlogArticle | null>(null);
 
+  // Google Reviews Settings
+  const [reviewsCount, setReviewsCount] = useState<number>(93);
+  const [reviewsRating, setReviewsRating] = useState<number>(5.0);
+  const [reviewsApiKey, setReviewsApiKey] = useState<string>('');
+  const [isGoogleModalOpen, setIsGoogleModalOpen] = useState<boolean>(false);
+  const [isSavingReviews, setIsSavingReviews] = useState<boolean>(false);
+
   // Check stored auth
   useEffect(() => {
     const authSaved = localStorage.getItem('dentisalud_admin_auth');
@@ -105,9 +113,47 @@ export function AdminBlogManager() {
     }
   };
 
+  const loadGoogleReviews = async () => {
+    try {
+      const res = await fetch('/api/google-reviews');
+      if (res.ok) {
+        const data = await res.json();
+        if (data.reviewsCount) setReviewsCount(data.reviewsCount);
+        if (data.rating) setReviewsRating(data.rating);
+      }
+    } catch (e) {}
+  };
+
+  const handleSaveGoogleReviews = async (e?: React.FormEvent) => {
+    if (e) e.preventDefault();
+    setIsSavingReviews(true);
+    try {
+      const res = await fetch('/api/google-reviews', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          reviewsCount: Number(reviewsCount) || 93,
+          rating: Number(reviewsRating) || 5.0,
+          apiKey: reviewsApiKey.trim() || undefined,
+        }),
+      });
+      if (res.ok) {
+        showToast('¡Configuración de Google Reviews actualizada!');
+        setIsGoogleModalOpen(false);
+      } else {
+        showToast('Error al guardar configuración');
+      }
+    } catch (err) {
+      showToast('Error al conectar con el servidor');
+    } finally {
+      setIsSavingReviews(false);
+    }
+  };
+
   useEffect(() => {
     if (isAuthenticated) {
       loadArticles();
+      loadGoogleReviews();
     }
   }, [isAuthenticated]);
 
@@ -499,6 +545,15 @@ export function AdminBlogManager() {
 
             <div className="flex items-center gap-2">
               <button
+                onClick={() => setIsGoogleModalOpen(true)}
+                className="px-3.5 py-2 rounded-xl bg-teal-500/20 hover:bg-teal-500/30 border border-teal-400/30 text-xs font-bold text-teal-200 hover:text-white transition flex items-center gap-1.5"
+                title="Configurar Google Reviews"
+              >
+                <Star className="w-3.5 h-3.5 fill-amber-400 text-amber-400" />
+                <span>Google Reviews ({reviewsCount})</span>
+              </button>
+
+              <button
                 onClick={exportBackup}
                 className="px-3.5 py-2 rounded-xl bg-[#133C63] hover:bg-[#1a4a75] text-xs font-bold text-slate-200 hover:text-white transition flex items-center gap-1.5"
                 title="Descargar copia en JSON de todos los artículos"
@@ -522,6 +577,32 @@ export function AdminBlogManager() {
 
       {/* MAIN CONTENT AREA */}
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 space-y-6">
+        {/* GOOGLE REVIEWS QUICK BAR */}
+        <div className="bg-gradient-to-r from-teal-50/80 via-white to-blue-50/80 border border-teal-100 rounded-2xl p-4 sm:p-5 flex flex-col sm:flex-row items-center justify-between gap-4 shadow-xs">
+          <div className="flex items-center gap-3.5">
+            <div className="w-11 h-11 rounded-2xl bg-amber-500/10 text-amber-600 flex items-center justify-center shrink-0">
+              <Star className="w-6 h-6 fill-amber-400 text-amber-500" />
+            </div>
+            <div>
+              <div className="text-sm font-extrabold text-[#0A2540] flex items-center gap-2">
+                <span>Google Maps Reviews:</span>
+                <span className="text-amber-600 font-black">{reviewsRating.toFixed(1)} ⭐</span>
+                <span className="text-slate-300">·</span>
+                <span className="text-teal-800 font-black">{reviewsCount} opiniones</span>
+              </div>
+              <p className="text-xs text-slate-500 mt-0.5">
+                Contador sincronizado en toda la página web (Hero, Testimonios, Casos y Footer).
+              </p>
+            </div>
+          </div>
+          <button
+            onClick={() => setIsGoogleModalOpen(true)}
+            className="px-4 py-2.5 bg-white hover:bg-slate-50 border border-slate-200 text-xs font-bold text-slate-700 rounded-xl shadow-xs hover:shadow-sm transition flex items-center gap-2 shrink-0"
+          >
+            <Edit2 className="w-3.5 h-3.5 text-teal-600" />
+            <span>Modificar contador / API Key</span>
+          </button>
+        </div>
         {/* STATS & SEARCH BAR */}
         <div className="bg-white rounded-2xl p-4 sm:p-6 border border-slate-200 shadow-xs space-y-4">
           <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
@@ -976,6 +1057,104 @@ export function AdminBlogManager() {
                 Sí, eliminar
               </button>
             </div>
+          </div>
+        </div>
+      )}
+
+      {/* ================= GOOGLE REVIEWS MODAL ================= */}
+      {isGoogleModalOpen && (
+        <div className="fixed inset-0 z-50 bg-black/60 backdrop-blur-xs flex items-center justify-center p-4">
+          <div className="bg-white rounded-3xl max-w-md w-full p-6 sm:p-7 shadow-2xl border border-slate-100 space-y-5 animate-in fade-in zoom-in-95">
+            <div className="flex items-center justify-between border-b border-slate-100 pb-3">
+              <div className="flex items-center gap-3">
+                <div className="p-2.5 bg-amber-50 rounded-2xl text-amber-500">
+                  <Star className="w-5 h-5 fill-amber-400" />
+                </div>
+                <div>
+                  <h3 className="text-base font-bold text-[#0A2540]">
+                    Google Reviews
+                  </h3>
+                  <p className="text-xs text-slate-500">Contador y sincronización</p>
+                </div>
+              </div>
+              <button
+                onClick={() => setIsGoogleModalOpen(false)}
+                className="p-1 rounded-full text-slate-400 hover:text-slate-700 hover:bg-slate-100 transition"
+              >
+                <X className="w-5 h-5" />
+              </button>
+            </div>
+
+            <form onSubmit={handleSaveGoogleReviews} className="space-y-4 text-xs">
+              <div>
+                <label className="font-bold text-slate-700 block mb-1">
+                  Cantidad de Reseñas (Contador visible):
+                </label>
+                <input
+                  type="number"
+                  min="1"
+                  value={reviewsCount}
+                  onChange={(e) => setReviewsCount(Number(e.target.value))}
+                  className="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 text-sm font-bold text-slate-800 focus:outline-none focus:border-[#0A2540]"
+                />
+                <p className="text-[11px] text-slate-400 mt-1">
+                  Actualmente en Google Maps hay 93 reseñas. Podés actualizar este número cuando sumes más con 1 click.
+                </p>
+              </div>
+
+              <div>
+                <label className="font-bold text-slate-700 block mb-1">
+                  Calificación Promedio (Estrellas):
+                </label>
+                <input
+                  type="number"
+                  step="0.1"
+                  min="1"
+                  max="5"
+                  value={reviewsRating}
+                  onChange={(e) => setReviewsRating(parseFloat(e.target.value))}
+                  className="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 text-sm font-bold text-slate-800 focus:outline-none focus:border-[#0A2540]"
+                />
+              </div>
+
+              <div className="pt-2 border-t border-slate-100">
+                <label className="font-bold text-slate-700 block mb-1">
+                  Google Places API Key (Opcional):
+                </label>
+                <input
+                  type="password"
+                  placeholder="AIzaSy..."
+                  value={reviewsApiKey}
+                  onChange={(e) => setReviewsApiKey(e.target.value)}
+                  className="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 text-xs font-mono text-slate-800 focus:outline-none focus:border-[#0A2540]"
+                />
+                <p className="text-[11px] text-slate-400 mt-1">
+                  Si tenés una clave de Google Cloud Places API, pegala acá para que se actualice sola automáticamente. Si no tenés una, podés cambiar el número arriba de forma manual.
+                </p>
+              </div>
+
+              <div className="flex items-center justify-end gap-2 pt-3">
+                <button
+                  type="button"
+                  onClick={() => setIsGoogleModalOpen(false)}
+                  className="px-4 py-2.5 rounded-xl border border-slate-200 text-slate-600 font-bold hover:bg-slate-50 transition"
+                >
+                  Cancelar
+                </button>
+                <button
+                  type="submit"
+                  disabled={isSavingReviews}
+                  className="px-5 py-2.5 rounded-xl bg-[#0A2540] hover:bg-[#051E34] text-white font-bold transition shadow-md flex items-center gap-1.5"
+                >
+                  {isSavingReviews ? (
+                    <RefreshCw className="w-3.5 h-3.5 animate-spin" />
+                  ) : (
+                    <Check className="w-3.5 h-3.5" />
+                  )}
+                  <span>Guardar cambios</span>
+                </button>
+              </div>
+            </form>
           </div>
         </div>
       )}
