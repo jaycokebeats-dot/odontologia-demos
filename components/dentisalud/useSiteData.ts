@@ -66,6 +66,8 @@ export function useSiteData() {
     featuredPhotos: data.featuredPhotos,
     cases: data.cases,
     reviews: data.reviews,
+    team: data.team || getDefaultSiteData().team,
+    nosotrosInfo: data.nosotrosInfo || getDefaultSiteData().nosotrosInfo,
     loading,
     updateData,
     resetData,

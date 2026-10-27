@@ -33,17 +33,24 @@ import {
   MessageCircle,
   MapPin,
   Instagram,
-  Share2
+  Share2,
+  Users,
+  UserPlus
 } from 'lucide-react';
 import { useSiteData } from '@/components/dentisalud/useSiteData';
 import { BeforeAfterCard } from '@/components/dentisalud/BeforeAfterCard';
 import { AdminBlogManager } from '@/components/admin/AdminBlogManager';
-import { TreatmentDetail, PatientReview } from '@/data/dentisalud-data';
+import { TreatmentDetail, PatientReview, TeamMember } from '@/data/dentisalud-data';
 import { BeforeAfterCase } from '@/data/dentisalud-photos';
 
 const ADMIN_CREDENTIAL = 'dentisalud2710';
 
 const CLINIC_PRESET_PHOTOS = [
+  { label: '37 - Dra. Nathaly Martínez', url: '/images/dentisalud/37_nathaly.png' },
+  { label: '38 - Dr. Rasec Guariman', url: '/images/dentisalud/38_rasec.png' },
+  { label: '39 - Dra. Norma Oviedo', url: '/images/dentisalud/39_norma.png' },
+  { label: '40 - Dr. Isael Cova', url: '/images/dentisalud/40_isael.png' },
+  { label: 'Recepción y Atención', url: '/images/dentisalud/20_recepcionista.jpg' },
   { label: '41 - Consulta Integral', url: '/images/dentisalud/41_consulta_integral.png' },
   { label: '42 - Limpieza Dental', url: '/images/dentisalud/42_limpieza.png' },
   { label: '43 - Implantes Dentales', url: '/images/dentisalud/43_implantes.png' },
@@ -67,8 +74,9 @@ export function AdminGeneralDashboard() {
   const [loginError, setLoginError] = useState<string>('');
 
   // Active Tab
-  const [activeTab, setActiveTab] = useState<'tratamientos' | 'casos' | 'blog' | 'config'>('tratamientos');
+  const [activeTab, setActiveTab] = useState<'tratamientos' | 'casos' | 'equipo' | 'blog' | 'config'>('tratamientos');
   const [casosSubTab, setCasosSubTab] = useState<'casos' | 'testimonios'>('casos');
+  const [equipoSubTab, setEquipoSubTab] = useState<'profesionales' | 'nosotrosPage'>('profesionales');
 
   // Site Data from Hook (Supabase Cloud + LocalStorage)
   const {
@@ -78,6 +86,8 @@ export function AdminGeneralDashboard() {
     featuredPhotos,
     cases,
     reviews,
+    team,
+    nosotrosInfo,
     loading,
     updateData,
     resetData,
@@ -368,6 +378,183 @@ export function AdminGeneralDashboard() {
     }
   };
 
+  // ================= EQUIPO Y NOSOTROS STATE & HANDLERS =================
+  const [memberFilter, setMemberFilter] = useState<'todas' | 'visibles' | 'ocultas'>('todas');
+  const [editingMember, setEditingMember] = useState<TeamMember | null>(null);
+  const [isTeamModalOpen, setIsTeamModalOpen] = useState<boolean>(false);
+  const [memberToDelete, setMemberToDelete] = useState<TeamMember | null>(null);
+  const [isSavingMember, setIsSavingMember] = useState<boolean>(false);
+  const [isUploadingTeamPhoto, setIsUploadingTeamPhoto] = useState<boolean>(false);
+
+  // Form fields for Member
+  const [tmName, setTmName] = useState<string>('');
+  const [tmRole, setTmRole] = useState<string>('');
+  const [tmBio, setTmBio] = useState<string>('');
+  const [tmPhoto, setTmPhoto] = useState<string>('');
+  const [tmTags, setTmTags] = useState<string>('');
+  const [tmInstagram, setTmInstagram] = useState<string>('');
+  const [tmInstagramHandle, setTmInstagramHandle] = useState<string>('');
+  const [tmActive, setTmActive] = useState<boolean>(true);
+
+  // Form fields for Nosotros Page Texts
+  const [isSavingNosotrosTexts, setIsSavingNosotrosTexts] = useState<boolean>(false);
+  const [isUploadingNosotrosHero, setIsUploadingNosotrosHero] = useState<boolean>(false);
+  const [nHeroTitle, setNHeroTitle] = useState<string>(nosotrosInfo?.heroTitle || '');
+  const [nHeroBadge, setNHeroBadge] = useState<string>(nosotrosInfo?.heroBadge || '');
+  const [nHeroText, setNHeroText] = useState<string>(nosotrosInfo?.heroText || '');
+  const [nHeroPhoto, setNHeroPhoto] = useState<string>(nosotrosInfo?.heroPhoto || '');
+  const [nBadge1, setNBadge1] = useState<string>(nosotrosInfo?.badge1 || '');
+  const [nBadge2, setNBadge2] = useState<string>(nosotrosInfo?.badge2 || '');
+  const [nBadge3, setNBadge3] = useState<string>(nosotrosInfo?.badge3 || '');
+  const [nTeamBadge, setNTeamBadge] = useState<string>(nosotrosInfo?.teamSectionBadge || '');
+  const [nTeamTitle, setNTeamTitle] = useState<string>(nosotrosInfo?.teamSectionTitle || '');
+  const [nTeamSubtitle, setNTeamSubtitle] = useState<string>(nosotrosInfo?.teamSectionSubtitle || '');
+
+  useEffect(() => {
+    if (nosotrosInfo) {
+      setNHeroTitle(nosotrosInfo.heroTitle || '');
+      setNHeroBadge(nosotrosInfo.heroBadge || '');
+      setNHeroText(nosotrosInfo.heroText || '');
+      setNHeroPhoto(nosotrosInfo.heroPhoto || '');
+      setNBadge1(nosotrosInfo.badge1 || '');
+      setNBadge2(nosotrosInfo.badge2 || '');
+      setNBadge3(nosotrosInfo.badge3 || '');
+      setNTeamBadge(nosotrosInfo.teamSectionBadge || '');
+      setNTeamTitle(nosotrosInfo.teamSectionTitle || '');
+      setNTeamSubtitle(nosotrosInfo.teamSectionSubtitle || '');
+    }
+  }, [nosotrosInfo]);
+
+  const openCreateMember = () => {
+    setEditingMember(null);
+    setTmName('');
+    setTmRole('');
+    setTmBio('');
+    setTmPhoto('/images/dentisalud/37_nathaly.png');
+    setTmTags('Odontología Integral, Estética Dental');
+    setTmInstagram('');
+    setTmInstagramHandle('');
+    setTmActive(true);
+    setIsTeamModalOpen(true);
+  };
+
+  const openEditMember = (m: TeamMember) => {
+    setEditingMember(m);
+    setTmName(m.name || '');
+    setTmRole(m.role || '');
+    setTmBio(m.bio || '');
+    setTmPhoto(m.photo || '/images/dentisalud/37_nathaly.png');
+    setTmTags((m.tags || []).join(', '));
+    setTmInstagram(m.instagram || '');
+    setTmInstagramHandle(m.instagramHandle || '');
+    setTmActive(m.active !== false);
+    setIsTeamModalOpen(true);
+  };
+
+  const handleSaveMember = async (e: React.FormEvent) => {
+    e.preventDefault();
+    if (!tmName.trim() || !tmRole.trim()) {
+      alert('Por favor completá el nombre y el cargo/especialidad.');
+      return;
+    }
+
+    setIsSavingMember(true);
+    const parsedTags = tmTags
+      .split(',')
+      .map((t) => t.trim())
+      .filter(Boolean);
+
+    const payload: TeamMember = {
+      id: editingMember?.id || `member-${Date.now()}`,
+      name: tmName.trim(),
+      role: tmRole.trim(),
+      bio: tmBio.trim(),
+      photo: tmPhoto.trim(),
+      tags: parsedTags,
+      instagram: tmInstagram.trim() || undefined,
+      instagramHandle: tmInstagramHandle.trim() || undefined,
+      active: tmActive,
+      order: editingMember?.order ?? team.length,
+    };
+
+    let updatedTeam: TeamMember[];
+    if (editingMember) {
+      updatedTeam = team.map((mem) =>
+        mem.id === editingMember.id || mem.name === editingMember.name ? payload : mem
+      );
+    } else {
+      updatedTeam = [...team, payload];
+    }
+
+    const res = await updateData({ team: updatedTeam });
+    setIsSavingMember(false);
+    if (res.success) {
+      setIsTeamModalOpen(false);
+      showToast(editingMember ? '¡Profesional actualizado!' : '¡Nuevo profesional agregado al equipo!');
+    }
+  };
+
+  const toggleMemberVisibility = async (index: number) => {
+    const target = team[index];
+    if (!target) return;
+    const currentStatus = target.active !== false;
+    const updatedTeam = [...team];
+    updatedTeam[index] = { ...target, active: !currentStatus };
+    const res = await updateData({ team: updatedTeam });
+    if (res.success) {
+      showToast(!currentStatus ? `${target.name} visible en la web.` : `${target.name} ocultado/a.`);
+    }
+  };
+
+  const moveMember = async (index: number, direction: 'up' | 'down') => {
+    if (direction === 'up' && index === 0) return;
+    if (direction === 'down' && index === team.length - 1) return;
+    const targetIndex = direction === 'up' ? index - 1 : index + 1;
+    const updatedTeam = [...team];
+    const temp = updatedTeam[index];
+    updatedTeam[index] = updatedTeam[targetIndex];
+    updatedTeam[targetIndex] = temp;
+
+    const res = await updateData({ team: updatedTeam });
+    if (res.success) {
+      showToast(`Orden del equipo actualizado.`);
+    }
+  };
+
+  const confirmDeleteMember = async () => {
+    if (!memberToDelete) return;
+    const updatedTeam = team.filter((m) => m.name !== memberToDelete.name && m.id !== memberToDelete.id);
+    const res = await updateData({ team: updatedTeam });
+    if (res.success) {
+      setMemberToDelete(null);
+      showToast(`Profesional eliminado.`);
+    }
+  };
+
+  const handleSaveNosotrosInfo = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setIsSavingNosotrosTexts(true);
+    const updatedNosotros = {
+      heroBadge: nHeroBadge.trim(),
+      heroTitle: nHeroTitle.trim(),
+      heroText: nHeroText.trim(),
+      heroPhoto: nHeroPhoto.trim(),
+      badge1: nBadge1.trim(),
+      badge2: nBadge2.trim(),
+      badge3: nBadge3.trim(),
+      teamSectionBadge: nTeamBadge.trim(),
+      teamSectionTitle: nTeamTitle.trim(),
+      teamSectionSubtitle: nTeamSubtitle.trim(),
+    };
+    const res = await updateData({ nosotrosInfo: updatedNosotros });
+    setIsSavingNosotrosTexts(false);
+    if (res.success) {
+      showToast('¡Textos de la página Nosotros guardados con éxito!');
+    } else {
+      showToast('Error al guardar textos de Nosotros.');
+    }
+  };
+
   // ================= CONFIGURACIÓN GENERAL STATE & HANDLERS =================
   const [cfgConsultationPrice, setCfgConsultationPrice] = useState<string>(info.consultationPrice || '$40.000');
   const [cfgReviewsCount, setCfgReviewsCount] = useState<number>(info.reviewsCount || 93);
@@ -437,13 +624,18 @@ export function AdminGeneralDashboard() {
   };
 
   // Upload file helper
-  const handleFileUpload = async (file: File, target: 'treatment' | 'before' | 'after') => {
+  const handleFileUpload = async (
+    file: File,
+    target: 'treatment' | 'before' | 'after' | 'team' | 'nosotrosHero'
+  ) => {
     const formData = new FormData();
     formData.append('file', file);
 
     if (target === 'treatment') setIsUploadingPhoto(true);
     if (target === 'before') setIsUploadingBefore(true);
     if (target === 'after') setIsUploadingAfter(true);
+    if (target === 'team') setIsUploadingTeamPhoto(true);
+    if (target === 'nosotrosHero') setIsUploadingNosotrosHero(true);
 
     try {
       const res = await fetch('/api/admin/upload', {
@@ -455,6 +647,8 @@ export function AdminGeneralDashboard() {
         if (target === 'treatment') setTPhotoUrl(data.url);
         if (target === 'before') setCBefore(data.url);
         if (target === 'after') setCAfter(data.url);
+        if (target === 'team') setTmPhoto(data.url);
+        if (target === 'nosotrosHero') setNHeroPhoto(data.url);
         showToast('Foto subida con éxito.');
       } else {
         alert(data.error || 'Error al subir la imagen');
@@ -465,6 +659,8 @@ export function AdminGeneralDashboard() {
       if (target === 'treatment') setIsUploadingPhoto(false);
       if (target === 'before') setIsUploadingBefore(false);
       if (target === 'after') setIsUploadingAfter(false);
+      if (target === 'team') setIsUploadingTeamPhoto(false);
+      if (target === 'nosotrosHero') setIsUploadingNosotrosHero(false);
     }
   };
 
@@ -621,6 +817,18 @@ export function AdminGeneralDashboard() {
             </button>
 
             <button
+              onClick={() => setActiveTab('equipo')}
+              className={`px-4 py-2 rounded-xl text-xs sm:text-sm font-bold flex items-center gap-2 transition whitespace-nowrap cursor-pointer ${
+                activeTab === 'equipo'
+                  ? 'bg-[#0A2540] text-white shadow-xs'
+                  : 'text-slate-600 hover:text-[#0A2540] hover:bg-slate-100'
+              }`}
+            >
+              <Users className="w-4 h-4" />
+              <span>Equipo & Nosotros ({team.length})</span>
+            </button>
+
+            <button
               onClick={() => setActiveTab('blog')}
               className={`px-4 py-2 rounded-xl text-xs sm:text-sm font-bold flex items-center gap-2 transition whitespace-nowrap cursor-pointer ${
                 activeTab === 'blog'
@@ -658,6 +866,7 @@ export function AdminGeneralDashboard() {
             <h1 className="text-2xl sm:text-3xl font-serif font-extrabold mt-1">
               {activeTab === 'tratamientos' && 'Gestión de Tratamientos & Fotos'}
               {activeTab === 'casos' && 'Casos Clínicos & Testimonios'}
+              {activeTab === 'equipo' && 'Equipo Profesional & Página Nosotros'}
               {activeTab === 'blog' && 'Gestión de Artículos del Blog'}
               {activeTab === 'config' && 'Configuración General & Redes'}
             </h1>
@@ -1056,7 +1265,482 @@ export function AdminGeneralDashboard() {
           </div>
         )}
 
-        {/* ================= TAB 3: BLOG ================= */}
+        {/* ================= TAB 3: EQUIPO Y NOSOTROS ================= */}
+        {activeTab === 'equipo' && (
+          <div className="space-y-6">
+            {/* Sub-tab Switcher */}
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between bg-white rounded-2xl p-4 border border-slate-200 shadow-xs gap-3">
+              <div className="flex gap-2 flex-wrap">
+                <button
+                  onClick={() => setEquipoSubTab('profesionales')}
+                  className={`px-4 py-2 rounded-xl text-xs font-bold transition flex items-center gap-2 cursor-pointer ${
+                    equipoSubTab === 'profesionales'
+                      ? 'bg-[#0A2540] text-white shadow-xs'
+                      : 'bg-slate-100 text-slate-700 hover:bg-slate-200'
+                  }`}
+                >
+                  <Users className="w-3.5 h-3.5" />
+                  <span>Profesionales del Equipo ({team.length})</span>
+                </button>
+
+                <button
+                  onClick={() => setEquipoSubTab('nosotrosPage')}
+                  className={`px-4 py-2 rounded-xl text-xs font-bold transition flex items-center gap-2 cursor-pointer ${
+                    equipoSubTab === 'nosotrosPage'
+                      ? 'bg-[#0A2540] text-white shadow-xs'
+                      : 'bg-slate-100 text-slate-700 hover:bg-slate-200'
+                  }`}
+                >
+                  <Sparkles className="w-3.5 h-3.5 text-teal-600" />
+                  <span>Textos e Identidad "Nosotros"</span>
+                </button>
+              </div>
+
+              {equipoSubTab === 'profesionales' && (
+                <button
+                  onClick={openCreateMember}
+                  className="px-4 py-2.5 bg-[#0A2540] hover:bg-[#051E34] text-white rounded-full text-xs font-bold flex items-center gap-1.5 shadow-md transition cursor-pointer self-start sm:self-auto"
+                >
+                  <Plus className="w-4 h-4" />
+                  <span>Agregar Profesional</span>
+                </button>
+              )}
+            </div>
+
+            {/* SUBTAB 1: PROFESIONALES DEL EQUIPO */}
+            {equipoSubTab === 'profesionales' && (
+              <div className="space-y-4">
+                <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+                  <p className="text-xs text-slate-500">
+                    Gestioná a cada integrante del equipo médico. Podés cambiar la foto, cargo, biografía, redes sociales o dar de alta/baja a cualquier miembro.
+                  </p>
+                  <div className="flex items-center gap-1 bg-slate-100 p-1 rounded-xl text-xs shrink-0 self-start sm:self-auto">
+                    <button
+                      onClick={() => setMemberFilter('todas')}
+                      className={`px-3 py-1 rounded-lg font-bold transition cursor-pointer ${
+                        memberFilter === 'todas' ? 'bg-white text-[#0A2540] shadow-xs' : 'text-slate-600 hover:text-slate-900'
+                      }`}
+                    >
+                      Todos ({team.length})
+                    </button>
+                    <button
+                      onClick={() => setMemberFilter('visibles')}
+                      className={`px-3 py-1 rounded-lg font-bold transition cursor-pointer ${
+                        memberFilter === 'visibles' ? 'bg-white text-teal-700 shadow-xs' : 'text-slate-600 hover:text-slate-900'
+                      }`}
+                    >
+                      Visibles ({team.filter((m) => m.active !== false).length})
+                    </button>
+                    <button
+                      onClick={() => setMemberFilter('ocultas')}
+                      className={`px-3 py-1 rounded-lg font-bold transition cursor-pointer ${
+                        memberFilter === 'ocultas' ? 'bg-white text-slate-700 shadow-xs' : 'text-slate-600 hover:text-slate-900'
+                      }`}
+                    >
+                      Ocultos ({team.filter((m) => m.active === false).length})
+                    </button>
+                  </div>
+                </div>
+
+                {/* Team Members Grid */}
+                <div className="grid md:grid-cols-2 gap-5">
+                  {team
+                    .map((member, index) => ({ member, index }))
+                    .filter(({ member }) => {
+                      if (memberFilter === 'visibles') return member.active !== false;
+                      if (memberFilter === 'ocultas') return member.active === false;
+                      return true;
+                    })
+                    .map(({ member, index }) => (
+                      <div
+                        key={member.id || member.name}
+                        className={`bg-white rounded-3xl p-5 border transition flex flex-col justify-between space-y-4 shadow-xs hover:shadow-md ${
+                          member.active !== false
+                            ? 'border-slate-200'
+                            : 'border-slate-200 bg-slate-50/70 opacity-75'
+                        }`}
+                      >
+                        <div className="flex gap-4 items-start">
+                          {/* Doctor Portrait Thumbnail */}
+                          <div className="relative w-24 h-28 sm:w-28 sm:h-32 rounded-2xl overflow-hidden bg-slate-100 border border-slate-200 shrink-0">
+                            <img
+                              src={member.photo || '/images/dentisalud/37_nathaly.png'}
+                              alt={member.name}
+                              className="w-full h-full object-cover object-top"
+                            />
+                            <div className="absolute top-1.5 left-1.5 bg-[#0A2540]/80 backdrop-blur-xs text-white text-[10px] font-bold px-1.5 py-0.5 rounded-md">
+                              #{index + 1}
+                            </div>
+                          </div>
+
+                          {/* Doctor Information */}
+                          <div className="space-y-1.5 flex-1 min-w-0">
+                            <div className="flex items-center gap-2 flex-wrap">
+                              <h3 className="text-base font-serif font-bold text-[#0A2540] truncate">
+                                {member.name}
+                              </h3>
+                              {member.active !== false ? (
+                                <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-bold bg-teal-50 text-teal-700 border border-teal-200">
+                                  <span className="w-1.5 h-1.5 rounded-full bg-teal-500"></span>
+                                  Visible
+                                </span>
+                              ) : (
+                                <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-bold bg-slate-100 text-slate-500 border border-slate-200">
+                                  <EyeOff className="w-3 h-3" />
+                                  Oculto
+                                </span>
+                              )}
+                            </div>
+
+                            <p className="text-xs font-semibold text-teal-800 line-clamp-2">
+                              {member.role}
+                            </p>
+
+                            <p className="text-xs text-slate-600 line-clamp-3 leading-relaxed">
+                              {member.bio}
+                            </p>
+
+                            {/* Tags & Instagram */}
+                            <div className="flex flex-wrap items-center gap-1.5 pt-1">
+                              {member.tags?.slice(0, 3).map((tag) => (
+                                <span
+                                  key={tag}
+                                  className="text-[10px] font-semibold bg-[#EAF6F6] text-[#0A2540] px-2 py-0.5 rounded-md border border-[#D5E8E8]"
+                                >
+                                  {tag}
+                                </span>
+                              ))}
+                              {member.tags && member.tags.length > 3 && (
+                                <span className="text-[10px] text-slate-500 font-medium">
+                                  +{member.tags.length - 3}
+                                </span>
+                              )}
+                              {member.instagram && (
+                                <a
+                                  href={member.instagram}
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                  className="inline-flex items-center gap-1 text-[10px] font-bold text-pink-600 bg-pink-50 border border-pink-200 px-2 py-0.5 rounded-md hover:bg-pink-100 transition"
+                                >
+                                  <Instagram className="w-2.5 h-2.5" />
+                                  <span>{member.instagramHandle || 'IG'}</span>
+                                </a>
+                              )}
+                            </div>
+                          </div>
+                        </div>
+
+                        {/* Bottom Actions Bar */}
+                        <div className="flex items-center justify-between border-t border-slate-100 pt-3">
+                          {/* Order Buttons */}
+                          <div className="flex items-center gap-1">
+                            <button
+                              onClick={() => moveMember(index, 'up')}
+                              disabled={index === 0}
+                              className="p-1.5 rounded-lg border border-slate-200 text-slate-600 hover:bg-slate-100 disabled:opacity-30 disabled:cursor-not-allowed transition cursor-pointer"
+                              title="Subir prioridad en carrusel"
+                            >
+                              <ArrowUp className="w-3.5 h-3.5" />
+                            </button>
+                            <button
+                              onClick={() => moveMember(index, 'down')}
+                              disabled={index === team.length - 1}
+                              className="p-1.5 rounded-lg border border-slate-200 text-slate-600 hover:bg-slate-100 disabled:opacity-30 disabled:cursor-not-allowed transition cursor-pointer"
+                              title="Bajar prioridad en carrusel"
+                            >
+                              <ArrowDown className="w-3.5 h-3.5" />
+                            </button>
+                            <span className="text-[11px] text-slate-400 font-medium ml-1">
+                              Posición #{index + 1}
+                            </span>
+                          </div>
+
+                          {/* Edit, Toggle, Delete */}
+                          <div className="flex items-center gap-1.5">
+                            <button
+                              onClick={() => toggleMemberVisibility(index)}
+                              className={`p-2 rounded-xl text-xs font-bold transition flex items-center gap-1 cursor-pointer ${
+                                member.active !== false
+                                  ? 'text-teal-700 hover:bg-teal-50'
+                                  : 'text-slate-400 hover:bg-slate-200'
+                              }`}
+                              title={member.active !== false ? 'Ocultar en la web' : 'Hacer visible'}
+                            >
+                              {member.active !== false ? (
+                                <Eye className="w-4 h-4" />
+                              ) : (
+                                <EyeOff className="w-4 h-4" />
+                              )}
+                            </button>
+
+                            <button
+                              onClick={() => openEditMember(member)}
+                              className="px-3 py-1.5 bg-slate-100 hover:bg-[#EAF6F6] text-[#0A2540] hover:text-teal-900 rounded-xl text-xs font-bold flex items-center gap-1 transition cursor-pointer"
+                            >
+                              <Edit2 className="w-3.5 h-3.5" />
+                              <span>Editar</span>
+                            </button>
+
+                            <button
+                              onClick={() => setMemberToDelete(member)}
+                              className="p-2 text-rose-500 hover:bg-rose-50 rounded-xl transition cursor-pointer"
+                              title="Eliminar profesional"
+                            >
+                              <Trash2 className="w-4 h-4" />
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    ))}
+                </div>
+              </div>
+            )}
+
+            {/* SUBTAB 2: TEXTOS DE LA PÁGINA NOSOTROS */}
+            {equipoSubTab === 'nosotrosPage' && (
+              <form onSubmit={handleSaveNosotrosInfo} className="space-y-6">
+                {/* HERO DE NOSOTROS */}
+                <div className="bg-white rounded-3xl p-6 sm:p-8 border border-slate-200 shadow-xs space-y-5">
+                  <div className="flex items-center gap-3 border-b border-slate-100 pb-4">
+                    <div className="p-3 bg-teal-50 rounded-2xl text-teal-600">
+                      <Sparkles className="w-6 h-6" />
+                    </div>
+                    <div>
+                      <h2 className="text-lg font-serif font-bold text-[#0A2540]">
+                        Encabezado & Hero de la Página "Nosotros"
+                      </h2>
+                      <p className="text-xs text-slate-500">
+                        Configurá el título principal, el párrafo de presentación y la foto destacada.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="grid sm:grid-cols-2 gap-4">
+                    <div>
+                      <label className="block text-xs font-bold text-slate-700 mb-1">
+                        Badge Superior
+                      </label>
+                      <input
+                        type="text"
+                        value={nHeroBadge}
+                        onChange={(e) => setNHeroBadge(e.target.value)}
+                        placeholder="NOSOTROS · DENTISALUD GROUP"
+                        className="w-full px-3.5 py-2.5 rounded-xl border border-slate-200 text-xs text-slate-800 focus:outline-none focus:ring-2 focus:ring-teal-500"
+                      />
+                    </div>
+                    <div>
+                      <label className="block text-xs font-bold text-slate-700 mb-1">
+                        Título Principal (H1)
+                      </label>
+                      <input
+                        type="text"
+                        value={nHeroTitle}
+                        onChange={(e) => setNHeroTitle(e.target.value)}
+                        placeholder="Cuidamos tu sonrisa con empatía y profesionalismo"
+                        className="w-full px-3.5 py-2.5 rounded-xl border border-slate-200 text-xs text-slate-800 focus:outline-none focus:ring-2 focus:ring-teal-500"
+                      />
+                    </div>
+                  </div>
+
+                  <div>
+                    <label className="block text-xs font-bold text-slate-700 mb-1">
+                      Párrafo de Presentación
+                    </label>
+                    <textarea
+                      rows={3}
+                      value={nHeroText}
+                      onChange={(e) => setNHeroText(e.target.value)}
+                      placeholder="En DentiSalud Group, la Dra. Nathaly Martínez..."
+                      className="w-full px-3.5 py-2.5 rounded-xl border border-slate-200 text-xs text-slate-800 focus:outline-none focus:ring-2 focus:ring-teal-500"
+                    />
+                  </div>
+
+                  {/* Foto Destacada Hero de Nosotros */}
+                  <div className="bg-slate-50 p-4 rounded-2xl border border-slate-200/80 space-y-3">
+                    <label className="block text-xs font-bold text-slate-700">
+                      Foto Destacada del Hero (Derecha)
+                    </label>
+                    <div className="flex gap-4 items-center">
+                      <div className="relative w-28 h-20 rounded-xl overflow-hidden bg-white border border-slate-300 shrink-0 shadow-xs">
+                        <img
+                          src={nHeroPhoto || '/images/dentisalud/20_recepcionista.jpg'}
+                          alt="Hero Preview"
+                          className="w-full h-full object-cover"
+                        />
+                      </div>
+                      <div className="space-y-2 flex-1 min-w-0">
+                        <div className="flex flex-wrap gap-2">
+                          <label className="px-3 py-1.5 bg-[#0A2540] hover:bg-[#051E34] text-white rounded-xl text-xs font-bold flex items-center gap-1.5 cursor-pointer shadow-xs transition">
+                            <Upload className="w-3.5 h-3.5" />
+                            <span>
+                              {isUploadingNosotrosHero ? 'Subiendo...' : 'Subir archivo de mi PC'}
+                            </span>
+                            <input
+                              type="file"
+                              accept="image/*"
+                              className="hidden"
+                              onChange={(e) => {
+                                if (e.target.files && e.target.files[0]) {
+                                  handleFileUpload(e.target.files[0], 'nosotrosHero');
+                                }
+                              }}
+                            />
+                          </label>
+                        </div>
+                        <div className="flex items-center gap-2">
+                          <span className="text-[11px] text-slate-500 whitespace-nowrap">
+                            O elegir preset:
+                          </span>
+                          <select
+                            onChange={(e) => {
+                              if (e.target.value) setNHeroPhoto(e.target.value);
+                            }}
+                            className="text-xs px-2.5 py-1 rounded-lg border border-slate-200 bg-white text-slate-700 focus:outline-none w-full"
+                            defaultValue=""
+                          >
+                            <option value="" disabled>
+                              Seleccionar foto de clínica...
+                            </option>
+                            {CLINIC_PRESET_PHOTOS.map((p) => (
+                              <option key={p.url} value={p.url}>
+                                {p.label}
+                              </option>
+                            ))}
+                          </select>
+                        </div>
+                        <input
+                          type="text"
+                          value={nHeroPhoto}
+                          onChange={(e) => setNHeroPhoto(e.target.value)}
+                          placeholder="URL de foto..."
+                          className="w-full px-2.5 py-1 text-xs rounded-lg border border-slate-200 bg-white text-slate-700"
+                        />
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* 3 Puntos de Confianza */}
+                  <div className="space-y-3 pt-2">
+                    <label className="block text-xs font-bold text-slate-700">
+                      3 Puntos de Confianza / Sellos (Pills inferiores)
+                    </label>
+                    <div className="grid sm:grid-cols-3 gap-3">
+                      <div>
+                        <span className="text-[11px] text-slate-500 font-medium block mb-1">
+                          Sello 1:
+                        </span>
+                        <input
+                          type="text"
+                          value={nBadge1}
+                          onChange={(e) => setNBadge1(e.target.value)}
+                          placeholder="Clínica habilitada..."
+                          className="w-full px-3 py-2 rounded-xl border border-slate-200 text-xs text-slate-800"
+                        />
+                      </div>
+                      <div>
+                        <span className="text-[11px] text-slate-500 font-medium block mb-1">
+                          Sello 2:
+                        </span>
+                        <input
+                          type="text"
+                          value={nBadge2}
+                          onChange={(e) => setNBadge2(e.target.value)}
+                          placeholder="Equipo interdisciplinario"
+                          className="w-full px-3 py-2 rounded-xl border border-slate-200 text-xs text-slate-800"
+                        />
+                      </div>
+                      <div>
+                        <span className="text-[11px] text-slate-500 font-medium block mb-1">
+                          Sello 3:
+                        </span>
+                        <input
+                          type="text"
+                          value={nBadge3}
+                          onChange={(e) => setNBadge3(e.target.value)}
+                          placeholder="+5.000 sonrisas transformadas"
+                          className="w-full px-3 py-2 rounded-xl border border-slate-200 text-xs text-slate-800"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                {/* ENCABEZADOS DE LA SECCIÓN DE EQUIPO */}
+                <div className="bg-white rounded-3xl p-6 sm:p-8 border border-slate-200 shadow-xs space-y-4">
+                  <div className="flex items-center gap-3 border-b border-slate-100 pb-4">
+                    <div className="p-3 bg-teal-50 rounded-2xl text-teal-600">
+                      <Users className="w-6 h-6" />
+                    </div>
+                    <div>
+                      <h2 className="text-lg font-serif font-bold text-[#0A2540]">
+                        Títulos de la Sección "Nuestro Equipo"
+                      </h2>
+                      <p className="text-xs text-slate-500">
+                        Encabezados que introducen el carrusel de profesionales en la página Nosotros.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="grid sm:grid-cols-2 gap-4">
+                    <div>
+                      <label className="block text-xs font-bold text-slate-700 mb-1">
+                        Badge Superior de Sección
+                      </label>
+                      <input
+                        type="text"
+                        value={nTeamBadge}
+                        onChange={(e) => setNTeamBadge(e.target.value)}
+                        placeholder="PROFESIONALES DE LA SALUD BUCAL"
+                        className="w-full px-3.5 py-2.5 rounded-xl border border-slate-200 text-xs text-slate-800 focus:outline-none focus:ring-2 focus:ring-teal-500"
+                      />
+                    </div>
+                    <div>
+                      <label className="block text-xs font-bold text-slate-700 mb-1">
+                        Título de la Sección (H2)
+                      </label>
+                      <input
+                        type="text"
+                        value={nTeamTitle}
+                        onChange={(e) => setNTeamTitle(e.target.value)}
+                        placeholder="Nuestro equipo"
+                        className="w-full px-3.5 py-2.5 rounded-xl border border-slate-200 text-xs text-slate-800 focus:outline-none focus:ring-2 focus:ring-teal-500"
+                      />
+                    </div>
+                  </div>
+
+                  <div>
+                    <label className="block text-xs font-bold text-slate-700 mb-1">
+                      Subtítulo Descriptivo
+                    </label>
+                    <input
+                      type="text"
+                      value={nTeamSubtitle}
+                      onChange={(e) => setNTeamSubtitle(e.target.value)}
+                      placeholder="Un equipo interdisciplinario coordinado..."
+                      className="w-full px-3.5 py-2.5 rounded-xl border border-slate-200 text-xs text-slate-800 focus:outline-none focus:ring-2 focus:ring-teal-500"
+                    />
+                  </div>
+                </div>
+
+                {/* Submit button for Nosotros texts */}
+                <div className="flex justify-end">
+                  <button
+                    type="submit"
+                    disabled={isSavingNosotrosTexts}
+                    className="px-6 py-3 rounded-full bg-[#0A2540] hover:bg-[#051E34] text-white text-xs sm:text-sm font-bold shadow-lg transition disabled:opacity-50 flex items-center gap-2 cursor-pointer"
+                  >
+                    <CheckCircle2 className="w-4 h-4 text-teal-300" />
+                    <span>
+                      {isSavingNosotrosTexts ? 'Guardando en Supabase...' : 'Guardar Textos de Nosotros'}
+                    </span>
+                  </button>
+                </div>
+              </form>
+            )}
+          </div>
+        )}
+
+        {/* ================= TAB 4: BLOG ================= */}
         {activeTab === 'blog' && (
           <div className="bg-white rounded-3xl border border-slate-200 shadow-xs overflow-hidden">
             <AdminBlogManager embedded={true} />
@@ -1765,6 +2449,243 @@ export function AdminGeneralDashboard() {
               <button
                 onClick={confirmDeleteCase}
                 className="px-5 py-2 rounded-full bg-red-600 text-white text-xs font-bold"
+              >
+                Sí, eliminar
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* ================= MODAL CREAR / EDITAR PROFESIONAL ================= */}
+      {isTeamModalOpen && (
+        <div className="fixed inset-0 z-50 bg-black/60 backdrop-blur-xs flex items-center justify-center p-4 overflow-y-auto">
+          <div className="bg-white rounded-3xl max-w-xl w-full p-6 sm:p-7 shadow-2xl space-y-4 my-8 max-h-[90vh] overflow-y-auto">
+            <div className="flex items-center justify-between border-b border-slate-100 pb-3">
+              <div className="flex items-center gap-2">
+                <div className="p-2 bg-teal-50 text-teal-700 rounded-xl">
+                  <Users className="w-5 h-5" />
+                </div>
+                <div>
+                  <h3 className="text-base font-bold text-[#0A2540]">
+                    {editingMember ? 'Editar Profesional del Equipo' : 'Nuevo Profesional del Equipo'}
+                  </h3>
+                  <p className="text-xs text-slate-500">
+                    Completá los datos para que aparezca en el carrusel de la página Nosotros.
+                  </p>
+                </div>
+              </div>
+              <button
+                onClick={() => setIsTeamModalOpen(false)}
+                className="p-1 rounded-full text-slate-400 hover:text-slate-700 hover:bg-slate-100 cursor-pointer"
+              >
+                <X className="w-5 h-5" />
+              </button>
+            </div>
+
+            <form onSubmit={handleSaveMember} className="space-y-4">
+              {/* Nombre y Cargo */}
+              <div className="grid sm:grid-cols-2 gap-4">
+                <div>
+                  <label className="block text-xs font-bold text-slate-700 mb-1">Nombre y Apellido</label>
+                  <input
+                    type="text"
+                    required
+                    value={tmName}
+                    onChange={(e) => setTmName(e.target.value)}
+                    placeholder="Ej. Dra. Nathaly Martínez"
+                    className="w-full px-3.5 py-2.5 rounded-xl border border-slate-200 text-xs text-slate-800 focus:outline-none focus:ring-2 focus:ring-teal-500"
+                  />
+                </div>
+                <div>
+                  <label className="block text-xs font-bold text-slate-700 mb-1">Cargo / Especialidad Principal</label>
+                  <input
+                    type="text"
+                    required
+                    value={tmRole}
+                    onChange={(e) => setTmRole(e.target.value)}
+                    placeholder="Ej. Ortodoncista / Cirujano Maxilofacial"
+                    className="w-full px-3.5 py-2.5 rounded-xl border border-slate-200 text-xs text-slate-800 focus:outline-none focus:ring-2 focus:ring-teal-500"
+                  />
+                </div>
+              </div>
+
+              {/* Bio */}
+              <div>
+                <label className="block text-xs font-bold text-slate-700 mb-1">
+                  Biografía / Trayectoria y Formación
+                </label>
+                <textarea
+                  rows={4}
+                  required
+                  value={tmBio}
+                  onChange={(e) => setTmBio(e.target.value)}
+                  placeholder="Odontóloga especialista en... con más de 10 años de experiencia, egresada de..."
+                  className="w-full px-3.5 py-2.5 rounded-xl border border-slate-200 text-xs text-slate-800 focus:outline-none focus:ring-2 focus:ring-teal-500"
+                />
+              </div>
+
+              {/* Foto del Profesional */}
+              <div className="space-y-2 bg-slate-50 p-4 rounded-2xl border border-slate-200/80">
+                <label className="block text-xs font-bold text-slate-700">Foto del Profesional</label>
+                <div className="flex gap-4 items-center">
+                  <div className="relative w-20 h-24 rounded-xl overflow-hidden bg-white border border-slate-300 shrink-0 shadow-xs">
+                    <img
+                      src={tmPhoto || '/images/dentisalud/37_nathaly.png'}
+                      alt="Preview"
+                      className="w-full h-full object-cover object-top"
+                    />
+                  </div>
+
+                  <div className="space-y-2 flex-1 min-w-0">
+                    <div className="flex flex-wrap gap-2">
+                      <label className="px-3 py-1.5 bg-[#0A2540] hover:bg-[#051E34] text-white rounded-xl text-xs font-bold flex items-center gap-1.5 cursor-pointer shadow-xs transition">
+                        <Upload className="w-3.5 h-3.5" />
+                        <span>{isUploadingTeamPhoto ? 'Subiendo...' : 'Subir archivo de mi PC'}</span>
+                        <input
+                          type="file"
+                          accept="image/*"
+                          className="hidden"
+                          onChange={(e) => {
+                            if (e.target.files && e.target.files[0]) {
+                              handleFileUpload(e.target.files[0], 'team');
+                            }
+                          }}
+                        />
+                      </label>
+                    </div>
+
+                    {/* Presets dropdown */}
+                    <div className="flex items-center gap-2">
+                      <span className="text-[11px] text-slate-500 whitespace-nowrap">O elegir preset:</span>
+                      <select
+                        onChange={(e) => {
+                          if (e.target.value) setTmPhoto(e.target.value);
+                        }}
+                        className="text-xs px-2.5 py-1 rounded-lg border border-slate-200 bg-white text-slate-700 focus:outline-none w-full"
+                        defaultValue=""
+                      >
+                        <option value="" disabled>Seleccionar foto de la clínica...</option>
+                        {CLINIC_PRESET_PHOTOS.map((p) => (
+                          <option key={p.url} value={p.url}>
+                            {p.label}
+                          </option>
+                        ))}
+                      </select>
+                    </div>
+
+                    <input
+                      type="text"
+                      value={tmPhoto}
+                      onChange={(e) => setTmPhoto(e.target.value)}
+                      placeholder="O pegar URL de imagen: /images/... o https://..."
+                      className="w-full px-2.5 py-1 text-xs rounded-lg border border-slate-200 bg-white text-slate-700"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              {/* Tags / Especialidades */}
+              <div>
+                <label className="block text-xs font-bold text-slate-700 mb-1">
+                  Especialidades / Palabras Clave (separadas por coma)
+                </label>
+                <input
+                  type="text"
+                  value={tmTags}
+                  onChange={(e) => setTmTags(e.target.value)}
+                  placeholder="Ej. Implantología, Estética Dental, Rehabilitación Oral"
+                  className="w-full px-3.5 py-2.5 rounded-xl border border-slate-200 text-xs text-slate-800 focus:outline-none focus:ring-2 focus:ring-teal-500"
+                />
+              </div>
+
+              {/* Instagram URL y Handle */}
+              <div className="grid sm:grid-cols-2 gap-4">
+                <div>
+                  <label className="block text-xs font-bold text-slate-700 mb-1">
+                    Link de Instagram (opcional)
+                  </label>
+                  <input
+                    type="url"
+                    value={tmInstagram}
+                    onChange={(e) => setTmInstagram(e.target.value)}
+                    placeholder="https://www.instagram.com/usuario/"
+                    className="w-full px-3.5 py-2.5 rounded-xl border border-slate-200 text-xs text-slate-800 focus:outline-none focus:ring-2 focus:ring-teal-500"
+                  />
+                </div>
+                <div>
+                  <label className="block text-xs font-bold text-slate-700 mb-1">
+                    Usuario de Instagram (Handle)
+                  </label>
+                  <input
+                    type="text"
+                    value={tmInstagramHandle}
+                    onChange={(e) => setTmInstagramHandle(e.target.value)}
+                    placeholder="Ej. @od.nathalymartinez"
+                    className="w-full px-3.5 py-2.5 rounded-xl border border-slate-200 text-xs text-slate-800 focus:outline-none focus:ring-2 focus:ring-teal-500"
+                  />
+                </div>
+              </div>
+
+              {/* Visibilidad Checkbox */}
+              <div className="flex items-center gap-2 pt-1">
+                <input
+                  type="checkbox"
+                  id="tmActiveCheck"
+                  checked={tmActive}
+                  onChange={(e) => setTmActive(e.target.checked)}
+                  className="w-4 h-4 rounded text-teal-600 focus:ring-teal-500 cursor-pointer"
+                />
+                <label htmlFor="tmActiveCheck" className="text-xs font-bold text-slate-700 cursor-pointer">
+                  Mostrar este profesional en el carrusel de la página web
+                </label>
+              </div>
+
+              {/* Modal Buttons */}
+              <div className="flex items-center justify-end gap-3 pt-3 border-t border-slate-100">
+                <button
+                  type="button"
+                  onClick={() => setIsTeamModalOpen(false)}
+                  className="px-4 py-2 rounded-xl border border-slate-200 text-slate-600 font-bold text-xs hover:bg-slate-100 cursor-pointer"
+                >
+                  Cancelar
+                </button>
+                <button
+                  type="submit"
+                  disabled={isSavingMember}
+                  className="px-5 py-2 rounded-xl bg-[#0A2540] hover:bg-[#051E34] text-white font-bold text-xs shadow-md transition disabled:opacity-50 cursor-pointer"
+                >
+                  {isSavingMember ? 'Guardando...' : editingMember ? 'Guardar Cambios' : 'Agregar al Equipo'}
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      )}
+
+      {/* ================= MODAL CONFIRM DELETE PROFESIONAL ================= */}
+      {memberToDelete && (
+        <div className="fixed inset-0 z-50 bg-black/60 backdrop-blur-xs flex items-center justify-center p-4">
+          <div className="bg-white rounded-3xl p-6 max-w-sm w-full space-y-4 text-center">
+            <div className="w-12 h-12 rounded-full bg-red-50 text-red-600 flex items-center justify-center mx-auto">
+              <Trash2 className="w-6 h-6" />
+            </div>
+            <h3 className="font-serif font-bold text-base text-slate-900">
+              ¿Eliminar a {memberToDelete.name}?
+            </h3>
+            <p className="text-xs text-slate-500">
+              Esta acción quitará al profesional del equipo y del carrusel de la página Nosotros.
+            </p>
+            <div className="flex items-center justify-center gap-2 pt-2">
+              <button
+                onClick={() => setMemberToDelete(null)}
+                className="px-4 py-2 rounded-full border border-slate-200 text-xs font-bold text-slate-700 cursor-pointer"
+              >
+                Cancelar
+              </button>
+              <button
+                onClick={confirmDeleteMember}
+                className="px-5 py-2 rounded-full bg-red-600 hover:bg-red-700 text-white text-xs font-bold cursor-pointer"
               >
                 Sí, eliminar
               </button>

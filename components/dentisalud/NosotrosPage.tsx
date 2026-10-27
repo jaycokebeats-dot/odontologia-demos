@@ -9,12 +9,30 @@ import { DentiSaludFooter } from './Footer';
 import { DentiSaludFloatingWhatsApp } from './FloatingWhatsApp';
 import { ClinicSpacesCarousel } from './ClinicSpacesCarousel';
 import { TeamCarousel } from './TeamCarousel';
+import { useSiteData } from './useSiteData';
 
 interface NosotrosPageProps {
   basePath?: string;
 }
 
 export function DentiSaludNosotrosPage({ basePath = '' }: NosotrosPageProps) {
+  const { nosotrosInfo } = useSiteData();
+
+  const heroBadge = nosotrosInfo?.heroBadge || 'NOSOTROS · DENTISALUD GROUP';
+  const heroTitle = nosotrosInfo?.heroTitle || 'Cuidamos tu sonrisa con empatía y profesionalismo';
+  const heroText =
+    nosotrosInfo?.heroText ||
+    'En DentiSalud Group, la Dra. Nathaly Martínez y su equipo brindan odontología integral en el corazón de Belgrano. Combinamos tecnología de última generación, diagnósticos certeros, materiales de alta durabilidad y atención personalizada, para que cada visita sea cómoda y confiable. ¡Tu salud bucal en manos expertas!';
+  const heroPhoto = nosotrosInfo?.heroPhoto || DENTISALUD_PHOTOS.recepcionista;
+  const badge1 = nosotrosInfo?.badge1 || 'Clínica habilitada por el Ministerio de Salud y el GCBA';
+  const badge2 = nosotrosInfo?.badge2 || 'Equipo interdisciplinario';
+  const badge3 = nosotrosInfo?.badge3 || '+5.000 sonrisas transformadas';
+  const teamSectionBadge = nosotrosInfo?.teamSectionBadge || 'PROFESIONALES DE LA SALUD BUCAL';
+  const teamSectionTitle = nosotrosInfo?.teamSectionTitle || 'Nuestro equipo';
+  const teamSectionSubtitle =
+    nosotrosInfo?.teamSectionSubtitle ||
+    'Un equipo interdisciplinario coordinado para que recibas la mejor atención en cada área.';
+
   return (
     <div className="min-h-screen flex flex-col bg-white text-slate-800 font-sans">
       <DentiSaludNavbar basePath={basePath} />
@@ -26,29 +44,29 @@ export function DentiSaludNosotrosPage({ basePath = '' }: NosotrosPageProps) {
             <div className="grid lg:grid-cols-12 gap-12 items-center">
               <div className="lg:col-span-7 space-y-6">
                 <span className="text-xs font-bold uppercase tracking-widest text-slate-700">
-                  NOSOTROS · DENTISALUD GROUP
+                  {heroBadge}
                 </span>
 
                 <h1 className="text-4xl sm:text-5xl lg:text-6xl font-serif font-extrabold text-[#0A2540] leading-[1.1] tracking-tight">
-                  Cuidamos tu sonrisa con empatía y profesionalismo
+                  {heroTitle}
                 </h1>
 
                 <p className="text-base sm:text-lg text-slate-700 font-normal leading-relaxed max-w-xl">
-                  En DentiSalud Group, la Dra. Nathaly Martínez y su equipo brindan odontología integral en el corazón de Belgrano. Combinamos tecnología de última generación, diagnósticos certeros, materiales de alta durabilidad y atención personalizada, para que cada visita sea cómoda y confiable. ¡Tu salud bucal en manos expertas!
+                  {heroText}
                 </p>
 
                 <div className="pt-2 flex flex-wrap gap-3 text-xs font-semibold text-slate-700 border-t border-slate-100">
                   <div className="flex items-center gap-1.5 bg-[#EAF6F6] text-[#0A2540] px-3.5 py-2 rounded-full border border-[#D5E8E8]">
                     <ShieldCheck className="w-4 h-4 text-teal-700 shrink-0" />
-                    <span>Clínica habilitada por el Ministerio de Salud y el GCBA</span>
+                    <span>{badge1}</span>
                   </div>
                   <div className="flex items-center gap-1.5 bg-[#EAF6F6] text-[#0A2540] px-3.5 py-2 rounded-full border border-[#D5E8E8]">
                     <Users className="w-4 h-4 text-teal-700 shrink-0" />
-                    <span>Equipo interdisciplinario</span>
+                    <span>{badge2}</span>
                   </div>
                   <div className="flex items-center gap-1.5 bg-[#EAF6F6] text-[#0A2540] px-3.5 py-2 rounded-full border border-[#D5E8E8]">
                     <Heart className="w-4 h-4 text-teal-700 shrink-0" />
-                    <span>+5.000 sonrisas transformadas</span>
+                    <span>{badge3}</span>
                   </div>
                 </div>
               </div>
@@ -57,7 +75,7 @@ export function DentiSaludNosotrosPage({ basePath = '' }: NosotrosPageProps) {
               <div className="lg:col-span-5">
                 <div className="relative aspect-[4/3] sm:aspect-[16/11] rounded-[2.5rem] overflow-hidden shadow-2xl border-4 border-[#D5E8E8] bg-slate-100 group">
                   <img
-                    src={DENTISALUD_PHOTOS.recepcionista}
+                    src={heroPhoto}
                     alt="Atención y turnos en DentiSalud Group"
                     className="w-full h-full object-cover object-top group-hover:scale-102 transition duration-500"
                   />
@@ -83,13 +101,13 @@ export function DentiSaludNosotrosPage({ basePath = '' }: NosotrosPageProps) {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
             <div className="text-center max-w-2xl mx-auto space-y-2">
               <span className="text-xs font-bold uppercase tracking-widest text-teal-700">
-                PROFESIONALES DE LA SALUD BUCAL
+                {teamSectionBadge}
               </span>
               <h2 className="text-3xl sm:text-4xl font-serif font-extrabold text-[#0A2540]">
-                Nuestro equipo
+                {teamSectionTitle}
               </h2>
               <p className="text-slate-700 text-sm">
-                Un equipo interdisciplinario coordinado para que recibas la mejor atención en cada área.
+                {teamSectionSubtitle}
               </p>
             </div>
 

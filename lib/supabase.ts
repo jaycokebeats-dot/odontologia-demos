@@ -1,10 +1,12 @@
 import { createClient } from '@supabase/supabase-js';
 import {
   DENTISALUD_INFO,
+  DENTISALUD_TEAM,
   TREATMENTS,
   PATIENT_REVIEWS,
   TreatmentDetail,
   PatientReview,
+  TeamMember,
 } from '@/data/dentisalud-data';
 import {
   BEFORE_AFTER_CASES,
@@ -28,13 +30,45 @@ export const supabase = createClient(supabaseUrl, supabaseAnonKey, {
 export const DENTISALUD_DATA_SLUG = 'dentisalud-site-data';
 export const STORAGE_KEY = 'dentisalud_site_data_v2';
 
+export interface NosotrosInfo {
+  heroBadge: string;
+  heroTitle: string;
+  heroText: string;
+  heroPhoto: string;
+  badge1: string;
+  badge2: string;
+  badge3: string;
+  teamSectionBadge: string;
+  teamSectionTitle: string;
+  teamSectionSubtitle: string;
+}
+
 export interface SiteData {
   info: typeof DENTISALUD_INFO;
   treatments: TreatmentDetail[];
   featuredPhotos: Record<string, string>;
   cases: BeforeAfterCase[];
   reviews: PatientReview[];
+  team: TeamMember[];
+  nosotrosInfo?: NosotrosInfo;
   updatedAt?: string;
+}
+
+export function getDefaultNosotrosInfo(): NosotrosInfo {
+  return {
+    heroBadge: 'NOSOTROS · DENTISALUD GROUP',
+    heroTitle: 'Cuidamos tu sonrisa con empatía y profesionalismo',
+    heroText:
+      'En DentiSalud Group, la Dra. Nathaly Martínez y su equipo brindan odontología integral en el corazón de Belgrano. Combinamos tecnología de última generación, diagnósticos certeros, materiales de alta durabilidad y atención personalizada, para que cada visita sea cómoda y confiable. ¡Tu salud bucal en manos expertas!',
+    heroPhoto: '/images/dentisalud/20_recepcionista.jpg',
+    badge1: 'Clínica habilitada por el Ministerio de Salud y el GCBA',
+    badge2: 'Equipo interdisciplinario',
+    badge3: '+5.000 sonrisas transformadas',
+    teamSectionBadge: 'PROFESIONALES DE LA SALUD BUCAL',
+    teamSectionTitle: 'Nuestro equipo',
+    teamSectionSubtitle:
+      'Un equipo interdisciplinario coordinado para que recibas la mejor atención en cada área.',
+  };
 }
 
 export function getDefaultSiteData(): SiteData {
@@ -45,12 +79,21 @@ export function getDefaultSiteData(): SiteData {
     order: r.order ?? i,
   }));
 
+  const teamWithActive = DENTISALUD_TEAM.map((m, i) => ({
+    ...m,
+    id: m.id || `member-${i + 1}`,
+    active: m.active !== false,
+    order: m.order ?? i,
+  }));
+
   return {
     info: { ...DENTISALUD_INFO, reviewsCount: 93, rating: 5.0, consultationPrice: '$40.000' },
     treatments: JSON.parse(JSON.stringify(TREATMENTS)),
     featuredPhotos: { ...TREATMENT_FEATURED_PHOTOS },
     cases: JSON.parse(JSON.stringify(BEFORE_AFTER_CASES)),
     reviews: reviewsWithActive,
+    team: teamWithActive,
+    nosotrosInfo: getDefaultNosotrosInfo(),
     updatedAt: new Date().toISOString(),
   };
 }
@@ -72,6 +115,16 @@ export async function getSiteData(): Promise<SiteData> {
     }));
   };
 
+  const mergeTeam = (loadedTeam: TeamMember[] = []): TeamMember[] => {
+    if (!loadedTeam || loadedTeam.length === 0) return defaults.team;
+    return loadedTeam.map((m, i) => ({
+      ...m,
+      id: m.id || `member-${i + 1}`,
+      active: m.active !== false,
+      order: m.order ?? i,
+    }));
+  };
+
   // 1. Intentar desde Supabase
   if (supabase) {
     try {
@@ -85,10 +138,15 @@ export async function getSiteData(): Promise<SiteData> {
         const cloudData = data.data as Partial<SiteData>;
         return {
           info: { ...defaults.info, ...(cloudData.info || {}) },
-          treatments: cloudData.treatments && cloudData.treatments.length > 0 ? cloudData.treatments : defaults.treatments,
+          treatments:
+            cloudData.treatments && cloudData.treatments.length > 0
+              ? cloudData.treatments
+              : defaults.treatments,
           featuredPhotos: { ...defaults.featuredPhotos, ...(cloudData.featuredPhotos || {}) },
           cases: cloudData.cases && cloudData.cases.length > 0 ? cloudData.cases : defaults.cases,
           reviews: mergeReviews(cloudData.reviews),
+          team: mergeTeam(cloudData.team),
+          nosotrosInfo: { ...defaults.nosotrosInfo!, ...(cloudData.nosotrosInfo || {}) },
           updatedAt: cloudData.updatedAt || defaults.updatedAt,
         };
       }
@@ -105,10 +163,15 @@ export async function getSiteData(): Promise<SiteData> {
         const parsed = JSON.parse(local);
         return {
           info: { ...defaults.info, ...(parsed.info || {}) },
-          treatments: parsed.treatments && parsed.treatments.length > 0 ? parsed.treatments : defaults.treatments,
+          treatments:
+            parsed.treatments && parsed.treatments.length > 0
+              ? parsed.treatments
+              : defaults.treatments,
           featuredPhotos: { ...defaults.featuredPhotos, ...(parsed.featuredPhotos || {}) },
           cases: parsed.cases && parsed.cases.length > 0 ? parsed.cases : defaults.cases,
           reviews: mergeReviews(parsed.reviews),
+          team: mergeTeam(parsed.team),
+          nosotrosInfo: { ...defaults.nosotrosInfo!, ...(parsed.nosotrosInfo || {}) },
           updatedAt: parsed.updatedAt || defaults.updatedAt,
         };
       }
@@ -131,6 +194,8 @@ export async function saveSiteData(updated: Partial<SiteData>): Promise<{ succes
     featuredPhotos: { ...current.featuredPhotos, ...(updated.featuredPhotos || {}) },
     cases: updated.cases || current.cases,
     reviews: updated.reviews || current.reviews,
+    team: updated.team || current.team,
+    nosotrosInfo: { ...(current.nosotrosInfo || getDefaultNosotrosInfo()), ...(updated.nosotrosInfo || {}) },
     updatedAt: new Date().toISOString(),
   };
 

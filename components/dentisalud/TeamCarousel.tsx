@@ -3,6 +3,7 @@
 import React, { useState } from 'react';
 import { ChevronLeft, ChevronRight, UserCheck } from 'lucide-react';
 import { DENTISALUD_TEAM, TeamMember } from '@/data/dentisalud-data';
+import { useSiteData } from '@/components/dentisalud/useSiteData';
 
 function InstagramIcon({ className = 'w-3.5 h-3.5' }: { className?: string }) {
   return (
@@ -15,27 +16,35 @@ function InstagramIcon({ className = 'w-3.5 h-3.5' }: { className?: string }) {
 }
 
 export function TeamCarousel() {
+  const { team: siteTeam } = useSiteData();
+  const activeTeam = (siteTeam && siteTeam.length > 0 ? siteTeam : DENTISALUD_TEAM).filter(
+    (m) => m.active !== false
+  );
+
   const [currentIndex, setCurrentIndex] = useState(0);
-  const currentMember: TeamMember = DENTISALUD_TEAM[currentIndex];
+  const safeIndex = currentIndex >= activeTeam.length ? 0 : currentIndex;
+  const currentMember: TeamMember = activeTeam[safeIndex] || DENTISALUD_TEAM[0];
 
   const prev = () => {
-    setCurrentIndex((p) => (p === 0 ? DENTISALUD_TEAM.length - 1 : p - 1));
+    setCurrentIndex((p) => (p === 0 ? activeTeam.length - 1 : p - 1));
   };
 
   const next = () => {
-    setCurrentIndex((p) => (p + 1) % DENTISALUD_TEAM.length);
+    setCurrentIndex((p) => (p + 1) % activeTeam.length);
   };
+
+  if (!activeTeam.length) return null;
 
   return (
     <div className="space-y-8">
       {/* Tabs for quick doctor selection */}
       <div className="flex flex-wrap items-center justify-center gap-2 sm:gap-3">
-        {DENTISALUD_TEAM.map((doctor, idx) => (
+        {activeTeam.map((doctor, idx) => (
           <button
-            key={doctor.name}
+            key={doctor.id || doctor.name}
             onClick={() => setCurrentIndex(idx)}
-            className={`px-5 py-2.5 rounded-full text-xs sm:text-sm font-bold transition-all duration-200 ${
-              idx === currentIndex
+            className={`px-5 py-2.5 rounded-full text-xs sm:text-sm font-bold transition-all duration-200 cursor-pointer ${
+              idx === safeIndex
                 ? 'bg-[#0A2540] text-white shadow-md'
                 : 'bg-white text-slate-700 hover:bg-[#EAF6F6] border border-slate-200'
             }`}
@@ -117,20 +126,20 @@ export function TeamCarousel() {
             {/* Navigation Buttons */}
             <div className="pt-4 border-t border-slate-100 flex items-center justify-between">
               <span className="text-xs font-medium text-slate-500">
-                Especialista {currentIndex + 1} de {DENTISALUD_TEAM.length}
+                Especialista {safeIndex + 1} de {activeTeam.length}
               </span>
 
               <div className="flex items-center gap-2">
                 <button
                   onClick={prev}
-                  className="p-2.5 rounded-full bg-slate-100 hover:bg-[#EAF6F6] text-[#0A2540] border border-slate-200 transition"
+                  className="p-2.5 rounded-full bg-slate-100 hover:bg-[#EAF6F6] text-[#0A2540] border border-slate-200 transition cursor-pointer"
                   aria-label="Especialista anterior"
                 >
                   <ChevronLeft className="w-5 h-5" />
                 </button>
                 <button
                   onClick={next}
-                  className="p-2.5 rounded-full bg-slate-100 hover:bg-[#EAF6F6] text-[#0A2540] border border-slate-200 transition"
+                  className="p-2.5 rounded-full bg-slate-100 hover:bg-[#EAF6F6] text-[#0A2540] border border-slate-200 transition cursor-pointer"
                   aria-label="Siguiente especialista"
                 >
                   <ChevronRight className="w-5 h-5" />
