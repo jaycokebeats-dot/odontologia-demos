@@ -47,12 +47,15 @@ export interface BlogArticle {
 }
 
 export interface PatientReview {
+  id?: string;
   name: string;
   treatment: string;
   stars: number;
   comment: string;
   date: string;
   verified: boolean;
+  active?: boolean;
+  order?: number;
 }
 
 export const DENTISALUD_INFO = {
@@ -66,6 +69,7 @@ export const DENTISALUD_INFO = {
   whatsappGeneral: 'https://wa.me/5491128779912?text=Hola%2C%20quiero%20agendar%20un%20turno',
   rating: 5.0,
   reviewsCount: 93,
+  consultationPrice: '$40.000',
   googleMapsUrl: 'https://www.google.com/maps/place/Dra.Nathaly+Martinez+%7C+DentiSalud+Group/data=!4m7!3m6!1s0x95bcb59a121939bd:0x579a94e99325d5ca!8m2!3d-34.5638503!4d-58.4565009!16s%2Fg%2F11zhbdgjj5!19sChIJvTkZEpq1vJURytUlk-mUmlc',
   mapsEmbedUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.453297072551!2d-58.45907582348574!3d-34.56384585557761!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb59a121939bd%3A0x579a94e99325d5ca!2sDra.Nathaly%20Martinez%20%7C%20DentiSalud%20Group!5e0!3m2!1ses!2sar!4v1700000000000!5m2!1ses!2sar',
   transports: {
@@ -528,7 +532,98 @@ export const PATIENT_REVIEWS: PatientReview[] = [
     stars: 5,
     comment: 'Le devolvió la estética a mi boca. Nathaly se toma todo el tiempo necesario para escucharte y darte un presupuesto transparente. Muy recomendable!',
     date: 'Hace 1 mes',
-    verified: true
+    verified: true,
+    active: true
+  },
+  {
+    name: 'Oriana Rodríguez',
+    treatment: 'Consulta & Estética',
+    stars: 5,
+    comment: 'Excelente Profesional, siempre atendiendo con mucha paciencia a cada uno de los pacientes, trabaja con materiales de primera y siempre te brinda la mejor solución. Gracias!',
+    date: 'Hace 1 mes',
+    verified: true,
+    active: true
+  },
+  {
+    name: 'Camila V. Soria',
+    treatment: 'Diseño de Sonrisa & Estética',
+    stars: 5,
+    comment: 'Tenía fobia al dentista desde chica y con Nathaly cambió todo por completo. Es un amor de persona, te contiene, te explica con la cámara intraoral y la anestesia ni la sentís. Consultorio hermoso y súper limpio.',
+    date: 'Hace 3 semanas',
+    verified: true,
+    active: true
+  },
+  {
+    name: 'Federico Albarracín',
+    treatment: 'Urgencia Odontológica',
+    stars: 5,
+    comment: 'Me atendieron por una urgencia un sábado que no conseguía turno en ningún lado. Me resolvieron el dolor en el acto, con un profesionalismo increíble y cobrando lo justo. Impecable atención de todo el equipo.',
+    date: 'Hace 1 mes',
+    verified: true,
+    active: true
+  },
+  {
+    name: 'Agustina Gómez',
+    treatment: 'Carillas Dentales',
+    stars: 5,
+    comment: 'Me hice carillas con Nathaly y me cambió la vida, quedaron súper naturales y con un brillo divino. No parecen postizas para nada. Recomiendo 100%!',
+    date: 'Hace 2 semanas',
+    verified: true,
+    active: true
+  },
+  {
+    name: 'Pablo E. Di Marco',
+    treatment: 'Tratamiento de ATM & Bruxismo',
+    stars: 5,
+    comment: 'Excelente clínica odontológica en Belgrano. El Dr. Isael me trató por un problema de bruxismo y ATM que me tenía con dolores de cabeza constantes, y con la placa de descanso noté alivio inmediato.',
+    date: 'Hace 3 semanas',
+    verified: true,
+    active: true
+  },
+  {
+    name: 'Luciana Paredes',
+    treatment: 'Odontopediatría',
+    stars: 5,
+    comment: 'Llevé a mi nena de 6 años para su primer control y la atención fue pura dulzura. Salió feliz y sin miedo. Es fundamental encontrar profesionales con tanta paciencia y vocación para chicos.',
+    date: 'Hace 2 semanas',
+    verified: true,
+    active: true
+  },
+  {
+    name: 'Javier Méndez',
+    treatment: 'Ortodoncia con Alineadores',
+    stars: 5,
+    comment: 'La Dra. Norma me atendió por ortodoncia con alineadores invisibles. La planificación digital en 3D fue impecable y ya en pocos meses vi cambios enormes. La puntualidad de los turnos es para destacar.',
+    date: 'Hace 1 mes',
+    verified: true,
+    active: true
+  },
+  {
+    name: 'Daniela K. Castro',
+    treatment: 'Implantes Dentales',
+    stars: 5,
+    comment: 'Me hice dos implantes con la Dra. Nathaly y el Dr. Rasec y la experiencia fue de diez. Todo el instrumental estéril, quirófano impecable, me hicieron seguimiento por WhatsApp los días posteriores. Muy confiables.',
+    date: 'Hace 2 semanas',
+    verified: true,
+    active: true
+  },
+  {
+    name: 'Ignacio Pereyra',
+    treatment: 'Limpieza & Blanqueamiento LED',
+    stars: 5,
+    comment: 'Hice una limpieza profunda y blanqueamiento dental. El consultorio tiene sillones comodísimos, todo nuevo y tecnología de avanzada. Salí con los dientes impecables y sin nada de sensibilidad.',
+    date: 'Hace 3 semanas',
+    verified: true,
+    active: true
+  },
+  {
+    name: 'Claudia Morales',
+    treatment: 'Consulta Integral',
+    stars: 5,
+    comment: 'El trato humano es insuperable. Te dedican tiempo de verdad en la consulta integral, no te apuran ni te intentan vender cosas innecesarias. Te dan un presupuesto claro y por escrito. 10 puntos.',
+    date: 'Hace 1 mes',
+    verified: true,
+    active: true
   }
 ];
 

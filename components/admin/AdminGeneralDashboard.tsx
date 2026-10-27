@@ -23,6 +23,10 @@ import {
   Eye,
   SlidersHorizontal,
   ArrowRight,
+  ArrowUp,
+  ArrowDown,
+  EyeOff,
+  DollarSign,
   Database,
   CheckCircle2,
   Phone,
@@ -261,12 +265,14 @@ export function AdminGeneralDashboard() {
   const [editingReview, setEditingReview] = useState<PatientReview | null>(null);
   const [isReviewModalOpen, setIsReviewModalOpen] = useState(false);
   const [reviewToDelete, setReviewToDelete] = useState<PatientReview | null>(null);
+  const [reviewFilter, setReviewFilter] = useState<'todas' | 'visibles' | 'ocultas'>('todas');
 
   const [rName, setRName] = useState('');
   const [rTreatment, setRTreatment] = useState('');
   const [rStars, setRStars] = useState(5);
   const [rComment, setRComment] = useState('');
   const [rDate, setRDate] = useState('Hace 1 semana');
+  const [rActive, setRActive] = useState(true);
   const [isSavingReview, setIsSavingReview] = useState(false);
 
   const openCreateReview = () => {
@@ -276,6 +282,7 @@ export function AdminGeneralDashboard() {
     setRStars(5);
     setRComment('');
     setRDate('Hace 1 semana');
+    setRActive(true);
     setIsReviewModalOpen(true);
   };
 
@@ -286,6 +293,7 @@ export function AdminGeneralDashboard() {
     setRStars(r.stars);
     setRComment(r.comment);
     setRDate(r.date);
+    setRActive(r.active !== false);
     setIsReviewModalOpen(true);
   };
 
@@ -298,12 +306,14 @@ export function AdminGeneralDashboard() {
 
     setIsSavingReview(true);
     const payload: PatientReview = {
+      id: editingReview?.id || `rev-${Date.now()}`,
       name: rName,
       treatment: rTreatment || 'Atención Odontológica',
       stars: rStars,
       comment: rComment,
       date: rDate || 'Reciente',
       verified: true,
+      active: rActive,
     };
 
     let updatedReviews: PatientReview[];
@@ -321,6 +331,33 @@ export function AdminGeneralDashboard() {
     }
   };
 
+  const toggleReviewVisibility = async (index: number) => {
+    const target = reviews[index];
+    if (!target) return;
+    const currentStatus = target.active !== false;
+    const updatedReviews = [...reviews];
+    updatedReviews[index] = { ...target, active: !currentStatus };
+    const res = await updateData({ reviews: updatedReviews });
+    if (res.success) {
+      showToast(!currentStatus ? `Reseña de ${target.name} visible en la web.` : `Reseña de ${target.name} ocultada de la web.`);
+    }
+  };
+
+  const moveReview = async (index: number, direction: 'up' | 'down') => {
+    if (direction === 'up' && index === 0) return;
+    if (direction === 'down' && index === reviews.length - 1) return;
+    const targetIndex = direction === 'up' ? index - 1 : index + 1;
+    const updatedReviews = [...reviews];
+    const temp = updatedReviews[index];
+    updatedReviews[index] = updatedReviews[targetIndex];
+    updatedReviews[targetIndex] = temp;
+
+    const res = await updateData({ reviews: updatedReviews });
+    if (res.success) {
+      showToast(`Orden actualizado (#${targetIndex + 1})`);
+    }
+  };
+
   const confirmDeleteReview = async () => {
     if (!reviewToDelete) return;
     const updatedReviews = reviews.filter((r) => !(r.name === reviewToDelete.name && r.comment === reviewToDelete.comment));
@@ -332,6 +369,7 @@ export function AdminGeneralDashboard() {
   };
 
   // ================= CONFIGURACIÓN GENERAL STATE & HANDLERS =================
+  const [cfgConsultationPrice, setCfgConsultationPrice] = useState<string>(info.consultationPrice || '$40.000');
   const [cfgReviewsCount, setCfgReviewsCount] = useState<number>(info.reviewsCount || 93);
   const [cfgRating, setCfgRating] = useState<number>(info.rating || 5.0);
   const [cfgPhone, setCfgPhone] = useState(info.phone || '+54 9 11 2877-9912');
@@ -344,6 +382,7 @@ export function AdminGeneralDashboard() {
 
   useEffect(() => {
     if (info) {
+      setCfgConsultationPrice(info.consultationPrice || '$40.000');
       setCfgReviewsCount(info.reviewsCount || 93);
       setCfgRating(info.rating || 5.0);
       setCfgPhone(info.phone || '+54 9 11 2877-9912');
@@ -360,6 +399,7 @@ export function AdminGeneralDashboard() {
 
     const updatedInfo = {
       ...info,
+      consultationPrice: cfgConsultationPrice.trim() || '$40.000',
       reviewsCount: Number(cfgReviewsCount) || 93,
       rating: Number(cfgRating) || 5.0,
       phone: cfgPhone,
@@ -644,6 +684,47 @@ export function AdminGeneralDashboard() {
         {/* ================= TAB 1: TRATAMIENTOS ================= */}
         {activeTab === 'tratamientos' && (
           <div className="space-y-6">
+            {/* QUICK CONSULTATION PRICE BANNER */}
+            <div className="bg-gradient-to-r from-teal-50/90 via-white to-blue-50/90 border border-teal-100 rounded-3xl p-5 sm:p-6 flex flex-col md:flex-row items-start md:items-center justify-between gap-4 shadow-xs">
+              <div className="flex items-center gap-3.5">
+                <div className="w-12 h-12 rounded-2xl bg-teal-600 text-white flex items-center justify-center font-bold shrink-0 shadow-sm">
+                  <DollarSign className="w-6 h-6" />
+                </div>
+                <div>
+                  <div className="text-sm font-bold text-[#0A2540] flex items-center gap-2">
+                    <span>Precio de la Consulta Integral:</span>
+                    <span className="text-teal-700 font-extrabold text-lg">{info.consultationPrice || '$40.000'}</span>
+                  </div>
+                  <p className="text-xs text-slate-500 mt-0.5">
+                    Se sincroniza automáticamente en las preguntas frecuentes (FAQ) de Inicio y en la página de Consulta Integral.
+                  </p>
+                </div>
+              </div>
+
+              <div className="flex items-center gap-2 w-full md:w-auto">
+                <input
+                  type="text"
+                  value={cfgConsultationPrice}
+                  onChange={(e) => setCfgConsultationPrice(e.target.value)}
+                  placeholder="$40.000"
+                  className="px-4 py-2.5 rounded-xl border border-slate-300 text-sm font-bold text-slate-800 bg-white w-full sm:w-36 focus:outline-none focus:border-[#0A2540]"
+                />
+                <button
+                  type="button"
+                  onClick={async () => {
+                    const res = await updateData({
+                      info: { ...info, consultationPrice: cfgConsultationPrice.trim() || '$40.000' }
+                    });
+                    if (res.success) showToast('¡Precio de la consulta actualizado en toda la web!');
+                  }}
+                  className="px-5 py-2.5 bg-[#0A2540] hover:bg-[#051E34] text-white text-xs font-bold rounded-xl shadow-xs transition whitespace-nowrap cursor-pointer flex items-center gap-1.5"
+                >
+                  <Check className="w-3.5 h-3.5 text-teal-300" />
+                  <span>Guardar Precio</span>
+                </button>
+              </div>
+            </div>
+
             <div className="bg-white rounded-2xl p-5 border border-slate-200 shadow-xs flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
               <div>
                 <h2 className="text-lg font-serif font-bold text-[#0A2540]">
@@ -812,51 +893,163 @@ export function AdminGeneralDashboard() {
 
             {/* TESTIMONIOS SUBTAB CONTENT */}
             {casosSubTab === 'testimonios' && (
-              <div className="space-y-4">
-                <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-                  {reviews.map((r, idx) => (
-                    <div
-                      key={idx}
-                      className="bg-white rounded-3xl p-6 border border-slate-200 shadow-xs hover:shadow-md transition flex flex-col justify-between"
-                    >
-                      <div className="space-y-3">
-                        <div className="flex items-center justify-between">
-                          <div className="flex gap-1 text-amber-400">
-                            {[...Array(r.stars || 5)].map((_, i) => (
-                              <Star key={i} className="w-4 h-4 fill-amber-400" />
-                            ))}
-                          </div>
-                          <span className="text-[11px] text-slate-400">{r.date}</span>
-                        </div>
-
-                        <p className="text-xs text-slate-700 italic leading-relaxed">
-                          "{r.comment}"
-                        </p>
-
-                        <div className="pt-2 border-t border-slate-100">
-                          <h4 className="text-xs font-bold text-[#0A2540]">{r.name}</h4>
-                          <span className="text-[11px] text-teal-700">{r.treatment}</span>
-                        </div>
-                      </div>
-
-                      <div className="pt-4 mt-4 border-t border-slate-100 flex items-center justify-end gap-2">
-                        <button
-                          onClick={() => openEditReview(r)}
-                          className="p-2 rounded-xl text-slate-600 hover:text-[#0A2540] hover:bg-slate-100 transition"
-                          title="Editar testimonio"
-                        >
-                          <Edit2 className="w-4 h-4" />
-                        </button>
-                        <button
-                          onClick={() => setReviewToDelete(r)}
-                          className="p-2 rounded-xl text-red-500 hover:text-red-700 hover:bg-red-50 transition"
-                          title="Eliminar testimonio"
-                        >
-                          <Trash2 className="w-4 h-4" />
-                        </button>
-                      </div>
+              <div className="space-y-6">
+                <div className="bg-white rounded-2xl p-4 sm:p-5 border border-slate-200 shadow-xs flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
+                  <div className="flex items-center gap-2 flex-wrap">
+                    <span className="text-xs font-bold text-slate-500">Filtrar:</span>
+                    <div className="flex gap-1.5 bg-slate-100 p-1 rounded-xl text-xs font-bold">
+                      <button
+                        onClick={() => setReviewFilter('todas')}
+                        className={`px-3 py-1.5 rounded-lg transition cursor-pointer ${
+                          reviewFilter === 'todas'
+                            ? 'bg-white text-[#0A2540] shadow-xs'
+                            : 'text-slate-600 hover:text-slate-900'
+                        }`}
+                      >
+                        Todas ({reviews.length})
+                      </button>
+                      <button
+                        onClick={() => setReviewFilter('visibles')}
+                        className={`px-3 py-1.5 rounded-lg transition cursor-pointer ${
+                          reviewFilter === 'visibles'
+                            ? 'bg-emerald-600 text-white shadow-xs'
+                            : 'text-emerald-700 hover:bg-emerald-50'
+                        }`}
+                      >
+                        Visibles en la web ({reviews.filter((r) => r.active !== false).length})
+                      </button>
+                      <button
+                        onClick={() => setReviewFilter('ocultas')}
+                        className={`px-3 py-1.5 rounded-lg transition cursor-pointer ${
+                          reviewFilter === 'ocultas'
+                            ? 'bg-slate-700 text-white shadow-xs'
+                            : 'text-slate-500 hover:bg-slate-200'
+                        }`}
+                      >
+                        Ocultas ({reviews.filter((r) => r.active === false).length})
+                      </button>
                     </div>
-                  ))}
+                  </div>
+
+                  <p className="text-xs text-slate-500">
+                    💡 Podés elegir cuáles se ven con el botón <span className="font-bold text-emerald-700">Visible</span> y cambiar el orden con las flechas <span className="font-bold">↑ ↓</span>.
+                  </p>
+                </div>
+
+                {/* Reviews Grid */}
+                <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                  {reviews
+                    .map((r, originalIndex) => ({ review: r, originalIndex }))
+                    .filter(({ review }) => {
+                      if (reviewFilter === 'visibles') return review.active !== false;
+                      if (reviewFilter === 'ocultas') return review.active === false;
+                      return true;
+                    })
+                    .map(({ review: r, originalIndex }) => {
+                      const isVisible = r.active !== false;
+                      return (
+                        <div
+                          key={r.id || originalIndex}
+                          className={`bg-white rounded-3xl p-6 border transition flex flex-col justify-between shadow-xs hover:shadow-md relative ${
+                            isVisible ? 'border-slate-200' : 'border-slate-200 bg-slate-50/70 opacity-75'
+                          }`}
+                        >
+                          <div className="space-y-3">
+                            {/* Card Top: Position Badge & Visibility Toggle */}
+                            <div className="flex items-center justify-between">
+                              <div className="flex items-center gap-2">
+                                <span className="px-2.5 py-1 rounded-lg bg-[#0A2540] text-teal-300 font-mono text-[11px] font-black">
+                                  #{originalIndex + 1}
+                                </span>
+                                <div className="flex gap-0.5 text-amber-400">
+                                  {[...Array(r.stars || 5)].map((_, i) => (
+                                    <Star key={i} className="w-3.5 h-3.5 fill-amber-400" />
+                                  ))}
+                                </div>
+                              </div>
+
+                              {/* Quick Toggle Button */}
+                              <button
+                                type="button"
+                                onClick={() => toggleReviewVisibility(originalIndex)}
+                                className={`px-2.5 py-1 rounded-full text-[10px] font-bold flex items-center gap-1 transition cursor-pointer ${
+                                  isVisible
+                                    ? 'bg-emerald-50 text-emerald-700 border border-emerald-200 hover:bg-emerald-100'
+                                    : 'bg-slate-200 text-slate-600 border border-slate-300 hover:bg-slate-300'
+                                }`}
+                                title={isVisible ? 'Hacé clic para ocultar de la web' : 'Hacé clic para mostrar en la web'}
+                              >
+                                {isVisible ? (
+                                  <>
+                                    <Eye className="w-3 h-3 text-emerald-600" />
+                                    <span>Visible en web</span>
+                                  </>
+                                ) : (
+                                  <>
+                                    <EyeOff className="w-3 h-3 text-slate-500" />
+                                    <span>Oculta</span>
+                                  </>
+                                )}
+                              </button>
+                            </div>
+
+                            <p className="text-xs text-slate-700 italic leading-relaxed line-clamp-4">
+                              "{r.comment}"
+                            </p>
+
+                            <div className="pt-2 border-t border-slate-100 flex items-center justify-between">
+                              <div>
+                                <h4 className="text-xs font-bold text-[#0A2540]">{r.name}</h4>
+                                <span className="text-[11px] text-teal-700 block">{r.treatment}</span>
+                              </div>
+                              <span className="text-[10px] text-slate-400">{r.date}</span>
+                            </div>
+                          </div>
+
+                          {/* Footer Actions: Reorder and Edit/Delete */}
+                          <div className="pt-4 mt-4 border-t border-slate-100 flex items-center justify-between">
+                            {/* Reorder Buttons */}
+                            <div className="flex items-center gap-1">
+                              <button
+                                type="button"
+                                disabled={originalIndex === 0}
+                                onClick={() => moveReview(originalIndex, 'up')}
+                                className="p-1.5 rounded-lg border border-slate-200 text-slate-600 hover:bg-slate-100 disabled:opacity-30 disabled:hover:bg-transparent transition cursor-pointer"
+                                title="Subir orden"
+                              >
+                                <ArrowUp className="w-3.5 h-3.5" />
+                              </button>
+                              <button
+                                type="button"
+                                disabled={originalIndex === reviews.length - 1}
+                                onClick={() => moveReview(originalIndex, 'down')}
+                                className="p-1.5 rounded-lg border border-slate-200 text-slate-600 hover:bg-slate-100 disabled:opacity-30 disabled:hover:bg-transparent transition cursor-pointer"
+                                title="Bajar orden"
+                              >
+                                <ArrowDown className="w-3.5 h-3.5" />
+                              </button>
+                            </div>
+
+                            <div className="flex items-center gap-1.5">
+                              <button
+                                onClick={() => openEditReview(r)}
+                                className="p-2 rounded-xl text-slate-600 hover:text-[#0A2540] hover:bg-slate-100 transition cursor-pointer"
+                                title="Editar reseña"
+                              >
+                                <Edit2 className="w-4 h-4" />
+                              </button>
+                              <button
+                                onClick={() => setReviewToDelete(r)}
+                                className="p-2 rounded-xl text-red-500 hover:text-red-700 hover:bg-red-50 transition cursor-pointer"
+                                title="Eliminar reseña"
+                              >
+                                <Trash2 className="w-4 h-4" />
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      );
+                    })}
                 </div>
               </div>
             )}
@@ -874,6 +1067,37 @@ export function AdminGeneralDashboard() {
         {activeTab === 'config' && (
           <div className="space-y-6">
             <form onSubmit={handleSaveGeneralConfig} className="space-y-6">
+              {/* PRECIO DE LA CONSULTA */}
+              <div className="bg-white rounded-3xl p-6 sm:p-8 border border-slate-200 shadow-xs space-y-4">
+                <div className="flex items-center gap-3 border-b border-slate-100 pb-4">
+                  <div className="p-3 bg-teal-50 rounded-2xl text-teal-600">
+                    <DollarSign className="w-6 h-6" />
+                  </div>
+                  <div>
+                    <h2 className="text-lg font-serif font-bold text-[#0A2540]">
+                      Precio de la Consulta Odontológica Integral
+                    </h2>
+                    <p className="text-xs text-slate-500">
+                      Modificá el valor mostrado en las preguntas frecuentes (FAQ) y en la página de consulta
+                    </p>
+                  </div>
+                </div>
+
+                <div className="max-w-md space-y-1">
+                  <label className="text-xs font-bold text-slate-700">Valor / Precio visible:</label>
+                  <input
+                    type="text"
+                    value={cfgConsultationPrice}
+                    onChange={(e) => setCfgConsultationPrice(e.target.value)}
+                    placeholder="$40.000"
+                    className="w-full px-4 py-2.5 rounded-xl border border-slate-300 text-sm font-bold text-slate-800 focus:outline-none focus:border-[#0A2540]"
+                  />
+                  <p className="text-[11px] text-slate-400">
+                    Ejemplo: <strong className="text-slate-600">$40.000</strong> o <strong className="text-slate-600">ARS $45.000</strong>. Al guardar se actualiza en toda la web en vivo.
+                  </p>
+                </div>
+              </div>
+
               {/* GOOGLE REVIEWS SECTION */}
               <div className="bg-white rounded-3xl p-6 sm:p-8 border border-slate-200 shadow-xs space-y-6">
                 <div className="flex items-center gap-3 border-b border-slate-100 pb-4">
@@ -1482,6 +1706,19 @@ export function AdminGeneralDashboard() {
                   className="w-full px-3.5 py-2 rounded-xl border border-slate-300 text-slate-800"
                   required
                 />
+              </div>
+
+              <div className="pt-2 flex items-center gap-2">
+                <input
+                  type="checkbox"
+                  id="modal-review-active"
+                  checked={rActive}
+                  onChange={(e) => setRActive(e.target.checked)}
+                  className="w-4 h-4 rounded text-[#0A2540] border-slate-300 cursor-pointer"
+                />
+                <label htmlFor="modal-review-active" className="text-xs font-bold text-slate-700 cursor-pointer">
+                  Mostrar esta reseña en la página web (Visible)
+                </label>
               </div>
 
               <div className="flex items-center justify-end gap-2 pt-3">

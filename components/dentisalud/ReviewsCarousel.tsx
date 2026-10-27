@@ -13,7 +13,9 @@ interface ReviewsCarouselProps {
 export function ReviewsCarousel({ reviews = PATIENT_REVIEWS, titleBadge }: ReviewsCarouselProps) {
   const { reviewsCount } = useGoogleReviews();
   const [currentIndex, setCurrentIndex] = useState(0);
-  const activeReviews = reviews && reviews.length > 0 ? reviews : PATIENT_REVIEWS;
+  const rawReviews = reviews && reviews.length > 0 ? reviews : PATIENT_REVIEWS;
+  const visibleReviews = rawReviews.filter((r) => r.active !== false);
+  const activeReviews = visibleReviews.length > 0 ? visibleReviews : rawReviews;
 
   useEffect(() => {
     setCurrentIndex(0);

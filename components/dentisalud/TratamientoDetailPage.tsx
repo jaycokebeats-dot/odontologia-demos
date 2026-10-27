@@ -19,9 +19,10 @@ interface TratamientoDetailPageProps {
 
 export function DentiSaludTratamientoDetailPage({ treatment: initialTreatment, basePath = '' }: TratamientoDetailPageProps) {
   const [openFaq, setOpenFaq] = useState<number | null>(0);
-  const { featuredPhotos, treatments, cases } = useSiteData();
+  const { featuredPhotos, treatments, cases, info } = useSiteData();
   const treatment = treatments.find((t) => t.slug === initialTreatment.slug) || initialTreatment;
   const featuredPhoto = featuredPhotos[treatment.slug] || TREATMENT_FEATURED_PHOTOS[treatment.slug] || '/images/dentisalud/21_consultorio_principal.jpg';
+  const consultationPrice = info.consultationPrice || '$40.000';
 
   // Specific case filters per treatment
   const disenoCases = cases.filter((c) =>
@@ -363,7 +364,9 @@ export function DentiSaludTratamientoDetailPage({ treatment: initialTreatment, b
                     </button>
                     {openFaq === idx && (
                       <div className="px-6 pb-6 text-xs sm:text-sm text-slate-700 leading-relaxed border-t border-slate-100 pt-4">
-                        {faq.answer}
+                        {faq.question.toLowerCase().includes('cuesta la consulta')
+                          ? `Actualmente tiene un valor de ${consultationPrice}.`
+                          : faq.answer}
                       </div>
                     )}
                   </div>

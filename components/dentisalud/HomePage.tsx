@@ -37,8 +37,9 @@ interface HomePageProps {
 
 export function DentiSaludHomePage({ basePath = '' }: HomePageProps) {
   const { reviewsCount, rating } = useGoogleReviews();
-  const { treatments, cases, reviews } = useSiteData();
+  const { info, treatments, cases, reviews } = useSiteData();
   const [openFaq, setOpenFaq] = useState<number | null>(0);
+  const consultationPrice = info.consultationPrice || '$40.000';
 
   const firstVisitSteps = [
     {
@@ -70,7 +71,7 @@ export function DentiSaludHomePage({ basePath = '' }: HomePageProps) {
     },
     {
       q: '¿Cuánto cuesta un tratamiento?',
-      a: 'La consulta integral cuesta $40.000. Los tratamientos se cotizan de manera formal después de esa consulta, porque cada caso es único.',
+      a: `La consulta integral cuesta ${consultationPrice}. Los tratamientos se cotizan de manera formal después de esa consulta, porque cada caso es único.`,
     },
     {
       q: '¿Cómo puedo pagar?',

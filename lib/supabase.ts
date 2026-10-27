@@ -38,12 +38,19 @@ export interface SiteData {
 }
 
 export function getDefaultSiteData(): SiteData {
+  const reviewsWithActive = PATIENT_REVIEWS.map((r, i) => ({
+    ...r,
+    id: r.id || `review-${i + 1}`,
+    active: r.active !== false,
+    order: r.order ?? i,
+  }));
+
   return {
-    info: { ...DENTISALUD_INFO, reviewsCount: 93, rating: 5.0 },
+    info: { ...DENTISALUD_INFO, reviewsCount: 93, rating: 5.0, consultationPrice: '$40.000' },
     treatments: JSON.parse(JSON.stringify(TREATMENTS)),
     featuredPhotos: { ...TREATMENT_FEATURED_PHOTOS },
     cases: JSON.parse(JSON.stringify(BEFORE_AFTER_CASES)),
-    reviews: JSON.parse(JSON.stringify(PATIENT_REVIEWS)),
+    reviews: reviewsWithActive,
     updatedAt: new Date().toISOString(),
   };
 }
@@ -53,6 +60,17 @@ export function getDefaultSiteData(): SiteData {
  */
 export async function getSiteData(): Promise<SiteData> {
   const defaults = getDefaultSiteData();
+
+  const mergeReviews = (loadedReviews: PatientReview[] = []): PatientReview[] => {
+    if (!loadedReviews || loadedReviews.length === 0) return defaults.reviews;
+    const existingNames = new Set(loadedReviews.map((r) => r.name.toLowerCase()));
+    const missingDefaults = defaults.reviews.filter((r) => !existingNames.has(r.name.toLowerCase()));
+    return [...loadedReviews, ...missingDefaults].map((r, i) => ({
+      ...r,
+      id: r.id || `rev-${i + 1}`,
+      active: r.active !== false,
+    }));
+  };
 
   // 1. Intentar desde Supabase
   if (supabase) {
@@ -70,7 +88,7 @@ export async function getSiteData(): Promise<SiteData> {
           treatments: cloudData.treatments && cloudData.treatments.length > 0 ? cloudData.treatments : defaults.treatments,
           featuredPhotos: { ...defaults.featuredPhotos, ...(cloudData.featuredPhotos || {}) },
           cases: cloudData.cases && cloudData.cases.length > 0 ? cloudData.cases : defaults.cases,
-          reviews: cloudData.reviews && cloudData.reviews.length > 0 ? cloudData.reviews : defaults.reviews,
+          reviews: mergeReviews(cloudData.reviews),
           updatedAt: cloudData.updatedAt || defaults.updatedAt,
         };
       }
@@ -90,7 +108,7 @@ export async function getSiteData(): Promise<SiteData> {
           treatments: parsed.treatments && parsed.treatments.length > 0 ? parsed.treatments : defaults.treatments,
           featuredPhotos: { ...defaults.featuredPhotos, ...(parsed.featuredPhotos || {}) },
           cases: parsed.cases && parsed.cases.length > 0 ? parsed.cases : defaults.cases,
-          reviews: parsed.reviews && parsed.reviews.length > 0 ? parsed.reviews : defaults.reviews,
+          reviews: mergeReviews(parsed.reviews),
           updatedAt: parsed.updatedAt || defaults.updatedAt,
         };
       }
