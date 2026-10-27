@@ -5,6 +5,7 @@ import { MessageCircle, Star, Sparkles } from 'lucide-react';
 import { DENTISALUD_INFO, PATIENT_REVIEWS } from '@/data/dentisalud-data';
 import { BEFORE_AFTER_CASES } from '@/data/dentisalud-photos';
 import { useGoogleReviews } from './useGoogleReviews';
+import { useSiteData } from './useSiteData';
 import { DentiSaludNavbar } from './Navbar';
 import { DentiSaludFooter } from './Footer';
 import { DentiSaludFloatingWhatsApp } from './FloatingWhatsApp';
@@ -17,10 +18,11 @@ interface CasosPageProps {
 
 export function DentiSaludCasosPage({ basePath = '' }: CasosPageProps) {
   const { reviewsCount, rating } = useGoogleReviews();
+  const { cases, reviews } = useSiteData();
   const [activeCategory, setActiveCategory] = useState<string>('todos');
 
   const categories = [
-    { id: 'todos', label: `Todos los casos (${BEFORE_AFTER_CASES.length})` },
+    { id: 'todos', label: `Todos los casos (${cases.length})` },
     { id: 'estetica', label: 'Diseño de sonrisa' },
     { id: 'carillas', label: 'Carillas' },
     { id: 'blanqueamiento', label: 'Blanqueamiento' },
@@ -30,8 +32,8 @@ export function DentiSaludCasosPage({ basePath = '' }: CasosPageProps) {
 
   const filteredCases =
     activeCategory === 'todos'
-      ? BEFORE_AFTER_CASES
-      : BEFORE_AFTER_CASES.filter((c) => c.category === activeCategory);
+      ? cases
+      : cases.filter((c) => c.category === activeCategory);
 
   return (
     <div className="min-h-screen flex flex-col bg-white text-slate-800 font-sans">
@@ -97,7 +99,7 @@ export function DentiSaludCasosPage({ basePath = '' }: CasosPageProps) {
             </div>
 
             <div className="max-w-4xl mx-auto">
-              <ReviewsCarousel />
+              <ReviewsCarousel reviews={reviews} />
             </div>
           </div>
         </section>

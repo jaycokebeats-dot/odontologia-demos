@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { ArrowLeft, MessageCircle, CheckCircle2, ChevronDown, ChevronUp } from 'lucide-react';
 import { TreatmentDetail, DENTISALUD_INFO, ENDODONCIA_REVIEWS } from '@/data/dentisalud-data';
 import { TREATMENT_FEATURED_PHOTOS, BEFORE_AFTER_CASES } from '@/data/dentisalud-photos';
+import { useSiteData } from './useSiteData';
 import { DentiSaludNavbar } from './Navbar';
 import { DentiSaludFooter } from './Footer';
 import { DentiSaludFloatingWhatsApp } from './FloatingWhatsApp';
@@ -16,20 +17,22 @@ interface TratamientoDetailPageProps {
   basePath?: string;
 }
 
-export function DentiSaludTratamientoDetailPage({ treatment, basePath = '' }: TratamientoDetailPageProps) {
+export function DentiSaludTratamientoDetailPage({ treatment: initialTreatment, basePath = '' }: TratamientoDetailPageProps) {
   const [openFaq, setOpenFaq] = useState<number | null>(0);
-  const featuredPhoto = TREATMENT_FEATURED_PHOTOS[treatment.slug] || '/images/dentisalud/21_consultorio_principal.jpg';
+  const { featuredPhotos, treatments, cases } = useSiteData();
+  const treatment = treatments.find((t) => t.slug === initialTreatment.slug) || initialTreatment;
+  const featuredPhoto = featuredPhotos[treatment.slug] || TREATMENT_FEATURED_PHOTOS[treatment.slug] || '/images/dentisalud/21_consultorio_principal.jpg';
 
   // Specific case filters per treatment
-  const disenoCases = BEFORE_AFTER_CASES.filter((c) =>
-    ['case-gingivoplastia', 'case-carillas-disilicato', 'case-carillas-sector-anterior'].includes(c.id)
+  const disenoCases = cases.filter((c) =>
+    ['case-gingivoplastia', 'case-carillas-disilicato', 'case-carillas-sector-anterior'].includes(c.id) || c.treatmentSlug === 'diseno-de-sonrisa'
   );
 
-  const blanqueamientoCases = BEFORE_AFTER_CASES.filter((c) =>
-    ['case-blanqueamiento-1', 'case-blanqueamiento-2'].includes(c.id)
+  const blanqueamientoCases = cases.filter((c) =>
+    ['case-blanqueamiento-1', 'case-blanqueamiento-2'].includes(c.id) || c.treatmentSlug === 'blanqueamiento-dental'
   );
 
-  const ortodonciaCase = BEFORE_AFTER_CASES.find((c) => c.id === 'case-ortodoncia-1');
+  const ortodonciaCase = cases.find((c) => c.id === 'case-ortodoncia-1' || c.treatmentSlug === 'ortodoncia');
 
   // Ortodoncia graphic types with realistic images (autoligables removed, photo applied to metallic)
   const ortodonciaTypes = [

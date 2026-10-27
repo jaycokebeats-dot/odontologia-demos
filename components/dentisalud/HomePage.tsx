@@ -20,6 +20,7 @@ import {
 import { DENTISALUD_INFO, TREATMENTS, PATIENT_REVIEWS } from '@/data/dentisalud-data';
 import { DENTISALUD_PHOTOS, BEFORE_AFTER_CASES } from '@/data/dentisalud-photos';
 import { useGoogleReviews } from './useGoogleReviews';
+import { useSiteData } from './useSiteData';
 import { DentiSaludNavbar } from './Navbar';
 import { DentiSaludFooter } from './Footer';
 import { DentiSaludFloatingWhatsApp } from './FloatingWhatsApp';
@@ -36,6 +37,7 @@ interface HomePageProps {
 
 export function DentiSaludHomePage({ basePath = '' }: HomePageProps) {
   const { reviewsCount, rating } = useGoogleReviews();
+  const { treatments, cases, reviews } = useSiteData();
   const [openFaq, setOpenFaq] = useState<number | null>(0);
 
   const firstVisitSteps = [
@@ -195,7 +197,7 @@ export function DentiSaludHomePage({ basePath = '' }: HomePageProps) {
             </div>
 
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-              {TREATMENTS.slice(0, 7).map((t) => (
+              {treatments.slice(0, 7).map((t) => (
                 <Link
                   key={t.slug}
                   href={`${basePath}/tratamientos/${t.slug}`}
@@ -307,14 +309,14 @@ export function DentiSaludHomePage({ basePath = '' }: HomePageProps) {
             </div>
 
             <div className="grid md:grid-cols-3 gap-6">
-              {/* Case 1: Blanqueamiento */}
-              <BeforeAfterCard caseData={BEFORE_AFTER_CASES[2]} />
+              {/* Case 1 */}
+              {cases[0] && <BeforeAfterCard caseData={cases[2] || cases[0]} />}
 
-              {/* Case 2: Micro Diseño */}
-              <BeforeAfterCard caseData={BEFORE_AFTER_CASES[4]} />
+              {/* Case 2 */}
+              {cases[1] && <BeforeAfterCard caseData={cases[4] || cases[1]} />}
 
               {/* Interactive Reviews Carousel Card */}
-              <ReviewsCarousel />
+              <ReviewsCarousel reviews={reviews} />
             </div>
           </div>
         </section>

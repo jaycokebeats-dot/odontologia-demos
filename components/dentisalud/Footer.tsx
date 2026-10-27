@@ -1,6 +1,9 @@
+'use client';
+
 import React from 'react';
 import Link from 'next/link';
 import { DENTISALUD_INFO } from '@/data/dentisalud-data';
+import { useSiteData } from './useSiteData';
 
 function InstagramIcon({ className = 'w-4 h-4' }: { className?: string }) {
   return (
@@ -25,6 +28,13 @@ interface FooterProps {
 }
 
 export function DentiSaludFooter({ basePath = '/d/dra-nathaly-martinez' }: FooterProps) {
+  const { info } = useSiteData();
+  const instagramUrl = info.socials?.instagram || DENTISALUD_INFO.socials.instagram;
+  const tiktokUrl = info.socials?.tiktok || DENTISALUD_INFO.socials.tiktok;
+  const phoneText = info.phone || DENTISALUD_INFO.phone;
+  const waUrl = info.whatsappGeneral || DENTISALUD_INFO.whatsappGeneral;
+  const addressText = info.address || DENTISALUD_INFO.address;
+
   return (
     <footer className="bg-[#0A2540] text-white pt-16 pb-12 border-t border-[#0F355A]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -45,7 +55,7 @@ export function DentiSaludFooter({ basePath = '/d/dra-nathaly-martinez' }: Foote
             {/* Social Icons */}
             <div className="pt-2 flex items-center gap-3">
               <a
-                href={DENTISALUD_INFO.socials.instagram}
+                href={instagramUrl}
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Instagram de DentiSalud Group"
@@ -55,7 +65,7 @@ export function DentiSaludFooter({ basePath = '/d/dra-nathaly-martinez' }: Foote
                 <InstagramIcon className="w-4 h-4" />
               </a>
               <a
-                href={DENTISALUD_INFO.socials.tiktok}
+                href={tiktokUrl}
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="TikTok de DentiSalud Group"
@@ -131,21 +141,21 @@ export function DentiSaludFooter({ basePath = '/d/dra-nathaly-martinez' }: Foote
               Contacto
             </h4>
             <div className="space-y-2 text-xs text-slate-300 font-light">
-              <p className="font-normal text-white">{DENTISALUD_INFO.address}</p>
+              <p className="font-normal text-white">{addressText}</p>
               <p>{DENTISALUD_INFO.hours}</p>
               <p className="pt-1">
                 <a
-                  href={DENTISALUD_INFO.whatsappGeneral}
+                  href={waUrl}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-1.5 text-teal-300 font-medium hover:underline"
                 >
-                  WhatsApp: {DENTISALUD_INFO.phone}
+                  WhatsApp: {phoneText}
                 </a>
               </p>
               <div className="pt-2 flex flex-col gap-1.5 text-xs text-slate-300">
                 <a
-                  href={DENTISALUD_INFO.socials.instagram}
+                  href={instagramUrl}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 hover:text-teal-300 transition"
@@ -154,12 +164,12 @@ export function DentiSaludFooter({ basePath = '/d/dra-nathaly-martinez' }: Foote
                   <span>@dentisaludgroup</span>
                 </a>
                 <a
-                  href={DENTISALUD_INFO.socials.tiktok}
+                  href={tiktokUrl}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 hover:text-teal-300 transition"
                 >
-                  <TikTokIcon className="w-3.5 h-3.5 text-teal-300" />
+                  <TikTokIcon className="w-3.5 h-3.5 text-white" />
                   <span>@dentisalud.arg</span>
                 </a>
               </div>

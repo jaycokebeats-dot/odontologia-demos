@@ -4,6 +4,7 @@ import React from 'react';
 import Link from 'next/link';
 import { ArrowRight, MessageCircle } from 'lucide-react';
 import { DENTISALUD_INFO, TREATMENTS } from '@/data/dentisalud-data';
+import { useSiteData } from './useSiteData';
 import { DentiSaludNavbar } from './Navbar';
 import { DentiSaludFooter } from './Footer';
 import { DentiSaludFloatingWhatsApp } from './FloatingWhatsApp';
@@ -13,10 +14,11 @@ interface TratamientosPageProps {
 }
 
 export function DentiSaludTratamientosPage({ basePath = '' }: TratamientosPageProps) {
-  const prevencion = TREATMENTS.filter((t) => t.category === 'prevencion');
-  const rehabilitacion = TREATMENTS.filter((t) => t.category === 'rehabilitacion');
-  const estetica = TREATMENTS.filter((t) => t.category === 'estetica');
-  const especialidades = TREATMENTS.filter((t) => t.category === 'especialidades');
+  const { treatments } = useSiteData();
+  const prevencion = treatments.filter((t) => t.category === 'prevencion');
+  const rehabilitacion = treatments.filter((t) => t.category === 'rehabilitacion');
+  const estetica = treatments.filter((t) => t.category === 'estetica');
+  const especialidades = treatments.filter((t) => t.category === 'especialidades');
 
   return (
     <div className="min-h-screen flex flex-col bg-white text-slate-800 font-sans">

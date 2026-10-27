@@ -27,7 +27,7 @@ import {
 } from 'lucide-react';
 import { BlogArticle } from '@/data/dentisalud-data';
 
-const DEFAULT_PIN = 'dentisalud2026';
+const DEFAULT_PIN = 'dentisalud2710';
 const CLINIC_PRESET_PHOTOS = [
   { label: 'Consultorio Principal', url: '/images/dentisalud/21_consultorio_principal.jpg' },
   { label: 'Sala de Espera', url: '/images/dentisalud/19_sala_de_espera.jpg' },
@@ -41,8 +41,12 @@ const CLINIC_PRESET_PHOTOS = [
   { label: 'Ortodoncia & Alineadores', url: '/images/dentisalud/46_alineadores.png' },
 ];
 
-export function AdminBlogManager() {
-  const [isAuthenticated, setIsAuthenticated] = useState<boolean>(false);
+interface AdminBlogManagerProps {
+  embedded?: boolean;
+}
+
+export function AdminBlogManager({ embedded = false }: AdminBlogManagerProps = {}) {
+  const [isAuthenticated, setIsAuthenticated] = useState<boolean>(embedded);
   const [pinInput, setPinInput] = useState<string>('');
   const [pinError, setPinError] = useState<string>('');
 
@@ -80,7 +84,7 @@ export function AdminBlogManager() {
   // Check stored auth
   useEffect(() => {
     const authSaved = localStorage.getItem('dentisalud_admin_auth');
-    if (authSaved === 'true') {
+    if (authSaved === 'dentisalud2710' || authSaved === 'true') {
       setIsAuthenticated(true);
     }
   }, []);
@@ -169,7 +173,7 @@ export function AdminBlogManager() {
       localStorage.setItem('dentisalud_admin_auth', 'true');
       setPinError('');
     } else {
-      setPinError('Clave incorrecta. Pista: dentisalud2026');
+      setPinError('Clave incorrecta. Verificá e intentá nuevamente.');
     }
   };
 
@@ -437,7 +441,6 @@ export function AdminBlogManager() {
                 className="w-full px-4 py-3 rounded-xl border border-slate-300 text-sm focus:outline-none focus:border-[#0A2540] focus:ring-2 focus:ring-[#0A2540]/20"
                 autoFocus
               />
-              <p className="text-[11px] text-slate-400">Pista / clave predeterminada: <strong className="text-slate-600">dentisalud2026</strong></p>
             </div>
 
             {pinError && (
@@ -468,7 +471,7 @@ export function AdminBlogManager() {
 
   // ================= RENDER DASHBOARD =================
   return (
-    <div className="min-h-screen bg-slate-50 text-slate-800 font-sans pb-24">
+    <div className={embedded ? "p-6 space-y-6" : "min-h-screen bg-slate-50 text-slate-800 font-sans pb-24"}>
       {/* TOAST ALERT */}
       {toastMessage && (
         <div className="fixed top-5 right-5 z-50 bg-[#0A2540] text-white px-5 py-3 rounded-2xl shadow-2xl border border-teal-400/40 text-xs sm:text-sm font-bold flex items-center gap-2 animate-bounce">
@@ -478,31 +481,124 @@ export function AdminBlogManager() {
       )}
 
       {/* TOP NAVBAR */}
-      <header className="bg-white border-b border-slate-200 sticky top-0 z-40">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-18 flex items-center justify-between">
-          <div className="flex items-center gap-4">
-            <Link href="/" className="flex items-center gap-2.5 group">
-              <img
-                src="/images/dentisalud/logo_dentisalud_white.png"
-                alt="DentiSalud Group"
-                className="h-8 w-auto bg-[#0A2540] p-1.5 rounded-lg object-contain"
-              />
+      {!embedded && (
+        <header className="bg-white border-b border-slate-200 sticky top-0 z-40">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-18 flex items-center justify-between">
+            <div className="flex items-center gap-4">
+              <Link href="/" className="flex items-center gap-2.5 group">
+                <img
+                  src="/images/dentisalud/logo_dentisalud_white.png"
+                  alt="DentiSalud Group"
+                  className="h-8 w-auto bg-[#0A2540] p-1.5 rounded-lg object-contain"
+                />
+                <div>
+                  <span className="text-xs font-extrabold uppercase tracking-widest text-[#0A2540] block">
+                    DentiSalud Panel
+                  </span>
+                  <span className="text-[10px] text-teal-700 font-semibold">
+                    Gestión del Blog
+                  </span>
+                </div>
+              </Link>
+            </div>
+
+            <div className="flex items-center gap-3">
+              <Link
+                href="/blog"
+                target="_blank"
+                className="hidden sm:inline-flex items-center gap-1.5 px-3.5 py-2 rounded-full border border-slate-200 bg-slate-50 hover:bg-slate-100 text-xs font-bold text-slate-700 transition"
+              >
+                <span>Ver Blog Público</span>
+                <ExternalLink className="w-3.5 h-3.5" />
+              </Link>
+
+              <button
+                onClick={openCreateModal}
+                className="inline-flex items-center gap-2 bg-[#0A2540] hover:bg-[#051E34] text-white text-xs sm:text-sm font-bold px-4 py-2.5 rounded-full shadow-md hover:shadow-lg transition transform hover:-translate-y-0.5"
+              >
+                <Plus className="w-4 h-4" />
+                <span>Nuevo Artículo</span>
+              </button>
+
+              <button
+                onClick={handleLogout}
+                className="p-2 rounded-full text-slate-400 hover:text-slate-700 hover:bg-slate-100 transition"
+                title="Cerrar sesión"
+              >
+                <Unlock className="w-4 h-4" />
+              </button>
+            </div>
+          </div>
+        </header>
+      )}
+
+      {/* DASHBOARD HERO */}
+      {!embedded && (
+        <div className="bg-[#0A2540] text-white py-10 px-4 sm:px-6 lg:px-8 border-b border-[#133C63]">
+          <div className="max-w-7xl mx-auto space-y-4">
+            <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
               <div>
-                <span className="text-xs font-extrabold uppercase tracking-widest text-[#0A2540] block">
-                  DentiSalud Panel
+                <span className="text-xs font-bold uppercase tracking-widest text-teal-300">
+                  ADMINISTRACIÓN DE CONTENIDOS
                 </span>
-                <span className="text-[10px] text-teal-700 font-semibold">
-                  Gestión del Blog
-                </span>
+                <h1 className="text-3xl font-serif font-extrabold mt-1">
+                  Artículos del Blog
+                </h1>
+                <p className="text-xs sm:text-sm text-slate-300 mt-1 max-w-xl font-light">
+                  Creá, editá o eliminá publicaciones con fotos y formato. Los cambios se reflejan inmediatamente en la web de DentiSalud Group.
+                </p>
               </div>
-            </Link>
+
+              <div className="flex items-center gap-2">
+                <button
+                  onClick={() => setIsGoogleModalOpen(true)}
+                  className="px-3.5 py-2 rounded-xl bg-teal-500/20 hover:bg-teal-500/30 border border-teal-400/30 text-xs font-bold text-teal-200 hover:text-white transition flex items-center gap-1.5"
+                  title="Configurar Google Reviews"
+                >
+                  <Star className="w-3.5 h-3.5 fill-amber-400 text-amber-400" />
+                  <span>Google Reviews ({reviewsCount})</span>
+                </button>
+
+                <button
+                  onClick={exportBackup}
+                  className="px-3.5 py-2 rounded-xl bg-[#133C63] hover:bg-[#1a4a75] text-xs font-bold text-slate-200 hover:text-white transition flex items-center gap-1.5"
+                  title="Descargar copia en JSON de todos los artículos"
+                >
+                  <Download className="w-3.5 h-3.5" />
+                  <span>Exportar JSON</span>
+                </button>
+
+                <button
+                  onClick={resetToBaseline}
+                  className="px-3.5 py-2 rounded-xl bg-[#133C63] hover:bg-[#1a4a75] text-xs font-bold text-slate-200 hover:text-white transition flex items-center gap-1.5"
+                  title="Restaurar artículos originales"
+                >
+                  <RefreshCw className="w-3.5 h-3.5" />
+                  <span>Restaurar</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* EMBEDDED TOP BAR */}
+      {embedded && (
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-4 border-b border-slate-100">
+          <div>
+            <h2 className="text-xl font-serif font-bold text-[#0A2540]">
+              Artículos del Blog
+            </h2>
+            <p className="text-xs text-slate-500">
+              Creá, editá o eliminá publicaciones del blog público.
+            </p>
           </div>
 
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-2">
             <Link
               href="/blog"
               target="_blank"
-              className="hidden sm:inline-flex items-center gap-1.5 px-3.5 py-2 rounded-full border border-slate-200 bg-slate-50 hover:bg-slate-100 text-xs font-bold text-slate-700 transition"
+              className="px-3.5 py-2 rounded-full border border-slate-200 bg-slate-50 hover:bg-slate-100 text-xs font-bold text-slate-700 transition flex items-center gap-1.5"
             >
               <span>Ver Blog Público</span>
               <ExternalLink className="w-3.5 h-3.5" />
@@ -510,73 +606,17 @@ export function AdminBlogManager() {
 
             <button
               onClick={openCreateModal}
-              className="inline-flex items-center gap-2 bg-[#0A2540] hover:bg-[#051E34] text-white text-xs sm:text-sm font-bold px-4 py-2.5 rounded-full shadow-md hover:shadow-lg transition transform hover:-translate-y-0.5"
+              className="inline-flex items-center gap-1.5 bg-[#0A2540] hover:bg-[#051E34] text-white text-xs font-bold px-4 py-2 rounded-full shadow-xs transition"
             >
-              <Plus className="w-4 h-4" />
+              <Plus className="w-4 h-4 text-teal-300" />
               <span>Nuevo Artículo</span>
             </button>
-
-            <button
-              onClick={handleLogout}
-              className="p-2 rounded-full text-slate-400 hover:text-slate-700 hover:bg-slate-100 transition"
-              title="Cerrar sesión"
-            >
-              <Unlock className="w-4 h-4" />
-            </button>
           </div>
         </div>
-      </header>
-
-      {/* DASHBOARD HERO */}
-      <div className="bg-[#0A2540] text-white py-10 px-4 sm:px-6 lg:px-8 border-b border-[#133C63]">
-        <div className="max-w-7xl mx-auto space-y-4">
-          <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
-            <div>
-              <span className="text-xs font-bold uppercase tracking-widest text-teal-300">
-                ADMINISTRACIÓN DE CONTENIDOS
-              </span>
-              <h1 className="text-3xl font-serif font-extrabold mt-1">
-                Artículos del Blog
-              </h1>
-              <p className="text-xs sm:text-sm text-slate-300 mt-1 max-w-xl font-light">
-                Creá, editá o eliminá publicaciones con fotos y formato. Los cambios se reflejan inmediatamente en la web de DentiSalud Group.
-              </p>
-            </div>
-
-            <div className="flex items-center gap-2">
-              <button
-                onClick={() => setIsGoogleModalOpen(true)}
-                className="px-3.5 py-2 rounded-xl bg-teal-500/20 hover:bg-teal-500/30 border border-teal-400/30 text-xs font-bold text-teal-200 hover:text-white transition flex items-center gap-1.5"
-                title="Configurar Google Reviews"
-              >
-                <Star className="w-3.5 h-3.5 fill-amber-400 text-amber-400" />
-                <span>Google Reviews ({reviewsCount})</span>
-              </button>
-
-              <button
-                onClick={exportBackup}
-                className="px-3.5 py-2 rounded-xl bg-[#133C63] hover:bg-[#1a4a75] text-xs font-bold text-slate-200 hover:text-white transition flex items-center gap-1.5"
-                title="Descargar copia en JSON de todos los artículos"
-              >
-                <Download className="w-3.5 h-3.5" />
-                <span>Exportar JSON</span>
-              </button>
-
-              <button
-                onClick={resetToBaseline}
-                className="px-3.5 py-2 rounded-xl bg-[#133C63] hover:bg-[#1a4a75] text-xs font-bold text-slate-200 hover:text-white transition flex items-center gap-1.5"
-                title="Restaurar artículos originales"
-              >
-                <RefreshCw className="w-3.5 h-3.5" />
-                <span>Restaurar</span>
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
+      )}
 
       {/* MAIN CONTENT AREA */}
-      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 space-y-6">
+      <main className={embedded ? "space-y-6" : "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 space-y-6"}>
         {/* GOOGLE REVIEWS QUICK BAR */}
         <div className="bg-gradient-to-r from-teal-50/80 via-white to-blue-50/80 border border-teal-100 rounded-2xl p-4 sm:p-5 flex flex-col sm:flex-row items-center justify-between gap-4 shadow-xs">
           <div className="flex items-center gap-3.5">

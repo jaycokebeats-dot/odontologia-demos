@@ -1,10 +1,10 @@
 import React from 'react';
 import { Metadata } from 'next';
-import { AdminBlogManager } from '@/components/admin/AdminBlogManager';
+import { AdminGeneralDashboard } from '@/components/admin/AdminGeneralDashboard';
 
 export const metadata: Metadata = {
-  title: 'Panel de Administración | DentiSalud Group',
-  description: 'Panel de control de artículos y contenidos para DentiSalud Group.',
+  title: 'Panel de Control General | DentiSalud Group',
+  description: 'Panel de control de tratamientos, casos clínicos, testimonios, blog y configuración general para DentiSalud Group.',
   robots: {
     index: false,
     follow: false,
@@ -12,5 +12,5 @@ export const metadata: Metadata = {
 };
 
 export default function AdminPage() {
-  return <AdminBlogManager />;
+  return <AdminGeneralDashboard />;
 }
