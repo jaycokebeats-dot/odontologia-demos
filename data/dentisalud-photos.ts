@@ -210,16 +210,17 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
 ];
 
 export const TREATMENT_FEATURED_PHOTOS: Record<string, string> = {
-  'consulta-integral': '/images/dentisalud/26_doctora_entrega_receta.jpg',
-  'limpieza-dental': '/images/dentisalud/18_dentista_en_acci_n.jpg',
+  'consulta-integral': '/images/dentisalud/41_consulta_integral.png',
+  'limpieza-dental': '/images/dentisalud/42_limpieza.png',
   'diseno-de-sonrisa': '/images/dentisalud/diseno_sonrisa_hero.jpg',
   'carillas-dentales': '/images/dentisalud/14_carillas_de_disilicato_de_litio_despu_s.jpg',
-  'blanqueamiento-dental': '/images/dentisalud/blanqueamiento_hero.jpg',
-  'implantes-dentales': '/images/dentisalud/27_scanner_shinning_3d_tecnolog_a.jpg',
-  'protesis-dentales': '/images/dentisalud/2_pr_tesis_despu_s_caso_1.jpg',
+  'blanqueamiento-dental': '/images/dentisalud/45_blanqueamiento.png',
+  'implantes-dentales': '/images/dentisalud/43_implantes.png',
+  'protesis-dentales': '/images/dentisalud/44_protesis.jpg',
   'coronas-de-zirconio': '/images/dentisalud/3_cornona_despu_s_caso_1.jpg',
   'arreglo-de-caries': '/images/dentisalud/9_arreglo_de_caries_despu_s_caso_2.jpg',
   'endodoncia': '/images/dentisalud/endodoncia_hero.jpg',
+  'ortodoncia': '/images/dentisalud/46_alineadores.png',
   'odontopediatria': '/images/dentisalud/odontopediatria_hero.jpg',
   'atm': '/images/dentisalud/atm_bruxismo_hero.jpg',
   'atm-y-bruxismo': '/images/dentisalud/atm_bruxismo_hero.jpg',

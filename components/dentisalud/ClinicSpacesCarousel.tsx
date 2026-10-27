@@ -52,8 +52,8 @@ export function ClinicSpacesCarousel() {
       url: DENTISALUD_PHOTOS.guantes,
     },
     {
-      title: 'Atención Cálida y Cercana',
-      desc: 'Escuchamos cada consulta con calidez y dedicación.',
+      title: 'Sentite como en casa',
+      desc: 'Atención cálida y cercana',
       url: DENTISALUD_PHOTOS.pacientesConversando,
     },
   ];

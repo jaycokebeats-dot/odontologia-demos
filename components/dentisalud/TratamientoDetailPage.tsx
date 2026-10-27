@@ -51,7 +51,7 @@ export function DentiSaludTratamientoDetailPage({ treatment, basePath = '' }: Tr
     {
       title: 'Alineadores transparentes',
       desc: 'Removibles, cómodos y prácticamente imperceptibles.',
-      img: '/images/dentisalud/ortodoncia_alineadores.jpg',
+      img: '/images/dentisalud/46_alineadores.png',
     },
   ];
 

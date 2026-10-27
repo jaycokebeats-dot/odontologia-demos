@@ -30,6 +30,8 @@ export interface TeamMember {
   bio: string;
   photo?: string;
   tags?: string[];
+  instagram?: string;
+  instagramHandle?: string;
 }
 
 export interface BlogArticle {
@@ -65,6 +67,10 @@ export const DENTISALUD_INFO = {
   transports: {
     buses: '29, 41, 44, 57, 59, 60, 63, 65, 67, 68, 80, 113, 114, 151, 152, 161, 168, 184, 194',
     subways: 'José Hernández (Línea D), Juramento (Línea D)',
+  },
+  socials: {
+    instagram: 'https://www.instagram.com/dentisaludgroup/',
+    tiktok: 'https://www.tiktok.com/@dentisalud.arg',
   }
 };
 
@@ -72,29 +78,31 @@ export const DENTISALUD_TEAM: TeamMember[] = [
   {
     name: 'Dra. Nathaly Martínez',
     role: 'Esp. en Implantología, Rehabilitación oral y Estética dental - Cofundadora de DentiSalud Group',
-    bio: 'Odontóloga (UCV / UNLP) especialista en Implantología (UCA), Rehabilitación Oral y Estética Dental, con más de 10 años de experiencia, su compromiso es devolverle a cada paciente la confianza de sonreír. Se mantiene en constante actualización, con formación de primer nivel en la Universidad de Buenos Aires y en instituciones de referencia en Colombia y Brasil, países líderes en estética dental. También se capacitó en el manejo de pacientes infantiles, para acompañar de cerca los tratamientos de odontopediatría. Docente adjunta de la cátedra de Operatoria en la UBA.',
-    photo: '/images/dentisalud/29_doctora_en_escritorio.jpg',
-    tags: ['Implantología', 'Estética Dental', 'Rehabilitación Oral', 'Docente UBA']
+    bio: 'Odontóloga (UCV/UNLP) especialista en Implantología (UCA), Rehabilitación Oral y Estética Dental, con más de 10 años de experiencia, en constante actualización, con formación de primer nivel en la UBA y en instituciones de referencia en Colombia y Brasil, países líderes en estética dental. También se capacitó en el manejo de pacientes infantiles para los tratamientos de odontopediatría. Auxiliar de la cátedra de Operatoria en la UBA.',
+    photo: '/images/dentisalud/37_nathaly.png',
+    tags: ['Implantología', 'Estética Dental', 'Rehabilitación Oral'],
+    instagram: 'https://www.instagram.com/od.nathalymartinez/',
+    instagramHandle: '@od.nathalymartinez'
   },
   {
     name: 'Dra. Norma Oviedo',
     role: 'Ortodoncista',
     bio: 'Odontóloga especialista en Ortodoncia y Ortopedia de los Maxilares (UBA). Docente de la cátedra de Ortodoncia en la Universidad de Buenos Aires y certificada en alineadores invisibles. Participa activamente en congresos nacionales e internacionales de la especialidad, y está en continua actualización en su área.',
-    photo: '/images/dentisalud/35_recepci_n_doctora.jpg',
+    photo: '/images/dentisalud/39_norma.png',
     tags: ['Ortodoncia', 'Alineadores Invisibles', 'Docente UBA']
   },
   {
     name: 'Dr. Isael Cova',
     role: 'Periodoncista y experto en ATM',
     bio: 'Odontólogo especialista en Periodoncia, experto en Trastornos de la Articulación Temporomandibular (ATM) y Dolor Orofacial con enfoque neuromuscular, con más de 10 años de trayectoria clínica. Mantiene formación continua en láser odontológico, cirugía preprotésica e imagenología dentomaxilofacial.',
-    photo: '/images/dentisalud/18_dentista_en_acci_n.jpg',
+    photo: '/images/dentisalud/40_isael.png',
     tags: ['Periodoncia', 'ATM & Bruxismo', 'Láser Odontológico']
   },
   {
     name: 'Dr. Rasec Guariman',
     role: 'Cirujano Maxilofacial',
     bio: 'Odontólogo especialista en Cirugía Traumatológica Bucomaxilofacial (UCA), con más de 20 años de experiencia en cirugía maxilofacial de alta complejidad, incluyendo extracción de muelas del juicio. Es docente del Curso de Cirugía Dentomaxilar del Ateneo Odontológico Argentino y de la Especialidad de Cirugía Maxilofacial de la Universidad Católica Argentina.',
-    photo: '/images/dentisalud/23_guantes.jpg',
+    photo: '/images/dentisalud/38_rasec.png',
     tags: ['Cirugía Maxilofacial', 'Muelas de Juicio', '+20 años exp', 'Docente UCA']
   }
 ];
