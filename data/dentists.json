@@ -1,5 +1,96 @@
 [
   {
+    "slug": "dlt-odontologia",
+    "nombre": "DLT Odontología",
+    "subtitulo": "Consultorio Odontológico & Estética Dental en Palermo • CABA",
+    "telefono": "011 15-2391-9556",
+    "whatsapp": "5491123919556",
+    "instagram": "dltodontologia",
+    "direccion": "Soler 3644",
+    "ciudad": "Palermo, CABA",
+    "rating": 5,
+    "reviews_count": 289,
+    "horarios": "Lun a Vie: 09:00 - 19:30 hs | Sáb: 09:00 - 13:00 hs",
+    "especialidades": [
+      {
+        "titulo": "Diseño de Sonrisa & Carillas",
+        "descripcion": "Carillas de porcelana y resina estratificada para una sonrisa armónica, natural y duradera.",
+        "icono": "Sparkles"
+      },
+      {
+        "titulo": "Ortodoncia & Alineadores Invisibles",
+        "descripcion": "Alineación dental estética mediante tecnología digital 3D sin brackets visibles.",
+        "icono": "Smile"
+      },
+      {
+        "titulo": "Blanqueamiento Dental LED",
+        "descripcion": "Aclaramiento profesional intensivo en 1 sola sesión de 60 minutos con protección del esmalte.",
+        "icono": "Zap"
+      },
+      {
+        "titulo": "Implantes & Rehabilitación Oral",
+        "descripcion": "Reemplazo fijo de piezas dentales con implantes de titanio biocompatibles y coronas de circonio.",
+        "icono": "ShieldCheck"
+      },
+      {
+        "titulo": "Odontología General & Preventiva",
+        "descripcion": "Limpiezas profundas con ultrasonido, control preventivo, restauraciones estéticas y conductos.",
+        "icono": "Activity"
+      },
+      {
+        "titulo": "Urgencias Odontológicas",
+        "descripcion": "Atención prioritaria y resolución inmediata del dolor dental en el día.",
+        "icono": "Clock"
+      }
+    ],
+    "fotos": [
+      "/images/dlt-hero-consultorio.png",
+      "https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=1600&q=80"
+    ],
+    "antes_despues": [
+      {
+        "titulo": "Diseño de Sonrisa con Carillas",
+        "tratamiento": "Carillas ultrafinas de porcelana pura y armonización estética",
+        "antes_url": "/images/cases/carillas-antes.jpg",
+        "despues_url": "/images/cases/carillas-despues.jpg"
+      },
+      {
+        "titulo": "Blanqueamiento Dental LED",
+        "tratamiento": "Aclaramiento en 1 sesión de 60 min sin sensibilidad",
+        "antes_url": "/images/cases/blanqueamiento-antes.jpg",
+        "despues_url": "/images/cases/blanqueamiento-despues.jpg"
+      },
+      {
+        "titulo": "Micro Diseño & Restauración Incisal",
+        "tratamiento": "Reconstrucción estética con resina biocompatible y pulido de alto brillo",
+        "antes_url": "/images/cases/diseno-antes.jpg",
+        "despues_url": "/images/cases/diseno-despues.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "nombre": "Martina Benítez",
+        "estrellas": 5,
+        "comentario": "Excelente atención en DLT Odontología. Me hice un blanqueamiento y carillas en el sector anterior y el cambio fue increíble. Super cuidadosos y el consultorio en Palermo es hermoso.",
+        "fecha": "Hace 2 semanas"
+      },
+      {
+        "nombre": "Gonzalo Fernández",
+        "estrellas": 5,
+        "comentario": "Puntualidad impecable, tecnología moderna y un trato humano que te da muchísima tranquilidad. Fui por una urgencia y ahora me atiendo siempre acá.",
+        "fecha": "Hace 1 mes"
+      },
+      {
+        "nombre": "Luciana Morales",
+        "estrellas": 5,
+        "comentario": "Muy conforme con el tratamiento de ortodoncia invisible. Te explican todo con escáner 3D y el seguimiento es constante. 100% recomendable.",
+        "fecha": "Hace 2 meses"
+      }
+    ],
+    "maps_url": "https://www.google.com/maps/place/DLT+Odontolog%C3%ADa/data=!4m7!3m6!1s0x95bccbca1205bab7:0x4e1f09dd26c13e2c!8m2!3d-34.5938025!4d-58.4149194!16s%2Fg%2F11w9452nvt!19sChIJt7oFEsrLvJURLD7BJt0JH04?authuser=0&hl=es-419&g_ep=EgoyMDI2MDkwOS4wIJJjKgBIAVAD&rclk=1",
+    "descripcion_custom": "En DLT Odontología brindamos una experiencia odontológica de alta gama en pleno Palermo. Combinamos tecnología digital avanzada, equipamiento de vanguardia y un enfoque cálido y personalizado para cuidar la salud y estética de tu sonrisa."
+  },
+  {
     "slug": "dra-natalia-ronconi-odontologia",
     "nombre": "Dra. Natalia Ronconi Odontologia",
     "subtitulo": "Consultorio Odontológico & Estética Dental Particular • CABA / Palermo",
@@ -8,7 +99,7 @@
     "instagram": "dra_natalia_ronconi_odontologia_odontologia",
     "direccion": "C. Jeronimo Salguero 1108, Cdad. Autónoma de",
     "ciudad": "Buenos Aires",
-    "rating": 5.0,
+    "rating": 5,
     "reviews_count": 45,
     "horarios": "Lun a Vie: 09:00 - 19:30 hs | Sáb: 09:00 - 13:00 hs",
     "especialidades": [
@@ -87,7 +178,7 @@
     "instagram": "odontologia_andrea_herrera_odontologia",
     "direccion": "Paraguay 5619, Cdad. Autónoma de",
     "ciudad": "Buenos Aires",
-    "rating": 5.0,
+    "rating": 5,
     "reviews_count": 33,
     "horarios": "Lun a Vie: 09:00 - 19:30 hs | Sáb: 09:00 - 13:00 hs",
     "especialidades": [
@@ -245,7 +336,7 @@
     "instagram": "consultorio_odontologico_dra_manuela_gomez_diaz_y_equipo_odontologia",
     "direccion": "Soler 5518, 1117 Cdad. Autónoma de",
     "ciudad": "Buenos Aires",
-    "rating": 5.0,
+    "rating": 5,
     "reviews_count": 50,
     "horarios": "Lun a Vie: 09:00 - 19:30 hs | Sáb: 09:00 - 13:00 hs",
     "especialidades": [
@@ -403,7 +494,7 @@
     "instagram": "clinica_odontologica_dra_romina_yankelevich_odontologia",
     "direccion": "Av. Cerviño 4449 9A, Cdad. Autónoma de",
     "ciudad": "Buenos Aires",
-    "rating": 5.0,
+    "rating": 5,
     "reviews_count": 26,
     "horarios": "Lun a Vie: 09:00 - 19:30 hs | Sáb: 09:00 - 13:00 hs",
     "especialidades": [
@@ -482,7 +573,7 @@
     "instagram": "consultorio_odontologico_dr_cerecedo_odontologia",
     "direccion": "Güemes 4243 1i, Cdad. Autónoma de",
     "ciudad": "Buenos Aires",
-    "rating": 5.0,
+    "rating": 5,
     "reviews_count": 16,
     "horarios": "Lun a Vie: 09:00 - 19:30 hs | Sáb: 09:00 - 13:00 hs",
     "especialidades": [
@@ -877,7 +968,7 @@
     "instagram": "consultorio_odontologico_dra_romina_higa_odontologia",
     "direccion": "Arenales 3414 Planta Baja B, Cdad. Autónoma de",
     "ciudad": "Buenos Aires",
-    "rating": 5.0,
+    "rating": 5,
     "reviews_count": 1,
     "horarios": "Lun a Vie: 09:00 - 19:30 hs | Sáb: 09:00 - 13:00 hs",
     "especialidades": [
@@ -956,7 +1047,7 @@
     "instagram": "consultorio_estetica_dental_avanzada_eda_odontologia",
     "direccion": "Av. Sta. Fe 3283 4 c, Cdad. Autónoma de",
     "ciudad": "Buenos Aires",
-    "rating": 5.0,
+    "rating": 5,
     "reviews_count": 62,
     "horarios": "Lun a Vie: 09:00 - 19:30 hs | Sáb: 09:00 - 13:00 hs",
     "especialidades": [
@@ -1035,7 +1126,7 @@
     "instagram": "arquitectura_facial_odontologia",
     "direccion": "Fitz Roy 1947, Cdad. Autónoma de",
     "ciudad": "Buenos Aires",
-    "rating": 5.0,
+    "rating": 5,
     "reviews_count": 50,
     "horarios": "Lun a Vie: 09:00 - 19:30 hs | Sáb: 09:00 - 13:00 hs",
     "especialidades": [
@@ -1114,7 +1205,7 @@
     "instagram": "mb_estudio_odontologico_odontologia",
     "direccion": "Paraguay 3734, Cdad. Autónoma de",
     "ciudad": "Buenos Aires",
-    "rating": 5.0,
+    "rating": 5,
     "reviews_count": 46,
     "horarios": "Lun a Vie: 09:00 - 19:30 hs | Sáb: 09:00 - 13:00 hs",
     "especialidades": [
@@ -1272,7 +1363,7 @@
     "instagram": "dra_elida_sponer_odontologia",
     "direccion": "Arévalo 2223, Cdad. Autónoma de",
     "ciudad": "Buenos Aires",
-    "rating": 5.0,
+    "rating": 5,
     "reviews_count": 4,
     "horarios": "Lun a Vie: 09:00 - 19:30 hs | Sáb: 09:00 - 13:00 hs",
     "especialidades": [
@@ -1430,7 +1521,7 @@
     "instagram": "palermo_dental_studio_odontologia",
     "direccion": "Gral. Lucio Norberto Mansilla 2410, Cdad. Autónoma de",
     "ciudad": "Buenos Aires",
-    "rating": 5.0,
+    "rating": 5,
     "reviews_count": 10,
     "horarios": "Lun a Vie: 09:00 - 19:30 hs | Sáb: 09:00 - 13:00 hs",
     "especialidades": [
@@ -1509,7 +1600,7 @@
     "instagram": "dra_balumelli_gabriela_a_odontologia",
     "direccion": "Fray Justo Sta. María de Oro 2475, Cdad. Autónoma de",
     "ciudad": "Buenos Aires",
-    "rating": 5.0,
+    "rating": 5,
     "reviews_count": 4,
     "horarios": "Lun a Vie: 09:00 - 19:30 hs | Sáb: 09:00 - 13:00 hs",
     "especialidades": [
@@ -1667,7 +1758,7 @@
     "instagram": "agustina_perez_vila_odontologia_integral_odontologia",
     "direccion": "Blanco Encalada 197, San Isidro",
     "ciudad": "Buenos Aires",
-    "rating": 5.0,
+    "rating": 5,
     "reviews_count": 34,
     "horarios": "Lun a Vie: 09:00 - 19:30 hs | Sáb: 09:00 - 13:00 hs",
     "especialidades": [
@@ -2141,7 +2232,7 @@
     "instagram": "maria_soledad_lopez_odontologia_integral_odontologia",
     "direccion": "Diego Palma 948, San Isidro",
     "ciudad": "Buenos Aires",
-    "rating": 5.0,
+    "rating": 5,
     "reviews_count": 27,
     "horarios": "Lun a Vie: 09:00 - 19:30 hs | Sáb: 09:00 - 13:00 hs",
     "especialidades": [
@@ -2299,7 +2390,7 @@
     "instagram": "numia_odontologia_integral_odontologia",
     "direccion": "Blanco Encalada 150 local 6, San Isidro",
     "ciudad": "Buenos Aires",
-    "rating": 5.0,
+    "rating": 5,
     "reviews_count": 17,
     "horarios": "Lun a Vie: 09:00 - 19:30 hs | Sáb: 09:00 - 13:00 hs",
     "especialidades": [
@@ -2378,7 +2469,7 @@
     "instagram": "odontologia_dr_armando_mariconde_y_equipo_odontologia",
     "direccion": "Gral. Alvear 442 3 PISO DEPARTAMENTO 10, San Isidro",
     "ciudad": "Buenos Aires",
-    "rating": 5.0,
+    "rating": 5,
     "reviews_count": 6,
     "horarios": "Lun a Vie: 09:00 - 19:30 hs | Sáb: 09:00 - 13:00 hs",
     "especialidades": [
@@ -2457,7 +2548,7 @@
     "instagram": "dra_laura_brown_odontologia_integral_estetica_implantes_periodoncia_ortodoncia_edodoncia_odontologia",
     "direccion": "Av. Andrés Rolón 100, San Isidro",
     "ciudad": "Buenos Aires",
-    "rating": 5.0,
+    "rating": 5,
     "reviews_count": 15,
     "horarios": "Lun a Vie: 09:00 - 19:30 hs | Sáb: 09:00 - 13:00 hs",
     "especialidades": [
@@ -2536,7 +2627,7 @@
     "instagram": "consultorio_odontologico_dra_peirano_odontologia",
     "direccion": "Alsina 1152, San Isidro",
     "ciudad": "Buenos Aires",
-    "rating": 5.0,
+    "rating": 5,
     "reviews_count": 0,
     "horarios": "Lun a Vie: 09:00 - 19:30 hs | Sáb: 09:00 - 13:00 hs",
     "especialidades": [
@@ -2773,7 +2864,7 @@
     "instagram": "odontologia_las_lomas_odontologia",
     "direccion": "Av. Juan Segundo Fernández 256 1er piso. Local 16, San Isidro",
     "ciudad": "Buenos Aires",
-    "rating": 5.0,
+    "rating": 5,
     "reviews_count": 26,
     "horarios": "Lun a Vie: 09:00 - 19:30 hs | Sáb: 09:00 - 13:00 hs",
     "especialidades": [
@@ -3089,7 +3180,7 @@
     "instagram": "consultorio_odontologico_integral_doctores_sosa_odontologia",
     "direccion": "CGN, Acassuso 654",
     "ciudad": "Buenos Aires",
-    "rating": 5.0,
+    "rating": 5,
     "reviews_count": 1,
     "horarios": "Lun a Vie: 09:00 - 19:30 hs | Sáb: 09:00 - 13:00 hs",
     "especialidades": [
@@ -3168,7 +3259,7 @@
     "instagram": "odontologia_dra_alejandra_scava_belgrano_odontologia",
     "direccion": "Manuel Ugarte 2179, Cdad. Autónoma de",
     "ciudad": "Buenos Aires",
-    "rating": 5.0,
+    "rating": 5,
     "reviews_count": 277,
     "horarios": "Lun a Vie: 09:00 - 19:30 hs | Sáb: 09:00 - 13:00 hs",
     "especialidades": [
@@ -3247,7 +3338,7 @@
     "instagram": "estudio_odontologico_dr_cunningham_odontologia",
     "direccion": "Manuel Ugarte 2548, Cdad. Autónoma de",
     "ciudad": "Buenos Aires",
-    "rating": 5.0,
+    "rating": 5,
     "reviews_count": 191,
     "horarios": "Lun a Vie: 09:00 - 19:30 hs | Sáb: 09:00 - 13:00 hs",
     "especialidades": [
@@ -3326,7 +3417,7 @@
     "instagram": "dra_irene_pacella_consultorio_odontologico_odontologia",
     "direccion": "3 de Febrero 2750, Cdad. Autónoma de",
     "ciudad": "Buenos Aires",
-    "rating": 5.0,
+    "rating": 5,
     "reviews_count": 25,
     "horarios": "Lun a Vie: 09:00 - 19:30 hs | Sáb: 09:00 - 13:00 hs",
     "especialidades": [
@@ -3405,7 +3496,7 @@
     "instagram": "consultorio_dra_florencia_mana_odontologia",
     "direccion": "Av. Cabildo 2586, Cdad. Autónoma de",
     "ciudad": "Buenos Aires",
-    "rating": 5.0,
+    "rating": 5,
     "reviews_count": 32,
     "horarios": "Lun a Vie: 09:00 - 19:30 hs | Sáb: 09:00 - 13:00 hs",
     "especialidades": [
@@ -3484,7 +3575,7 @@
     "instagram": "odontologia_dras_franco_odontologia",
     "direccion": "Migueletes 1268 1A, Cdad. Autónoma de",
     "ciudad": "Buenos Aires",
-    "rating": 5.0,
+    "rating": 5,
     "reviews_count": 72,
     "horarios": "Lun a Vie: 09:00 - 19:30 hs | Sáb: 09:00 - 13:00 hs",
     "especialidades": [
@@ -3642,7 +3733,7 @@
     "instagram": "dr_emiliano_boscardin_odontologia",
     "direccion": "Juramento 1475, Cdad. Autónoma de",
     "ciudad": "Buenos Aires",
-    "rating": 5.0,
+    "rating": 5,
     "reviews_count": 88,
     "horarios": "Lun a Vie: 09:00 - 19:30 hs | Sáb: 09:00 - 13:00 hs",
     "especialidades": [
@@ -3958,7 +4049,7 @@
     "instagram": "periodoncia_dra_olga_antonenko_odontologia",
     "direccion": "Av. Juramento 1971, Cdad. Autónoma de",
     "ciudad": "Buenos Aires",
-    "rating": 5.0,
+    "rating": 5,
     "reviews_count": 133,
     "horarios": "Lun a Vie: 09:00 - 19:30 hs | Sáb: 09:00 - 13:00 hs",
     "especialidades": [
@@ -4037,7 +4128,7 @@
     "instagram": "consultorio_odontologico_dra_ana_maria_pineiro_odontologia",
     "direccion": "José Hernández 2507, Cdad. Autónoma de",
     "ciudad": "Buenos Aires",
-    "rating": 5.0,
+    "rating": 5,
     "reviews_count": 2,
     "horarios": "Lun a Vie: 09:00 - 19:30 hs | Sáb: 09:00 - 13:00 hs",
     "especialidades": [
@@ -4274,7 +4365,7 @@
     "instagram": "consultorio_odontologico_dr_santiago_vigna_y_dra_solange_varela_odontologia",
     "direccion": "C. La Pampa 2649 pb2, pb2",
     "ciudad": "Buenos Aires",
-    "rating": 5.0,
+    "rating": 5,
     "reviews_count": 3,
     "horarios": "Lun a Vie: 09:00 - 19:30 hs | Sáb: 09:00 - 13:00 hs",
     "especialidades": [
@@ -4432,7 +4523,7 @@
     "instagram": "odonto_belgrano_odontologia",
     "direccion": "Av. Olazábal 2546 pb 1, Cdad. Autónoma de",
     "ciudad": "Buenos Aires",
-    "rating": 5.0,
+    "rating": 5,
     "reviews_count": 0,
     "horarios": "Lun a Vie: 09:00 - 19:30 hs | Sáb: 09:00 - 13:00 hs",
     "especialidades": [
@@ -4590,7 +4681,7 @@
     "instagram": "ar_dental_odontologia",
     "direccion": "Av. Olazábal 1515, Cdad. Autónoma de",
     "ciudad": "Buenos Aires",
-    "rating": 5.0,
+    "rating": 5,
     "reviews_count": 50,
     "horarios": "Lun a Vie: 09:00 - 19:30 hs | Sáb: 09:00 - 13:00 hs",
     "especialidades": [
@@ -4748,7 +4839,7 @@
     "instagram": "dra_daniela_acuna_esp_ortodoncia_y_ortopedia_maxilar_odontologia",
     "direccion": "Billinghurst 1323, Cdad. Autónoma de",
     "ciudad": "Buenos Aires",
-    "rating": 5.0,
+    "rating": 5,
     "reviews_count": 36,
     "horarios": "Lun a Vie: 09:00 - 19:30 hs | Sáb: 09:00 - 13:00 hs",
     "especialidades": [
@@ -4827,7 +4918,7 @@
     "instagram": "od_rocio_galarza_odontologia",
     "direccion": "Av. Sta. Fe 2245, Cdad. Autónoma de",
     "ciudad": "Buenos Aires",
-    "rating": 5.0,
+    "rating": 5,
     "reviews_count": 15,
     "horarios": "Lun a Vie: 09:00 - 19:30 hs | Sáb: 09:00 - 13:00 hs",
     "especialidades": [
@@ -4906,7 +4997,7 @@
     "instagram": "dra_sol_condoluci_odontologia",
     "direccion": "Juncal 2507, Cdad. Autónoma de",
     "ciudad": "Buenos Aires",
-    "rating": 5.0,
+    "rating": 5,
     "reviews_count": 8,
     "horarios": "Lun a Vie: 09:00 - 19:30 hs | Sáb: 09:00 - 13:00 hs",
     "especialidades": [
@@ -4985,7 +5076,7 @@
     "instagram": "dra_lara_folatti_odontologia",
     "direccion": "Paraguay 1582, Cdad. Autónoma de",
     "ciudad": "Buenos Aires",
-    "rating": 5.0,
+    "rating": 5,
     "reviews_count": 35,
     "horarios": "Lun a Vie: 09:00 - 19:30 hs | Sáb: 09:00 - 13:00 hs",
     "especialidades": [
@@ -5143,7 +5234,7 @@
     "instagram": "consultorio_odontologico_dra_nora_paez_odontologia",
     "direccion": "Av. Pueyrredón 1504 7°B, Cdad. Autónoma de",
     "ciudad": "Buenos Aires",
-    "rating": 5.0,
+    "rating": 5,
     "reviews_count": 1,
     "horarios": "Lun a Vie: 09:00 - 19:30 hs | Sáb: 09:00 - 13:00 hs",
     "especialidades": [
@@ -5222,7 +5313,7 @@
     "instagram": "proteccion_dental_villa_crespo_odontologia",
     "direccion": "Luis María Drago 69, Cdad. Autónoma de",
     "ciudad": "Buenos Aires",
-    "rating": 5.0,
+    "rating": 5,
     "reviews_count": 0,
     "horarios": "Lun a Vie: 09:00 - 19:30 hs | Sáb: 09:00 - 13:00 hs",
     "especialidades": [
@@ -5538,7 +5629,7 @@
     "instagram": "odonto_uriburu_odontologia",
     "direccion": "C. Pres. Jose E. Uriburu 1041, Cdad. Autónoma de",
     "ciudad": "Buenos Aires",
-    "rating": 5.0,
+    "rating": 5,
     "reviews_count": 5,
     "horarios": "Lun a Vie: 09:00 - 19:30 hs | Sáb: 09:00 - 13:00 hs",
     "especialidades": [
@@ -5617,7 +5708,7 @@
     "instagram": "dra_maria_amanda_zenon_odontologia",
     "direccion": "C. Pres. Jose E. Uriburu 1041, Cdad. Autónoma de",
     "ciudad": "Buenos Aires",
-    "rating": 5.0,
+    "rating": 5,
     "reviews_count": 26,
     "horarios": "Lun a Vie: 09:00 - 19:30 hs | Sáb: 09:00 - 13:00 hs",
     "especialidades": [
@@ -5696,7 +5787,7 @@
     "instagram": "pineda_dental_studio_odontologia",
     "direccion": "Ayacucho 1230, Cdad. Autónoma de",
     "ciudad": "Buenos Aires",
-    "rating": 5.0,
+    "rating": 5,
     "reviews_count": 345,
     "horarios": "Lun a Vie: 09:00 - 19:30 hs | Sáb: 09:00 - 13:00 hs",
     "especialidades": [
@@ -5933,7 +6024,7 @@
     "instagram": "odontologia_jairo_leon_odontologia",
     "direccion": "Av. Gral. Las Heras 2861, Cdad. Autónoma de",
     "ciudad": "Buenos Aires",
-    "rating": 5.0,
+    "rating": 5,
     "reviews_count": 22,
     "horarios": "Lun a Vie: 09:00 - 19:30 hs | Sáb: 09:00 - 13:00 hs",
     "especialidades": [
@@ -6012,7 +6103,7 @@
     "instagram": "consultorio_odontologico_dr_joaquin_tofalo_odontologia",
     "direccion": "Av. Callao 1371, Cdad. Autónoma de",
     "ciudad": "Buenos Aires",
-    "rating": 5.0,
+    "rating": 5,
     "reviews_count": 14,
     "horarios": "Lun a Vie: 09:00 - 19:30 hs | Sáb: 09:00 - 13:00 hs",
     "especialidades": [
@@ -6091,7 +6182,7 @@
     "instagram": "dra_sandra_beatriz_ponce_odontologa_odontologia_estetica_y_armonizacion_orofacial_odontologia",
     "direccion": "Av. Callao 1371, Cdad. Autónoma de",
     "ciudad": "Buenos Aires",
-    "rating": 5.0,
+    "rating": 5,
     "reviews_count": 34,
     "horarios": "Lun a Vie: 09:00 - 19:30 hs | Sáb: 09:00 - 13:00 hs",
     "especialidades": [
@@ -6249,7 +6340,7 @@
     "instagram": "consultorio_odontologico_dr_federico_galindo_odontologia",
     "direccion": "Larrea 1230, Cdad. Autónoma de",
     "ciudad": "Buenos Aires",
-    "rating": 5.0,
+    "rating": 5,
     "reviews_count": 22,
     "horarios": "Lun a Vie: 09:00 - 19:30 hs | Sáb: 09:00 - 13:00 hs",
     "especialidades": [
@@ -6328,7 +6419,7 @@
     "instagram": "centro_odontologico_recoleta_odontologia",
     "direccion": "Av. Sta. Fe 2521, Cdad. Autónoma de",
     "ciudad": "Buenos Aires",
-    "rating": 5.0,
+    "rating": 5,
     "reviews_count": 30,
     "horarios": "Lun a Vie: 09:00 - 19:30 hs | Sáb: 09:00 - 13:00 hs",
     "especialidades": [
@@ -6644,7 +6735,7 @@
     "instagram": "odontologicas_odontologia",
     "direccion": "Marcelo Torcuato de Alvear 2420 - PB3, Cdad. Autónoma de",
     "ciudad": "Buenos Aires",
-    "rating": 5.0,
+    "rating": 5,
     "reviews_count": 22,
     "horarios": "Lun a Vie: 09:00 - 19:30 hs | Sáb: 09:00 - 13:00 hs",
     "especialidades": [
@@ -7039,7 +7130,7 @@
     "instagram": "geodental_odontologia",
     "direccion": "Av. Cnel. Díaz 1811, Cdad. Autónoma de",
     "ciudad": "Buenos Aires",
-    "rating": 5.0,
+    "rating": 5,
     "reviews_count": 76,
     "horarios": "Lun a Vie: 09:00 - 19:30 hs | Sáb: 09:00 - 13:00 hs",
     "especialidades": [
@@ -7118,7 +7209,7 @@
     "instagram": "jmr_odontologia_integral_odontologia",
     "direccion": "Av. Cnel. Díaz 1811, Cdad. Autónoma de",
     "ciudad": "Buenos Aires",
-    "rating": 5.0,
+    "rating": 5,
     "reviews_count": 39,
     "horarios": "Lun a Vie: 09:00 - 19:30 hs | Sáb: 09:00 - 13:00 hs",
     "especialidades": [
@@ -7434,7 +7525,7 @@
     "instagram": "odontologia_c_g_recoleta_odontologia",
     "direccion": "Arenales 2547, Cdad. Autónoma de",
     "ciudad": "Buenos Aires",
-    "rating": 5.0,
+    "rating": 5,
     "reviews_count": 29,
     "horarios": "Lun a Vie: 09:00 - 19:30 hs | Sáb: 09:00 - 13:00 hs",
     "especialidades": [
@@ -7750,7 +7841,7 @@
     "instagram": "od_natalia_belen_manghi_odontologia",
     "direccion": "Larrea 1273 PB, Cdad. Autónoma de",
     "ciudad": "Buenos Aires",
-    "rating": 5.0,
+    "rating": 5,
     "reviews_count": 35,
     "horarios": "Lun a Vie: 09:00 - 19:30 hs | Sáb: 09:00 - 13:00 hs",
     "especialidades": [
@@ -7908,7 +7999,7 @@
     "instagram": "centro_odontol_gico_recoleta_odontologia",
     "direccion": "Av. Sta. Fe 2521, Cdad. Autónoma de",
     "ciudad": "Buenos Aires",
-    "rating": 5.0,
+    "rating": 5,
     "reviews_count": 30,
     "horarios": "Lun a Vie: 09:00 - 19:30 hs | Sáb: 09:00 - 13:00 hs",
     "especialidades": [
@@ -8145,7 +8236,7 @@
     "instagram": "odontol_gicas_odontologia",
     "direccion": "Marcelo Torcuato de Alvear 2420 - PB3, Cdad. Autónoma de",
     "ciudad": "Buenos Aires",
-    "rating": 5.0,
+    "rating": 5,
     "reviews_count": 22,
     "horarios": "Lun a Vie: 09:00 - 19:30 hs | Sáb: 09:00 - 13:00 hs",
     "especialidades": [
@@ -8382,7 +8473,7 @@
     "instagram": "jmr_odontolog_a_integral_odontologia",
     "direccion": "Av. Cnel. Díaz 1811, Cdad. Autónoma de",
     "ciudad": "Buenos Aires",
-    "rating": 5.0,
+    "rating": 5,
     "reviews_count": 39,
     "horarios": "Lun a Vie: 09:00 - 19:30 hs | Sáb: 09:00 - 13:00 hs",
     "especialidades": [
@@ -8619,7 +8710,7 @@
     "instagram": "od__natalia_bel_n_manghi_odontologia",
     "direccion": "Larrea 1273 PB, Cdad. Autónoma de",
     "ciudad": "Buenos Aires",
-    "rating": 5.0,
+    "rating": 5,
     "reviews_count": 35,
     "horarios": "Lun a Vie: 09:00 - 19:30 hs | Sáb: 09:00 - 13:00 hs",
     "especialidades": [
@@ -8906,7 +8997,7 @@
     "instagram": "llompart_gomez_odontologia",
     "direccion": "Calle 39 220, La Plata",
     "ciudad": "La Plata",
-    "rating": 5.0,
+    "rating": 5,
     "reviews_count": 257,
     "horarios": "Lun a Vie: 09:00 - 19:30 hs",
     "especialidades": [
@@ -9271,7 +9362,7 @@
     "instagram": "lz_odontologia",
     "direccion": "C. 11 638, La Plata",
     "ciudad": "La Plata",
-    "rating": 5.0,
+    "rating": 5,
     "reviews_count": 104,
     "horarios": "Lun a Vie: 09:00 - 19:30 hs",
     "especialidades": [
@@ -9563,7 +9654,7 @@
     "instagram": "dra_iara_schiller",
     "direccion": "calle 21 altura 787, La Plata",
     "ciudad": "La Plata",
-    "rating": 5.0,
+    "rating": 5,
     "reviews_count": 31,
     "horarios": "Lun a Vie: 09:00 - 19:00 hs",
     "especialidades": [
@@ -9927,7 +10018,7 @@
     "instagram": "singular_odontologia",
     "direccion": "Av. 44 973, La Plata",
     "ciudad": "La Plata",
-    "rating": 5.0,
+    "rating": 5,
     "reviews_count": 15,
     "horarios": "Lun a Vie: 09:00 - 19:00 hs",
     "especialidades": [
@@ -10073,7 +10164,7 @@
     "instagram": "ml_odontologia_longchamps",
     "direccion": "Av. Hipólito Yrigoyen 17926, Longchamps",
     "ciudad": "Longchamps",
-    "rating": 5.0,
+    "rating": 5,
     "reviews_count": 107,
     "horarios": "Lun a Vie: 09:00 - 19:30 hs | Sáb: 09:00 - 13:00 hs",
     "especialidades": [
@@ -10145,7 +10236,7 @@
     "instagram": "odontolog_a_integral_dr_nu_ez_2602_2a_odontologia",
     "direccion": "Nuñez , Cdad. Autónoma de, Núñez",
     "ciudad": "Buenos Aires",
-    "rating": 5.0,
+    "rating": 5,
     "reviews_count": 74,
     "horarios": "Lun a Vie: 09:00 - 19:30 hs",
     "especialidades": [
@@ -10211,7 +10302,7 @@
     "instagram": "consultorio_odontol_gico_dra_marilian_gonzalez_odontologia",
     "direccion": "Monroe , Cdad. Autónoma de, Belgrano",
     "ciudad": "Buenos Aires",
-    "rating": 5.0,
+    "rating": 5,
     "reviews_count": 14,
     "horarios": "Lun a Vie: 09:00 - 19:30 hs",
     "especialidades": [
@@ -10277,7 +10368,7 @@
     "instagram": "odontolog_a_a_domicilio_caba_gba_odontologia",
     "direccion": "Aizpurúa , Cdad. Autónoma de, Villa Urquiza",
     "ciudad": "Buenos Aires",
-    "rating": 5.0,
+    "rating": 5,
     "reviews_count": 35,
     "horarios": "Lun a Vie: 09:00 - 19:30 hs",
     "especialidades": [
@@ -10409,7 +10500,7 @@
     "instagram": "espacio_odontol_gico_integral_odontologia",
     "direccion": "Quesada , Cdad. Autónoma de, Núñez",
     "ciudad": "Buenos Aires",
-    "rating": 5.0,
+    "rating": 5,
     "reviews_count": 144,
     "horarios": "Lun a Vie: 09:00 - 19:30 hs",
     "especialidades": [
@@ -10475,7 +10566,7 @@
     "instagram": "odontologia_roma_odontologia",
     "direccion": "Av. Cabildo 3100, Núñez",
     "ciudad": "Buenos Aires",
-    "rating": 5.0,
+    "rating": 5,
     "reviews_count": 92,
     "horarios": "Lun a Vie: 09:00 - 19:30 hs",
     "especialidades": [
@@ -10607,7 +10698,7 @@
     "instagram": "consultorio_odontol_gico_naturista_odontologia",
     "direccion": "Nuñez , Cdad. Autónoma de, Núñez",
     "ciudad": "Buenos Aires",
-    "rating": 5.0,
+    "rating": 5,
     "reviews_count": 1,
     "horarios": "Lun a Vie: 09:00 - 19:30 hs",
     "especialidades": [
@@ -10673,7 +10764,7 @@
     "instagram": "odontolog_a_arcos_odontologia",
     "direccion": "Arcos , Cdad. Autónoma de, Núñez",
     "ciudad": "Buenos Aires",
-    "rating": 5.0,
+    "rating": 5,
     "reviews_count": 8,
     "horarios": "Lun a Vie: 09:00 - 19:30 hs",
     "especialidades": [
@@ -10739,7 +10830,7 @@
     "instagram": "angelucci_vazquez_odontologia_estetica_odontologo_implantes_carillas_ortodoncista_en_nu_ez_capital_federal_odontologia",
     "direccion": "Comodoro Martín Rivadavia , Cdad. Autónoma de, Núñez",
     "ciudad": "Buenos Aires",
-    "rating": 5.0,
+    "rating": 5,
     "reviews_count": 76,
     "horarios": "Lun a Vie: 09:00 - 19:30 hs",
     "especialidades": [
@@ -10871,7 +10962,7 @@
     "instagram": "celeste_iturre_odontolog_a_odontologia",
     "direccion": "Besares , Cdad. Autónoma de, Núñez",
     "ciudad": "Buenos Aires",
-    "rating": 5.0,
+    "rating": 5,
     "reviews_count": 50,
     "horarios": "Lun a Vie: 09:00 - 19:30 hs",
     "especialidades": [
@@ -11069,7 +11160,7 @@
     "instagram": "clinic_oneplus_odontologia",
     "direccion": "Av. Congreso 2600, Núñez",
     "ciudad": "Buenos Aires",
-    "rating": 5.0,
+    "rating": 5,
     "reviews_count": 25,
     "horarios": "Lun a Vie: 09:00 - 19:30 hs",
     "especialidades": [
@@ -11201,7 +11292,7 @@
     "instagram": "atelier_odontologia_camila_tissera_odontologia",
     "direccion": "Av. Congreso 2500, Núñez",
     "ciudad": "Buenos Aires",
-    "rating": 5.0,
+    "rating": 5,
     "reviews_count": 43,
     "horarios": "Lun a Vie: 09:00 - 19:30 hs",
     "especialidades": [
@@ -11333,7 +11424,7 @@
     "instagram": "dr_fabi_n_bardelli_odontologo_odontologia",
     "direccion": "Amenábar , Cdad. Autónoma de, Núñez",
     "ciudad": "Buenos Aires",
-    "rating": 5.0,
+    "rating": 5,
     "reviews_count": 1,
     "horarios": "Lun a Vie: 09:00 - 19:30 hs",
     "especialidades": [
@@ -11399,7 +11490,7 @@
     "instagram": "medicos_odontologos_odontologia",
     "direccion": "Av. Cabildo 3200, Núñez",
     "ciudad": "Buenos Aires",
-    "rating": 5.0,
+    "rating": 5,
     "reviews_count": 1,
     "horarios": "Lun a Vie: 09:00 - 19:30 hs",
     "especialidades": [
@@ -11927,7 +12018,7 @@
     "instagram": "consultorio_odontologico_dra_benet_odontologia",
     "direccion": "Int. Witcomb, Villa Ballester",
     "ciudad": "Buenos Aires",
-    "rating": 5.0,
+    "rating": 5,
     "reviews_count": 21,
     "horarios": "Lun a Vie: 09:00 - 19:30 hs",
     "especialidades": [
@@ -12059,7 +12150,7 @@
     "instagram": "el_consultorio_odontologia",
     "direccion": "Pacífico Rodríguez, Villa Ballester",
     "ciudad": "Buenos Aires",
-    "rating": 5.0,
+    "rating": 5,
     "reviews_count": 35,
     "horarios": "Lun a Vie: 09:00 - 19:30 hs",
     "especialidades": [
@@ -12388,7 +12479,7 @@
     "instagram": "consultorio_odontologico_dra_liliana_bartoli_de_godnic_odontologia",
     "direccion": "Córdoba , Gran, Villa Ballester",
     "ciudad": "Buenos Aires",
-    "rating": 5.0,
+    "rating": 5,
     "reviews_count": 3,
     "horarios": "Lun a Vie: 09:00 - 19:30 hs",
     "especialidades": [
@@ -12519,7 +12610,7 @@
     "instagram": "consultorio_odontologico_horacio_hernandez_odontologia",
     "direccion": "Pueyrredón, Villa Ballester",
     "ciudad": "Buenos Aires",
-    "rating": 5.0,
+    "rating": 5,
     "reviews_count": 2,
     "horarios": "Lun a Vie: 09:00 - 19:30 hs",
     "especialidades": [
@@ -12651,7 +12742,7 @@
     "instagram": "dr_kawka_ernesto_odontologia",
     "direccion": "Independencia Consultorio 5° B, Gran, Villa Ballester",
     "ciudad": "Buenos Aires",
-    "rating": 5.0,
+    "rating": 5,
     "reviews_count": 1,
     "horarios": "Lun a Vie: 09:00 - 19:30 hs",
     "especialidades": [
@@ -12849,7 +12940,7 @@
     "instagram": "ssalud_odontologica_integral_privada_odontologia",
     "direccion": "V L pez, Villa Ballester",
     "ciudad": "Buenos Aires",
-    "rating": 5.0,
+    "rating": 5,
     "reviews_count": 15,
     "horarios": "Lun a Vie: 09:00 - 19:30 hs",
     "especialidades": [
@@ -13115,7 +13206,7 @@
     "instagram": "jios_consultorio_odontologico_odontologia",
     "direccion": "Gral. José de San Martín, Florida",
     "ciudad": "Buenos Aires",
-    "rating": 5.0,
+    "rating": 5,
     "reviews_count": 15,
     "horarios": "Lun a Vie: 09:00 - 19:30 hs",
     "especialidades": [
@@ -13181,7 +13272,7 @@
     "instagram": "consultorio_odontologico_dra_florencia_spinelli_odontologia",
     "direccion": "Pres. Hipólito Yrigoyen Oeste, Florida",
     "ciudad": "Buenos Aires",
-    "rating": 5.0,
+    "rating": 5,
     "reviews_count": 15,
     "horarios": "Lun a Vie: 09:00 - 19:30 hs",
     "especialidades": [
@@ -13314,7 +13405,7 @@
     "instagram": "odontologia_sonia_alvarez_odontologia",
     "direccion": "Valle Grande, Florida",
     "ciudad": "Buenos Aires",
-    "rating": 5.0,
+    "rating": 5,
     "reviews_count": 15,
     "horarios": "Lun a Vie: 09:00 - 19:30 hs",
     "especialidades": [
@@ -13380,7 +13471,7 @@
     "instagram": "odontologia_florida_odontologia",
     "direccion": "Cnel. Manuel Rosetti, Florida",
     "ciudad": "Buenos Aires",
-    "rating": 5.0,
+    "rating": 5,
     "reviews_count": 15,
     "horarios": "Lun a Vie: 09:00 - 19:30 hs",
     "especialidades": [
@@ -13841,7 +13932,7 @@
     "instagram": "dr_carlos_garbulsky_odontologia",
     "direccion": "Julián Segundo Agüero, Florida",
     "ciudad": "Buenos Aires",
-    "rating": 5.0,
+    "rating": 5,
     "reviews_count": 1,
     "horarios": "Lun a Vie: 09:00 - 19:30 hs",
     "especialidades": [
@@ -13974,7 +14065,7 @@
     "instagram": "odontologa_jimena_de_la_iglesia_odontologia",
     "direccion": "Aristóbulo del Valle, Florida",
     "ciudad": "Buenos Aires",
-    "rating": 5.0,
+    "rating": 5,
     "reviews_count": 2,
     "horarios": "Lun a Vie: 09:00 - 19:30 hs",
     "especialidades": [
@@ -14175,7 +14266,7 @@
     "instagram": "busso_consultoria_odontologica_internacional_odontologia",
     "direccion": "Av. Maipú 851 3 - B, Florida",
     "ciudad": "Buenos Aires",
-    "rating": 5.0,
+    "rating": 5,
     "reviews_count": 4,
     "horarios": "Lun a Vie: 09:00 - 19:30 hs",
     "especialidades": [
@@ -14242,7 +14333,7 @@
     "instagram": "costas_al_rio_odontologia",
     "direccion": "Edificio Concord, Av. del Libertador Piso 15 / Dpto., Florida",
     "ciudad": "Buenos Aires",
-    "rating": 5.0,
+    "rating": 5,
     "reviews_count": 4,
     "horarios": "Lun a Vie: 09:00 - 19:30 hs",
     "especialidades": [
@@ -14309,7 +14400,7 @@
     "instagram": "dra_nathaly_martinez_odontologia",
     "direccion": "Cdad. de la Paz 1965, Belgrano",
     "ciudad": "Belgrano",
-    "rating": 5.0,
+    "rating": 5,
     "reviews_count": 93,
     "horarios": "Lun a Vie: 09:00 - 19:30 hs",
     "especialidades": [
