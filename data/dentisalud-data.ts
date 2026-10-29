@@ -82,6 +82,11 @@ export const DENTISALUD_INFO = {
   socials: {
     instagram: 'https://www.instagram.com/dentisaludgroup/',
     tiktok: 'https://www.tiktok.com/@dentisalud.arg',
+  },
+  tracking: {
+    gaId: '',
+    pixelId: '',
+    gtmId: '',
   }
 };
 

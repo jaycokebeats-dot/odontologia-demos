@@ -35,7 +35,8 @@ import {
   Instagram,
   Share2,
   Users,
-  UserPlus
+  UserPlus,
+  BarChart3
 } from 'lucide-react';
 import { useSiteData } from '@/components/dentisalud/useSiteData';
 import { BeforeAfterCard } from '@/components/dentisalud/BeforeAfterCard';
@@ -565,6 +566,9 @@ export function AdminGeneralDashboard() {
   const [cfgTiktok, setCfgTiktok] = useState(info.socials?.tiktok || 'https://www.tiktok.com/@dentisalud.arg');
   const [cfgAddress, setCfgAddress] = useState(info.address || 'Cdad. de la Paz 1965, Belgrano, CABA');
   const [cfgApiKey, setCfgApiKey] = useState('');
+  const [cfgGaId, setCfgGaId] = useState<string>(info.tracking?.gaId || '');
+  const [cfgPixelId, setCfgPixelId] = useState<string>(info.tracking?.pixelId || '');
+  const [cfgGtmId, setCfgGtmId] = useState<string>(info.tracking?.gtmId || '');
   const [isSavingConfig, setIsSavingConfig] = useState(false);
 
   useEffect(() => {
@@ -577,6 +581,9 @@ export function AdminGeneralDashboard() {
       setCfgInstagram(info.socials?.instagram || 'https://www.instagram.com/dentisaludgroup/');
       setCfgTiktok(info.socials?.tiktok || 'https://www.tiktok.com/@dentisalud.arg');
       setCfgAddress(info.address || 'Cdad. de la Paz 1965, Belgrano, CABA');
+      setCfgGaId(info.tracking?.gaId || '');
+      setCfgPixelId(info.tracking?.pixelId || '');
+      setCfgGtmId(info.tracking?.gtmId || '');
     }
   }, [info]);
 
@@ -596,6 +603,11 @@ export function AdminGeneralDashboard() {
         ...info.socials,
         instagram: cfgInstagram,
         tiktok: cfgTiktok,
+      },
+      tracking: {
+        gaId: cfgGaId.trim(),
+        pixelId: cfgPixelId.trim(),
+        gtmId: cfgGtmId.trim(),
       },
     };
 
@@ -1910,6 +1922,73 @@ export function AdminGeneralDashboard() {
                       onChange={(e) => setCfgAddress(e.target.value)}
                       className="w-full px-4 py-2.5 rounded-xl border border-slate-300 text-sm text-slate-800 focus:outline-none focus:border-[#0A2540]"
                     />
+                  </div>
+                </div>
+              </div>
+
+              {/* MARKETING, PIXEL & ANALYTICS */}
+              <div className="bg-white rounded-3xl p-6 sm:p-8 border border-slate-200 shadow-xs space-y-4">
+                <div className="flex items-center gap-3 border-b border-slate-100 pb-4">
+                  <div className="p-3 bg-purple-50 rounded-2xl text-purple-600">
+                    <BarChart3 className="w-6 h-6" />
+                  </div>
+                  <div>
+                    <h2 className="text-lg font-serif font-bold text-[#0A2540]">
+                      Marketing, Píxel de Meta & Google Analytics
+                    </h2>
+                    <p className="text-xs text-slate-500">
+                      Cargá los IDs de seguimiento para medir visitas, anuncios de Instagram/Facebook y conversiones automáticamente.
+                    </p>
+                  </div>
+                </div>
+
+                <div className="grid sm:grid-cols-2 gap-4">
+                  <div className="space-y-1">
+                    <label className="text-xs font-bold text-slate-700">
+                      Google Analytics 4 (ID de Medición):
+                    </label>
+                    <input
+                      type="text"
+                      placeholder="Ej: G-XXXXXXXXXX"
+                      value={cfgGaId}
+                      onChange={(e) => setCfgGaId(e.target.value)}
+                      className="w-full px-4 py-2.5 rounded-xl border border-slate-300 text-sm text-slate-800 focus:outline-none focus:border-[#0A2540]"
+                    />
+                    <p className="text-[11px] text-slate-500">
+                      ID del flujo web de GA4 (empieza con <b>G-</b>).
+                    </p>
+                  </div>
+
+                  <div className="space-y-1">
+                    <label className="text-xs font-bold text-slate-700">
+                      Píxel de Meta (Facebook / Instagram Ads ID):
+                    </label>
+                    <input
+                      type="text"
+                      placeholder="Ej: 1234567890123456"
+                      value={cfgPixelId}
+                      onChange={(e) => setCfgPixelId(e.target.value)}
+                      className="w-full px-4 py-2.5 rounded-xl border border-slate-300 text-sm text-slate-800 focus:outline-none focus:border-[#0A2540]"
+                    />
+                    <p className="text-[11px] text-slate-500">
+                      Número del Píxel / Dataset de Meta Events Manager.
+                    </p>
+                  </div>
+
+                  <div className="sm:col-span-2 space-y-1">
+                    <label className="text-xs font-bold text-slate-700">
+                      Google Tag Manager Container ID (opcional):
+                    </label>
+                    <input
+                      type="text"
+                      placeholder="Ej: GTM-XXXXXXX"
+                      value={cfgGtmId}
+                      onChange={(e) => setCfgGtmId(e.target.value)}
+                      className="w-full px-4 py-2.5 rounded-xl border border-slate-300 text-sm text-slate-800 focus:outline-none focus:border-[#0A2540]"
+                    />
+                    <p className="text-[11px] text-slate-500">
+                      Solo en caso de gestionar tags centralizados con GTM (empieza con <b>GTM-</b>).
+                    </p>
                   </div>
                 </div>
               </div>

@@ -137,7 +137,11 @@ export async function getSiteData(): Promise<SiteData> {
       if (!error && data?.data && typeof data.data === 'object') {
         const cloudData = data.data as Partial<SiteData>;
         return {
-          info: { ...defaults.info, ...(cloudData.info || {}) },
+          info: {
+            ...defaults.info,
+            ...(cloudData.info || {}),
+            tracking: { ...defaults.info.tracking, ...(cloudData.info?.tracking || {}) },
+          },
           treatments:
             cloudData.treatments && cloudData.treatments.length > 0
               ? cloudData.treatments
@@ -162,7 +166,11 @@ export async function getSiteData(): Promise<SiteData> {
       if (local) {
         const parsed = JSON.parse(local);
         return {
-          info: { ...defaults.info, ...(parsed.info || {}) },
+          info: {
+            ...defaults.info,
+            ...(parsed.info || {}),
+            tracking: { ...defaults.info.tracking, ...(parsed.info?.tracking || {}) },
+          },
           treatments:
             parsed.treatments && parsed.treatments.length > 0
               ? parsed.treatments
@@ -189,7 +197,11 @@ export async function getSiteData(): Promise<SiteData> {
 export async function saveSiteData(updated: Partial<SiteData>): Promise<{ success: boolean; error?: string }> {
   const current = await getSiteData();
   const merged: SiteData = {
-    info: { ...current.info, ...(updated.info || {}) },
+    info: {
+      ...current.info,
+      ...(updated.info || {}),
+      tracking: { ...(current.info.tracking || {}), ...(updated.info?.tracking || {}) },
+    },
     treatments: updated.treatments || current.treatments,
     featuredPhotos: { ...current.featuredPhotos, ...(updated.featuredPhotos || {}) },
     cases: updated.cases || current.cases,
