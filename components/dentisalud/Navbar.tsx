@@ -30,7 +30,7 @@ export function DentiSaludNavbar({ basePath = '/d/dra-nathaly-martinez' }: Navba
             <img
               src="/images/dentisalud/logo_dentisalud.png"
               alt="DentiSalud Group by Dra. Nathaly Martínez"
-              className="h-9 sm:h-11 w-auto object-contain transition group-hover:scale-102"
+              className="h-10 sm:h-12 w-auto object-contain transition group-hover:scale-102"
             />
           </Link>
 
