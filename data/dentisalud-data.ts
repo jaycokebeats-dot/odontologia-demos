@@ -84,7 +84,7 @@ export const DENTISALUD_INFO = {
     tiktok: 'https://www.tiktok.com/@dentisalud.arg',
   },
   tracking: {
-    gaId: '',
+    gaId: 'G-NGY8Z2WY4V',
     pixelId: '',
     gtmId: '',
   }
