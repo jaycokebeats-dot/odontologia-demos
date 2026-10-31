@@ -85,7 +85,7 @@ export const DENTISALUD_INFO = {
   },
   tracking: {
     gaId: 'G-NGY8Z2WY4V',
-    pixelId: '',
+    pixelId: '2643911116062887',
     gtmId: '',
   }
 };
