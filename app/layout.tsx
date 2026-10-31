@@ -17,12 +17,15 @@ const lora = Lora({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://odontologia-demos.vercel.app"),
+  metadataBase: new URL("https://dentisaludgroup.com.ar"),
   title: {
-    default: "Consultorio Odontológico | Odontología de Alta Precisión",
-    template: "%s",
+    default: "DentiSalud Group | Odontología de Alta Precisión en Belgrano",
+    template: "%s | DentiSalud Group",
   },
-  description: "Atención odontológica integral, estética dental, implantes y ortodoncia con tecnología de vanguardia.",
+  description: "Atención odontológica integral, estética dental, implantes y ortodoncia con tecnología de vanguardia en Belgrano, CABA.",
+  verification: {
+    google: 'SlqfCqV7g-Q2vxzaK58sCpoouQSamP45sJXsz6a7PSg',
+  },
   robots: {
     index: true,
     follow: true,
