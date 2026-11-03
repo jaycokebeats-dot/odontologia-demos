@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Plus_Jakarta_Sans, Lora } from "next/font/google";
 import "./globals.css";
 import { TrackingScripts } from "@/components/dentisalud/TrackingScripts";
+import { StructuredData } from "@/components/dentisalud/StructuredData";
 
 const plusJakarta = Plus_Jakarta_Sans({
   subsets: ["latin"],
@@ -58,6 +59,7 @@ export default function RootLayout({
         className={`${plusJakarta.variable} ${lora.variable} font-sans antialiased bg-slate-50 text-slate-800`}
       >
         <TrackingScripts />
+        <StructuredData />
         {children}
       </body>
     </html>
