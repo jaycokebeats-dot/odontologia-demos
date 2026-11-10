@@ -21,6 +21,9 @@ export const metadata: Metadata = {
     locale: 'es_AR',
     siteName: 'DentiSalud Group',
   },
+  alternates: {
+    canonical: '/',
+  },
 };
 
 export default function RootPage() {

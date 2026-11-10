@@ -5,6 +5,9 @@ import { DentiSaludTratamientosPage } from '@/components/dentisalud/Tratamientos
 export const metadata: Metadata = {
   title: 'Tratamientos Odontológicos en Belgrano | DentiSalud Group',
   description: 'Implantes, diseño de sonrisa, blanqueamiento, ortodoncia, urgencias y más. Tratamientos odontológicos en Belgrano con atención personalizada.',
+  alternates: {
+    canonical: '/tratamientos',
+  },
 };
 
 export default function RootTratamientosPage() {

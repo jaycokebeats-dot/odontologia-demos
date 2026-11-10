@@ -5,6 +5,9 @@ import { DentiSaludNosotrosPage } from '@/components/dentisalud/NosotrosPage';
 export const metadata: Metadata = {
   title: 'Clínica Odontológica en Belgrano | DentiSalud Group • Dra. Nathaly Martínez',
   description: 'DentiSalud Group: odontología integral en Belgrano, liderada por la Dra. Nathaly Martínez. Tecnología, atención personalizada y tiempo para vos.',
+  alternates: {
+    canonical: '/nosotros',
+  },
 };
 
 export default function RootNosotrosPage() {

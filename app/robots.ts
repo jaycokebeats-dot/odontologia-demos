@@ -6,7 +6,7 @@ export default function robots(): MetadataRoute.Robots {
       {
         userAgent: '*',
         allow: '/',
-        disallow: ['/admin', '/api/admin'],
+        disallow: ['/admin', '/api/admin', '/d/', '/api/'],
       },
     ],
     sitemap: 'https://dentisaludgroup.com.ar/sitemap.xml',

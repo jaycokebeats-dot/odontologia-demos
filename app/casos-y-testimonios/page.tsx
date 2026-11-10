@@ -5,6 +5,9 @@ import { DentiSaludCasosPage } from '@/components/dentisalud/CasosPage';
 export const metadata: Metadata = {
   title: 'Resultados Reales y Testimonios | DentiSalud Group • Dra. Nathaly Martínez',
   description: 'Casos clínicos de implantes, diseño de sonrisa, blanqueamiento y reseñas verificadas de pacientes en Belgrano.',
+  alternates: {
+    canonical: '/casos-y-testimonios',
+  },
 };
 
 export default function RootCasosPage() {
