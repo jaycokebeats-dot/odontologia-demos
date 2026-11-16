@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     siteName: 'DentiSalud Group',
   },
   alternates: {
-    canonical: '/',
+    canonical: 'https://dentisaludgroup.com.ar/',
   },
 };
 

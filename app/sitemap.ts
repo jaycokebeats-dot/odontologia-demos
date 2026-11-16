@@ -7,7 +7,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   // Static routes
   const routes = [
-    '',
+    '/',
     '/tratamientos',
     '/casos-y-testimonios',
     '/nosotros',
@@ -17,7 +17,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     url: `${baseUrl}${route}`,
     lastModified,
     changeFrequency: 'weekly' as const,
-    priority: route === '' ? 1.0 : 0.8,
+    priority: route === '/' ? 1.0 : 0.8,
   }));
 
   // Treatments
