@@ -13,6 +13,9 @@ export interface TreatmentDetail {
   ctaText: string;
   ctaLink: string;
   priceNote?: string;
+  processNote?: string;
+  finalCtaTitle?: string;
+  finalCtaText?: string;
   whoIsItForTitle?: string;
   whoIsItForItems?: { title: string; desc: string }[];
   featuresTitle?: string;
@@ -193,8 +196,94 @@ export const TREATMENTS: TreatmentDetail[] = [
     ]
   },
   {
-    slug: 'diseno-de-sonrisa',
+    slug: 'arreglo-de-caries',
     numberStr: '03',
+    title: 'Arreglo de caries',
+    category: 'prevencion',
+    shortDescription: 'Eliminamos el daño y restauramos tu diente con materiales estéticos y duraderos.',
+    metaTitle: 'Arreglo de caries en Belgrano | DentiSalud Group',
+    metaDescription: 'Arreglo de caries en Belgrano: eliminamos el daño y restauramos tu diente. Reservá tu consulta.',
+    heroBadge: 'SALUD & PREVENCIÓN DENTAL',
+    heroH1: 'Arreglo de caries en Belgrano: salvá tu diente a tiempo',
+    heroBajada: 'Una caries no se cura sola, por el contrario avanza y puede terminar en dolor y en un tratamiento más complejo. Si la tratamos a tiempo, restauramos tu diente y recuperás su forma, su función y su estética, de manera cómoda y resultados duraderos en el tiempo.',
+    trustPoints: ['Materiales de alta resistencia', 'Manejo del dolor', 'Atención personalizada'],
+    ctaText: 'Agendar mi consulta',
+    ctaLink: 'https://wa.me/5491128779912?text=Hola%2C%20quiero%20consultar%20por%20un%20arreglo%20de%20caries',
+    featuresTitle: 'Una restauración trabajada para que dure',
+    features: [
+      {
+        title: 'Diagnóstico preciso',
+        desc: 'Evaluamos clínicamente para detectar la caries, dándote la posibilidad de verlo por vos mismo gracias a la cámara intraoral.'
+      },
+      {
+        title: 'Restauraciones estéticas',
+        desc: 'Usamos materiales que imitan el color para que el arreglo sea prácticamente imperceptible.'
+      },
+      {
+        title: 'Cuidamos tu comodidad',
+        desc: 'Creemos que ir al dentista no tiene por qué ser una mala experiencia.'
+      },
+      {
+        title: 'Pensado para durar',
+        desc: 'Trabajamos con materiales de alta calidad y técnicas precisas, para que tu diente quede sano y funcional a largo plazo.'
+      }
+    ],
+    processTitle: 'Así es el arreglo de caries',
+    processSteps: [
+      {
+        step: 1,
+        title: 'Evaluación',
+        desc: 'Revisamos tu diente, vemos qué tan avanzada está la caries y definimos el plan.'
+      },
+      {
+        step: 2,
+        title: 'Anestesia y comodidad',
+        desc: 'Aplicamos anestesia local para que el procedimiento no te duela, en caso de ser necesario.'
+      },
+      {
+        step: 3,
+        title: 'Limpieza de la caries',
+        desc: 'Eliminamos solo el tejido dañado, cuidando conservar la mayor cantidad posible de diente sano.'
+      },
+      {
+        step: 4,
+        title: 'Restauración',
+        desc: 'Rellenamos y reconstruimos el diente devolviéndole su forma, su función y su aspecto natural.'
+      }
+    ],
+    processNote: 'En la mayoría de los casos se resuelve en una sola sesión. Si la caries es muy profunda y llegó al nervio, te explicamos las alternativas, como la endodoncia, para salvar tu diente.',
+    faqs: [
+      {
+        question: '¿Una caries se puede curar sola?',
+        answer: 'No. El esmalte no se regenera, así que la caries avanza con el tiempo. Cuanto antes se trate, más simple es el arreglo y más diente sano se conserva.'
+      },
+      {
+        question: '¿Duele el arreglo de caries?',
+        answer: 'Usamos anestesia local y técnicas para manejar el dolor, así que durante el procedimiento no deberías sentir molestias. Si tenés alguna inquietud, contanos y vamos a tu ritmo.'
+      },
+      {
+        question: '¿Cuánto dura el tratamiento?',
+        answer: 'Generalmente se resuelve en una sola sesión. Si hay varias caries, te proponemos un plan por etapas.'
+      },
+      {
+        question: '¿Cómo sé si tengo una caries?',
+        answer: 'A veces no duele. Algunas señales son sensibilidad al frío, al calor o al dulce, manchas oscuras o pequeños orificios en el diente. Con una revisión la detectamos a tiempo.'
+      },
+      {
+        question: '¿Qué pasa si la caries ya llegó al nervio?',
+        answer: 'En ese caso puede ser necesaria una endodoncia (tratamiento de conducto) para conservar tu diente natural. Lo evaluamos en tu consulta.'
+      },
+      {
+        question: '¿Atienden a niños?',
+        answer: 'Sí, contamos con odontopediatría para cuidar los dientes de los más chicos.'
+      }
+    ],
+    finalCtaTitle: 'Tratá tu caries a tiempo y cuidá tu sonrisa',
+    finalCtaText: 'Escribinos por WhatsApp y coordinamos tu consulta, de lunes a sábado de 9 a 20 hs.'
+  },
+  {
+    slug: 'diseno-de-sonrisa',
+    numberStr: '04',
     title: 'Diseño de sonrisa',
     category: 'estetica',
     shortDescription: 'Armonía, forma y color pensados para tus facciones y tus expectativas estéticas.',
@@ -220,7 +309,7 @@ export const TREATMENTS: TreatmentDetail[] = [
   },
   {
     slug: 'blanqueamiento-dental',
-    numberStr: '04',
+    numberStr: '05',
     title: 'Blanqueamiento dental',
     category: 'estetica',
     shortDescription: 'Una sonrisa más luminosa con protocolos seguros que cuidan tus dientes y encías.',
@@ -245,7 +334,7 @@ export const TREATMENTS: TreatmentDetail[] = [
   },
   {
     slug: 'implantes-dentales',
-    numberStr: '05',
+    numberStr: '06',
     title: 'Implantes dentales',
     category: 'rehabilitacion',
     shortDescription: 'Recuperá piezas dentales ausentes con soluciones pensadas para perdurar en el tiempo.',
@@ -277,7 +366,7 @@ export const TREATMENTS: TreatmentDetail[] = [
   },
   {
     slug: 'ortodoncia',
-    numberStr: '06',
+    numberStr: '07',
     title: 'Ortodoncia',
     category: 'estetica',
     shortDescription: 'Alineá tu sonrisa y mejorá tu mordida con brackets o alineadores invisibles.',
@@ -301,7 +390,7 @@ export const TREATMENTS: TreatmentDetail[] = [
   },
   {
     slug: 'endodoncia',
-    numberStr: '07',
+    numberStr: '08',
     title: 'Endodoncia',
     category: 'especialidades',
     shortDescription: 'Tratamiento de conducto para conservar tu pieza natural y aliviar el dolor.',
@@ -319,7 +408,7 @@ export const TREATMENTS: TreatmentDetail[] = [
   },
   {
     slug: 'protesis-dentales',
-    numberStr: '08',
+    numberStr: '09',
     title: 'Prótesis fijas y removibles',
     category: 'rehabilitacion',
     shortDescription: 'Reemplazá piezas ausentes con soluciones adaptadas a tu caso y anatomía.',
@@ -337,7 +426,7 @@ export const TREATMENTS: TreatmentDetail[] = [
   },
   {
     slug: 'atm',
-    numberStr: '09',
+    numberStr: '10',
     title: 'ATM & Bruxismo',
     category: 'especialidades',
     shortDescription: 'Solución para chasquidos, dolor articular, desgaste dental o tensión muscular al masticar.',
@@ -355,7 +444,7 @@ export const TREATMENTS: TreatmentDetail[] = [
   },
   {
     slug: 'cirugia-maxilofacial',
-    numberStr: '10',
+    numberStr: '11',
     title: 'Cirugía maxilofacial',
     category: 'especialidades',
     shortDescription: 'Extracciones complejas, muelas de juicio e intervenciones quirúrgicas con máxima seguridad.',
@@ -373,7 +462,7 @@ export const TREATMENTS: TreatmentDetail[] = [
   },
   {
     slug: 'odontopediatria',
-    numberStr: '11',
+    numberStr: '12',
     title: 'Odontopediatría',
     category: 'especialidades',
     shortDescription: 'Cuidado amoroso y preventivo de la salud bucal de bebés, niños y adolescentes.',

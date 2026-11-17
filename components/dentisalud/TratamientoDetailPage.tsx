@@ -250,6 +250,13 @@ export function DentiSaludTratamientoDetailPage({ treatment: initialTreatment, b
                   </div>
                 ))}
               </div>
+
+              {treatment.processNote && (
+                <div className="max-w-3xl mx-auto p-5 rounded-2xl bg-white border border-[#D5E8E8] text-xs sm:text-sm text-slate-700 leading-relaxed shadow-2xs">
+                  <span className="font-bold text-[#0A2540]">Cierre: </span>
+                  {treatment.processNote}
+                </div>
+              )}
             </div>
           </section>
         )}
@@ -329,6 +336,34 @@ export function DentiSaludTratamientoDetailPage({ treatment: initialTreatment, b
           </section>
         )}
 
+        {/* ARREGLO DE CARIES: ANTES Y DESPUÉS */}
+        {treatment.slug === 'arreglo-de-caries' && (
+          <section className="py-16 bg-white border-b border-slate-100">
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
+              <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+                <div>
+                  <h2 className="text-3xl font-serif font-extrabold text-[#0A2540]">
+                    Dientes recuperados justo a tiempo
+                  </h2>
+                  <p className="text-sm text-slate-700 mt-1">
+                    Resultados reales de restauraciones y eliminación de caries en DentiSalud Group.
+                  </p>
+                </div>
+                <Link href={`${basePath}/casos-y-testimonios`} className="text-xs font-bold text-[#0A2540] hover:underline">
+                  Ver más casos →
+                </Link>
+              </div>
+              <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+                {cases
+                  .filter((c) => c.treatmentSlug === 'arreglo-de-caries' || c.category === 'caries')
+                  .map((c) => (
+                    <BeforeAfterCard key={c.id} caseData={c} />
+                  ))}
+              </div>
+            </div>
+          </section>
+        )}
+
         {treatment.slug === 'implantes-dentales' && (
           <section className="py-16 bg-white border-b border-slate-100">
             <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
@@ -380,14 +415,14 @@ export function DentiSaludTratamientoDetailPage({ treatment: initialTreatment, b
         <section className="py-20 bg-white text-center">
           <div className="max-w-2xl mx-auto px-4 space-y-6">
             <h2 className="text-3xl font-serif font-extrabold text-[#0A2540]">
-              {treatment.slug === 'consulta-integral'
+              {treatment.finalCtaTitle || (treatment.slug === 'consulta-integral'
                 ? 'La mejor versión de tu sonrisa inicia aquí'
-                : 'Empezá por una consulta personalizada'}
+                : 'Empezá por una consulta personalizada')}
             </h2>
             <p className="text-sm text-slate-700">
-              {treatment.slug === 'consulta-integral'
+              {treatment.finalCtaText || (treatment.slug === 'consulta-integral'
                 ? 'Contactanos para coordinar tu primera visita en el horario que más te convenga'
-                : 'Escribinos por WhatsApp y coordinamos tu primera visita en el horario que más te convenga.'}
+                : 'Escribinos por WhatsApp y coordinamos tu primera visita en el horario que más te convenga.')}
             </p>
             <div>
               <a
@@ -397,11 +432,32 @@ export function DentiSaludTratamientoDetailPage({ treatment: initialTreatment, b
                 className="inline-flex items-center gap-2.5 bg-[#0A2540] hover:bg-[#051E34] text-white font-extrabold text-sm px-8 py-4 rounded-full shadow-lg transition transform hover:scale-105"
               >
                 <MessageCircle className="w-5 h-5 fill-white text-[#0A2540]" />
-                <span>Agendar mi turno</span>
+                <span>{treatment.ctaText || 'Agendar mi turno'}</span>
               </a>
             </div>
           </div>
         </section>
+
+        {/* FAQPage Schema.org JSON-LD */}
+        {treatment.faqs && treatment.faqs.length > 0 && (
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{
+              __html: JSON.stringify({
+                '@context': 'https://schema.org',
+                '@type': 'FAQPage',
+                mainEntity: treatment.faqs.map((f) => ({
+                  '@type': 'Question',
+                  name: f.question,
+                  acceptedAnswer: {
+                    '@type': 'Answer',
+                    text: f.answer,
+                  },
+                })),
+              }),
+            }}
+          />
+        )}
       </main>
 
       <DentiSaludFooter basePath={basePath} />
