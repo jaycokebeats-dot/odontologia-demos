@@ -253,7 +253,6 @@ export function DentiSaludTratamientoDetailPage({ treatment: initialTreatment, b
 
               {treatment.processNote && (
                 <div className="max-w-3xl mx-auto p-5 rounded-2xl bg-white border border-[#D5E8E8] text-xs sm:text-sm text-slate-700 leading-relaxed shadow-2xs">
-                  <span className="font-bold text-[#0A2540]">Cierre: </span>
                   {treatment.processNote}
                 </div>
               )}
