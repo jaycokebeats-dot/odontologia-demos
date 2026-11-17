@@ -24,6 +24,7 @@ export interface TreatmentDetail {
   processSteps?: { step: number; title: string; desc: string }[];
   benefitsTitle?: string;
   benefits?: string[];
+  faqsTitle?: string;
   faqs?: { question: string; answer: string }[];
 }
 
@@ -252,6 +253,7 @@ export const TREATMENTS: TreatmentDetail[] = [
       }
     ],
     processNote: 'En la mayoría de los casos se resuelve en una sola sesión. Si la caries es muy profunda y llegó al nervio, te explicamos las alternativas, como la endodoncia, para salvar tu diente.',
+    faqsTitle: 'Preguntas frecuentes sobre el arreglo de caries',
     faqs: [
       {
         question: '¿Una caries se puede curar sola?',

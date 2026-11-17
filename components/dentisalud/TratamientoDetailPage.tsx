@@ -104,7 +104,7 @@ export function DentiSaludTratamientoDetailPage({ treatment: initialTreatment, b
                     className="inline-flex items-center justify-center gap-2.5 bg-[#0A2540] hover:bg-[#051E34] text-white font-bold text-sm px-8 py-4 rounded-full shadow-lg hover:shadow-xl transition transform hover:-translate-y-0.5"
                   >
                     <MessageCircle className="w-4 h-4 fill-white text-[#0A2540]" />
-                    <span>Agendar mi turno</span>
+                    <span>{treatment.ctaText || 'Agendar mi turno'}</span>
                   </a>
                 </div>
 
@@ -380,7 +380,7 @@ export function DentiSaludTratamientoDetailPage({ treatment: initialTreatment, b
           <section className="py-16 bg-[#EAF6F6] border-b border-[#D5E8E8]">
             <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
               <h2 className="text-3xl font-serif font-extrabold text-[#0A2540] text-center">
-                Preguntas frecuentes sobre {treatment.title}
+                {treatment.faqsTitle || `Preguntas frecuentes sobre ${treatment.title}`}
               </h2>
 
               <div className="space-y-4">
